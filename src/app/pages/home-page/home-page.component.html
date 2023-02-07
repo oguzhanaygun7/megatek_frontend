@@ -1,5 +1,39 @@
-<div class="row">
-    <div class="col-12">
-        <p>home-page works!</p>
+<div class="container-fluid">
+    <!-- desktop -->
+    <div class="row d-none d-lg-block" style="margin-top: -92px !important;">
+        <div class="col-12 p-0 m-0" style="height: 75vh;overflow: hidden">
+            <img width="100%" *ngIf="false"
+                 src="https://o-ring.info/catalog/categories/machine-construction/large_machinebouw_1535977481.jpg" alt="">
+            <img width="100%"
+                 *ngIf="true"
+                 src="assets/images/home/home.jpg" alt="">
+        </div>
+        <div class="col-12 align-self-center" style="height: 25vh;">
+            <div class="d-flex home-product w-100" style="justify-content: space-around; gap: 1rem">
+                <div class="product-card" *ngFor="let product of products">
+                    <img [src]="'assets/images/products/'+product.img"
+                         [routerLink]="'/product/'+product.routerLink"
+                         class="product-img"
+                         alt="">
+                    <img [src]="'assets/images/products/'+product.hoverImg"
+                         [routerLink]="'/product/'+product.routerLink"
+                         class="product-hover-img"
+                         alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobil -->
+    <div class="row d-block d-lg-none">
+        <div class="col-12 d-block d-lg-none align-self-center">
+            <div class="row">
+                <div class="col-4 mb-3 mobil-product" *ngFor="let product of products">
+                    <img [src]="'assets/images/products/'+product.name"
+                         width="100%"
+                         alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </div>

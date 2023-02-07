@@ -4,13 +4,18 @@ import {LayoutsComponent} from './layouts.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {FooterComponent} from './footer/footer.component';
 import {RouterModule} from "@angular/router";
+import { SubHeaderComponent } from './sub-header/sub-header.component';
 
 
 @NgModule({
     declarations: [
         LayoutsComponent,
         NavbarComponent,
-        FooterComponent
+        FooterComponent,
+        SubHeaderComponent
+    ],
+    exports: [
+        SubHeaderComponent
     ],
     imports: [
         CommonModule,

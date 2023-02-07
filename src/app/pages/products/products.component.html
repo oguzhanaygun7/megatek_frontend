@@ -1,0 +1,17 @@
+<app-sub-header [title]="'Ürünler'"></app-sub-header>
+
+<div class="container">
+    <div class="row" style="justify-content: center !important;">
+        <div class="col-2 py-3 product" *ngFor="let product of products">
+            <div class="product-card">
+                <img [src]="'assets/images/products/'+product.img"
+                     class="product-img"
+                     alt="">
+                <img [src]="'assets/images/products/'+product.hoverImg"
+                     class="product-hover-img"
+                     [routerLink]="'/product/'+product.routerLink"
+                     alt="">
+            </div>
+        </div>
+    </div>
+</div>

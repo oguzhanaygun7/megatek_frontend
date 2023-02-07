@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Albrecht",
+    "img": "albrecht.png",
+    "hoverImg": "albrecht-hover.jpg",
+    "routerLink": "albrecht"
+  },
+  {
+    "name": "Heule",
+    "img": "heule.png",
+    "hoverImg": "heule.png",
+    "routerLink": "heule"
+  },
+  {
+    "name": "Montronix",
+    "img": "montronix.png",
+    "hoverImg": "montronix.png",
+    "routerLink": "montronix"
+  },
+  {
+    "name": "Eltool",
+    "img": "eltool.png",
+    "hoverImg": "eltool.png",
+    "routerLink": "eltool"
+  },
+  {
+    "name": "Frenco",
+    "img": "frenco.png",
+    "hoverImg": "frenco.png",
+    "routerLink": "frenco"
+  },
+  {
+    "name": "MPA",
+    "img": "mpa.png",
+    "hoverImg": "mpa.png",
+    "routerLink": "mpa"
+  },
+  {
+    "name": "H-bilz",
+    "img": "h-bilz.png",
+    "hoverImg": "h-bilz.png",
+    "routerLink": "h-bilz"
+  },
+  {
+    "name": "Vimaxx",
+    "img": "vimaxx.png",
+    "hoverImg": "vimaxx.png",
+    "routerLink": "vimaxx"
+  },
+  {
+    "name": "Xebec",
+    "img": "xebec.png",
+    "hoverImg": "xebec.png",
+    "routerLink": "xebec"
+  }
+]

@@ -1,14 +1,11 @@
-.home-product {
-  height: 100% !important;
-  align-items: center;
+.product {
+  width: 17.666667% !important;
   .product-card {
     img {
-      // margin: 1.5rem 0;
       border: 3px solid rgba(242, 242, 242, 1) !important;
       padding: 10px;
       width: 100%;
       cursor: pointer;
-
       &:hover {
         transition: border .5s;
         border: 3px solid rgba(148, 215, 213, 1) !important;

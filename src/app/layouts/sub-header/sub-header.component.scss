@@ -1,0 +1,22 @@
+.header-bg{
+  background-color: #1B7270;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+  max-height: 200px;
+}
+
+h1{
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width:768px) {
+  h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+  }
+}

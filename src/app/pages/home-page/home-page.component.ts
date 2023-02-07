@@ -1,15 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {map} from "rxjs";
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.scss']
+    selector: 'app-home-page',
+    templateUrl: './home-page.component.html',
+    styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+    products!:any;
 
-  ngOnInit(): void {
-  }
+    constructor(private http: HttpClient) {
+    }
+
+    ngOnInit(): void {
+        this.getProducts();
+    }
+
+    getProducts() {
+        this.http.get<any>('assets/json/products.json').subscribe(data => {
+            this.products = data;
+        })
+    }
 
 }
