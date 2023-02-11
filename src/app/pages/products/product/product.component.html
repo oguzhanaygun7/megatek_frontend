@@ -1,0 +1,58 @@
+<div [@enter]>
+    <section [ngClass]="brandProduct?.headerBackground?brandProduct?.headerBackground:'default-bg'">
+        <div class="container" style="height: 100%">
+            <div class="row">
+                <div class="col-12 pt-4 text-center">
+                    <img height="65px" class="header-image" [src]="brandProduct?.headerImage" alt="">
+                </div>
+                <div class="col-12 col-lg-5 pt-4 mx-auto text-center">
+                    <p class="header-text">
+                        {{brandProduct?.headerText}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" style="margin-top: -100px;">
+            <div class="row">
+                <div class="d-flex w-100 product-card" [ngClass]="brandProduct?.products.length==1?'justify-content-center':''">
+                    <div class="product-images text-center" *ngFor="let data of brandProduct?.products">
+                        <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+data.image"
+                             class="cursor-pointer"
+                             [routerLink]="'/detail/'+data.routerLink"
+                             (click)="setBrandProductName()"
+                             alt="">
+                        <p class="text-center my-3 text-uppercase fw-bolder">{{data.name}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 mb-3 text-center">
+                    <h3 class="content-header">{{brandProduct?.bodyHeader}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                    <div class="content-body {{brandProduct?.contentBackground}}">
+                        <p class="text-center fw-bolder">{{brandProduct?.contentHeader}}</p>
+                        <p>{{brandProduct?.contentText}}</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="content-body {{brandProduct?.contentBackground}}">
+                        <p class="text-center fw-bolder">{{brandProduct?.secondContentHeader}}</p>
+                        <p>{{brandProduct?.secondContentText}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

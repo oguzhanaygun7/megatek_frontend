@@ -9,7 +9,7 @@
                  src="assets/images/home/home.jpg" alt="">
         </div>
         <div class="col-12 align-self-center" style="height: 25vh;">
-            <div class="d-flex home-product w-100" style="justify-content: space-around; gap: 1rem">
+            <div class="d-flex home-product w-100" style="justify-content: space-around; gap: 1rem; overflow: hidden;">
                 <div class="product-card" *ngFor="let product of products">
                     <img [src]="'assets/images/products/'+product.img"
                          [routerLink]="'/product/'+product.routerLink"
@@ -25,11 +25,12 @@
     </div>
 
     <!-- mobil -->
-    <div class="row d-block d-lg-none">
+    <div class="row mt-3 d-block d-lg-none">
         <div class="col-12 d-block d-lg-none align-self-center">
             <div class="row">
                 <div class="col-4 mb-3 mobil-product" *ngFor="let product of products">
-                    <img [src]="'assets/images/products/'+product.name"
+                    <img [src]="'assets/images/products/'+product.img"
+                         [routerLink]="'/product/'+product.routerLink"
                          width="100%"
                          alt="">
                 </div>

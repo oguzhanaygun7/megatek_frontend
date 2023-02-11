@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from "@angular/router";
 import {ProductsComponent} from "./products.component";
-import {AlbrechtComponent} from "./albrecht/albrecht.component";
+import {ProductComponent} from "./product/product.component";
+import {ProductDetailComponent} from "./product/product-detail/product-detail.component";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 const routes: Routes = [
   {
@@ -10,8 +12,13 @@ const routes: Routes = [
     component: ProductsComponent,
   },
   {
-    path: 'product/albrecht',
-    component: AlbrechtComponent,
+    path: 'product/:name',
+    data: { animation: 'enterLeavePage' },
+    component: ProductComponent,
+  },
+  {
+    path: 'detail/:name',
+    component: ProductDetailComponent,
   },
 ]
 

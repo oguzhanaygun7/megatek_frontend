@@ -3,54 +3,789 @@
     "name": "Albrecht",
     "img": "albrecht.png",
     "hoverImg": "albrecht-hover.jpg",
-    "routerLink": "albrecht"
+    "routerLink": "albrecht",
+    "headerImage" : "assets/images/products/albrecht/albrecht.png",
+    "headerBackground": "albrecht-bg",
+    "headerColor" : "black",
+    "headerText" : "YÜKSEK PERFORMANSLI TAKIM TUTUCULARI ÜRETİCİSİ\nSHRINK VE HİDROLİK TUTUCULARA KARŞI BAKIM\nGEREKTİRMEYEN MEKANİK TUTUCU SİSTEMİ",
+    "bodyHeader" : "NEDEN ALBRECHT TUTUCU KULLANILMALI?",
+    "contentBackground": "albrecht-body",
+    "contentHeader" : "HİDROLİK TUTUCULARA GÖRE",
+    "contentText" : "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
+    "secondContentHeader" : "SHRINK TUTUCULARA GÖRE",
+    "secondContentText" : "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "detailBackground": "albrecht-detail-bg",
+    "products": [
+      {
+        "name": "apc",
+        "routerLink": "apc",
+        "title": "APC TUTUCU",
+        "subTitle": "HIZ & GÜVENLİK\n5 EKSENLİ OPERASYON İÇİN",
+        "description": "Albrecht APC, dünya çapında hız, takım ömrü ve güvenlik alanında en iyi performans gösteren tutucudur.",
+        "image": "csm_APC_585952f5bc1.png",
+        "details" : [
+          {
+            "name": "SLIM5 HSK",
+            "routerLink": "slim5-hsk",
+            "image": "csm_Slim5_HSK_a5cf40ae7b 1.png"
+          },
+          {
+            "name": "SLIM5 SK",
+            "routerLink": "slim5-sk",
+            "image": "csm_Slim5_SK_6a779485e7 1.png"
+          },
+          {
+            "name": "SLIM5 MAS-BT",
+            "routerLink": "slim5-mas-bt",
+            "image": "csm_Slim5_MAS-BT_d87f5a12df 1.png"
+          },
+          {
+            "name": "SLIM5 Polygon",
+            "routerLink": "slim5-polygon",
+            "image": "csm_Slim5_Polygon_e8341c7b8f 1.png"
+          },
+          {
+            "name": "HSK",
+            "routerLink": "hsk",
+            "image": "csm_APC_585952f5bc 2.png"
+          },
+          {
+            "name": "SK",
+            "routerLink": "sk",
+            "image": "QC-3d-5-1-removebg-preview (1) 1.png"
+          },
+          {
+            "name": "MAS-BT",
+            "routerLink": "mas-bt",
+            "image": "csm_MAS-BT_544e916803 2.png"
+          },
+          {
+            "name": "Flange Contact",
+            "routerLink": "flange-contact",
+            "image": "csm_MAS-BT_544e916803 2.png"
+          },
+          {
+            "name": "POLYGON",
+            "routerLink": "polygon",
+            "image": "csm_Polygon_3ebfa729e4 1.png"
+          }
+        ]
+      },
+      {
+        "name": "ultra",
+        "routerLink": "ultra",
+        "title" : "ULTRA TUTUCU",
+        "subTitle": "Ultra Metal Giderme Oranı",
+        "description": "Albrecht Ultra ile 12 litre/dk\nUltra Sıkıştırıcı, Ultra Nemlendirici, Ultra Güvenli. Her bir günlük zorluğa mükemmel bir şekilde uyum sağlayan çevresel soğutma.",
+        "image": "csm_Ultra_4351180962.png",
+        "details" : [
+          {
+            "name": "ultra",
+            "routerLink": "ultra",
+            "image" : "csm_Ultra_4351180962.png"
+          }
+        ]
+      },
+      {
+        "name": "micro",
+        "routerLink": "micro",
+        "title": "MICRO TUTUCU",
+        "subTitle": "Sıkıştırma aralığı 1 - 6 mm",
+        "description": "Albrecht Mikro, mikro aletler için yüksek hassasiyetli tutucu fikri. \nÇevresel veya dahili soğutma Shrink Tutuculara kıyasla önemli ölçüde daha iyi nemlendirmeye ve özel kaplamalı penslere sahiptir.\nİnce şekil D1=13,5 mm\nMükemmel salgı ≤ 3 μm \n2,5xD40.000 1/dk'ya kadar ≤ 1 gmm",
+        "image": "csm_Micro_702be798b1.png",
+        "details" : [
+          {
+            "name": "er",
+            "routerLink": "er",
+            "image": "csm_Micro-ER-Produktbild_aa54fedb31 1.png"
+          },
+          {
+            "name": "20mm",
+            "routerLink": "20mm",
+            "image": "csm_extension-20mm-Produktbild_6f62ea904d 1.png"
+          },
+          {
+            "name": "15mm",
+            "routerLink": "15mm",
+            "image": "csm_extension-14mm-Produktbild_5a7c31a0e4 1.png"
+          },
+          {
+            "name": "Polygon",
+            "routerLink": "polygon",
+            "image": "csm_Micro-Polygon_1449508d13 1.png"
+          },
+          {
+            "name": "MAS-BT",
+            "routerLink": "mas-bt",
+            "image": "csm_Micro-MAS-BT_82faf06c2d 1.png"
+          },
+          {
+            "name": "SK",
+            "routerLink": "sk",
+            "image": "csm_Micro-SK_acc4cb8e39 1.png"
+          },
+          {
+            "name": "HSK",
+            "routerLink": "hsk",
+            "image": "csm_Micro-HSK-Produktbild-mitSchatten_0c239ab1cd 1.png"
+          }
+        ]
+      },
+      {
+        "name": "1st",
+        "routerLink": "1st",
+        "title": "MATKAP TUTUCU",
+        "subTitle": "1930’ dan beri sürekli gelişen",
+        "description": "1.Matkap tutucu, Teknik bir ürün icat eden ve ardından 80 yılı aşkın bir süredir onu geliştirmek için çalışan herkes, sonunda bugünün mümkün olan en iyi teknik standardına ulaşacaktır. Kendi kendini sıkma özelliği pratik deneyimlere dayanır . En iyi çelikten üretilmiştir ve tüm temel parçalar sertleştirilmiştir. Bu, dünya çapındaki diğer tüm üreticilerin uymak zorunda olduğu bir mandrenle sonuçlanır. İsteğinize göre sıkıştırma için elmas kaplı çeneler; saat yönünde çalışma için farklı aralıklarda 6 boyut, ISO 239 veya UNF.",
+        "image": "csm_1---13-mm_73cbd5303f.png",
+        "details" : [
+          {
+            "name": "Taper Shank",
+            "routerLink": "taper-shank",
+            "image": "csm_SK_b9f7fd07e8.png"
+          },
+          {
+            "name": "Cylindrical Shank",
+            "routerLink": "cylindrical-shank",
+            "image": "csm_Zylinderschaft_d913976fc5.png"
+          },
+          {
+            "name": "Morse Taper",
+            "routerLink": "morse-taper",
+            "image": "csm_1---13-mm_73cbd5303f.png"
+          },
+          {
+            "name": "Bridgeport",
+            "routerLink": "bridgeport",
+            "image": "csm_3---13-mm_7dc858e376.png"
+          },
+          {
+            "name": "Sensitive Drill-Feed",
+            "routerLink": "sensitive-drill-feed",
+            "image": "csm_Feinbohrhilfe_31ab11f331.png"
+          },
+          {
+            "name": "Med",
+            "routerLink": "med",
+            "image": "csm_MED_8e46c9ea6e.png"
+          },
+          {
+            "name": "Inner Taper",
+            "routerLink": "inner-taper",
+            "image": "csm_Innenkegel_c734ed3908.png"
+          },
+          {
+            "name": "Reverse Lock",
+            "routerLink": "reverse-lock",
+            "image": "csm_Spannsicherung_ef7c9cf715.png"
+          }
+        ]
+      },
+      {
+        "name": "cnc",
+        "routerLink": "cnc",
+        "title": "CNC MATKAP TUTUCU",
+        "subTitle": "Penssiz hızlı 1- 16mm",
+        "description": "Albrecht CNC ayna, tüm penslerin yerini alır, böylece size birçok iş gününden tasarruf sağlar",
+        "image": "csm_CNC_360b1b5f64.png",
+        "details" : [
+          {
+            "name": "DIN 2080",
+            "routerLink": "din-2080",
+            "image": "csm_DIN-2080_510a8e5ef4 1.png"
+          },
+          {
+            "name": "SK",
+            "routerLink": "sk",
+            "image": "csm_SK_6fd72a542b.png"
+          },
+          {
+            "name": "HSK",
+            "routerLink": "hsk",
+            "image": "csm_HSK-80_0456a27bf0.png"
+          },
+          {
+            "name": "Polygon",
+            "routerLink": "polygon",
+            "image": "csm_Polygon-C8-1-16-mm_919ad348bf.png"
+          },
+          {
+            "name": "MAS-BT",
+            "routerLink": "mas-bt",
+            "image": "csm_MAS-BT40-1-16-mm_60742b3b09.png"
+          },
+          {
+            "name": "Morse",
+            "routerLink": "morse",
+            "image": "csm_Morse_0b78fdfec1.png"
+          },
+          {
+            "name": "∅ 251-16 mm",
+            "routerLink": "251-16-mm",
+            "image": "csm_Cylindrical_8fe44d7db0-1.png"
+          },
+          {
+            "name": "Cylindrical",
+            "routerLink": "cylindrical",
+            "image": "csm_Cylindrical_8fe44d7db0-1.png"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Heule",
     "img": "heule.png",
     "hoverImg": "heule.png",
-    "routerLink": "heule"
+    "routerLink": "heule",
+    "headerImage" : "assets/images/products/heule/heule.png",
+    "headerBackground": "heule-bg",
+    "headerColor" : "white",
+    "headerText" : "ÇAPAK ALMA VE ARKA YÜZEY İŞLEME TAKIMLARI",
+    "bodyHeader" : "NEDEN HEULE KULLANILMALI?",
+    "contentBackground": "heule-body",
+    "contentHeader" : "HİDROLİK TUTUCULARA GÖRE",
+    "contentText" : "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
+    "secondContentHeader" : "SHRINK TUTUCULARA GÖRE",
+    "secondContentText" : "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "detailBackground": "heule-detail-bg",
+    "products": [
+      {
+        "name": "Çapak Alma",
+        "title": "Çapak Alma",
+        "routerLink": "capak-alma",
+        "image": "capak-alma.png",
+        "details" : [
+          {
+            "name": "COFA",
+            "routerLink": "cofa",
+            "image": "39-COFA.png",
+            "pdf": "COFA.pdf",
+            "pdfSize": "3.4MB"
+          },
+          {
+            "name": "DL2",
+            "routerLink": "dl2",
+            "image": "44-DL2.png",
+            "pdf": "DL2.pdf",
+            "pdfSize": "1.2MB"
+          },
+          {
+            "name": "X-BORES",
+            "routerLink": "x-bores",
+            "image": "226-News_Vorschau_Xbores-removebg-preview.png",
+            "pdf": "X-BORES.pdf",
+            "pdfSize": "646KB"
+          }
+        ]
+      },
+      {
+        "name": "Pah Kırma",
+        "title": "Pah Kırma",
+        "routerLink": "pah-kirma",
+        "image": "pah-kirma.png",
+        "details" : [
+          {
+            "name": "SNAP",
+            "routerLink": "snap",
+            "image": "snap.png",
+            "pdf": "SNAP.pdf",
+            "pdfSize": "3,2MB"
+          },
+          {
+            "name": "DEFA",
+            "routerLink": "defa",
+            "image": "defa.png",
+            "pdf": "DEFA.pdf",
+            "pdfSize": "2MB"
+          }
+        ]
+      },
+      {
+        "name": "Arka Yüzey İşleme",
+        "title": "Arka Yüzey İşleme",
+        "routerLink": "arka-yuzey-isleme",
+        "image": "arka-yuzey.png",
+        "details" : [
+          {
+            "name": "BSF",
+            "routerLink": "bsf",
+            "image": "52-BSF.png",
+            "pdf": "BSF.pdf",
+            "pdfSize": "4,8MB"
+          },
+          {
+            "name": "SOLO",
+            "routerLink": "solo",
+            "image": "senken.png",
+            "pdf": "SOLO.pdf",
+            "pdfSize": "1,8MB"
+          },
+          {
+            "name": "GH-K",
+            "routerLink": "gh-k",
+            "image": "47-GHK.png",
+            "pdf": "GHK.pdf",
+            "pdfSize": "1,1MB"
+          }
+        ]
+      },
+      {
+        "name": "COMBI Takım (Delme+Çapak Alma)",
+        "title": "COMBI Takım (Delme+Çapak Alma)",
+        "routerLink": "combi-takim",
+        "image": "combi-takim.png",
+        "details" : [
+          {
+            "name": "VEX",
+            "routerLink": "vex",
+            "image": "3 62.png",
+            "pdf": "VEX.pdf",
+            "pdfSize": "2,2MB"
+          },
+          {
+            "name": "Özel Geliştirilmiş COMBI",
+            "description" : [
+              {
+                "text": "Standart ürün yelpazesi uygulamanız için uygun bir çözüm sağlamıyorsa, uygulamanıza göre optimize edilir.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "İki çapak alma durumu aynı değildir.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Karmaşık iş parçası geometrileri, zor malzemeler, iş parçası bağlama ve makine konseptleri - matkaplar ve çapak alma aletleri gibi kesici takımlara yönelik talepler karmaşıktır."
+              },
+              {
+                "text" : "Uygulamanıza uygun standart bir tutucu yoksa, size özel olarak hazırlanmış özelleştirilmiş çözümler sunulabilir. Siz de ihtiyaç ve beklentilerinizi bize bildirirseniz ideal çapak alma tutucusunu bulabilirsiniz."
+              }
+            ],
+            "routerLink": "ozel-gelistirilmis-combi",
+            "image": "3 63.png",
+            "baseImage": "ozel-gelistirilmis-combi.png"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Montronix",
+    "headerImage" : "assets/images/products/montronix.png",
     "img": "montronix.png",
     "hoverImg": "montronix.png",
     "routerLink": "montronix"
   },
   {
     "name": "Eltool",
+    "headerImage" : "assets/images/products/eltool.png",
     "img": "eltool.png",
     "hoverImg": "eltool.png",
     "routerLink": "eltool"
   },
   {
     "name": "Frenco",
+    "headerImage" : "assets/images/products/frenco.png",
     "img": "frenco.png",
     "hoverImg": "frenco.png",
     "routerLink": "frenco"
   },
   {
-    "name": "MPA",
+    "name": "Mpa",
+    "headerImage" : "assets/images/products/mpa/mpa.png",
+    "headerBackground": "mpa-bg",
+    "headerColor" : "black",
+    "headerText" : "DİŞLİ KUTULU KAFALAR",
+    "bodyHeader" : "NEDEN MPA KULLANILMALI?",
+    "contentBackground": "mpa-body",
+    "contentHeader" : "HİDROLİK TUTUCULARA GÖRE",
+    "contentText" : "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
+    "secondContentHeader" : "SHRINK TUTUCULARA GÖRE",
+    "secondContentText" : "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
     "img": "mpa.png",
     "hoverImg": "mpa.png",
-    "routerLink": "mpa"
+    "routerLink": "mpa",
+    "detailBackground": "mpa-detail-bg",
+    "products": [
+      {
+        "name": "Açılı Kafalar",
+        "title": "Açılı Kafalar",
+        "routerLink": "acili-kafalar",
+        "image": "angle-heads.png",
+        "details" : [
+          {
+            "name": "Açılı Kafalar",
+            "routerLink": "acili-kafalar",
+            "image": "angle-heads.png",
+            "products": [
+              {
+                "name": "90°Slim",
+                "image": "angolari-90-slim 1.png",
+                "pdf": "90slim.pdf"
+              },
+              {
+                "name": "90°Compact",
+                "image": "angolari-90-standard.png",
+                "pdf": "90°Compact.pdf"
+              },
+              {
+                "name": "90°Extended",
+                "image": "angolari-90-prolungate.png",
+                "pdf": "90°Extended.pdf"
+              },
+              {
+                "name": "90°Double Ended",
+                "image": "angolari-90-doppie.png",
+                "pdf": "90°double ended.pdf"
+              },
+              {
+                "name": "90°Off-set",
+                "image": "m.png",
+                "pdf": "90°Off-set.pdf"
+              },
+              {
+                "name": "45°",
+                "image": "MEGATEK WEB.png",
+                "pdf": "45°.pdf"
+              },
+              {
+                "name": "Multi-way",
+                "image": "angolari-multiway.png",
+                "pdf": "Multi-way.pdf"
+              },
+              {
+                "name": "Heavy Duty",
+                "image": "angolari-90-fresatura.png",
+                "pdf": "Heavy duty.pdf"
+              },
+              {
+                "name": "+/- 90°Adjustable",
+                "image": "tilting.png",
+                "pdf": "adjustable.pdf"
+              },
+              {
+                "name": "+/- 90° Adjustable flange mounting",
+                "image": "angolari-registrabili 1.png",
+                "pdf": "adjustable flange.pdf"
+              },
+              {
+                "name": "Flange Mounting",
+                "image": "angolari-90-fresatura-fm.png",
+                "pdf": "flange mounting.pdf"
+              },
+              {
+                "name": "Special",
+                "image": "angolari-custom-made.png",
+                "pdf": "special.pdf"
+              },
+              {
+                "name": "Mounting Accessories",
+                "image": "accessori-montaggio.png",
+                "pdf": "mounting_accessories.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Standart Çoklu Kafalar",
+        "title": "Standart Çoklu Kafalar",
+        "routerLink": "standart-coklu-kafalar",
+        "image": "multispindle-heads.png",
+        "details" : [
+          {
+            "name": "Standart Çoklu Kafalar",
+            "routerLink": "standart-coklu-kafalar",
+            "image": "multispindle-heads.png",
+            "products": [
+              {
+                "name": "ER 8",
+                "image": "8.png",
+                "pdf": "er8.pdf"
+              },
+              {
+                "name": "ER 11",
+                "image": "11.png",
+                "pdf": "er11.pdf"
+              },
+              {
+                "name": "ER 16",
+                "image": "16.png",
+                "pdf": "er16.pdf"
+              },
+              {
+                "name": "ER 20",
+                "image": "20.png",
+                "pdf": "er20.pdf"
+              },
+              {
+                "name": "ER 25",
+                "image": "25.png",
+                "pdf": "er25.pdf"
+              },
+              {
+                "name": "ER 32",
+                "image": "32.png",
+                "pdf": "er32.pdf"
+              },
+              {
+                "name": "Mounting Accessories",
+                "image": "accessories.png",
+                "pdf": "accessories.pdf"
+              },
+              {
+                "name": "Heavy Duty",
+                "image": "Heavy-Duty-Standard-Series.png",
+                "pdf": "heavy-duty.pdf"
+              },
+              {
+                "name": "Special",
+                "image": "special.png",
+                "pdf": "special.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tahrikli Kafalar",
+        "title": "Tahrikli Kafalar",
+        "routerLink": "tahrikli-kafalar",
+        "image": "driven-tools.png",
+        "details" : [
+          {
+            "name": "Tahrikli Kafalar",
+            "routerLink": "tahrikli-kafalar",
+            "image": "driven-tools.png",
+            "products": [
+              {
+                "name": "CNC Turret",
+                "image": "motorizzati-torretta 1.png",
+                "pdf": "none"
+              },
+              {
+                "name": "90°",
+                "image": "motorizzati-90.png",
+                "pdf": "90.pdf"
+              },
+              {
+                "name": "Adjustable",
+                "image": "motorizzati-adjustable.png",
+                "pdf": "ADJUSTABLE.pdf"
+              },
+              {
+                "name": "Double Ended",
+                "image": "motorizzati-double.png",
+                "pdf": "DOUBLE ENDED.pdf"
+              },
+              {
+                "name": "Multi-spindle",
+                "image": "motorizzati-multi.png",
+                "pdf": "multispindle.pdf"
+              },
+              {
+                "name": "Off-set",
+                "image": "motorizzati-offset.png",
+                "pdf": "offset.pdf"
+              },
+              {
+                "name": "Sawing",
+                "image": "motorizzati-sawing.png",
+                "pdf": "sawing.pdf"
+              },
+              {
+                "name": "Slim",
+                "image": "motorizzati-slim.png",
+                "pdf": "slim.pdf"
+              },
+              {
+                "name": "More...",
+                "image": "motorizzati-more.png",
+                "pdf": "more.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hız Arttırıcılar",
+        "title": "Hız Arttırıcılar",
+        "routerLink": "hiz-arttiricilar",
+        "image": "speed-increasers.png",
+        "details" : [
+          {
+            "name": "Hız Arttırıcılar",
+            "routerLink": "hiz-arttiricilar",
+            "image": "speed-increasers.png",
+            "products": [
+              {
+                "name": "Hız Arttırıcılar",
+                "image": "speed-increasers.png",
+                "pdf": "speed-increasers.pdf"
+              }
+             ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "H-bilz",
+    "headerImage" : "assets/images/products/h-bilz.png",
     "img": "h-bilz.png",
     "hoverImg": "h-bilz.png",
     "routerLink": "h-bilz"
   },
   {
     "name": "Vimaxx",
+    "headerImage" : "assets/images/products/vimaxx.png",
     "img": "vimaxx.png",
     "hoverImg": "vimaxx.png",
     "routerLink": "vimaxx"
   },
   {
     "name": "Xebec",
+    "headerImage" : "assets/images/products/xebec/xebec.png",
+    "headerBackground": "xebec-bg",
+    "headerColor" : "black",
+    "headerText" : "YÜZEY TEMİZLEME VE\n KENAR ÇAPAK ALMA FIRÇALARI",
+    "bodyHeader" : "NEDEN XEBEC TUTUCU KULLANILMALI?",
+    "contentBackground": "xebec-body",
+    "contentHeader" : "XEBEC",
+    "contentText" : "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "secondContentHeader" : "ÜRÜN ÖZELLİKLERİ",
+    "secondContentText" : "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n– Fırçanın şeklinin bozulmaması\n– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n– Kesici ağızların kendi kendini bileme özelliği\n– Nylon fırçaya göre 60 misline varan taşlama gücü\n– Üstün su geçirmez özelliği\n– Tezgahta ve robotik sistemlerde kullanma avantajı.",
     "img": "xebec.png",
     "hoverImg": "xebec.png",
-    "routerLink": "xebec"
+    "routerLink": "xebec",
+    "detailBackground": "xebec-detail-bg",
+    "products": [
+      {
+        "name": "Select by Problem",
+        "routerLink": "select-by-problem",
+        "image": "bg_nayami.png",
+        "description": "type",
+        "details" : [
+          {
+            "name": "Brush™ Surface",
+            "routerLink": "surface",
+            "image": "_XEBEC Brush™ Surface End Type.png",
+            "baseImage": "XEBEC-Brush-Surface.png",
+            "description": [
+              {
+                "text": "Çapak alma, kesici izi giderme ve yüzey parlatma için ideal."
+              }
+            ],
+            "pdf": "XEBEC-Brush-surface.pdf",
+            "pdfSize": "430KB"
+          },
+          {
+            "name": "Brush™ Wheel Type",
+            "routerLink": "wheel-type",
+            "image": "_XEBEC Brush™ Wheel Type.png",
+            "baseImage": "XEBEC-Brush-Wheel-Type.png",
+            "description": [
+              {
+                "text": "İç çapların, yan duvarların ve dış diş çaplarının çapaklarının alınması ve parlatılması için ideal"
+              }
+            ],
+            "pdf": "XEBEC-BRUSH-WHEELTYPE.pdf",
+            "pdfSize": "345KB"
+          },
+          {
+            "name": "Brush™ Crosshole",
+            "routerLink": "crosshole",
+            "image": "_XEBEC Brush™ Crosshole.png",
+            "baseImage": "XEBEC-Brush-Crosshole.png",
+            "description": [
+              {
+                "text": "φ20'ye kadar iç çaplarda ve havşalarda çapak alma, parlatma ve kesici izlerini gidermek için ideal"
+              }
+            ],
+            "pdf": "XEBEC-BRUSH-CROSSHOLE.pdf",
+            "pdfSize": "460KB"
+          },
+          {
+            "name": "Back Burr Cutter and Path™",
+            "routerLink": "back-burr-cutter-and-path",
+            "image": "_XEBEC Back Burr Cutter and Path™.png",
+            "baseImage": "backburrcutterpath.png",
+            "description": [
+              {
+                "text": "3D kavisli çapraz deliklerin yüksek hassasiyetle çapak alma işlemi için optimum çözüm"
+              }
+            ],
+            "pdf": "XEBEC-BACKBURRCUTTER.pdf",
+            "pdfSize": "1,4MB"
+          },
+          {
+            "name": "Brush™ Surface End Type",
+            "routerLink": "surface-end-type",
+            "image": "_XEBEC Brush™ Surface.png",
+            "baseImage": "XEBEC-Brush-Surface-End-Type.png",
+            "description": [
+              {
+                "text": "İç çaplar ve sızdırmazlık yüzeyindeki kesici izlerinin parlatılması ve çıkarılması için ideal"
+              }
+            ],
+            "pdf": "XEBEC-BRUSH-SURFACEENDTYPE.pdf",
+            "pdfSize": "929KB"
+          },
+          {
+            "name": "Stone™ Flexible Shaft",
+            "routerLink": "flexible-shaft",
+            "image": "_XEBEC Stone™ Flexible Shaft.png",
+            "baseImage": "Flexible-Shaft-Lineup.png",
+            "description": [
+              {
+                "text": "Çapraz deliklerin, olukların ve iş parçasının derinlerindeki alanların ön ve arka kısımlarında çapak alma ve parlatma için idealdir. Yay çeliği esnek şaft, yüzeyle yumuşak teması mümkün kılan titreşimleri emer."
+              }
+            ],
+            "pdf": "XEBEC-FLEXIBLESHAFT.pdf",
+            "pdfSize": "538KB"
+          },
+          {
+            "name": "Stone™ Mounted Point",
+            "routerLink": "mounted-point",
+            "image": "_XEBEC Stone™ Mounted Point.png",
+            "baseImage": "XEBEC-Stone-Mounted-Point.png",
+            "description": [
+              {
+                "text": "Yüksek devirde pnömatik aletlerle kullanıma uygun."
+              }
+            ],
+            "pdf": "XEBEC Stone™ Mounted Point.pdf",
+            "pdfSize": "255KB"
+          },
+          {
+            "name": "Ceramic Stone™ Meister Finish",
+            "routerLink": "meister-finish",
+            "image": "_XEBEC Ceramic Stone™ Meister Finish.png",
+            "baseImage": "XEBEC-Ceramic-Stone.png",
+            "description": [
+              {
+                "text": "Kalıpların ve haddelerin parlatılması ve çapaklarının alınması için idealdir."
+              }
+            ],
+            "pdf": "XEBEC_Ceramic_Stone_EN.pdf",
+            "pdfSize": "1MB"
+          }
+        ]
+      },
+      {
+        "name": "Select by Product Type",
+        "routerLink": "standart-coklu-kafalar",
+        "image": "bg_products_main 1.png",
+        "details" : [
+        ]
+      },
+      {
+        "name": "Select by Application",
+        "routerLink": "tahrikli-kafalar",
+        "image": "bg_case.png",
+        "details" : [
+        ]
+      }
+    ]
   }
 ]

@@ -1,0 +1,154 @@
+<div [@enter]>
+    <section class="{{brandProduct?.headerBackground}}">
+        <div class="container" style="height: 100%">
+            <div class="row">
+                <div class="col-12 col-lg-6 pt-4 text-start" [routerLink]="'/product/'+brandName">
+                    <i class="cursor-pointer fa fa-arrow-left me-2" style="font-size: 25px;"></i>
+                    <img class="header-image cursor-pointer" height="65px"
+                         [src]="brandProduct?.headerImage" alt="">
+                </div>
+                <div *ngIf="productDetails?.title" class="col-6 d-lg-block d-none pt-4 text-end">
+                    <p style="font-size: 18px;font-weight: 700;line-height: 22px;letter-spacing: 0;">
+                        {{productDetails?.title}} <br>
+                        {{productDetails?.subTitle}}
+                    </p>
+                    <p style="font-size: 12px;font-weight: 500;line-height: 22px;letter-spacing: 0;">
+                        {{productDetails?.description}}
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 pt-4 text-center text-lg-end" *ngIf="productDetails?.description=='type'">
+                    <button class="btn"
+                            [ngClass]="selectByProblem=='CNC'?'btn-white':'btn-outline-white'"
+                            (click)="changeSelectedByProblem('CNC')">
+                            CNC Deburring and Polishing
+                    </button>
+                    <button class="btn "
+                            [ngClass]="selectByProblem=='HAND'?'btn-white':'btn-outline-white'"
+                            (click)="changeSelectedByProblem('HAND')">
+                            Hand Tools</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="productDetails">
+        <div class="container" style="margin-top: -150px;">
+            <div class="row">
+                <div class="d-flex w-100 product-card"
+                     [ngClass]="productDetails?.details.length==1?'justify-content-center':''">
+                    <div class="product-images text-center"
+                         *ngFor="let detail of productDetails?.details"
+                         [@product]
+                         (click)="changeSelectedProduct(detail.routerLink)">
+                        <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/'+detail.image"
+                             class="image cursor-pointer"
+                             alt="">
+                        <p class="text-center mt-3 mb-2 text-uppercase fw-bolder">{{detail.name}}</p>
+                        <p class="text-center" style="position: relative">
+                            <img [ngClass]="selectedProduct?.routerLink==detail.routerLink?'display-initial':''"
+                                 style="position: absolute" class="ellipse-hover" src="assets/images/svg/ellipse.png"
+                                 alt="">
+                            <img src="assets/images/svg/ellipse-white.png" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="showSectionByProduct(selectedProduct)" class="{{brandProduct?.detailBackground}}">
+        <div class="container py-5">
+           <div class="row">
+               <div *ngIf="!selectedProduct?.products" class="col-12 col-lg-6">
+                   <div class="row">
+                       <div class="col-12">
+                           <h1 class="text-uppercase">{{selectedProduct?.name}}</h1>
+                           <p class="{{p.bold}}" *ngFor="let p of selectedProduct?.description">
+                               {{p.text}}
+                           </p>
+                       </div>
+                       <div class="col-12 mb-2" *ngIf="selectedProduct?.baseImage">
+                            <img class="w-100"
+                                 [src]="'assets/images/products/'+brandProduct?.routerLink+'/images/'+selectedProduct?.baseImage"
+                                 alt="">
+                       </div>
+                       <div class="col-12">
+                           <button class="btn btn-catalog w-100" (click)="openPdf(selectedProduct?.pdf)">
+                               <div class="d-flex p-3" style="justify-content: space-between">
+                                   <div style="text-align: left">
+                                       <p class="mb-0 text-uppercase" style="font-weight: 500;font-size: 20px;">
+                                           {{selectedProduct?.name}} | Katalog
+                                       </p>
+                                       <p class="mb-0" style="font-size: 10px; font-weight: 500">
+                                           PDF | {{selectedProduct?.pdfSize}}
+                                       </p>
+                                   </div>
+                                   <div class="align-self-center">
+                                       <i class="fa fa-download"></i>
+                                   </div>
+                               </div>
+                           </button>
+                       </div>
+                   </div>
+               </div>
+               <div *ngIf="selectedProduct?.products?.length>0" class="col-12 col-lg-6">
+                   <div class="row">
+                       <div class="col-12">
+                           <div class="row">
+                               <div class="col-3 mb-4 align-self-end cursor-pointer text-center"
+                                    *ngFor="let data of selectedProduct?.products">
+                                   <div>
+                                       <img [ngClass]="productDetails?.routerLink=='acili-kafalar'?'h-100':'w-100'"
+                                            (click)="openModal(PdfModal,data.pdf)"
+                                            [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/images/'+data.image"
+                                            alt="">
+                                   </div>
+                                   <div>
+                                       {{data.name}}
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-12 col-lg-6"></div>
+           </div>
+        </div>
+    </section>
+
+    <section *ngIf="selectedProduct?.routerLink=='ozel-gelistirilmis-combi'" class="{{brandProduct?.detailBackground}}">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="text-uppercase">{{selectedProduct?.name}}</h1>
+                            <p class="{{p.bold}}" *ngFor="let p of selectedProduct?.description">
+                                {{p.text}}
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <a [href]="'https://wa.me/+905323242276/?text=Merhaba, ben '+selectedProduct?.name+' ürünü için Megatek sitesinden yazıyorum.'" target="_blank" class="btn btn-create">
+                                <p class="mb-0">
+                                    <i class="fa fa-phone"></i> Talep Oluştur
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center align-self-center col-lg-6">
+                    <img style="height: 450px" [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/'+selectedProduct?.baseImage" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<ng-template #PdfModal let-modal>
+    <div class="modal-header bg-light p-3">
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.close()"></button>
+    </div>
+    <div class="modal-body p-0" style="height: 80vh !important;">
+        <iframe height="100%" width="100%" [src]="pdfUrl"></iframe>
+    </div>
+</ng-template>

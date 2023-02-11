@@ -1,17 +1,19 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {AlbrechtComponent} from './albrecht/albrecht.component';
 import {ProductsRoutingModule} from "./products-routing.module";
 import {RouterLink} from "@angular/router";
+import { ProductComponent } from './product/product.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 
 @NgModule({
     declarations: [
-        AlbrechtComponent
+        ProductComponent,
+        ProductDetailComponent,
     ],
     imports: [
         CommonModule,
         ProductsRoutingModule,
-        RouterLink
+        RouterLink,
     ]
 })
 export class ProductsModule {

@@ -1,5 +1,4 @@
 .product {
-  width: 17.666667% !important;
   .product-card {
     img {
       border: 3px solid rgba(242, 242, 242, 1) !important;
@@ -14,10 +13,16 @@
   }
 }
 
+@media (min-width: 768px) {
+  .product {
+    width: 17.666667% !important;
+  }
+}
+
 .mobil-product {
   img {
     border: 3px solid rgba(242, 242, 242, 1) !important;
-    padding: 10px;
+    // padding: 10px;
   }
 }
 
@@ -26,7 +31,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 0;
 }
 
 .product-img {

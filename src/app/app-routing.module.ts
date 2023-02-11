@@ -15,7 +15,7 @@ const routes: Routes = [
 ]
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes, {onSameUrlNavigation: 'reload',scrollPositionRestoration: 'enabled'})],
+    imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'top'})],
     exports: [RouterModule],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},

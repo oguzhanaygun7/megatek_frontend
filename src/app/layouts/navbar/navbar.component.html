@@ -1,4 +1,4 @@
-<nav class="position-fixed w-100">
+<nav class="position-fixed w-100" style="z-index: 1;">
     <div class="navbar py-3 navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand" [routerLink]="'/'">
@@ -10,27 +10,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="'/'">ANA SAYFA</a>
+                        <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()" [routerLink]="'/'">ANA SAYFA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="'/about-us'">KURUMSAL</a>
+                        <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()" [routerLink]="'/about-us'">KURUMSAL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="'/products'">ÜRÜNLER</a>
+                        <a class="nav-link"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()" [routerLink]="'/products'">ÜRÜNLER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="'/contact'">İLETİŞİM</a>
+                        <a class="nav-link"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()" [routerLink]="'/contact'">İLETİŞİM</a>
                     </li>
                 </ul>
-                <form class="d-flex position-relative">
+                <form class="d-flex justify-content-center position-relative">
                     <i class="fa fa-search position-absolute" style="top: 10px; left: 10px; color: #fff"></i>
-                    <input class="form-control search-box me-2" type="search" placeholder="**Search..**" aria-label="Search">
+                    <input class="form-control search-box mb-2 mb-lg-0 me-0 me-lg-2" type="search" placeholder="**Search..**" aria-label="Search">
                 </form>
-                <div class="d-flex" style="gap: 0.5rem;margin-bottom: 13px;">
+                <div class="d-flex justify-content-center" style="gap: 0.5rem;margin-bottom: 13px;">
                     <div class="d-flex">
                         <img src="assets/images/flag/tr.png" alt="">
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex" *ngIf="false">
                         <img src="assets/images/flag/en.png" alt="">
                     </div>
                 </div>
@@ -41,5 +41,4 @@
     <div class="w-100" style="height: 2px;
          background: linear-gradient(270deg, rgba(255,255,255,1) 30%, rgba(24,83,82,1) 100%);">
     </div>
-
 </nav>
