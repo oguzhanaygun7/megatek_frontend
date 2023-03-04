@@ -28,6 +28,7 @@ export class ProductDetailComponent implements OnInit {
     pdfUrl!: any;
     showPage = false;
     dataName!: any;
+    slide: number = 1;
 
     constructor(private route: ActivatedRoute,
                 private sanitizer: DomSanitizer,
@@ -37,22 +38,31 @@ export class ProductDetailComponent implements OnInit {
 
     ngOnInit(): void {
         this.route.params.subscribe(data => {
-            this.brandName = localStorage.getItem('brandName');
+            // this.brandName = localStorage.getItem('brandName');
             this.dataName = data['name'];
-            this.getProduct(this.brandName, this.dataName);
+            this.getProduct(this.dataName);
         })
     }
 
-    getProduct(brandName: any, productDetailName: any) {
+    getProduct(productDetailName: any) {
         this.http.get<any>('assets/json/products.json').subscribe(data => {
-            this.brandProduct = data.filter((x: any) => x.routerLink === brandName)[0];
-            this.productDetails = this.brandProduct.products?.filter((x: any) => x.routerLink === productDetailName)[0];
-            if(this.productDetails?.routerLink == "select-by-problem") {
-                console.log(this.selectByProblem)
-                if(this.selectByProblem == 'CNC') {
-                    this.productDetails.details = this.productDetails.details.slice(0,4);
+            data.forEach((data:any)=>{
+                if(data.products) {
+                    data.products.forEach((product:any)=>{
+                        if(product.routerLink == productDetailName) {
+                            this.productDetails = product;
+                            this.brandProduct = data;
+                            this.brandName = data.routerLink;
+                            return;
+                        }
+                    })
+                }
+            })
+            if (this.productDetails?.routerLink == "select-by-problem") {
+                if (this.selectByProblem == 'CNC') {
+                    this.productDetails.details = this.productDetails.details.slice(0, 4);
                 } else {
-                    this.productDetails.details = this.productDetails.details.slice(4,8);
+                    this.productDetails.details = this.productDetails.details.slice(4, 8);
                 }
             }
             let selectedProduct = this.productDetails.details[0].routerLink;
@@ -69,10 +79,16 @@ export class ProductDetailComponent implements OnInit {
         this.selectedProducts(name);
     }
 
-    openModal(staticDataModal?: any, pdfName?: any) {
-        this.pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`assets/pdf/${this.productDetails?.routerLink}/${pdfName}`);
+    openModal(staticDataModal: any, pdfName?: any) {
+        if (pdfName == 'HERMAN-BILZ-EK-PDF.pdf') {
+            // this.pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`assets/pdf/h-bilz/${pdfName}`);
+            this.pdfUrl = `/assets/pdf/h-bilz/${pdfName}`;
+        } else {
+            this.pdfUrl = `/assets/pdf/${this.productDetails?.routerLink}/${pdfName}`;
+        }
         if (pdfName !== "none") {
-            this.modalService.open(staticDataModal, {centered: true, size: 'xl'});
+            window.open(this.pdfUrl)
+            // this.modalService.open(staticDataModal, {centered: true, size: 'xl'});
         }
     }
 
@@ -84,7 +100,19 @@ export class ProductDetailComponent implements OnInit {
 
     showSectionByProduct(selectedProduct: any) {
         switch (selectedProduct?.routerLink) {
-            case 'ozel-gelistirilmis-combi' :
+            case 'ise-ozel-combi' :
+                return false;
+            case 'xebec-firca' :
+                return false;
+            case 'geri-capak-kesici-ve-yol' :
+                return false;
+            case 'seramik-tas' :
+                return false;
+            case 'standard-indexable-inserts' :
+                return false;
+            case 'iso-indexable-inserts' :
+                return false;
+            case 'pcd-inserts':
                 return false;
         }
         return true;
@@ -92,6 +120,10 @@ export class ProductDetailComponent implements OnInit {
 
     changeSelectedByProblem(type: string) {
         this.selectByProblem = type;
-        this.getProduct(this.brandName, this.dataName);
+        this.getProduct(this.dataName);
+    }
+
+    selected() {
+        return 1;
     }
 }

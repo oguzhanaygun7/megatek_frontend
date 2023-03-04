@@ -25,11 +25,11 @@ export class ProductComponent implements OnInit {
 
   getBrandProduct(name: any) {
     this.http.get<any>('assets/json/products.json').subscribe(data => {
-      this.brandProduct = data.filter((x: any) => x.routerLink === name)[0];
+      data.forEach((product:any) => {
+        if(product.routerLink == name) {
+          this.brandProduct = product;
+        }
+      })
     })
-  }
-
-  setBrandProductName() {
-    localStorage.setItem('brandName', this.brandProduct.routerLink);
   }
 }

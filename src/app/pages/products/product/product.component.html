@@ -2,36 +2,71 @@
     <section [ngClass]="brandProduct?.headerBackground?brandProduct?.headerBackground:'default-bg'">
         <div class="container" style="height: 100%">
             <div class="row">
-                <div class="col-12 pt-4 text-center">
+                <div class="col-12 col-lg-6 pt-4 text-start cursor-pointer" [routerLink]="'/products'">
+                    <i class="cursor-pointer fa fa-arrow-left me-2" style="font-size: 25px;"></i>
                     <img height="65px" class="header-image" [src]="brandProduct?.headerImage" alt="">
                 </div>
-                <div class="col-12 col-lg-5 pt-4 mx-auto text-center">
-                    <p class="header-text">
+                <div class="col-12 col-lg-6 text-center pt-4 text-lg-end"
+                     *ngIf="brandProduct?.routerLink!=='albrecht'">
+                    <p class="header-text"
+                       *ngIf="brandProduct?.headerText"
+                       [ngClass]="brandProduct?.headerTitleColor">
                         {{brandProduct?.headerText}}
                     </p>
+                    <p class="mb-0 header-text"
+                       [ngClass]="brandProduct?.headerTitleColor"
+                       *ngFor="let p of brandProduct?.headerP">
+                        {{p.text}}
+                    </p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container" style="margin-top: -100px;">
-            <div class="row">
-                <div class="d-flex w-100 product-card" [ngClass]="brandProduct?.products.length==1?'justify-content-center':''">
-                    <div class="product-images text-center" *ngFor="let data of brandProduct?.products">
-                        <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+data.image"
-                             class="cursor-pointer"
-                             [routerLink]="'/detail/'+data.routerLink"
-                             (click)="setBrandProductName()"
-                             alt="">
-                        <p class="text-center my-3 text-uppercase fw-bolder">{{data.name}}</p>
+                <div class="col-12 col-lg-6 pt-4 text-lg-end"
+                     *ngIf="brandProduct?.routerLink=='albrecht'">
+                    <div class="d-flex" style="justify-content: start">
+                        <div>
+                            <img src="assets/images/products/albrecht/produktbild.png">
+                        </div>
+                        <div style="align-self: center">
+                            <p class="header-text mb-0" style="font-weight: 600">
+                                - YÜKSEK SALGI HASSASİYETLİ,
+                            </p>
+                            <p class="header-text mb-0" style="font-weight: 600">
+                                - YÜKSEK SIKMA KUVVETLİ VE ÖZELLİKLE
+                            </p>
+                            <p class="header-text" style="color: #0781A8;font-weight: 600">
+                                <u>- YÜKSEK TİTREŞİM SÖNÜMLEMELİ</u>
+                            </p>
+                            <p class="header-text mb-0">
+                                <u> - MEKANİK TUTUCU SİSTEMİ</u>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section *ngIf="brandProduct?.products">
+        <div class="container" style="margin-top: -80px;">
+            <div class="row">
+                <div class="d-flex w-100 product-card"
+                     [ngClass]="brandProduct?.products.length==1?'justify-content-center':''">
+                    <div class="product-images text-center" *ngFor="let data of brandProduct?.products">
+                        <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+data.image"
+                             class="cursor-pointer"
+                             [routerLink]="'/detail/'+data.routerLink"
+                             alt="">
+                        <p class="text-center my-3 text-uppercase fw-bolder"
+                           style="cursor: pointer"
+                           [ngClass]="brandProduct?.routerLink=='mpa'?'mpa-max-width':''">
+                            {{data.name}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="brandProduct?.products">
         <div class="container my-5">
             <div class="row">
                 <div class="col-12 mb-3 text-center">
@@ -43,13 +78,37 @@
                     <div class="content-body {{brandProduct?.contentBackground}}">
                         <p class="text-center fw-bolder">{{brandProduct?.contentHeader}}</p>
                         <p>{{brandProduct?.contentText}}</p>
+                        <p class="text-center fw-bolder">{{brandProduct?.contentHeader1}}</p>
+                        <p>{{brandProduct?.contentText1}}</p>
+                        <p class="mb-0" *ngFor="let paragraph of brandProduct?.paragraphs">
+                            {{paragraph.text}}
+                        </p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="content-body {{brandProduct?.contentBackground}}">
-                        <p class="text-center fw-bolder">{{brandProduct?.secondContentHeader}}</p>
-                        <p>{{brandProduct?.secondContentText}}
+                    <div *ngIf="brandProduct?.secondContentHeader"
+                         class="content-body {{brandProduct?.contentBackground}}">
+                        <p class="text-center fw-bolder">
+                            {{brandProduct?.secondContentHeader}}
                         </p>
+                        <p>
+                            {{brandProduct?.secondContentText}}
+                        </p>
+                        <p class="mb-0" *ngFor="let paragraph of brandProduct?.secondParagraphs">
+                            {{paragraph.text}}
+                        </p>
+                    </div>
+                    <div *ngIf="!brandProduct?.secondContentHeader"
+                         style="background-color: #BDBBB5"
+                         class="content-body p-0">
+                        <div class="row m-0" style="height: 100%">
+                            <div class="col-12 align-self-center p-0 m-0">
+                                <img src="assets/images/products/mpa/mpa.jpeg"
+                                     style="border-radius: 10px"
+                                     class="w-100"
+                                     alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

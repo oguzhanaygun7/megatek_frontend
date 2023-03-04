@@ -4,6 +4,7 @@ import {ProductsRoutingModule} from "./products-routing.module";
 import {RouterLink} from "@angular/router";
 import { ProductComponent } from './product/product.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
     declarations: [
@@ -14,6 +15,7 @@ import { ProductDetailComponent } from './product/product-detail/product-detail.
         CommonModule,
         ProductsRoutingModule,
         RouterLink,
+        NgbModule,
     ]
 })
 export class ProductsModule {

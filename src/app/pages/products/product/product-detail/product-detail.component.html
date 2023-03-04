@@ -1,5 +1,6 @@
 <div [@enter]>
-    <section class="{{brandProduct?.headerBackground}}">
+    <section class="{{brandProduct?.headerBackground}}"
+             [ngClass]="productDetails?.marginTop?'margin-0-bg':''">
         <div class="container" style="height: 100%">
             <div class="row">
                 <div class="col-12 col-lg-6 pt-4 text-start" [routerLink]="'/product/'+brandName">
@@ -8,31 +9,41 @@
                          [src]="brandProduct?.headerImage" alt="">
                 </div>
                 <div *ngIf="productDetails?.title" class="col-6 d-lg-block d-none pt-4 text-end">
-                    <p style="font-size: 18px;font-weight: 700;line-height: 22px;letter-spacing: 0;">
-                        {{productDetails?.title}} <br>
+                    <p class="mb-0 detail-title" [ngClass]="brandProduct?.headerTitleColor">
+                        {{productDetails?.title}}
+                    </p>
+                    <p class="detail-subtitle">
                         {{productDetails?.subTitle}}
                     </p>
-                    <p style="font-size: 12px;font-weight: 500;line-height: 22px;letter-spacing: 0;">
+                    <p class="detail-description">
                         {{productDetails?.description}}
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 pt-4 text-center text-lg-end" *ngIf="productDetails?.description=='type'">
-                    <button class="btn"
-                            [ngClass]="selectByProblem=='CNC'?'btn-white':'btn-outline-white'"
-                            (click)="changeSelectedByProblem('CNC')">
-                            CNC Deburring and Polishing
-                    </button>
-                    <button class="btn "
-                            [ngClass]="selectByProblem=='HAND'?'btn-white':'btn-outline-white'"
-                            (click)="changeSelectedByProblem('HAND')">
-                            Hand Tools</button>
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Tür seçiniz:</label>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn"
+                                    [ngClass]="selectByProblem=='CNC'?'btn-white':'btn-outline-white'"
+                                    (click)="changeSelectedByProblem('CNC')">
+                                CNC Deburring and Polishing
+                            </button>
+                            <button class="btn "
+                                    [ngClass]="selectByProblem=='HAND'?'btn-white':'btn-outline-white'"
+                                    (click)="changeSelectedByProblem('HAND')">
+                                Hand Tools
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section *ngIf="productDetails">
-        <div class="container" style="margin-top: -150px;">
+        <div class="container" [ngClass]="productDetails?.marginTop?'my-3':'default-top'">
             <div class="row">
                 <div class="d-flex w-100 product-card"
                      [ngClass]="productDetails?.details.length==1?'justify-content-center':''">
@@ -43,7 +54,11 @@
                         <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/'+detail.image"
                              class="image cursor-pointer"
                              alt="">
-                        <p class="text-center mt-3 mb-2 text-uppercase fw-bolder">{{detail.name}}</p>
+                        <p class="text-center mt-3 mb-2 text-uppercase fw-bolder"
+                           style="cursor:pointer"
+                           [ngClass]="brandProduct?.routerLink=='mpa'?'mpa-max-width':''">
+                            {{detail.name}}
+                        </p>
                         <p class="text-center" style="position: relative">
                             <img [ngClass]="selectedProduct?.routerLink==detail.routerLink?'display-initial':''"
                                  style="position: absolute" class="ellipse-hover" src="assets/images/svg/ellipse.png"
@@ -56,67 +71,270 @@
         </div>
     </section>
 
-    <section *ngIf="showSectionByProduct(selectedProduct)" class="{{brandProduct?.detailBackground}}">
+    <section *ngIf="showSectionByProduct(selectedProduct) && !selectedProduct?.products"
+             class="{{brandProduct?.detailBackground}}">
         <div class="container py-5">
-           <div class="row">
-               <div *ngIf="!selectedProduct?.products" class="col-12 col-lg-6">
-                   <div class="row">
-                       <div class="col-12">
-                           <h1 class="text-uppercase">{{selectedProduct?.name}}</h1>
-                           <p class="{{p.bold}}" *ngFor="let p of selectedProduct?.description">
-                               {{p.text}}
-                           </p>
-                       </div>
-                       <div class="col-12 mb-2" *ngIf="selectedProduct?.baseImage">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <img *ngIf="brandProduct?.routerLink=='vimaxx'"
+                                 width="300px"
+                                 [src]="brandProduct?.headerImage"
+                                 class="mb-2"
+                                 alt=""
+                            >
+                            <h1 class="text-uppercase"
+                                *ngIf="brandProduct?.routerLink!=='vimaxx'">{{selectedProduct?.name}}</h1>
+                            <p class="{{p.bold}}" *ngFor="let p of selectedProduct?.description">
+                                {{p.text}}
+                            </p>
+                        </div>
+                        <div class="col-12 mb-2" *ngIf="selectedProduct?.images">
+                            <div class="row">
+                                <div class="col-3 text-center" *ngFor="let image of selectedProduct?.images">
+                                    <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+dataName+'/'+selectedProduct?.routerLink+'/'+image.url"
+                                         style="width: 100%;object-fit: contain; aspect-ratio: 1"
+                                         alt="">
+                                    <p>{{image.name}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-2" *ngIf="selectedProduct?.baseImage">
                             <img class="w-100"
                                  [src]="'assets/images/products/'+brandProduct?.routerLink+'/images/'+selectedProduct?.baseImage"
                                  alt="">
-                       </div>
-                       <div class="col-12">
-                           <button class="btn btn-catalog w-100" (click)="openPdf(selectedProduct?.pdf)">
-                               <div class="d-flex p-3" style="justify-content: space-between">
-                                   <div style="text-align: left">
-                                       <p class="mb-0 text-uppercase" style="font-weight: 500;font-size: 20px;">
-                                           {{selectedProduct?.name}} | Katalog
-                                       </p>
-                                       <p class="mb-0" style="font-size: 10px; font-weight: 500">
-                                           PDF | {{selectedProduct?.pdfSize}}
-                                       </p>
-                                   </div>
-                                   <div class="align-self-center">
-                                       <i class="fa fa-download"></i>
-                                   </div>
-                               </div>
-                           </button>
-                       </div>
-                   </div>
-               </div>
-               <div *ngIf="selectedProduct?.products?.length>0" class="col-12 col-lg-6">
-                   <div class="row">
-                       <div class="col-12">
-                           <div class="row">
-                               <div class="col-3 mb-4 align-self-end cursor-pointer text-center"
-                                    *ngFor="let data of selectedProduct?.products">
-                                   <div>
-                                       <img [ngClass]="productDetails?.routerLink=='acili-kafalar'?'h-100':'w-100'"
-                                            (click)="openModal(PdfModal,data.pdf)"
-                                            [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/images/'+data.image"
-                                            alt="">
-                                   </div>
-                                   <div>
-                                       {{data.name}}
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="col-12 col-lg-6"></div>
-           </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-catalog w-100" (click)="openPdf(selectedProduct?.pdf)">
+                                <div class="d-flex p-3" style="justify-content: space-between">
+                                    <div style="text-align: left">
+                                        <p class="mb-0 text-uppercase" style="font-weight: 500;font-size: 20px;">
+                                            {{selectedProduct?.name}} | Katalog
+                                        </p>
+                                        <p class="mb-0" style="font-size: 10px; font-weight: 500">
+                                            PDF | {{selectedProduct?.pdfSize}}
+                                        </p>
+                                    </div>
+                                    <div class="align-self-center">
+                                        <i class="fa fa-download"></i>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 mt-lg-0 col-lg-6">
+                    <div class="row" *ngIf="selectedProduct?.videos">
+                        <div class="col-12" *ngFor="let video of selectedProduct?.videos">
+                            <video *ngIf="video.type == 'mp4'"
+                                   [src]="'assets/videos/'+brandProduct?.routerLink+'/'+video.url"
+                                   style="width: 100%; border-radius: 10px"
+                                   autoplay="autoplay"
+                                   loop="loop"
+                                   controls="controls">
+                            </video>
+                            <img *ngIf="video.type == 'gif'"
+                                 style="width: 100%;border-radius: 10px"
+                                 [src]="'assets/videos/'+brandProduct?.routerLink+'/'+video.url">
+                        </div>
+                    </div>
+                    <div class="row" *ngIf="!selectedProduct?.videos">
+                        <div class="col-12">
+                            <p class="{{p.bold}} {{p.class}}" *ngFor="let p of selectedProduct?.secondDescription">
+                                {{p.text}}
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <iframe style="width: 100% !important;" height="315" src="https://www.youtube.com/embed/1Xdxd9LuWyo"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section *ngIf="selectedProduct?.routerLink=='ozel-gelistirilmis-combi'" class="{{brandProduct?.detailBackground}}">
+    <section *ngIf="showSectionByProduct(selectedProduct) && selectedProduct?.products"
+             class="{{brandProduct?.detailBackground}}">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <div class="row">
+                        <div class="col-3 mb-4 align-self-end cursor-pointer text-center"
+                             *ngFor="let data of selectedProduct?.products">
+                            <div>
+                                <img [ngClass]="productDetails?.routerLink=='acili-kafalar'?'h-100':'w-100'"
+                                     (click)="openModal('PdfModal',data.pdf)"
+                                     style="aspect-ratio: 1; object-fit: contain; width: 100%"
+                                     [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/images/'+data.image"
+                                     alt="">
+                            </div>
+                            <div>
+                                <b>{{data.name}}</b>
+                            </div>
+                            <div>
+                                {{data.description}}
+                            </div>
+                        </div>
+                        <div class="col-9 mb-2" *ngIf="selectedProduct?.baseImage">
+                            <img class="w-100"
+                                 style="border-radius: 10px"
+                                 [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+selectedProduct?.baseImage"
+                                 alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 mt-lg-0  col-lg-5">
+                    <iframe style="width: 100% !important;" height="315" src="https://www.youtube.com/embed/1Xdxd9LuWyo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ÖZEL YAPILAR -->
+
+    <section *ngIf="selectedProduct?.routerLink=='sogutma-tahrikli-dik-acili-kafalar'">
+        <div style="background: #F7F7F7">
+            <div class="container">
+                <div class="row py-5"
+                     style="background: #F7F7F7;border-radius: 10px;padding: 30px 0;">
+                    <div class="col-12 text-center">
+                        <h4 class="h4-eltool">TİTESPOT® AÇILI KAFALAR NASIL ÇALIŞIR?</h4>
+                    </div>
+                    <div class="col-12">
+                        <p class="mb-0">
+                            <b>
+                                Titespot® – Kanıtlanmış Çözüm
+                            </b>
+                        </p>
+                        <p>
+                            <b>
+                                İkincil işlemleri ortadan kaldırın. Hassasiyeti geliştirin. Fazla takım ve ilave kurulum maliyetlerini azaltın.
+                            </b>
+                        </p>
+                        <p>
+                            Titespot® açılı başlıklar, sınırlı/dar alanlardaki uygulanan eski dik açılı kafalar ile işleme sorununa karşı kanıtlanmış bir çözümdür. Titespot® açılı başlıklar, bütünleşik pozitif yer değiştirme bilyeli pistonlu motorunu çalıştırmak için yüksek basınçlı soğutma sıvısı sisteminizi kullanırlar. Örnek çizimde gösterildiği gibi, motor bir tahrik miline güç verir ve ardından kafanın milini harekete geçirir. Kullanılan soğutma sıvısı kesici takım içinden geçecek şekilde yönlendirilir.
+                        </p>
+                        <p>
+                            Titespot açılı Kafanın güç kaynağı soğutma sıvısı olduğundan, makinenizin ana işmili sadece bir indeksleyici işlevi yapacak şekilde serbest kalır ve tek bir kafa ve kurulumla çok konumlu radyal işlemelere olanak sağlanır. Rijit (tapping) kılavuz çekme özelliğine sahip makinelerde M19 iş mili oryantasyonunuzun basit bir şekilde ayarlanması ile dik açılı kafamızın tam 360 derece indekslenmesi sağlanır. Titespot kafaları tezgah magazininden / ATC'nizden kolayca yüklenir ve mekanik tahrikli kafaların aksine C ekseni veya sbailtleme (Stop) bloğuna ihtiyaç duymaz.
+                        </p>
+                        <p>
+                            Bir başka deyişle tutucu paketinize bir Titespot Açılı Kafa eklemek, işleme merkezinize veya CNC tornanıza ilave bir C ekseni eklemek gibidir.
+                        </p>
+                        <p class="mb-0">
+                            Titespot Açılı Başlıklar, destek için rulmana ihtiyaç duymadığından, işmiline sıkı bir şekilde kenetlenir ve minimum sapma ile daha kompakt tasarımlı yapı oluşturur. Titespot Açılı Kafalar, çapı 16 mm'ye kadar olan deliklerde çalışabilecek dar yapıda ve 914mm uzunluğa kadar gövdelerde üretilebilmektedir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: #D7DDFA;">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 text-center">
+                        <h4 class="h4-eltool">SOĞUTUCU TAHRİKLİ VE MEKANİK AÇILI KAFALAR KARŞILAŞTIRMASI</h4>
+                    </div>
+                    <div class="col-12">
+                        <p>
+                            Titespot® Soğutucu Tahrikli Açılı Kafalar, sınırlı/dar alanlarda ve/veya çoklu radyal konumlardaki uygulamalarda eski tip dik açılı mekanik kafalara karşı yeni bir teknolojik çözümdür.
+                        </p>
+
+                        <p>
+                            Geleneksel mekanik tahrikli açılı kafalardan farklı olarak, Titespot® Soğutucu Tahrikli Açılı Kafalar:
+                        </p>
+
+                        <ul>
+                            <li>
+                                <b>Değiştirilebilir:</b> Bir kafa ve bir kurulumla birden fazla radyal pozisyonda işlemeler yapabilir.
+                            </li>
+                            <li>
+                                <b>Kompakt:</b> Çapı 16 mm'ye kadar olan deliklerde ve yan duvarlara, zemine yakın yerlerde işlemeler yapabilir.
+                            </li>
+                            <li>
+                                <b>Rijit:</b> Gövde desteği için rulmanlara fazlaca güvenilmemeli. Titespot® Soğutucu Tahrikli Açılı Kafalar da hassasiyet iyileştirilerek Rulmanın "rolü" azaltılır.
+                            </li>
+                            <li>
+                                <b>Kurulumu basit:</b> Doğrudan magazinden yüklenebilme. Mekanik kafalarda kullanılması zaruri olan kullanışsız sabitleme bloklarına ihtiyaç duyulmaz.
+                            </li>
+                            <li>
+                                <b>Verimli:</b> Kafadan geçen sürekli soğutma sıvısı akışı sebebi ile, takımdaki ısı birikimini ortadan kaldırılır ve takımın %100 performanslı çevrimde çalışması sağlanır.
+                            </li>
+                            <li>
+                                <b>Modüler:</b> Tüm açılı kafa tipleri, her tip koniklerde kolayca uygulanabilir.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: #D7DDFA">
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                        <div class="p-3"
+                             style="background: #F7F7F7; display: block; height: 100%;border-radius: 10px">
+                            <h4 class="h4-eltool">DAYANIKLI, ÇOK YÖNLÜ VE ÖZEL DİK AÇILI BAŞLIKLAR</h4>
+                            <p>
+                                Titespot® açılı kafalar, titizlik ve sabır isteyen standartlarda üretilmiş ve verimli güç aktarımı ve dayanıklılık için sertleştirilmiş Helisel gönye dişlilere sahiptir. İsteğe göre uygulamalarınız için özel açılı kafalar, düz kafalar ve diğer özel ünite tasarımları için arayabilirsiniz.
+                            </p>
+                            <b>TITESPOT® AÇILI BAŞLIKLARIN AVANTAJLARI</b>
+                            <ul>
+                                <li>
+                                    Çoğu CNC Tezgahında tamamen endekslenebilir,
+                                </li>
+                                <li>
+                                    16 mm'ye kadar dar bölgelerde çalışabilme
+                                </li>
+                                <li>
+                                    ATC'den yüklenebime. Sabitleme bloğuna ihtiyaç duymaz
+                                </li>
+                                <li>
+                                    İkincil işlemleri ortadan kaldırır
+                                </li>
+                                <li>
+                                    Eliptik/oval kafa tasarımı, minimum iç çapta maksimum rijitlik sağlar.
+                                </li>
+                                <li>
+                                    13.500 rpm'ye kadar devirlerde çalışabilme
+                                </li>
+                                <li>
+                                    Harici veya kesici takım içinden soğutma sıvısı verebilme kapasitesi.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="p-3"
+                             style="background: #F7F7F7;display: block; height: 100%;border-radius: 10px">
+                            <h4 class="h4-eltool">
+                                TITESPOT® AÇI BAŞLIKLARI PERFORMANS VERİLERİ
+                            </h4>
+                            <p>
+                                Tork üretmek kullanılan Su Basıncı seviyesi ile ilgilidir.
+                                Titespot® Dik Açılı delme Kafasını çalıştırmak için gereken soğutma sıvısı basıncı, uygulamadaki "yüklenmeye" bağlı olarak 14 ila 140 bar arasında değişir. Test koşulları altında ELTOOL bilyalı pistonlu motor, soğutma sıvısı basıncının birim bar başına 0,03 Nm üretir. Ancak, soğutma sıvısının viskozitesi ve motorun kendisinin durumu dahil olmak üzere birçok şey gerçek performansı etkiler.
+                            </p>
+                            <p>
+                                Devir üretmek Tezgahtaki Debi/Akış seviyesi ile ilgilidir.
+                                Yaklaşık %70 hacimsel verimlilikte bilyalı pistonlu motor, dakikadaki litre (lpm) debi'si başına yaklaşık 238 devir/dk'da dönecektir.
+                            </p>
+                            <p>
+                                Linkteki hesaplayıcı ile çeşitli soğutma sıvısı basınçlarında ve debilerdeki elde edilecek yaklaşık hız(rpm), tork ve güç değerleri görülebilir.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="selectedProduct?.routerLink=='ise-ozel-combi'"
+             class="{{brandProduct?.detailBackground}}">
         <div class="container py-5">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -128,27 +346,100 @@
                             </p>
                         </div>
                         <div class="col-12">
-                            <a [href]="'https://wa.me/+905323242276/?text=Merhaba, ben '+selectedProduct?.name+' ürünü için Megatek sitesinden yazıyorum.'" target="_blank" class="btn btn-create">
+                            <a [href]="'https://wa.me/+905323242276/?text=Merhaba, ben '+selectedProduct?.name+' ürünü için Megatek sitesinden yazıyorum.'"
+                               target="_blank" class="btn btn-create">
                                 <p class="mb-0">
-                                    <i class="fa fa-phone"></i> Talep Oluştur
+                                    <i class="fa fa-envelope"></i> Talep Oluştur
                                 </p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 text-center align-self-center col-lg-6">
-                    <img style="height: 450px" [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/'+selectedProduct?.baseImage" alt="">
+                    <img style="height: 450px"
+                         [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/'+selectedProduct?.baseImage"
+                         alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="this.productDetails?.routerLink=='select-by-product-type'"
+             class="{{brandProduct?.detailBackground}}">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="text-uppercase">{{selectedProduct?.name}}</h1>
+                            <p class="{{p.bold}}" *ngFor="let p of selectedProduct?.description">
+                                {{p.text}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center align-self-center col-lg-6">
+                    <p class="fw-bolder mb-1">ÜRÜNLER</p>
+                    <ngb-carousel [pauseOnHover]="true" [showNavigationIndicators]="true" autoplay="true"
+                                  autoplaySpeed="0.1" speed="1">
+                        <ng-template style="border-radius: 10px !important;" ngbSlide
+                                     *ngFor="let data of selectedProduct.carousel">
+                            <a>
+                                <div class="carousel-img-wrapper" style="overflow: hidden">
+                                    <img [src]="'assets/images/products/xebec/select-by-product-type/'+selectedProduct?.routerLink+'/'+data.image"
+                                         width="100%"/>
+                                </div>
+                                <div class="carousel-caption pb-0" style="color: black; bottom: 0; right: 5%; left: 5%">
+                                    <h5 class="carousel-font-size">{{data.name}}</h5>
+                                    <p class="">{{data.description}}</p>
+                                </div>
+                            </a>
+                        </ng-template>
+                    </ngb-carousel>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="productDetails?.routerLink=='degisebilir-uclar'"
+             class="{{brandProduct?.detailBackground}}">
+        <div class="container py-5">
+            <div class="row">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <h4 class="m-0 text-center fw-bolder text-uppercase">{{selectedProduct?.name}}</h4>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 mx-auto product-col mb-5 cursor-pointer text-center"
+                         *ngFor="let data of selectedProduct?.products">
+                        <div style="display: block; height: 100%">
+                            <div>
+                                <img [ngClass]="productDetails?.routerLink=='acili-kafalar'?'h-100':'w-100'"
+                                     (click)="openModal('PdfModal',data.pdf)"
+                                     style="aspect-ratio: 5/2; object-fit: contain; width: 100%"
+                                     [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/images/'+data.image"
+                                     alt="">
+                            </div>
+                            <div>
+                                <b>{{data.name}}</b>
+                            </div>
+                            <div>
+                                <p class="m-0"
+                                   style="font-size: 0.9rem"
+                                   *ngFor="let p of data.description">
+                                    {{p.text}}
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-9 mb-2" *ngIf="selectedProduct?.baseImage">
+                        <img class="w-100"
+                             style="border-radius: 10px"
+                             [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+selectedProduct?.baseImage"
+                             alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
-
-<ng-template #PdfModal let-modal>
-    <div class="modal-header bg-light p-3">
-        <button type="button" class="btn-close" aria-label="Close" (click)="modal.close()"></button>
-    </div>
-    <div class="modal-body p-0" style="height: 80vh !important;">
-        <iframe height="100%" width="100%" [src]="pdfUrl"></iframe>
-    </div>
-</ng-template>

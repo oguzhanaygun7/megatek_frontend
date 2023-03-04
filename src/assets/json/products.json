@@ -4,230 +4,568 @@
     "img": "albrecht.png",
     "hoverImg": "albrecht-hover.jpg",
     "routerLink": "albrecht",
-    "headerImage" : "assets/images/products/albrecht/albrecht.png",
+    "headerImage": "assets/images/products/albrecht/albrecht.png",
     "headerBackground": "albrecht-bg",
-    "headerColor" : "black",
-    "headerText" : "YÜKSEK PERFORMANSLI TAKIM TUTUCULARI ÜRETİCİSİ\nSHRINK VE HİDROLİK TUTUCULARA KARŞI BAKIM\nGEREKTİRMEYEN MEKANİK TUTUCU SİSTEMİ",
-    "bodyHeader" : "NEDEN ALBRECHT TUTUCU KULLANILMALI?",
+    "headerColor": "black",
+    "headerTitleColor": "albrecht-title-color",
+    "headerText": "YÜKSEK PERFORMANSLI TAKIM TUTUCULARI ÜRETİCİSİ\nSHRINK VE HİDROLİK TUTUCULARA KARŞI BAKIM\nGEREKTİRMEYEN MEKANİK TUTUCU SİSTEMİ",
+    "bodyHeader": "NEDEN ALBRECHT TUTUCU KULLANILMALI?",
     "contentBackground": "albrecht-body",
-    "contentHeader" : "HİDROLİK TUTUCULARA GÖRE",
-    "contentText" : "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
-    "secondContentHeader" : "SHRINK TUTUCULARA GÖRE",
-    "secondContentText" : "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "contentHeader": "HİDROLİK TUTUCULARA GÖRE",
+    "contentText": "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
+    "secondContentHeader": "SHRINK TUTUCULARA GÖRE",
+    "secondContentText": "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
     "detailBackground": "albrecht-detail-bg",
     "products": [
       {
-        "name": "apc",
+        "name": "APC",
         "routerLink": "apc",
         "title": "APC TUTUCU",
+        "titleColor": "#397795",
         "subTitle": "HIZ & GÜVENLİK\n5 EKSENLİ OPERASYON İÇİN",
         "description": "Albrecht APC, dünya çapında hız, takım ömrü ve güvenlik alanında en iyi performans gösteren tutucudur.",
         "image": "csm_APC_585952f5bc1.png",
-        "details" : [
-          {
-            "name": "SLIM5 HSK",
-            "routerLink": "slim5-hsk",
-            "image": "csm_Slim5_HSK_a5cf40ae7b 1.png"
-          },
-          {
-            "name": "SLIM5 SK",
-            "routerLink": "slim5-sk",
-            "image": "csm_Slim5_SK_6a779485e7 1.png"
-          },
-          {
-            "name": "SLIM5 MAS-BT",
-            "routerLink": "slim5-mas-bt",
-            "image": "csm_Slim5_MAS-BT_d87f5a12df 1.png"
-          },
-          {
-            "name": "SLIM5 Polygon",
-            "routerLink": "slim5-polygon",
-            "image": "csm_Slim5_Polygon_e8341c7b8f 1.png"
-          },
+        "details": [
           {
             "name": "HSK",
             "routerLink": "hsk",
-            "image": "csm_APC_585952f5bc 2.png"
+            "image": "csm_APC_585952f5bc 2.png",
+            "images": [
+              {
+                "url": "HSK 80A.png",
+                "name": "HSK 80A"
+              },
+              {
+                "url": "HSK-50A.png",
+                "name": "HSK 50A"
+              },
+              {
+                "url": "HSK-63A.png",
+                "name": "HSK 63A"
+              },
+              {
+                "url": "HSK-63F.png",
+                "name": "HSK 63F"
+              },
+              {
+                "url": "HSK-100.png",
+                "name": "HSK 100"
+              },
+              {
+                "url": "HSK-125.png",
+                "name": "HSK 125"
+              }
+            ],
+            "pdf": "APC HSK.pdf",
+            "pdfSize": "7.2MB"
           },
           {
             "name": "SK",
             "routerLink": "sk",
-            "image": "QC-3d-5-1-removebg-preview (1) 1.png"
+            "image": "QC-3d-5-1-removebg-preview (1) 1.png",
+            "images": [
+              {
+                "url": "SK30.png",
+                "name": "SK30"
+              },
+              {
+                "url": "SK40.png",
+                "name": "SK40"
+              },
+              {
+                "url": "SK40.png",
+                "name": "SK40"
+              }
+            ],
+            "pdf": "APC SK.pdf",
+            "pdfSize": "2MB"
           },
           {
             "name": "MAS-BT",
             "routerLink": "mas-bt",
-            "image": "csm_MAS-BT_544e916803 2.png"
+            "image": "csm_MAS-BT_544e916803 2.png",
+            "images": [
+              {
+                "url": "BT30.png",
+                "name": "BT30"
+              },
+              {
+                "url": "BT40.png",
+                "name": "BT40"
+              },
+              {
+                "url": "BT50.png",
+                "name": "BT50"
+              }
+            ],
+            "pdf": "APC MAS-BT.pdf",
+            "pdfSize": "1.6MB"
           },
           {
             "name": "Flange Contact",
             "routerLink": "flange-contact",
-            "image": "csm_MAS-BT_544e916803 2.png"
+            "image": "csm_MAS-BT_544e916803 2.png",
+            "images": [
+              {
+                "url": "flange bt30.png",
+                "name": "Flange BT30"
+              },
+              {
+                "url": "flange bt40.png",
+                "name": "Flange BT40"
+              },
+              {
+                "url": "flange bt50.png",
+                "name": "Flange BT50"
+              }
+            ],
+            "pdf": "APC FLANGE.pdf",
+            "pdfSize": "2MB"
           },
           {
             "name": "POLYGON",
             "routerLink": "polygon",
-            "image": "csm_Polygon_3ebfa729e4 1.png"
+            "image": "csm_Polygon_3ebfa729e4 1.png",
+            "images": [
+              {
+                "url": "polygonc5.png",
+                "name": "Polygonc5"
+              },
+              {
+                "url": "polygonc6.png",
+                "name": "Polygonc6"
+              },
+              {
+                "url": "polygonc8.png",
+                "name": "Polygonc8"
+              }
+            ],
+            "pdf": "APC POLYGON.pdf",
+            "pdfSize": "1.9MB"
+          },
+          {
+            "name": "SLIM5 HSK",
+            "routerLink": "slim5-hsk",
+            "image": "csm_Slim5_HSK_a5cf40ae7b 1.png",
+            "pdf": "APC HSKSLIM.pdf",
+            "pdfSize": "2.1MB"
+          },
+          {
+            "name": "SLIM5 SK",
+            "routerLink": "slim5-sk",
+            "image": "csm_Slim5_SK_6a779485e7 1.png",
+            "pdf": "APC SKSLIM.pdf",
+            "pdfSize": "1.1MB"
+          },
+          {
+            "name": "SLIM5 MAS-BT",
+            "routerLink": "slim5-mas-bt",
+            "image": "csm_Slim5_MAS-BT_d87f5a12df 1.png",
+            "pdf": "APC MAS-BTSLIM.pdf",
+            "pdfSize": "1.1MB"
+          },
+          {
+            "name": "SLIM5 Polygon",
+            "routerLink": "slim5-polygon",
+            "image": "csm_Slim5_Polygon_e8341c7b8f 1.png",
+            "pdf": "APC POLYGONSLIM.pdf",
+            "pdfSize": "1.1MB"
           }
         ]
       },
       {
-        "name": "ultra",
+        "name": "ULTRA",
         "routerLink": "ultra",
-        "title" : "ULTRA TUTUCU",
+        "title": "ULTRA TUTUCU",
         "subTitle": "Ultra Metal Giderme Oranı",
         "description": "Albrecht Ultra ile 12 litre/dk\nUltra Sıkıştırıcı, Ultra Nemlendirici, Ultra Güvenli. Her bir günlük zorluğa mükemmel bir şekilde uyum sağlayan çevresel soğutma.",
         "image": "csm_Ultra_4351180962.png",
-        "details" : [
+        "details": [
           {
             "name": "ultra",
             "routerLink": "ultra",
-            "image" : "csm_Ultra_4351180962.png"
+            "image": "csm_Ultra_4351180962.png",
+            "pdf": "ULTRA.pdf",
+            "pdfSize": "680KB"
           }
         ]
       },
       {
-        "name": "micro",
+        "name": "MICRO",
         "routerLink": "micro",
         "title": "MICRO TUTUCU",
         "subTitle": "Sıkıştırma aralığı 1 - 6 mm",
         "description": "Albrecht Mikro, mikro aletler için yüksek hassasiyetli tutucu fikri. \nÇevresel veya dahili soğutma Shrink Tutuculara kıyasla önemli ölçüde daha iyi nemlendirmeye ve özel kaplamalı penslere sahiptir.\nİnce şekil D1=13,5 mm\nMükemmel salgı ≤ 3 μm \n2,5xD40.000 1/dk'ya kadar ≤ 1 gmm",
         "image": "csm_Micro_702be798b1.png",
-        "details" : [
+        "details": [
           {
             "name": "er",
             "routerLink": "er",
-            "image": "csm_Micro-ER-Produktbild_aa54fedb31 1.png"
+            "image": "csm_Micro-ER-Produktbild_aa54fedb31 1.png",
+            "pdf": "micro er.pdf",
+            "pdfSize": "915KB"
           },
           {
             "name": "20mm",
             "routerLink": "20mm",
-            "image": "csm_extension-20mm-Produktbild_6f62ea904d 1.png"
+            "image": "csm_extension-20mm-Produktbild_6f62ea904d 1.png",
+            "pdf": "micro 20mm.pdf",
+            "pdfSize": "532KB"
           },
           {
-            "name": "15mm",
-            "routerLink": "15mm",
-            "image": "csm_extension-14mm-Produktbild_5a7c31a0e4 1.png"
+            "name": "14mm",
+            "routerLink": "14mm",
+            "image": "csm_extension-14mm-Produktbild_5a7c31a0e4 1.png",
+            "pdf": "micro 14mm.pdf",
+            "pdfSize": "549KB"
           },
           {
             "name": "Polygon",
             "routerLink": "polygon",
-            "image": "csm_Micro-Polygon_1449508d13 1.png"
+            "image": "csm_Micro-Polygon_1449508d13 1.png",
+            "pdf": "micro polygon.pdf",
+            "pdfSize": "811KB"
           },
           {
             "name": "MAS-BT",
             "routerLink": "mas-bt",
-            "image": "csm_Micro-MAS-BT_82faf06c2d 1.png"
+            "image": "csm_Micro-MAS-BT_82faf06c2d 1.png",
+            "pdf": "micro mas-bt.pdf",
+            "pdfSize": "848KB"
           },
           {
             "name": "SK",
             "routerLink": "sk",
-            "image": "csm_Micro-SK_acc4cb8e39 1.png"
+            "image": "csm_Micro-SK_acc4cb8e39 1.png",
+            "pdf": "micro sk.pdf",
+            "pdfSize": "917KB"
           },
           {
             "name": "HSK",
             "routerLink": "hsk",
-            "image": "csm_Micro-HSK-Produktbild-mitSchatten_0c239ab1cd 1.png"
+            "image": "csm_Micro-HSK-Produktbild-mitSchatten_0c239ab1cd 1.png",
+            "pdf": "micro hsk.pdf",
+            "pdfSize": "1.1MB"
           }
         ]
       },
       {
-        "name": "1st",
-        "routerLink": "1st",
-        "title": "MATKAP TUTUCU",
+        "name": "Çeneli Mandren",
+        "routerLink": "ceneli-mandren",
+        "title": "ÇENELİ MANDRENLER",
         "subTitle": "1930’ dan beri sürekli gelişen",
         "description": "1.Matkap tutucu, Teknik bir ürün icat eden ve ardından 80 yılı aşkın bir süredir onu geliştirmek için çalışan herkes, sonunda bugünün mümkün olan en iyi teknik standardına ulaşacaktır. Kendi kendini sıkma özelliği pratik deneyimlere dayanır . En iyi çelikten üretilmiştir ve tüm temel parçalar sertleştirilmiştir. Bu, dünya çapındaki diğer tüm üreticilerin uymak zorunda olduğu bir mandrenle sonuçlanır. İsteğinize göre sıkıştırma için elmas kaplı çeneler; saat yönünde çalışma için farklı aralıklarda 6 boyut, ISO 239 veya UNF.",
         "image": "csm_1---13-mm_73cbd5303f.png",
-        "details" : [
-          {
-            "name": "Taper Shank",
-            "routerLink": "taper-shank",
-            "image": "csm_SK_b9f7fd07e8.png"
-          },
-          {
-            "name": "Cylindrical Shank",
-            "routerLink": "cylindrical-shank",
-            "image": "csm_Zylinderschaft_d913976fc5.png"
-          },
-          {
-            "name": "Morse Taper",
-            "routerLink": "morse-taper",
-            "image": "csm_1---13-mm_73cbd5303f.png"
-          },
-          {
-            "name": "Bridgeport",
-            "routerLink": "bridgeport",
-            "image": "csm_3---13-mm_7dc858e376.png"
-          },
-          {
-            "name": "Sensitive Drill-Feed",
-            "routerLink": "sensitive-drill-feed",
-            "image": "csm_Feinbohrhilfe_31ab11f331.png"
-          },
-          {
-            "name": "Med",
-            "routerLink": "med",
-            "image": "csm_MED_8e46c9ea6e.png"
-          },
+        "details": [
           {
             "name": "Inner Taper",
             "routerLink": "inner-taper",
-            "image": "csm_Innenkegel_c734ed3908.png"
+            "image": "csm_Innenkegel_c734ed3908.png",
+            "images": [
+              {
+                "url": "0,2-1,5 1.png",
+                "name": "0.2 - 1.5mm"
+              },
+              {
+                "url": "0,2-3,0 1.png",
+                "name": "1.5 - 3mm"
+              },
+              {
+                "url": "0,2-3,0 2.png",
+                "name": "0.2 - 3mm"
+              },
+              {
+                "url": "0,5-6,5 1.png",
+                "name": "0.5 - 6.5mm"
+              },
+              {
+                "url": "0,5-10 1.png",
+                "name": "0.5 - 10mm"
+              },
+              {
+                "url": "1,0-13 1.png",
+                "name": "1 - 13mm"
+              },
+              {
+                "url": "3,0-16 1.png",
+                "name": "3 - 16mm"
+              }
+            ],
+            "pdf": "inner taper.pdf",
+            "pdfSize": "177KB"
           },
           {
             "name": "Reverse Lock",
             "routerLink": "reverse-lock",
-            "image": "csm_Spannsicherung_ef7c9cf715.png"
+            "image": "csm_Spannsicherung_ef7c9cf715.png",
+            "images": [
+              {
+                "url": "1-13mm.png",
+                "name": "1.13mm"
+              },
+              {
+                "url": "3-16mm.png",
+                "name": "3.16mm"
+              }
+            ],
+            "pdf": "reverse lock1.pdf",
+            "pdfSize": "179KB"
+          },
+          {
+            "name": "CYLINDRICAL SHANK",
+            "routerLink": "cylindrical-shank",
+            "image": "csm_Zylinderschaft_d913976fc5.png",
+            "pdf": "cylindrical shank.pdf",
+            "pdfSize": "129KB"
+          },
+          {
+            "name": "BRIDGEPORT",
+            "routerLink": "bridgeport",
+            "image": "csm_3---13-mm_7dc858e376.png",
+            "images": [
+              {
+                "url": "1-13mm.png",
+                "name": "1.13mm"
+              },
+              {
+                "url": "3-16mm.png",
+                "name": "3.16mm"
+              }
+            ],
+            "pdf": "bridgeport.pdf",
+            "pdfSize": "133KB"
+          },
+          {
+            "name": "Morse Taper",
+            "routerLink": "morse-taper",
+            "image": "csm_1---13-mm_73cbd5303f.png",
+            "images": [
+              {
+                "url": "0,5-6,5.png",
+                "name": "0.5-5.6mm"
+              },
+              {
+                "url": "1-13.png",
+                "name": "1.13mm"
+              },
+              {
+                "url": "3-16.png",
+                "name": "3.16mm"
+              }
+            ],
+            "pdf": "morse.pdf",
+            "pdfSize": "358KB"
+          },
+          {
+            "name": "Taper Shank",
+            "routerLink": "taper-shank",
+            "image": "csm_SK_b9f7fd07e8.png",
+            "images": [
+              {
+                "url": "DIN-2080.png",
+                "name": "DIN 2080"
+              },
+              {
+                "url": "MAS-BT.png",
+                "name": "MAS BT"
+              },
+              {
+                "url": "SK.png",
+                "name": "SK"
+              }
+            ],
+            "pdf": "taper shank1.pdf",
+            "pdfSize": "177KB"
+          },
+          {
+            "name": "SENSITIVE DRILL-FEED",
+            "routerLink": "sensitive-drill-feed",
+            "image": "csm_Feinbohrhilfe_31ab11f331.png",
+            "images":  [
+              {
+                "url": "mk1 dın228.png",
+                "name": "MK1 DIN228"
+              },
+              {
+                "url": "Zylinderschaft.png",
+                "name": "Ø13 Zylindershaft"
+              }
+            ],
+            "pdf": "sensitive drill.pdf",
+            "pdfSize": "313KB"
+          },
+          {
+            "name": "MEDICAL",
+            "routerLink": "medical",
+            "image": "csm_MED_8e46c9ea6e.png",
+            "images":  [
+              {
+                "url": "Ergon-Grip.png",
+                "name": "Ergon Grip"
+              },
+              {
+                "url": "KeyLess.png",
+                "name": "Key Less"
+              },
+              {
+                "url": "KeyLock.png",
+                "name": "Key Lock"
+              },
+              {
+                "url": "ReLock.png",
+                "name": "Re Lock"
+              }
+            ],
+            "pdf": "med.pdf",
+            "pdfSize": "2.8MB"
           }
         ]
       },
       {
-        "name": "cnc",
+        "name": "CNC HASSAS MANDREN",
         "routerLink": "cnc",
         "title": "CNC MATKAP TUTUCU",
         "subTitle": "Penssiz hızlı 1- 16mm",
         "description": "Albrecht CNC ayna, tüm penslerin yerini alır, böylece size birçok iş gününden tasarruf sağlar",
         "image": "csm_CNC_360b1b5f64.png",
-        "details" : [
+        "details": [
           {
             "name": "DIN 2080",
             "routerLink": "din-2080",
-            "image": "csm_DIN-2080_510a8e5ef4 1.png"
+            "image": "csm_DIN-2080_510a8e5ef4 1.png",
+            "images" : [
+              {
+                "url": "DIN 2080 A40 1-16mm.png",
+                "name" : "A40 1 - 16mm"
+              },
+              {
+                "url": "DIN 2080 A50 1-16mm.png",
+                "name" : "A50 1- 16mm"
+              }
+            ],
+            "pdf": "CNC DIN2080.pdf",
+            "pdfSize": "1.1MB"
           },
           {
             "name": "SK",
             "routerLink": "sk",
-            "image": "csm_SK_6fd72a542b.png"
+            "image": "csm_SK_6fd72a542b.png",
+            "images": [
+              {
+                "url": "SK AD30 0,5-10mm.png",
+                "name": "AD30 0.5 - 10mm"
+              },
+              {
+                "url": "SK AD40 0,5-10mm.png",
+                "name": "AD40 0.5 - 10mm"
+              },
+              {
+                "url": "SK AD40 1-16mm.png",
+                "name": "AD40 1 - 16mm"
+              },
+              {
+                "url": "SK AD50 1-16mm.png",
+                "name": "AD50 1 - 16mm"
+              }
+            ],
+            "pdf": "CNC SK.pdf",
+            "pdfSize": "1.3MB"
           },
           {
             "name": "HSK",
             "routerLink": "hsk",
-            "image": "csm_HSK-80_0456a27bf0.png"
+            "image": "csm_HSK-80_0456a27bf0.png",
+            "images": [
+              {
+                "url": "hsk50.png",
+                "name": "HSK50"
+              },
+              {
+                "url": "hsk63A.png",
+                "name": "HSK63A"
+              },
+              {
+                "url": "hsk63F.png",
+                "name": "HSK63F"
+              },
+              {
+                "url": "HSK80.png",
+                "name": "HSK80"
+              },
+              {
+                "url": "HSK100.png",
+                "name": "HSK100"
+              }
+            ],
+            "pdf": "CNC HSK.pdf",
+            "pdfSize": "44KB"
           },
           {
             "name": "Polygon",
             "routerLink": "polygon",
-            "image": "csm_Polygon-C8-1-16-mm_919ad348bf.png"
+            "image": "csm_Polygon-C8-1-16-mm_919ad348bf.png",
+            "images": [
+              {
+                "url": "POLYGONC51-16mm.png",
+                "name": "C5 1 - 16mm"
+              },
+              {
+                "url": "POLYGONC61-16mm.png",
+                "name": "C6 1 - 16mm"
+              },
+              {
+                "url": "POLYGONC81-16mm.png",
+                "name": "C81 1 - 16mm"
+              }
+            ],
+            "pdf": "CNC POLYGON.pdf",
+            "pdfSize": "469KB"
           },
           {
             "name": "MAS-BT",
             "routerLink": "mas-bt",
-            "image": "csm_MAS-BT40-1-16-mm_60742b3b09.png"
+            "image": "csm_MAS-BT40-1-16-mm_60742b3b09.png",
+            "images": [
+              {
+                "url": "MASBT30-0,5-10mm.png",
+                "name": "BT30 0.5 - 10mm"
+              },
+              {
+                "url": "MASBT40-0,5-10mm.png",
+                "name": "BT40 0.5 - 10mm"
+              },
+              {
+                "url": "MASBT40-1-16mm.png",
+                "name": "BT40 1 - 16mm"
+              },
+              {
+                "url": "MASBT50-1-16mm.png",
+                "name": "BT50 1 - 16mm"
+              }
+            ],
+            "pdf": "CNC MAS-BT.pdf",
+            "pdfSize": "769KB"
           },
           {
             "name": "Morse",
             "routerLink": "morse",
-            "image": "csm_Morse_0b78fdfec1.png"
+            "image": "csm_Morse_0b78fdfec1.png",
+            "pdf": "CNC MORSE.pdf",
+            "pdfSize": "952KB"
           },
           {
             "name": "∅ 251-16 mm",
             "routerLink": "251-16-mm",
-            "image": "csm_Cylindrical_8fe44d7db0-1.png"
+            "image": "csm_Cylindrical_8fe44d7db0-1.png",
+            "pdf": "CNC 1-16MM.pdf",
+            "pdfSize": "1.3MB"
           },
           {
-            "name": "Cylindrical",
+            "name": "CYLINDRICAL",
             "routerLink": "cylindrical",
-            "image": "csm_Cylindrical_8fe44d7db0-1.png"
+            "image": "csm_Cylindrical_8fe44d7db0-1.png",
+            "pdf": "CNC CCYLINDRICAL.pdf",
+            "pdfSize": "1MB"
           }
         ]
       }
@@ -238,16 +576,16 @@
     "img": "heule.png",
     "hoverImg": "heule.png",
     "routerLink": "heule",
-    "headerImage" : "assets/images/products/heule/heule.png",
+    "headerImage": "assets/images/products/heule/heule.png",
     "headerBackground": "heule-bg",
-    "headerColor" : "white",
-    "headerText" : "ÇAPAK ALMA VE ARKA YÜZEY İŞLEME TAKIMLARI",
-    "bodyHeader" : "NEDEN HEULE KULLANILMALI?",
+    "headerColor": "white",
+    "headerText": "ÇAPAK ALMA VE ARKA YÜZEY İŞLEME TAKIMLARI",
+    "bodyHeader": "NEDEN HEULE KULLANILMALI?",
     "contentBackground": "heule-body",
-    "contentHeader" : "HİDROLİK TUTUCULARA GÖRE",
-    "contentText" : "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
-    "secondContentHeader" : "SHRINK TUTUCULARA GÖRE",
-    "secondContentText" : "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "contentHeader": "HİDROLİK TUTUCULARA GÖRE",
+    "contentText": "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
+    "secondContentHeader": "SHRINK TUTUCULARA GÖRE",
+    "secondContentText": "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
     "detailBackground": "heule-detail-bg",
     "products": [
       {
@@ -255,7 +593,7 @@
         "title": "Çapak Alma",
         "routerLink": "capak-alma",
         "image": "capak-alma.png",
-        "details" : [
+        "details": [
           {
             "name": "COFA",
             "routerLink": "cofa",
@@ -284,7 +622,7 @@
         "title": "Pah Kırma",
         "routerLink": "pah-kirma",
         "image": "pah-kirma.png",
-        "details" : [
+        "details": [
           {
             "name": "SNAP",
             "routerLink": "snap",
@@ -306,7 +644,7 @@
         "title": "Arka Yüzey İşleme",
         "routerLink": "arka-yuzey-isleme",
         "image": "arka-yuzey.png",
-        "details" : [
+        "details": [
           {
             "name": "BSF",
             "routerLink": "bsf",
@@ -335,7 +673,7 @@
         "title": "COMBI Takım (Delme+Çapak Alma)",
         "routerLink": "combi-takim",
         "image": "combi-takim.png",
-        "details" : [
+        "details": [
           {
             "name": "VEX",
             "routerLink": "vex",
@@ -344,8 +682,8 @@
             "pdfSize": "2,2MB"
           },
           {
-            "name": "Özel Geliştirilmiş COMBI",
-            "description" : [
+            "name": "İŞE ÖZEL COMBI (Delme+Çapak alma)",
+            "description": [
               {
                 "text": "Standart ürün yelpazesi uygulamanız için uygun bir çözüm sağlamıyorsa, uygulamanıza göre optimize edilir.",
                 "bold": "fw-bolder"
@@ -358,10 +696,10 @@
                 "text": "Karmaşık iş parçası geometrileri, zor malzemeler, iş parçası bağlama ve makine konseptleri - matkaplar ve çapak alma aletleri gibi kesici takımlara yönelik talepler karmaşıktır."
               },
               {
-                "text" : "Uygulamanıza uygun standart bir tutucu yoksa, size özel olarak hazırlanmış özelleştirilmiş çözümler sunulabilir. Siz de ihtiyaç ve beklentilerinizi bize bildirirseniz ideal çapak alma tutucusunu bulabilirsiniz."
+                "text": "Uygulamanıza uygun standart bir tutucu yoksa, size özel olarak hazırlanmış özelleştirilmiş çözümler sunulabilir. Siz de ihtiyaç ve beklentilerinizi bize bildirirseniz ideal çapak alma tutucusunu bulabilirsiniz."
               }
             ],
-            "routerLink": "ozel-gelistirilmis-combi",
+            "routerLink": "ise-ozel-combi",
             "image": "3 63.png",
             "baseImage": "ozel-gelistirilmis-combi.png"
           }
@@ -371,37 +709,598 @@
   },
   {
     "name": "Montronix",
-    "headerImage" : "assets/images/products/montronix.png",
+    "headerImage": "assets/images/products/montronix.png",
     "img": "montronix.png",
     "hoverImg": "montronix.png",
     "routerLink": "montronix"
   },
   {
     "name": "Eltool",
-    "headerImage" : "assets/images/products/eltool.png",
+    "headerImage": "assets/images/products/eltool/eltool.png",
+    "headerBackground": "eltool-bg",
+    "headerColor": "black",
+    "headerP": [
+      {
+        "text": "SU BASINCI TAHRİKLİ"
+      },
+      {
+        "text": "İŞLEME YÖNÜ DEĞİŞEBİLİR"
+      },
+      {
+        "text": "DİK AÇILI KAFALAR"
+      }
+    ],
+    "bodyHeader": "NEDEN ELTOOL KULLANILMALI?",
+    "contentBackground": "eltool-body",
+    "contentHeader": "XEBEC",
+    "contentText": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
+    "secondContentText": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n– Fırçanın şeklinin bozulmaması\n– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n– Kesici ağızların kendi kendini bileme özelliği\n– Nylon fırçaya göre 60 misline varan taşlama gücü\n– Üstün su geçirmez özelliği\n– Tezgahta ve robotik sistemlerde kullanma avantajı.",
     "img": "eltool.png",
     "hoverImg": "eltool.png",
-    "routerLink": "eltool"
+    "routerLink": "eltool",
+    "detailBackground": "eltool-detail-bg",
+    "products": [
+      {
+        "name": "TITESPOT® Soğutucu Tahrikli Dik Açılı Kafalar",
+        "title": "TITESPOT® Soğutucu Tahrikli Dik Açılı Kafalar",
+        "routerLink": "sogutma-tahrikli-dik-acili-kafalar",
+        "image": "angle-heads-coolant-driven 1.png",
+        "details": [
+          {
+            "name": "TITESPOT® Soğutucu Tahrikli Dik Açılı Kafalar",
+            "routerLink": "sogutma-tahrikli-dik-acili-kafalar",
+            "image": "angle-heads-coolant-driven 1.png",
+            "description": [
+              {
+                "text": "Delme ve frezeleme için Titespot® Soğutucu Tahrikli Dik Açılı Kafalar, özellikle çok sayıda pozisyonda ve/veya küçük deliklerde veya kanal işlemenin gerekli olduğu durumlarda, mekanik olarak tahrik edilen kafalara göre çok daha uygun maliyetli bir alternatif çözüm sunar."
+              },
+              {
+                "text": "İlgili videoda gösterildiği gibi, soğutma sıvısı tahrikli açılı kafamıza güç sağlamak için iş mili dönüşüne ihtiyaç duyulmaz. Tezgah iş mili sadece bir indeksleyici işlevi görerek tek kafa ile çok konumlu işlemelere olanak tanır. En küçük kafamız, çapı 5/8\" (15,875mm.) 'e kadar olan deliklerde radyal olarak işleme yapabilir.\nDaha büyük kafalarımız RC30 4140 Çelikte 1/2\" (12,3 mm.) delikler açmış ve 3/8\" (9,5 mm.) çaplı radyüs parmak freze ile 42 ipm. (1000 mm/dk) ilerlemeler ile 1,3 mm derinlikte Titanyum frezelemiştir."
+              }
+            ],
+            "pdf": "sogutma-sivisi-tahrikli-acili-kafalar.pdf",
+            "pdfSize": "545KB"
+          }
+        ]
+      },
+      {
+        "name": "TITESPOT® Su Basıncı Tahrikli Hız Arttırıcıları",
+        "title": "TITESPOT® Su Basıncı Tahrikli Hız Arttırıcıları",
+        "routerLink": "su-basinci-tahrikli-hiz-arttiricilari",
+        "image": "inline-spindle-speeder.png",
+        "details": [
+          {
+            "name": "TITESPOT® Su Basıncı Tahrikli Hız Arttırıcıları",
+            "routerLink": "su-basinci-tahrikli-hiz-arttiricilari",
+            "image": "inline-spindle-speeder.png",
+            "secondDescription": [
+              {
+                "text": "Titespot® İş Hız Arttırıcılar Nasıl çalışır?",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "İşleme merkezlerinde iş mili arttırıcı ve torna tezgahlarında ise basınçlı soğutma suyu tahriki ile çalışan canlı takım olarak kullanılır.Titespot® Soğutucu Tahrikli İş Mili Hız Arttırıcıları , yüksek basınçlı soğutma sisteminizden güç alan (uygulamanın \"yüklemesine \" bağlı olarak 14-140 Bar) pozitif yer değiştirmeli bilyeli pistonlu motor içerir.."
+              },
+              {
+                "text": "Tahrik mili, motordan gelen gücü ER-16 pens miline iletir. Bir kısım soğutma sıvısı da kesiciye yönlendirilir."
+              },
+              {
+                "text": "Titespot® Soğutucu Tahrikli İş Mili Hız Arttırıcıları, iş mili hızınızı litre başına soğutma sıvısı debisini 236 dev/dk. oranında artıracaktır. Örneğin, maksimum iş mili deviriniz 6000 dev/dk. ve soğutma sıvısı debiniz 20 lpm (litre/dk.) ise takım deviriniz 6000 + 5400 = 11.400 dev/dk. olacaktır.."
+              },
+              {
+                "text": "Torna tezgahınızı canlı takıma dönüştürün."
+              }
+            ],
+            "description": [
+              {
+                "text": "Yüksek basınçlı soğutma sıvısı sistemiyle çalışan Titespot® Hız Arttırıcıları, işleme merkezinizin iş mili hızını 13.500 rpm'ye kadar artırabilir. Yüksek basınçlı içten su verme sıvısına sahip bir tornalama merkezinde Titespot® Su basıncı Tahrikli Hız Arttırıcıları canlı takım olarak işlev görmektedir.\nTitespot® Su basıncı Tahrikli Hız Arttırıcıları tüm yaygın iş mili konik ölçülerinde mevcuttur."
+              },
+              {
+                "text": "Titespot® Spindle Speeder Avantajları",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Tezgah iş mili devri Hız Arttırıcı devrine eklenebilir. Sadece tezgahta yüksek basınçlı soğutma sıvısını açın ve tezgahınızda uyguladığınız devir ile Titespot® İş Hız Arttırıcı devrinin toplamı kadar devir elde edin."
+              },
+              {
+                "text": "- ATC kolu üzerinden bir işleme merkezine kolayca yüklenebilme."
+              },
+              {
+                "text": "- Aşırı ısınma yapmadan sürekli çalışma döngüsü içinde çalışma."
+              }
+            ],
+            "pdf": "is-mili-hizlandirici.pdf",
+            "pdfSize": "727KB"
+          }
+        ]
+      },
+      {
+        "name": "TITESPOT® Tahrikli Canlı Takım",
+        "title": "TITESPOT® Tahrikli Canlı Takım",
+        "routerLink": "tahrikli-canli-takim",
+        "image": "live lathe tools.png",
+        "details": [
+          {
+            "name": "TITESPOT® Tahrikli Canlı Takım",
+            "routerLink": "hareketli-torna-araci",
+            "image": "live lathe tools.png",
+            "description": [
+              {
+                "text": "Canlı takımlama kabiliyetine sahip popüler torna tezgahı modellerine uyacak şekilde tasarlanan Eltool'un canlı takım modülleri, çapı 5/8 inç'e kadar olan deliklerde kompakt dik açılı kafalı makinemizle birleştirildi. İç çap frezeleme, delme, kanal açma ve kanal açma gibi ikincil işlemler, tornalama işlemlerinize entegre edilebilir.\nSürücü modülleri, hassas eğik temaslı yataklara, ısıl işlem görmüş ve taşlanmış millere ve boşluksuz tasarıma sahiptir. Aletler, filtrelenmiş makine soğutma sıvısı tarafından soğutulur ve yağlanır, bu da sürekli görev döngülerine izin verir. Tüm kafalar, tüm sürücü modülleriyle değiştirilebilir."
+              }
+            ],
+            "pdf": "hareketli-torna-araci.pdf",
+            "pdfSize": "3.3MB"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Frenco",
-    "headerImage" : "assets/images/products/frenco.png",
+    "headerImage": "assets/images/products/frenco/frenco.png",
+    "headerBackground": "frenco-bg",
+    "headerColor": "black",
+    "headerText": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+    "bodyHeader": "NEDEN FRENCO KULLANILMALI?",
+    "contentBackground": "frenco-body",
+    "contentHeader": "XEBEC",
+    "contentText": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
+    "secondContentText": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n– Fırçanın şeklinin bozulmaması\n– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n– Kesici ağızların kendi kendini bileme özelliği\n– Nylon fırçaya göre 60 misline varan taşlama gücü\n– Üstün su geçirmez özelliği\n– Tezgahta ve robotik sistemlerde kullanma avantajı.",
     "img": "frenco.png",
     "hoverImg": "frenco.png",
-    "routerLink": "frenco"
+    "routerLink": "frenco",
+    "detailBackground": "frenco-detail-bg",
+    "products": [
+      {
+        "name": "Muayene Ekipmanları",
+        "routerLink": "muayene-ekipmanlari",
+        "title": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+        "image": "spline gauges.png",
+        "details": [
+          {
+            "name": "Yivli Göstergeler",
+            "routerLink": "yivli-gostergeler",
+            "image": "spline gauges.png",
+            "secondDescription": [
+              {
+                "text": "Mating Gauges",
+                "bold": "fw-bolder",
+                "class": "mb-0"
+              },
+              {
+                "text": "Taç Dişliler için"
+              },
+              {
+                "text": "- Hirth çentikleri için düz kenarlı dişli fikstürlerin kalitesini doğrulamak için kullanılır"
+              },
+              {
+                "text": "- Dişler, iş parçası geometrisine uygundur"
+              },
+              {
+                "text": "- Fikstür ile eşleştirilerek “etkili” yüksekliğin belirlenmesi"
+              },
+              {
+                "text": "- Fikstürün eksenel ve radyal çalışmasının belirlenmesi"
+              },
+              {
+                "text": "YENİ: Sarkaç Destekli Frenco Gauger",
+                "bold": "fw-bolder",
+                "class": "mb-0"
+              },
+              {
+                "text": "Otomatik mastar testi için"
+              },
+              {
+                "text": "- FRENCO Geçer Mastarlar için sarkaç desteği"
+              },
+              {
+                "text": "- İstenmeyen eğilmeyi önlemek için 4 derecelik serbestlik"
+              },
+              {
+                "text": "- Pozisyonun otomatik olarak bulunması ve taşıma sistemi aracılığıyla eklenmesi"
+              },
+              {
+                "text": "- Operatör etkisi olmadan %100 test için uygundur"
+              },
+              {
+                "text": "- Önerilen yerleştirme kuvveti: 150 N"
+              },
+              {
+                "text": "- Sökme kuvveti (şartname dışındaki iş parçaları için): 1000 N'ye kadar"
+              },
+              {
+                "text": "- Taşıma sistemleri ve robotlarla kombinasyon için ideal"
+              }
+            ],
+            "description": [
+              {
+                "text": "Spline Mastarlar spline dişliler için geçer ve geçmez olarak yapılırlar.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Involute (Kıvrımlı), Serration (tırtıklı) ve düz kenarlı iç ve dış spline'lar için kullanılabilir."
+              },
+              {
+                "text": "- Kullanımda hızlı kontrol"
+              },
+              {
+                "text": "- “Gerçek/Aktüel” ve “Etkin/Efektif” tolerans limitlerine göre tasarlanmıştır."
+              },
+              {
+                "text": "- (DIN 5480 ve diğer standartlarda) \" Etkin/Efektif” toleransı kontrol ederken en yüksek önceliği dikkate alır."
+              },
+              {
+                "text": "- Mastar teknik resimleri ve muayene sertifikası teklife dahildir."
+              },
+              {
+                "text": "- Çizimler ve sertifikalar PDF olarak da mevcuttur."
+              },
+              {
+                "text": "- Ring/Halka mastarlarda aşınma limitlerini belirlemek için Konik Master tampon mastarlar talep üzerine yapılabilir"
+              }
+            ]
+          },
+          {
+            "name": "Dişli Artefaktlar ve Mastarlar",
+            "routerLink": "dişli-artefaktlar-ve-mastarlar",
+            "image": "toothed artefacts.png",
+            "secondDescription": [
+              {
+                "text": "IC-Dişli Artefaktları nedir?",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- IC-Dişli Artefaktları, test edilecek iş parçasınınkine benzer bir profile sahiptir.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Böylece ISO 15530'da (Koordinat ölçüm makinelerinin ölçüm belirsizliğini belirleme tekniği) tanımlanan kimlik koşullarını (IC) karşılarlar.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Artefakt ölçüm hedefine ne kadar yakın yapılmışsa, ölçümün izlenebilirliği o kadar kesin/belirgin olur",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Geometrik boyut: Küçük plastik dişlilerden kamyon dişlilerine kadar çeşitlerle uyarlanabilir."
+              },
+              {
+                "text": "Mastarlar",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "Mastarlar aletlerin/cihazların ölçüsel kontrolü için kalibre edilmesinde kullanılır.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Dahili ve harici spline aletler/cihazlar için mevcuttur",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Geometrileri numuneninkiyle aynıdır",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Ayar mastarları çoğunlukla dişli bir bölüme sahiptir.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Bir elektronik cihaz kullanırken, yayılmayı izlemek için bir ayar mastarı ve bir kontrol mastarı kullanılabilir (İşletmede kullanımı tavsiye edilir.)"
+              }
+            ],
+            "description": [
+              {
+                "text": "Artefaktlar, dişli ve spline ölçümlerindeki belirsizlikleri kolayca ve hızlı bir şekilde belirlemek için kullanılır.",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- Artefaktlar, bir dişli profilinin geometrik özelliklerini ideale yakın biçimde gösterir",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- İç ve dış dişli ve spline geometrileri için mevcuttur",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Münferit boşluklar/açıklıklar için farklı modifikasyonlar mümkündür",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Artefacts en iyi örnektir."
+              }
+
+            ]
+          },
+          {
+            "name": "Ana Dişliler",
+            "routerLink": "ana-disliler",
+            "image": "Master gears.png",
+            "secondDescription": [
+              {
+                "text": "Mastar (Ana) Dişlilerin Yeniden Bilenmesi"
+              },
+              {
+                "text": "Ana dişliler kullanım sırasında aşınmaya maruz kalırlar. Aşınmış ana dişliler normalde yeniden bilenebilir.",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "FRENCO bu konuda aşağıdakileri içeren hizmetler sunmaktadır:",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- Yeniden taşlamanın mümkün olup olmadığını kontrolü,",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Mastar dişlilerin yeniden taşlanması ve muhtemelen yeniden kaplanması,",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- FRENCO ölçüm laboratuvarından yeni bir denetim sertifikası verilmesi,",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Talep halinde Prosedür hakkında daha fazla bilgi verilebilir."
+              },
+              {
+                "text": "Malzemeler",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- Spline mastarlar malzemeleri, Krom çeliği veya Toz metal çeliği SX'ten üretilirler.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Kullanılan malzemeler, mastarların aşınma direncine önemli ölçüde etki eder."
+              },
+              {
+                "text": "Malzeme Türü HRc Ömrü (CS'ye göre)",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- CS Krom Çeliği 60-62 %100",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- SX Toz metal çeliği 63-65 %225"
+              }
+            ],
+            "description": [
+              {
+                "text": "Master dişliler, test dişlisi olarak tek ve çift flank/yan yüz dişli kontrol ve kremayer kontrol makinelerinde kullanılmaktadır.",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- Silindirik dişliler, pinyon dişliler, sonsuz dişliler mevcuttur",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Yuvarlanma kontrolleri, hızlı ve ekonomik bir fonksiyon testidir",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Test, üretim prosesine/sürecine entegre edilebilir",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Kaplama kullanımıyla aşınma direnci artırılabilir.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- FRENCO ölçüm laboratuvarından alınan denetim sertifikası teslimata dahildir."
+              }
+            ]
+          },
+          {
+            "name": "Ölçüm Uçları",
+            "routerLink": "olcum-uclari",
+            "image": "measuring inserts.png"
+          }
+        ]
+      },
+      {
+        "name": "Ölçüm Aletleri",
+        "routerLink": "olcum-aletleri",
+        "title": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+        "image": "size inspection instruments.png",
+        "details": [
+          {
+            "name": "Boyut Muayene Aletleri",
+            "routerLink": "boyut-muayene-aletleri",
+            "image": "size inspection instruments.png"
+          },
+          {
+            "name": "Çevresel Boşluk Aleti",
+            "routerLink": "cevresel-boşluk-aleti",
+            "image": "circumferential blacklash.png",
+            "secondDescription": [
+              {
+                "text": "Boyut Muayene Aleti ile Kombinasyon",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Bu aletle ölçüldüğü şekliyle etkili spline'ı boyut inceleme araçlarından gelen gerçek boyutlarla birleştirmek, daha hassas bir süreç izleme sağlar."
+              }
+            ],
+            "description": [
+              {
+                "text": "Bu araçlar, tüm form hatalarını (etkili spline) hesaba katarken spline'ların etkin boyutunu ölçer.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Dahili ve harici yivler için kullanılabilir"
+              },
+              {
+                "text": "- Bileşik spline, karşılıklı olarak dönebilen diskler"
+              },
+              {
+                "text": "- ISO 4156 ve ANSI B92.1'e göre kompozit boşluk mastarları yerine kullanılabilecek özel ölçüm yöntemi"
+              },
+              {
+                "text": "- Bu enstrümanta için bir ayar yöneticisi gereklidir"
+              },
+              {
+                "text": "- İstek üzerine aşınma sınırını belirlemek için halka mastarlar için konik ana tapalar"
+              }
+            ]
+          },
+          {
+            "name": "Çift Yan Dişli Muayene Makinaları",
+            "routerLink": "cift-yan-disli-muayene-makinalari",
+            "image": "double flank gear.png"
+          },
+          {
+            "name": "Tek Taraflı Dişli Yuvarlanma Muayene Makineleri",
+            "routerLink": "tek-tarafli-disli-yuvarlama-muayene-makineleri",
+            "image": "button_einflankenwaelzpruefgeraete.png"
+          },
+          {
+            "name": "Üniversal Ölçüm Makinaları",
+            "routerLink": "universal-olcum-makinalari",
+            "image": "button_universellemessgeraete.png"
+          },
+          {
+            "name": "Raf Muayene Makineleri",
+            "routerLink": "raf-muayene-makineleri",
+            "image": "button_zahnstangenmessgeraete.png",
+            "description": [
+              {
+                "text": "Bu makineler, kremayerler üzerinde bir Ana Dişli (pinyon) ile yuvarlanma testi gerçekleştirir.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Çift yan dişli yöntemine dayalı hızlı ve kolay ölçümler"
+              },
+              {
+                "text": "- Dişlinin kalite kontrolü"
+              },
+              {
+                "text": "- Nominal çizgiler ve tolerans aralığı ile \"Yükselme ve Düşme\" rulo tablosu"
+              },
+              {
+                "text": "- Maks. belirlemek için \"Rack-Gain\" özelliği."
+              },
+              {
+                "text": "- FRENCO-Software ZSM ile değerlendirme"
+              }
+            ]
+          },
+          {
+            "name": "Dişli Kenarı Analiz Cihazı",
+            "routerLink": "disli-kenari-analiz-cihazi",
+            "image": "button_waelzscangeraete.png",
+            "secondDescription": [
+              {
+                "text": "Master Gears'a dayalı yöntem",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- Ana dişli, incelenecek iş parçasınınkiyle eşleşir",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Kısa reaksiyon süresi",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Değiştirme olmadan büyük partiler için yüksek ekonomik verimlilik"
+              },
+              {
+                "text": "Disc Roll Master'a dayalı yöntem",
+                "bold": "fw-bolder mb-0"
+
+              },
+              {
+                "text": "- Disk merdane anaları, bir parça ailesindeki geometriler için özel olarak üretilmişti",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Seçilebilir ölçüm düzlemi sayısı (ölçüm süresi üzerinde doğrudan etki)",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- İki merkez arasında tutulan iş parçası"
+              }
+            ],
+            "description": [
+              {
+                "text": "Dişli Kenar Analizi, tüm diş yan yüzlerinin birkaç dakika içinde taranmasına olanak tanır ve büyük partiler için uygundur.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Tek yan dişli inceleme yöntemini temel alan özel yöntem"
+              },
+              {
+                "text": "- Tam diş yan yüzeylerinin hesaplanması"
+              },
+              {
+                "text": "- Tüm dişlerin ve tüm diş genişliği boyunca profil, heliks, hatve ve salgı hakkında bilgiler"
+              },
+              {
+                "text": "- Günde yaklaşık 60 ila 100 ölçüm için tasarlanmıştır"
+              },
+              {
+                "text": "- FRENCO Yazılımı FGI RS tarafından değerlendirme"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aksesuarlar",
+        "routerLink": "aksesuarlar",
+        "title": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+        "image": "tools and clamping system.png",
+        "details": [
+          {
+            "name": "Aletler ve Kelepçe Sistemleri",
+            "routerLink": "aletler-ve-kelepce-sistemleri",
+            "image": "tools and clamping system.png"
+          },
+          {
+            "name": "FRENCO Yazılım",
+            "routerLink": "frenco-yazılım",
+            "image": "software.png"
+          },
+          {
+            "name": "FRENCO Ölçüm Elektroniği",
+            "routerLink": "frenco-olcum-elektronigi",
+            "image": "button_frenco_meg.png"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mpa",
-    "headerImage" : "assets/images/products/mpa/mpa.png",
+    "headerImage": "assets/images/products/mpa/mpa.png",
     "headerBackground": "mpa-bg",
-    "headerColor" : "black",
-    "headerText" : "DİŞLİ KUTULU KAFALAR",
-    "bodyHeader" : "NEDEN MPA KULLANILMALI?",
+    "headerColor": "black",
+    "headerText": "DİŞLİ KUTULU KAFALAR",
+    "bodyHeader": "NEDEN MPA KULLANILMALI?",
     "contentBackground": "mpa-body",
-    "contentHeader" : "HİDROLİK TUTUCULARA GÖRE",
-    "contentText" : "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
-    "secondContentHeader" : "SHRINK TUTUCULARA GÖRE",
-    "secondContentText" : "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "contentHeader": "MPA",
+    "contentText": "1975 yılında tasarım ve üretim sürecindeki profesyonel becerileri sayesinde kurulan MPA, faaliyetine özel ekipman üretimi sonrasında makine sektöründe otomasyonun artan önemini dikkate alarak, bu bakış açısına yönelik bir ürün yelpazesi geliştirmeye başlar.\nAlınan çok başarılı sonuçlar ile müşterilerin karmaşık, işe özel tasarım gerektiren ihtiyaçlarını karşılamak için çözüm odaklı, özel tasarım ürünlerle ticari sunumlarını genişleterek birkaç yıl içinde ticari taleplerini arttırmıştır.",
+    "paragraphs" : [
+      {
+        "text": "MPA sunmuş olduğu ürünler ile hemen hemen bütün tezgahlardaki uygulanabilirliği ile delme, diş çekme, frezeleme uygulamalarında"
+      },
+      {
+        "text": "-Mevcut karmaşık ve pahalı üretim süreçlerini basitleştirmek"
+      },
+      {
+        "text": "-İşlem sürelerini azaltmak"
+      },
+      {
+        "text": "-Duruş süresini azaltmak"
+      },
+      {
+        "text": "-Erişilemeyen çalışma bölgelerinde uygun tasarımları ile çözümün parçası olmaya çalışmaktadır."
+      }
+    ],
     "img": "mpa.png",
     "hoverImg": "mpa.png",
     "routerLink": "mpa",
@@ -412,74 +1311,74 @@
         "title": "Açılı Kafalar",
         "routerLink": "acili-kafalar",
         "image": "angle-heads.png",
-        "details" : [
+        "details": [
           {
             "name": "Açılı Kafalar",
             "routerLink": "acili-kafalar",
             "image": "angle-heads.png",
             "products": [
               {
-                "name": "90°Slim",
+                "name": "90° İnce Tasarım",
                 "image": "angolari-90-slim 1.png",
                 "pdf": "90slim.pdf"
               },
               {
-                "name": "90°Compact",
+                "name": "90° Sabit Dik Açılı",
                 "image": "angolari-90-standard.png",
                 "pdf": "90°Compact.pdf"
               },
               {
-                "name": "90°Extended",
+                "name": "90° Uzun Tip",
                 "image": "angolari-90-prolungate.png",
                 "pdf": "90°Extended.pdf"
               },
               {
-                "name": "90°Double Ended",
+                "name": "90° Çift Yönlü",
                 "image": "angolari-90-doppie.png",
                 "pdf": "90°double ended.pdf"
               },
               {
-                "name": "90°Off-set",
+                "name": "90° Off-set",
                 "image": "m.png",
                 "pdf": "90°Off-set.pdf"
               },
               {
-                "name": "45°",
+                "name": "45°Sabit Dik Açılı",
                 "image": "MEGATEK WEB.png",
                 "pdf": "45°.pdf"
               },
               {
-                "name": "Multi-way",
+                "name": "Çift Yönlü",
                 "image": "angolari-multiway.png",
                 "pdf": "Multi-way.pdf"
               },
               {
-                "name": "Heavy Duty",
+                "name": "Ağır İş Kafaları",
                 "image": "angolari-90-fresatura.png",
                 "pdf": "Heavy duty.pdf"
               },
               {
-                "name": "+/- 90°Adjustable",
+                "name": "+/- 90° Açı Ayarlı",
                 "image": "tilting.png",
                 "pdf": "adjustable.pdf"
               },
               {
-                "name": "+/- 90° Adjustable flange mounting",
+                "name": "+/- 90° Açı Ayarlı Flanş Montaj",
                 "image": "angolari-registrabili 1.png",
                 "pdf": "adjustable flange.pdf"
               },
               {
-                "name": "Flange Mounting",
+                "name": "Flanş Montaj",
                 "image": "angolari-90-fresatura-fm.png",
                 "pdf": "flange mounting.pdf"
               },
               {
-                "name": "Special",
+                "name": "Özel",
                 "image": "angolari-custom-made.png",
                 "pdf": "special.pdf"
               },
               {
-                "name": "Mounting Accessories",
+                "name": "Montaj Aksesuarları",
                 "image": "accessori-montaggio.png",
                 "pdf": "mounting_accessories.pdf"
               }
@@ -488,58 +1387,58 @@
         ]
       },
       {
-        "name": "Standart Çoklu Kafalar",
+        "name": "EKSENLER ARASI AYARLI ÇOK MİLLİ KAFALAR VE ÖZEL KAFALAR",
         "title": "Standart Çoklu Kafalar",
         "routerLink": "standart-coklu-kafalar",
         "image": "multispindle-heads.png",
-        "details" : [
+        "details": [
           {
             "name": "Standart Çoklu Kafalar",
             "routerLink": "standart-coklu-kafalar",
             "image": "multispindle-heads.png",
             "products": [
               {
-                "name": "ER 8",
+                "name": "ER 8 Standart Seri",
                 "image": "8.png",
                 "pdf": "er8.pdf"
               },
               {
-                "name": "ER 11",
+                "name": "ER 11 Standart Seri",
                 "image": "11.png",
                 "pdf": "er11.pdf"
               },
               {
-                "name": "ER 16",
+                "name": "ER 16 Standart Seri",
                 "image": "16.png",
                 "pdf": "er16.pdf"
               },
               {
-                "name": "ER 20",
+                "name": "ER 20 Standart Seri",
                 "image": "20.png",
                 "pdf": "er20.pdf"
               },
               {
-                "name": "ER 25",
+                "name": "ER 25 Standart Seri",
                 "image": "25.png",
                 "pdf": "er25.pdf"
               },
               {
-                "name": "ER 32",
+                "name": "ER 32 Standart Seri",
                 "image": "32.png",
                 "pdf": "er32.pdf"
               },
               {
-                "name": "Mounting Accessories",
+                "name": "Standart Seri Ağır İş Kafaları",
                 "image": "accessories.png",
                 "pdf": "accessories.pdf"
               },
               {
-                "name": "Heavy Duty",
+                "name": "Montaj Aksesuarları",
                 "image": "Heavy-Duty-Standard-Series.png",
                 "pdf": "heavy-duty.pdf"
               },
               {
-                "name": "Special",
+                "name": "Özel Kafalar",
                 "image": "special.png",
                 "pdf": "special.pdf"
               }
@@ -548,18 +1447,18 @@
         ]
       },
       {
-        "name": "Tahrikli Kafalar",
+        "name": "Özel Tahrikli Kafalar",
         "title": "Tahrikli Kafalar",
         "routerLink": "tahrikli-kafalar",
         "image": "driven-tools.png",
-        "details" : [
+        "details": [
           {
             "name": "Tahrikli Kafalar",
             "routerLink": "tahrikli-kafalar",
             "image": "driven-tools.png",
             "products": [
               {
-                "name": "CNC Turret",
+                "name": "CNC Taret",
                 "image": "motorizzati-torretta 1.png",
                 "pdf": "none"
               },
@@ -569,17 +1468,17 @@
                 "pdf": "90.pdf"
               },
               {
-                "name": "Adjustable",
+                "name": "Açı Ayarlı",
                 "image": "motorizzati-adjustable.png",
                 "pdf": "ADJUSTABLE.pdf"
               },
               {
-                "name": "Double Ended",
+                "name": "Çift Çıkışlı",
                 "image": "motorizzati-double.png",
                 "pdf": "DOUBLE ENDED.pdf"
               },
               {
-                "name": "Multi-spindle",
+                "name": "Çok Milli",
                 "image": "motorizzati-multi.png",
                 "pdf": "multispindle.pdf"
               },
@@ -589,17 +1488,17 @@
                 "pdf": "offset.pdf"
               },
               {
-                "name": "Sawing",
+                "name": "Testere",
                 "image": "motorizzati-sawing.png",
                 "pdf": "sawing.pdf"
               },
               {
-                "name": "Slim",
+                "name": "İnce Tasarım",
                 "image": "motorizzati-slim.png",
                 "pdf": "slim.pdf"
               },
               {
-                "name": "More...",
+                "name": "Diğer...",
                 "image": "motorizzati-more.png",
                 "pdf": "more.pdf"
               }
@@ -612,16 +1511,826 @@
         "title": "Hız Arttırıcılar",
         "routerLink": "hiz-arttiricilar",
         "image": "speed-increasers.png",
-        "details" : [
+        "details": [
           {
             "name": "Hız Arttırıcılar",
             "routerLink": "hiz-arttiricilar",
             "image": "speed-increasers.png",
+            "baseImage": "hiz-arttiricilar.jpeg",
             "products": [
               {
                 "name": "Hız Arttırıcılar",
                 "image": "speed-increasers.png",
                 "pdf": "speed-increasers.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "H-bilz",
+    "headerImage": "assets/images/products/h-bilz/h-bilz.png",
+    "headerText": "YÜKSEK HASSASİYETLİ DELİK İŞLEME TAKIMLARI",
+    "headerBackground": "h-bilz-bg",
+    "bodyHeader": "NEDEN HERMAN BILZ KULLANILMALI?",
+    "contentBackground": "h-bilz-body",
+    "contentHeader": "VIMAxX Nedir?",
+    "contentText": "VimaxX başka hiçbir enerjiye ihtiyaç duymadan, sadece basınçlı hava kullanılarak, ani soğuk/sıcak hava elde etmeye yarayan bir aparattır. Ancak mevcut ürün soğutma ağırlıklı olarak geliştirildiğinden ısıtma olarak kullanımı verimli değildir.",
+    "secondContentHeader": "VIMAxX - R30 ÜRÜN ÖZELLİKLERİ",
+    "secondContentText": "\n–İşletmenizde kullanılan havanın basınç seviyesine (en az 6Bar olmalıdır), Havanın temizlğine ve kuruluğuna bağlı olarak t:50° varan sıcaklık dönüşümü,\n- Yaklaşık 2800 Btu, soğutma verimliliği\n-300 bar'a dayanan hafif, portatif ve hareketsiz parçalardan meydana getirilmiş yapı\n-Elektrik, freon gazı, kimyasal kullanımı olmaksızın çalışma\n-Manyetik ortamdan etkilenmeme\n-Çok hızlı devreye girip, kolayca çıkabilme, temizlik ve bakım gerektirmeden çalışma.",
+    "img": "h-bilz.png",
+    "hoverImg": "h-bilz.png",
+    "routerLink": "h-bilz",
+    "detailBackground": "h-bilz-detail-bg",
+    "products": [
+      {
+        "name": "Delme",
+        "title": "Delme",
+        "routerLink": "delme",
+        "image": "drilling.png",
+        "marginTop": 1,
+        "details": [
+          {
+            "name": "BILZ-RAPID",
+            "routerLink": "bilz-rapid",
+            "image": "ubersicht.png",
+            "description": [
+              {
+                "text": "- Ø5-25 mm çap"
+              },
+              {
+                "text": "- 140° veya 180° matkap ucu"
+              },
+              {
+                "text": "- Kademeli/kademesiz spiral oluklu matkap"
+              },
+              {
+                "text": "- Alüminyum/ döküm/ çelik"
+              },
+              {
+                "text": "- Kaplamaya bağlı uzun ömür"
+              }
+            ]
+          },
+          {
+            "name": "FLEXISPEED",
+            "routerLink": "flexispeed",
+            "image": "csm_flexi_db4476b44c.png",
+            "description": [
+              {
+                "text": "- Ø18-39 mm çap"
+              },
+              {
+                "text": "- Merkez kesici ve simetrik olarak yerleştirilmiş değiştirilebilir kesici uçlar aracılığıyla kendi kendine merkezleme"
+              },
+              {
+                "text": "- Merkezdeki HSSe kesici sayesinde yüksek mukavemet"
+              },
+              {
+                "text": "- Çift uç sayesinde yüksek kesme hızı"
+              },
+              {
+                "text": "- Hassas toleranslar (H11)"
+              },
+              {
+                "text": "- Uçlardaki kılavuz pahlar sayesinde düz delikler"
+              },
+              {
+                "text": "- Üniversal Karbür ve HSS uçlarla kullanılabilme"
+              },
+              {
+                "text": "- Dengesiz koşullarda da kullanılabilme"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "POWERBORE",
+            "routerLink": "powerbore",
+            "image": "KSBPowerbore 1.png",
+            "description": [
+              {
+                "text": "- Ø39-160 mm çap"
+              },
+              {
+                "text": "- Düşük tork gücü gereksinimi için çok pozitif talaş açısı"
+              },
+              {
+                "text": "- Uçların örtüşmesi nedeniyle yüksek ilerleme hızı"
+              },
+              {
+                "text": "- Sert ve bölünmemiş tutucu ile yüksek performans"
+              },
+              {
+                "text": "- Hassas toleranslar (H11)"
+              },
+              {
+                "text": "- Dış uçlardaki kılavuz pahlar sayesinde düz delik"
+              },
+              {
+                "text": "- Eğimli delik çıkışları ve kesme kesintileri oluşmaması için kılavuz plakaları (KSB03)"
+              },
+              {
+                "text": "- Üniversal Karbür ve HSS uçlarla kullanılabilme"
+              },
+              {
+                "text": "- Dengesiz koşullarda da kullanılabilme"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          }
+        ]
+      },
+      {
+        "name": "Değişebilir Uçlar",
+        "title": "Değişebilir Uçlar",
+        "routerLink": "degisebilir-uclar",
+        "marginTop": 1,
+        "image": "inserts.png",
+        "details": [
+          {
+            "name": "Standard Indexable Inserts",
+            "routerLink": "standard-indexable-inserts",
+            "image": "Standard-Indexable-Inserts.png",
+            "description": "type",
+            "products": [
+              {
+                "name": "ACEX _ _ _ _ _ _ FRH _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking with up to 25 mm cutting width"
+                  },
+                  {
+                    "text": "⋅ 2 ground chip breakers"
+                  }
+                ],
+                "image": "csm_ACEX-test.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "CPHX _ _ _ _ _ _ L _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking for aluminum alloys"
+                  },
+                  {
+                    "text": "⋅ 2 ground chip breakers"
+                  }
+                ],
+                "image": "csm_CPHXLAK1_b97ca587ab.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "LCHX / LCEX _ _ _ _ _ _ FRH _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking with up to 30 mm cutting width"
+                  },
+                  {
+                    "text": "⋅ 2 ground chip breakers"
+                  }
+                ],
+                "image": "csm_LCEXFRZK1_32a71bc08f.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "LCHX / LCEX _ _ _ _ _ _ FRZ _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking with guide chamfers and up to 30 mm cutting width"
+                  },
+                  {
+                    "text": "⋅ 2 ground chip breakers"
+                  }
+                ],
+                "image": "csm_LCEXFRZK1_b73bc2f729.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "MCEX _ _ _ _ _ _ FRH _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking"
+                  },
+                  {
+                    "text": "⋅ 2 ground chip breakers"
+                  }
+                ],
+                "image": "csm_MCEX-klein_b989595049.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHW _ _ _ _ _ _ FN _ _",
+                "description": [
+                  {
+                    "text": "⋅ spotfacing and milling"
+                  },
+                  {
+                    "text": "⋅ without chip breakers"
+                  }
+                ],
+                "image": "csm_SCHWFNK1_5d391de04d.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHX _ _ _ _ _ _ FN1 _ _",
+                "description": [
+                  {
+                    "text": "⋅ spotfacing and milling"
+                  },
+                  {
+                    "text": "⋅ 4 ground chips breakers"
+                  }
+                ],
+                "image": "csm_SCHXFN1K1_2c8d029c4c.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCMX _ _ _ _ _ _ ER _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking"
+                  },
+                  {
+                    "text": "⋅ 4 sintered chips breakers"
+                  }
+                ],
+                "image": "csm_SCMXERU9_bc4f9d4d7d.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHW _ _ _ _ _ _ ACFRH _ _",
+                "description": [
+                  {
+                    "text": "⋅ reboring and reaming for cutting width  < 0,5"
+                  },
+                  {
+                    "text": "⋅ without chip breakers"
+                  }
+                ],
+                "image": "csm_SCHWACRZK9_9573816b52-1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHW _ _ _ _ _ _  ACRFRZ _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ reboring and reaming with guide chamfers for cutting width < 0,5"
+                  },
+                  {
+                    "text": "⋅ without chip breakers\n"
+                  }
+                ],
+                "image": "csm_SCHWACRZK9_9573816b52.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHX _ _ _ _ _ _ FRH _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking\n"
+                  },
+                  {
+                    "text": "⋅ 2 ground chips breakers\n"
+                  }
+                ],
+                "image": "csm_SCHXFRZK1_6ec1f8fe86-1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHX _ _ _ _ _ _ FRZ _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ reboring and countersinking with guide chamfers\n"
+                  },
+                  {
+                    "text": "⋅ 2 ground chips breakers\n"
+                  }
+                ],
+                "image": "csm_SCHXFRZK1_6ec1f8fe86.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "TCEW _ _ _ _ _ _ FN _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ chamfering, countersinking and reboring\n"
+                  },
+                  {
+                    "text": "⋅ without chips breakers\n"
+                  }
+                ],
+                "image": "csm_TCEWFNK1_5a22d0782a.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "TCEX _ _ _ _ _ _ FL / FR _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ chamfering, countersinking and reboring\n"
+                  },
+                  {
+                    "text": "⋅ 3 ground chips breakers\n"
+                  }
+                ],
+                "image": "csm_TCEXFLK1_a0b7795221.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "XDCW _ _ _ _ _ _ _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ chamfering, countersinking and reboring\n"
+                  },
+                  {
+                    "text": "⋅ without chips breakers\n"
+                  }
+                ],
+                "image": "csm_XDCWK1_3eb39c587c.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "XBHX _ _ _ _ _ _ FR3 _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ boring and reboring\n"
+                  },
+                  {
+                    "text": "⋅ 2 high positive ground chips breakers\n"
+                  }
+                ],
+                "image": "csm_XCEXFRZK1_0887c3cfd6-1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "XBHX _ _ _ _ _ _ FR7 _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ boring and reboring\n"
+                  },
+                  {
+                    "text": "⋅ 2 ground chips breakers  for short chips\n"
+                  }
+                ],
+                "image": "csm_XCEXFRZK1_0887c3cfd6.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "XCEX _ _ _ _ _ _ FRZ _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ boring and reboring with guide chamfers\n"
+                  },
+                  {
+                    "text": "⋅ 2 ground chips breakers\n"
+                  }
+                ],
+                "image": "XBHX-1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "XCEX _ _ _ _ _ _ FRZ4 _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ boring and reboring with guide chamfers\n"
+                  },
+                  {
+                    "text": "⋅ 2 ground  chips breakers and chip splitter\n"
+                  }
+                ],
+                "image": "XBHX.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              }
+            ]
+          },
+          {
+            "name": "ISO - Indexable Inserts",
+            "routerLink": "iso-indexable-inserts",
+            "image": "ISO-Indexable-Inserts.png",
+            "description": "type",
+            "products": [
+              {
+                "name": "CCMT _ _ _ _ _ _ _ _ /CPGT _ _ _ _ _ _ _ _",
+                "description": [
+                  {
+                    "text": "⋅ countersinking, reboring, boring and milling"
+                  },
+                  {
+                    "text": "⋅ 4 sintered chip breakers"
+                  }
+                ],
+                "image": "CPGTP2 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "MCMT _ _ _ _ _ _ EN _ _",
+                "description": [
+                  {
+                    "text": "⋅ countersinking, reboring and milling\n"
+                  },
+                  {
+                    "text": "⋅ 4 sintered chip breakers"
+                  }
+                ],
+                "image": "MCMT 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCMT _ _ _ _ _ _ EN _ _\n",
+                "description": [
+                  {
+                    "text": "⋅ spotfacing and milling"
+                  },
+                  {
+                    "text": "⋅ 4 sintered chip breakers"
+                  }
+                ],
+                "image": "SCMTENP2 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "TCMT _ _ _ _ _ _ EN _ _",
+                "description": [
+                  {
+                    "text": "⋅ chamfering, countersinking and reboring\n"
+                  },
+                  {
+                    "text": "⋅ 3 sintered chip breakers\n"
+                  }
+                ],
+                "image": "TCMT 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              }
+            ]
+          },
+          {
+            "name": "PCD-Inserts",
+            "routerLink": "pcd-inserts",
+            "image": "PCD-Inserts.png",
+            "description": "type",
+            "products": [
+              {
+                "name": "MCEW _ _ _ _ _ _ FR5D1",
+                "description": [
+                  {
+                    "text": "⋅ countersinking, reboring and boring of aluminum alloys"
+                  }
+                ],
+                "image": "MCEWFR5D1 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHW _ _ _ _ _ _ FR5D1",
+                "description": [
+                  {
+                    "text": "⋅ countersinking, reboring and boring of aluminum alloys"
+                  }
+                ],
+                "image": "SCHWFR5D1 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              },
+              {
+                "name": "SCHW _ _ _ _ _ _ FRHD1",
+                "description": [
+                  {
+                    "text": "⋅ Countersinking, reboring and reaming of aluminum alloys\n"
+                  },
+                  {
+                    "text": "⋅ max. cutting width 3,5 mm\n"
+                  }
+                ],
+                "image": "csm_SCHWFRHD1_3f3d168d9b 1.png",
+                "pdf": "HERMAN-BILZ-EK-PDF.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Havşalama",
+        "title": "Havşalama",
+        "routerLink": "havaslama",
+        "marginTop": 1,
+        "image": "counterboring.png",
+        "details": [
+          {
+            "name": "BILZ-Counterbore A-HSS",
+            "routerLink": "a-hss",
+            "image": "AW-senker.png",
+            "description": [
+              {
+                "text": "- Dönen pilotlu ve pilotsuz birçok takım tezgahında üniversal olarak kullanılabilir"
+              },
+              {
+                "text": "- Çoklu yeniden taşlanabilirlik sayesinde uzun takım ömrü"
+              },
+              {
+                "text": "- 25° sırasıyla 30° talaş açısına sahip üç sırasıyla dört kesme kenarı (D>=18), düşük kesme kuvvetlerinde yüksek talaş kaldırma oranları sunar."
+              },
+              {
+                "text": "- Yaklaşık 800 N/mm²'ye kadar sert çelik, alüminyum ve bakır alaşımlarındaki vida başlı havşaların punta kaplaması ve havşası için özellikle uygundur."
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "BILZ-Counterbore A-HM",
+            "routerLink": "a-hm",
+            "image": "A-HSS3.png",
+            "description": [
+              {
+                "text": "- Gri dökme demir, pirinç ve alüminyum gibi sert ve tok, kırılgan ve kısa talaş oluşturan malzemeler için"
+              },
+              {
+                "text": "- 8° sırasıyla 12° talaş açısına sahip üç kesme kenarı (D>=9)"
+              },
+              {
+                "text": "- Yüksek aşınma direncine sahip ince taneli karbür"
+              },
+              {
+                "text": "- Çoklu yeniden taşlanabilirlik sayesinde uzun takım ömrü"
+              },
+              {
+                "text": "- Dönen pilotlu ve pilotsuz birçok takım tezgahında üniversal olarak kullanılabilir"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "BILZ-Counterbore AW",
+            "routerLink": "aw",
+            "image": "A-HM.png",
+            "description": [
+              {
+                "text": "- Her tür malzemede vida başlı havşaların punta kaplaması ve havşası için özellikle uygundur."
+              },
+              {
+                "text": "- Farklı geometrilere ve kaplamalara sahip karbür, sermet ve HSS-E-uçlar için üç kesici uç yuvası"
+              },
+              {
+                "text": "- Kesici uçlardaki (...Z...) yuvarlak taşlanmış kılavuz pahlar, çatırtıyı önler, delik yüzeyini parlatır ve dar toleranslara izin verir (IT9-11)"
+              },
+              {
+                "text": "- Dönen pilotlu ve pilotsuz birçok takım tezgahında üniversal olarak kullanılabilir"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          }
+        ]
+      },
+      {
+        "name": "Geri Havşalama",
+        "title": "Geri Havşalama",
+        "routerLink": "geri-havaslama",
+        "image": "backcounterboring.png",
+        "marginTop": 1,
+        "details": [
+          {
+            "name": "REVERSE BORING BAR RBS-MICRO RBSM",
+            "routerLink": "rbsm",
+            "image": "rueckwarts_rbs-micro.png",
+            "description": [
+              {
+                "text": "- M3'ten M6'ya kadar havşa açmak için"
+              },
+              {
+                "text": "- 1,9×D'ye kadar havşa açma mümkün olacaktır"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "REVERSE BORING BAR RBU",
+            "routerLink": "rbu",
+            "image": "rueckwarts_rbs_.png",
+            "description": [
+              {
+                "text": "- Zor erişilen alanlarda nokta düzeltme, pah kırma ve derin havşa açma için"
+              },
+              {
+                "text": "- RBS+, yüzey işlemi ve FEM için optimize edilmiş geometri ile çok kararlı ve rijittir"
+              },
+              {
+                "text": "- d=18'den itibaren RFS ve RBS+ için içten soğutma sıvısı"
+              },
+              {
+                "text": "- Geniş farklı PCD-, karbür- ve HSS değiştirilebilir kesici uç seçenekleri"
+              },
+              {
+                "text": "- Yeni RBU, optimize edilmiş kesme kenarı konumu sayesinde çok daha yüksek bir stabilite sunar"
+              },
+              {
+                "text": "- Özel istekler için"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "REVERSE COUNTERBORE SYSTEM TU",
+            "routerLink": "system-tu",
+            "image": "rueckwarts_tu.png",
+            "description": [
+              {
+                "text": "- Manuel olarak çalıştırılan tersine işleme"
+              },
+              {
+                "text": "- Tüm makine tiplerinde evrensel olarak uygulanabilir"
+              },
+              {
+                "text": "- Büyük kesme genişliği (2,5 D'ye kadar)"
+              },
+              {
+                "text": "- Hızlı ve güvenilir manuel alet değişimi için düz süngü"
+              },
+              {
+                "text": "- Birden fazla yeniden öğütme mümkündür"
+              },
+              {
+                "text": "- Havşa ve tutucuların çeşitli çap kombinasyonları"
+              },
+              {
+                "text": "- Aynı temel tutucu (TUHW) artı ayarlanmış kılavuz kovanlar (TUB) birkaç kılavuz çapını kapsayabilir"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "Autofacer AFA",
+            "routerLink": "afa",
+            "image": "_PST5557.png",
+            "description": [
+              {
+                "text": "- İhtiyaçlarınıza göre size özel tasarım"
+              },
+              {
+                "text": "- Mil dönüşünü hızlı bir şekilde tersine çevirirken volanın ataletiyle kolay ve güvenli aktivasyon"
+              },
+              {
+                "text": "- Otomatik (ileri ve geri) punta düzeltme, havşa açma, pah kırma"
+              },
+              {
+                "text": "- Büyük kesme genişliği (2,2×D'ye kadar, D1 = 12,5'ten itibaren)"
+              },
+              {
+                "text": "- Hızlı hızlanan milli tüm makinelerde uygulanabilir"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "REVERSE CHAMFERING BAR RFS",
+            "routerLink": "rfs",
+            "image": "rueckwarts_rfs.png",
+            "description": [
+              {
+                "text": "- Delik çıkışlarının tanımlanmış pah kırması için"
+              },
+              {
+                "text": "- Yüksek malzeme mukavemeti ve gövdenin geniş enine kesiti, diğer üretim süreçlerine göre önemli ölçüde daha yüksek kesme değerleri sağlar"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          },
+          {
+            "name": "UNIMILL FUN",
+            "routerLink": "unimill-fun",
+            "image": "rueckwarts_unimill.png",
+            "description": [
+              {
+                "text": "- Ø 3,3 mm'den itibaren açık deliklerin çift taraflı çapaklarının alınması için üniversal pah kırma aleti"
+              },
+              {
+                "text": "- X-CEED kaplama sayesinde yüksek aşınma direnci"
+              },
+              {
+                "text": "- Mikro tanecikli karbür sayesinde yüksek tokluk"
+              },
+              {
+                "text": "- Kuru ve ıslak işleme için"
+              },
+              {
+                "text": "- 4 pah için işleme süresi %80 azaltılarak 5 saniyeye indirildi!"
+              }
+            ],
+            "pdf": "var",
+            "pdfSize": "var"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vimaxx",
+    "headerImage": "assets/images/products/vimaxx/vimaxx.png",
+    "headerBackground": "vimaxx-bg",
+    "headerTitleColor": "vimaxx-title-color",
+    "bodyHeader": "NEDEN VIMAXX KULLANILMALI?",
+    "headerText": "SOĞUK HAVA APARATI",
+    "contentBackground": "vimaxx-body",
+    "contentHeader": "VIMAxX NEDİR?",
+    "contentText": "VimaxX başka hiçbir enerjiye ihtiyaç duymadan, sadece basınçlı hava kullanılarak, ani soğuk/sıcak hava elde etmeye yarayan bir aparattır. Ancak mevcut ürün soğutma ağırlıklı olarak geliştirildiğinden ısıtma olarak kullanımı verimli değildir.",
+    "contentHeader1": "ÇALIŞMA PRENSBİBİ",
+    "contentText1": "İşletmenizde(en az 6Bar olması tercih edilen) basınçlı hava Çap 10mm'lik bir hortumla VimaxX soğuk hava girişine bağlanarak havayı her iki yönden sıcak ve soğuk olarak ayrıştırır. Sıcaklık hava tarafındaki ayar vanasından debi ayarlamaları ile limit içindeki istenen sıcaklık değerlerine ulaşılır.",
+    "paragraphs": [
+      {
+        "text": "NOT: Ölçülmesi istenen taraftaki çıkış debisi azaltıldıkça ulaşılması istenen maksimum sıcaklık veya soğukluk değerlerine ulaşılır."
+      }
+    ],
+    "secondContentHeader": "VIMAXX - R30 ÜRÜN ÖZELLİKLERİ",
+    "secondParagraphs": [
+      {
+        "text": "–İşletmenizde kullanılan havanın basınç seviyesine (en az 6Bar olmalıdır)"
+      },
+      {
+        "text": "–Havanın temizlğine ve kuruluğuna bağlı olarak t:50° varan sıcaklık dönüşümü"
+      },
+      {
+        "text": "–Yaklaşık 2800 Btu, soğutma verimliliği"
+      },
+      {
+        "text": "–300 bar'a dayanan hafif, portatif ve hareketsiz parçalardan meydana getirilmiş yapı"
+      },
+      {
+        "text": "–Elektrik, freon gazı, kimyasal kullanımı olmaksızın çalışma"
+      },
+      {
+        "text": "–Manyetik ortamdan etkilenmeme"
+      },
+      {
+        "text": "–Çok hızlı devreye girip, kolayca çıkabilme, temizlik ve bakım gerektirmeden çalışma."
+      }
+    ],
+    "img": "vimaxx.png",
+    "hoverImg": "vimaxx.png",
+    "routerLink": "vimaxx",
+    "detailBackground": "vimaxx-detail-bg",
+    "products": [
+      {
+        "name": "VIMAxX-R30",
+        "title": "SOĞUK HAVA APARATI",
+        "routerLink": "VIMAxX-R30",
+        "image": "vimaxx-sicak-soguk.png",
+        "details": [
+          {
+            "name": "VIMAxX-R30",
+            "routerLink": "VIMAxX-R30",
+            "image": "vimaxx-sicak-soguk.png",
+            "videos": [
+              {
+                "url": "VimaxX-Animasyon.mp4",
+                "type": "mp4"
+              },
+              {
+                "url": "vimaxx.gif",
+                "type": "gif"
+              }
+            ],
+            "pdf": "VIMAXX_BROSUR.pdf",
+            "pdfSize": "2.7MB",
+            "description": [
+              {
+                "text": "SOĞUTMA UYGULAMA YERLERİ",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Metal ve plastik talaşlı imalatlarda takım/parça soğutma (örneğin; torna, frezeleme, taşlama, testere vd. uygulamalarda) "
+              },
+              {
+                "text": "- Elektrik panolarında,"
+              },
+              {
+                "text": "- Kalıp araçları ve benzeri alanlarda,"
+              }
+              ,
+              {
+                "text": "- Lehimleme ve kaynak işlerinde,"
+              },
+              {
+                "text": "- Tahta işlemelerinde,"
+              },
+              {
+                "text": "- Laboratuvarlarda,"
+              },
+              {
+                "text": "- Soğutma ve kurutma gaz uygulamalarında,"
+              },
+              {
+                "text": "- Yapıştırma uygulamalarında,"
+              },
+              {
+                "text": "- Elektrik / Elektronik kontrolde ortam soğutmada."
               }
              ]
           }
@@ -630,31 +2339,42 @@
     ]
   },
   {
-    "name": "H-bilz",
-    "headerImage" : "assets/images/products/h-bilz.png",
-    "img": "h-bilz.png",
-    "hoverImg": "h-bilz.png",
-    "routerLink": "h-bilz"
-  },
-  {
-    "name": "Vimaxx",
-    "headerImage" : "assets/images/products/vimaxx.png",
-    "img": "vimaxx.png",
-    "hoverImg": "vimaxx.png",
-    "routerLink": "vimaxx"
-  },
-  {
     "name": "Xebec",
-    "headerImage" : "assets/images/products/xebec/xebec.png",
+    "headerImage": "assets/images/products/xebec/xebec.png",
     "headerBackground": "xebec-bg",
-    "headerColor" : "black",
-    "headerText" : "YÜZEY TEMİZLEME VE\n KENAR ÇAPAK ALMA FIRÇALARI",
-    "bodyHeader" : "NEDEN XEBEC TUTUCU KULLANILMALI?",
+    "headerColor": "black",
+    "headerText": "YÜZEY TEMİZLEME VE\n KENAR ÇAPAK ALMA FIRÇALARI",
+    "bodyHeader": "NEDEN XEBEC TUTUCU KULLANILMALI?",
     "contentBackground": "xebec-body",
-    "contentHeader" : "XEBEC",
-    "contentText" : "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
-    "secondContentHeader" : "ÜRÜN ÖZELLİKLERİ",
-    "secondContentText" : "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n– Fırçanın şeklinin bozulmaması\n– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n– Kesici ağızların kendi kendini bileme özelliği\n– Nylon fırçaya göre 60 misline varan taşlama gücü\n– Üstün su geçirmez özelliği\n– Tezgahta ve robotik sistemlerde kullanma avantajı.",
+    "contentHeader": "XEBEC",
+    "contentText": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
+    "secondParagraphs": [
+      {
+        "text": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme"
+      },
+      {
+        "text": "– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemes"
+      },
+      {
+        "text": "– Fırçanın şeklinin bozulmaması"
+      },
+      {
+        "text": "– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)"
+      },
+      {
+        "text": "– Kesici ağızların kendi kendini bileme özelliği"
+      },
+      {
+        "text": "– Nylon fırçaya göre 60 misline varan taşlama gücü"
+      },
+      {
+        "text": "– Üstün su geçirmez özelliği"
+      },
+      {
+        "text": "– Tezgahta ve robotik sistemlerde kullanma avantajı."
+      }
+    ],
     "img": "xebec.png",
     "hoverImg": "xebec.png",
     "routerLink": "xebec",
@@ -665,7 +2385,7 @@
         "routerLink": "select-by-problem",
         "image": "bg_nayami.png",
         "description": "type",
-        "details" : [
+        "details": [
           {
             "name": "Brush™ Surface",
             "routerLink": "surface",
@@ -774,16 +2494,206 @@
       },
       {
         "name": "Select by Product Type",
-        "routerLink": "standart-coklu-kafalar",
+        "routerLink": "select-by-product-type",
+        "title": "YÜZEY TEMİZLEME VE KENAR ÇAPAK ALMA FIRÇALARI",
         "image": "bg_products_main 1.png",
-        "details" : [
+        "details": [
+          {
+            "name": "XEBEC Fırça™",
+            "routerLink": "xebec-firca",
+            "image": "Brush.png",
+            "description": [
+              {
+                "text": "CNC makinenizde çapak alma ve cilalamayı otomatikleştirin"
+              },
+              {
+                "text": "- XEBEC Brush, aşındırıcı tanecik yerine benzersiz aşındırıcı seramik fiber malzeme kullanır."
+              },
+              {
+                "text": "- Her kıl, kesici kenar görevi gören 1.000 seramik elyaftan oluşur."
+              },
+              {
+                "text": "- Ezici taşlama gücü, Tutarlı kesme performansı, Deformasyon yok."
+              },
+              {
+                "text": "- Aynı takım tezgahında frezeleme ve işleme operasyonlarından hemen sonra CNC çapak gidermeye olanak sağlar."
+              }
+            ],
+            "carousel": [
+              {
+                "name": "XEBEC Fırça™ Yüzey",
+                "image": "yuzey.jpg",
+                "description": "Çapak alma, kesici izi giderme ve yüzey parlatma için ideal",
+                "routerLink": "yuzey"
+              },
+              {
+                "name": "XEBEC Fırça™ Yüzey Sonu Tipi",
+                "image": "yuzey-sonu-tipi.jpg",
+                "description": "Yüksek devirde pnömatik aletlerle kullanıma uygun",
+                "routerLink": "yuzey-sonu-tipi"
+              },
+              {
+                "name": "XEBEC Brush™ Ekstra Geniş Yüzey",
+                "image": "ekstra-genis-yuzey.jpg",
+                "description": "100 mm veya daha fazla genişlikte çapak alma, kesici izi giderme ve yüzey parlatma için ideal",
+                "routerLink": "ekstra-genis-yuzey"
+              },
+              {
+                "name": "XEBEC Brush™ Tekerlek Tipi",
+                "image": "tekerlek-tipi.jpg",
+                "description": "İç çapların, yan duvarların ve dış diş çaplarının çapaklarının alınması ve parlatılması için ideal",
+                "routerLink": "tekerlek-tipi"
+              },
+              {
+                "name": "XEBEC Brush™ Çapraz Delik",
+                "image": "capraz-delik.jpg",
+                "description": "φ20'ye kadar iç çaplarda ve havşalarda çapak alma, parlatma ve kesici izlerini gidermek için ideal",
+                "routerLink": "capraz-delik"
+              },
+              {
+                "name": "XEBEC Brush™ Çapraz Delik Ekstra Büyük",
+                "image": "capraz-delik-ekstra-buyuk.jpg",
+                "description": "φ20 ve φ35 arasındaki iç çaplar ve havşalardaki çapak alma, parlatma ve kesici izlerini gidermek için ideal",
+                "routerLink": "capraz-delik-ekstra-buyuk"
+              },
+              {
+                "name": "XEBEC Brush™ Çapraz Delik Ekstra Uzun",
+                "image": "capraz-delik-ekstra-uzun.jpg",
+                "description": "İç çaplarda ve derinliği 150 mm'yi geçen havşalarda çapak alma, parlatma ve kesici izlerini gidermek için ideal",
+                "routerLink": "capraz-delik-ekstra-uzun"
+              },
+              {
+                "name": "XEBEC Kendinden Ayarlı Kılıf™",
+                "image": "kendinden-ayarli-kilif.jpg",
+                "description": "İnsan hatalarını önlemeye ve tutarlı işleme performansı elde etmeye yardımcı olur.",
+                "routerLink": "kendinden-ayarli-kilif"
+              },
+              {
+                "name": "XEBEC Yüzer Tutucu™ Düz Şaft Tipi",
+                "image": "yuzer-tutucu-duz-saft-tipi.jpg",
+                "description": "Yerleşik yay, Fırça projeksiyon uzunluğunu sık sık ayarlama ihtiyacını azaltırken tutarlı performans sağlayan sabit yükün korunmasına yardımcı olur.",
+                "routerLink": "yuzer-tutucu-duz-saft-tipi"
+              },
+              {
+                "name": "XEBEC Yüzer Tutucu™ BT Şaft Tipi",
+                "image": "yuzer-tutucu-bt-saft-tipi.jpg",
+                "description": "Yerleşik yay, Fırça projeksiyon uzunluğunu sık sık ayarlama ihtiyacını azaltırken tutarlı performans sağlayan sabit yükün korunmasına yardımcı olur.",
+                "routerLink": "yuzer-tutucu-bt-saft-tipi"
+              },
+              {
+                "name": "XEBEC Kısa BT Tutucu",
+                "image": "kisa-bt-tutucu.jpg",
+                "description": "Gösterge hattının altındaki uzunluğu kompakt alet tutucu.",
+                "routerLink": "kisa-bt-tutucu"
+              },
+              {
+                "name": "XEBEC Fırça Uzunluğu Ayarlama Aracı™",
+                "image": "firca-uzunlugu-ayarlama-araci.jpg",
+                "description": "Fırça projeksiyon uzunluğunu kolayca ayarlamak için araç",
+                "routerLink": "firca-uzunlugu-ayarlama-araci"
+              }
+            ]
+          },
+          {
+            "name": "XEBEC Geri Çapak Kesici ve Yol™",
+            "routerLink": "geri-capak-kesici-ve-yol",
+            "image": "Back-Burr-Cutter and-Path.png",
+            "description": [
+              {
+                "text": "Küresel çapak alma bıçağı ve özel yapım takım yolu"
+              },
+              {
+                "text": "Küresel çapak alma kesicisi ve özel yapım Yol (NC takım yolu) ile birlikte, takım ömrünü en üst düzeye çıkarırken karmaşık 3D kavisli kenarların yüksek hızda, yüksek hassasiyette çapak almasını sağlayan yenilikçi bir CNC çapraz delik çapak alma çözümü. Yol, NC programına eklendikten hemen sonra kullanılabilir ve optimum takım yolunu oluşturmak zorunda kalmadan zamandan büyük ölçüde tasarruf sağlar."
+              }
+            ],
+            "carousel": [
+              {
+                "name": "XEBEC Geri Çapak Kesici ve Yol™",
+                "image": "geri-capak-kesici-ve-yol.jpg",
+                "description": "3D kavisli çapraz deliklerin yüksek hassasiyetle çapak alma işlemi için optimum çözüm",
+                "routerLink": "geri-capak-kesici-ve-yol"
+              }
+            ]
+          },
+          {
+            "name": "XEBEC Seramik Taş™",
+            "routerLink": "seramik-tas",
+            "image": "Stone.png",
+            "description": [
+              {
+                "text": "Eşsiz seramik elyaftan yapılmıştır."
+              },
+              {
+                "text": "- Kırılma,Çatlama,Çürüme Yok"
+              },
+              {
+                "text": "- XEBEC Ceramic Stone, aşındırıcı tanecikler yerine orijinal aşındırıcı seramik fiber malzemeyi kullanır."
+              }
+            ],
+            "carousel": [
+              {
+                "name": "XEBEC Geri Çapak Kesici ve Yol™",
+                "image": "geri-capak-kesici-ve-yol.jpg",
+                "description": "3D kavisli çapraz deliklerin yüksek hassasiyetle çapak alma işlemi için optimum çözüm",
+                "routerLink": "geri-capak-kesici-ve-yol"
+              },
+              {
+                "name": "XEBEC Stone™ Montaj Noktası",
+                "image": "montaj-noktasi.jpg",
+                "description": "Yüksek devirde pnömatik aletlerle kullanıma uygun",
+                "routerLink": "montaj-noktasi"
+              },
+              {
+                "name": "XEBEC Ceramic Stone™ Meister Finish",
+                "image": "meister-finish.jpg",
+                "description": "Kalıpların ve haddelerin parlatılması ve çapaklarının alınması için idealdir.",
+                "routerLink": "meister-finish"
+              },
+              {
+                "name": "XEBEC Ceramic Stone™ Isıya Dayanıklı",
+                "image": "isiya-dayanikli.jpg",
+                "description": "200°C'ye kadar ısıya dayanıklı ve ultrasonik aletle sürekli kullanıma uygun",
+                "routerLink": "isiya-dayanikli"
+              },
+              {
+                "name": "XEBEC Seramik Taş™ Elmas",
+                "image": "elmas.jpg",
+                "description": "Semente karbür ve sertleştirilmiş çelik (SKD, STAVAX, vb.) gibi HRC57'den daha sert malzemeler için uygundur.",
+                "routerLink": "elmas"
+              },
+              {
+                "name": "XEBEC Ceramic Stone™ Yumuşak",
+                "image": "yumusak.jpg",
+                "description": "Kauçuk bağlayıcı, yumuşak temas sağlar ve bir iş parçasına sığar",
+                "routerLink": "yumusak"
+              },
+              {
+                "name": "XEBEC Ceramic Stone™ Kalem",
+                "image": "kalem.jpg",
+                "description": "Kalıbın oyulmuş ve dar detaylarının parlatılması ve çapaklarının alınması için ideal",
+                "routerLink": "kalem"
+              },
+              {
+                "name": "XEBEC Ceramic Stone™ İçin Çubuk Tutucu™",
+                "image": "cubuk-tutucu.jpg",
+                "description": "",
+                "routerLink": "cubuk-tutucu"
+              },
+              {
+                "name": "Mobil Mikromotor Sistemi",
+                "image": "mobil-mikromotor-sistemi.jpg",
+                "description": "Güç kaynağının bulunmadığı iş istasyonlarında kullanışlı olan pille çalışan döner alet.\nEl aleti ultra hafiftir, yorulmaya neden olmadan manuel kullanım için idealdir.",
+                "routerLink": "mobil-mikromotor-sistemi"
+              }
+            ]
+          }
         ]
       },
       {
-        "name": "Select by Application",
-        "routerLink": "tahrikli-kafalar",
+        "name": "SELECT BY APPLICATION",
+        "routerLink": "select-by-application",
         "image": "bg_case.png",
-        "details" : [
+        "details": [
         ]
       }
     ]
