@@ -56,8 +56,8 @@
                              [routerLink]="'/detail/'+data.routerLink"
                              alt="">
                         <p class="text-center my-3 text-uppercase fw-bolder"
-                           style="cursor: pointer"
-                           [ngClass]="brandProduct?.routerLink=='mpa'?'mpa-max-width':''">
+                           style="cursor: pointer;"
+                           [ngClass]="brandProduct.routerLink!=='vimaxx'?'max-width-300':''">
                             {{data.name}}
                         </p>
                     </div>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div *ngIf="brandProduct?.secondContentHeader"
+                    <div *ngIf="brandProduct?.secondContentHeader || brandProduct?.secondParagraphs"
                          class="content-body {{brandProduct?.contentBackground}}">
                         <p class="text-center fw-bolder">
                             {{brandProduct?.secondContentHeader}}
@@ -98,7 +98,7 @@
                             {{paragraph.text}}
                         </p>
                     </div>
-                    <div *ngIf="!brandProduct?.secondContentHeader"
+                    <div *ngIf="!brandProduct?.secondContentHeader && !brandProduct?.secondParagraphs"
                          style="background-color: #BDBBB5"
                          class="content-body p-0">
                         <div class="row m-0" style="height: 100%">

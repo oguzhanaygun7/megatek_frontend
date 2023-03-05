@@ -58,8 +58,8 @@ h1{
 }
 
 .product-card {
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: center;
+  gap: 2.5rem;
   z-index: 0;
   align-items: end
 }
@@ -74,4 +74,8 @@ h1{
   color: #CD1719 !important;
   margin-top: 1rem !important;
   font-size: 30px !important;
+}
+
+.max-width-300 {
+  max-width: 300px
 }

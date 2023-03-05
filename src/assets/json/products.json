@@ -381,7 +381,7 @@
             "name": "SENSITIVE DRILL-FEED",
             "routerLink": "sensitive-drill-feed",
             "image": "csm_Feinbohrhilfe_31ab11f331.png",
-            "images":  [
+            "images": [
               {
                 "url": "mk1 dın228.png",
                 "name": "MK1 DIN228"
@@ -398,7 +398,7 @@
             "name": "MEDICAL",
             "routerLink": "medical",
             "image": "csm_MED_8e46c9ea6e.png",
-            "images":  [
+            "images": [
               {
                 "url": "Ergon-Grip.png",
                 "name": "Ergon Grip"
@@ -433,14 +433,14 @@
             "name": "DIN 2080",
             "routerLink": "din-2080",
             "image": "csm_DIN-2080_510a8e5ef4 1.png",
-            "images" : [
+            "images": [
               {
                 "url": "DIN 2080 A40 1-16mm.png",
-                "name" : "A40 1 - 16mm"
+                "name": "A40 1 - 16mm"
               },
               {
                 "url": "DIN 2080 A50 1-16mm.png",
-                "name" : "A50 1- 16mm"
+                "name": "A50 1- 16mm"
               }
             ],
             "pdf": "CNC DIN2080.pdf",
@@ -579,7 +579,14 @@
     "headerImage": "assets/images/products/heule/heule.png",
     "headerBackground": "heule-bg",
     "headerColor": "white",
-    "headerText": "ÇAPAK ALMA VE ARKA YÜZEY İŞLEME TAKIMLARI",
+    "headerP": [
+      {
+        "text": "ÇAPAK ALMA VE"
+      },
+      {
+        "text": "ARKA YÜZEY İŞLEME TAKIMLARI"
+      }
+    ],
     "bodyHeader": "NEDEN HEULE KULLANILMALI?",
     "contentBackground": "heule-body",
     "contentHeader": "HİDROLİK TUTUCULARA GÖRE",
@@ -845,10 +852,56 @@
     "headerText": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
     "bodyHeader": "NEDEN FRENCO KULLANILMALI?",
     "contentBackground": "frenco-body",
-    "contentHeader": "XEBEC",
-    "contentText": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "paragraphs": [
+      {
+        "text": "Saf mükemmellik."
+      },
+      {
+        "text": "1978'den beri."
+      },
+      {
+        "text": "Dişli Metrolojisinde Deneyim, Yetkinlik ve Yenilik."
+      },
+      {
+        "text": "Frenco bilgisinden yararlanın!"
+      },
+      {
+        "text": "Teknik Danışmanlık,"
+      },
+      {
+        "text": "Dişli ve Spline Tasarımı,"
+      },
+      {
+        "text": "Literatür ve Seminerler konusunda size yardımcı oluyoruz."
+      }
+    ],
     "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
-    "secondContentText": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n– Fırçanın şeklinin bozulmaması\n– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n– Kesici ağızların kendi kendini bileme özelliği\n– Nylon fırçaya göre 60 misline varan taşlama gücü\n– Üstün su geçirmez özelliği\n– Tezgahta ve robotik sistemlerde kullanma avantajı.",
+    "secondParagraphs": [
+      {
+        "text": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n"
+      },
+      {
+        "text": "– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n"
+      },
+      {
+        "text": "– Fırçanın şeklinin bozulmaması\n"
+      },
+      {
+        "text": "– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n"
+      },
+      {
+        "text": "– Kesici ağızların kendi kendini bileme özelliği\n"
+      },
+      {
+        "text": "– Nylon fırçaya göre 60 misline varan taşlama gücü\n"
+      },
+      {
+        "text": "– Üstün su geçirmez özelliği\n"
+      },
+      {
+        "text": "– Tezgahta ve robotik sistemlerde kullanma avantajı.\n"
+      }
+    ],
     "img": "frenco.png",
     "hoverImg": "frenco.png",
     "routerLink": "frenco",
@@ -1011,7 +1064,6 @@
               {
                 "text": "- Artefacts en iyi örnektir."
               }
-
             ]
           },
           {
@@ -1211,7 +1263,6 @@
               {
                 "text": "Disc Roll Master'a dayalı yöntem",
                 "bold": "fw-bolder mb-0"
-
               },
               {
                 "text": "- Disk merdane anaları, bir parça ailesindeki geometriler için özel olarak üretilmişti",
@@ -1284,7 +1335,7 @@
     "contentBackground": "mpa-body",
     "contentHeader": "MPA",
     "contentText": "1975 yılında tasarım ve üretim sürecindeki profesyonel becerileri sayesinde kurulan MPA, faaliyetine özel ekipman üretimi sonrasında makine sektöründe otomasyonun artan önemini dikkate alarak, bu bakış açısına yönelik bir ürün yelpazesi geliştirmeye başlar.\nAlınan çok başarılı sonuçlar ile müşterilerin karmaşık, işe özel tasarım gerektiren ihtiyaçlarını karşılamak için çözüm odaklı, özel tasarım ürünlerle ticari sunumlarını genişleterek birkaç yıl içinde ticari taleplerini arttırmıştır.",
-    "paragraphs" : [
+    "paragraphs": [
       {
         "text": "MPA sunmuş olduğu ürünler ile hemen hemen bütün tezgahlardaki uygulanabilirliği ile delme, diş çekme, frezeleme uygulamalarında"
       },
@@ -2312,8 +2363,7 @@
               },
               {
                 "text": "- Kalıp araçları ve benzeri alanlarda,"
-              }
-              ,
+              },
               {
                 "text": "- Lehimleme ve kaynak işlerinde,"
               },
@@ -2332,7 +2382,7 @@
               {
                 "text": "- Elektrik / Elektronik kontrolde ortam soğutmada."
               }
-             ]
+            ]
           }
         ]
       }
