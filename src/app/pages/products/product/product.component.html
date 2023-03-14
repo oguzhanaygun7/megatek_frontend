@@ -1,4 +1,4 @@
-<div [@enter]>
+<div [@enter] style="min-height: 100vh">
     <section [ngClass]="brandProduct?.headerBackground?brandProduct?.headerBackground:'default-bg'">
         <div class="container" style="height: 100%">
             <div class="row">
@@ -19,24 +19,23 @@
                         {{p.text}}
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 pt-4 text-lg-end"
+                <div class="col-12 col-lg-6 pt-4 text-lg-start"
                      *ngIf="brandProduct?.routerLink=='albrecht'">
                     <div class="d-flex" style="justify-content: start">
-                        <div>
-                            <img src="assets/images/products/albrecht/produktbild.png">
-                        </div>
                         <div style="align-self: center">
-                            <p class="header-text mb-0" style="font-weight: 600">
-                                - YÜKSEK SALGI HASSASİYETLİ,
+                            <p class="header-text mb-0" style="font-weight: 600; font-size: 1rem">
+                                - YÜKSEK SALGI HASSASİYETİ,
                             </p>
-                            <p class="header-text mb-0" style="font-weight: 600">
+                            <p class="header-text mb-0" style="font-weight: 600; font-size: 1rem">
                                 - YÜKSEK SIKMA KUVVETLİ VE ÖZELLİKLE
                             </p>
-                            <p class="header-text" style="color: #0781A8;font-weight: 600">
-                                <u>- YÜKSEK TİTREŞİM SÖNÜMLEMELİ</u>
+                            <p class="header-text" style="color: #0781A8;font-weight: 600; font-size: 1rem">
+                                - <u>YÜKSEK TİTREŞİM SÖNÜMLEME</u> özelliklerinin bir araya gelmesi, rakipleri ile fark
+                                yaratan sonuçları vermektedir.
                             </p>
-                            <p class="header-text mb-0">
-                                <u> - MEKANİK TUTUCU SİSTEMİ</u>
+                            <p class="header-text mb-0" style="font-size: 1.1rem">
+                                Bu nedenle <b>APC Hassas tutucularımız Dünya çapında en iyi performans gösteren tutucu
+                                olma özelliğini taşımaktadır.</b>
                             </p>
                         </div>
                     </div>
@@ -53,12 +52,49 @@
                     <div class="product-images text-center" *ngFor="let data of brandProduct?.products">
                         <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+data.image"
                              class="cursor-pointer"
+                             [ngClass]="brandProduct?.routerLink=='eltool'?'filter-bright':''"
                              [routerLink]="'/detail/'+data.routerLink"
                              alt="">
-                        <p class="text-center my-3 text-uppercase fw-bolder"
-                           style="cursor: pointer;"
-                           [ngClass]="brandProduct.routerLink!=='vimaxx'?'max-width-300':''">
-                            {{data.name}}
+                        <div class="text-center my-3 text-uppercase fw-bolder"
+                             style="cursor: pointer;"
+                             [ngClass]="brandProduct.routerLink!=='vimaxx'?'max-width-300':''">
+                            <p class="mb-0">
+                                {{data.name}}
+                            </p>
+                            <p class="mb-0">
+                                {{data.subName}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5" *ngIf="brandProduct?.routerLink=='albrecht'">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 text-center">
+                    <h3 class="content-header">ALBRECHT’ TE HER ŞEY NASIL BAŞLADI?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-body {{brandProduct?.contentBackground}}">
+                        <p>
+                            Haziran 1908’de Josef Albrecht tarafından kurulan şirket küçük bir hassas mekanik atölyede
+                            delme ve frezeleme alanında metal işleme üzerine çalışmaya başladı.
+                            1917' yılında, daha yeni olmasına rağmen Esslingen, Stuttgart’taki ilk üretim tesisine
+                            taşındı.
+                        </p>
+                        <p>
+                            Sonraki birkaç yıl içinde de 1932'de Dünya’ nın ilk anahtarsız kendinden sıkmalı mandreni
+                            burada icat edildi. Bu tarihten itibaren imalatçılar fazladan bir sıkma anahtarına ihtiyaç
+                            duymadan çalışabilir hale geldi.
+                        </p>
+                        <p>
+                            Zaman içinde yapılan gelişmeler ile APC tutucular Frezeleme uygulamalarında zamanı önemli
+                            ölçüde hızlandırdı.
                         </p>
                     </div>
                 </div>
@@ -80,7 +116,7 @@
                         <p>{{brandProduct?.contentText}}</p>
                         <p class="text-center fw-bolder">{{brandProduct?.contentHeader1}}</p>
                         <p>{{brandProduct?.contentText1}}</p>
-                        <p class="mb-0" *ngFor="let paragraph of brandProduct?.paragraphs">
+                        <p class="mb-0 {{paragraph.class}}" *ngFor="let paragraph of brandProduct?.paragraphs">
                             {{paragraph.text}}
                         </p>
                     </div>
@@ -114,4 +150,6 @@
             </div>
         </div>
     </section>
+
+
 </div>

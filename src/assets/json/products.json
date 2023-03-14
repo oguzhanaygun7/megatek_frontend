@@ -2,7 +2,7 @@
   {
     "name": "Albrecht",
     "img": "albrecht.png",
-    "hoverImg": "albrecht-hover.jpg",
+    "hoverImg": "albrecht-hover.png",
     "routerLink": "albrecht",
     "headerImage": "assets/images/products/albrecht/albrecht.png",
     "headerBackground": "albrecht-bg",
@@ -12,9 +12,68 @@
     "bodyHeader": "NEDEN ALBRECHT TUTUCU KULLANILMALI?",
     "contentBackground": "albrecht-body",
     "contentHeader": "HİDROLİK TUTUCULARA GÖRE",
-    "contentText": "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
+    "paragraphs": [
+      {
+        "text": "- 2 ila 3 misliye varan daha yüksek sıkma torku (D=12 mm'de 200 Nm ila 80 Nm)."
+      },
+      {
+        "text": "- Yüksek rijitliğe bağlı olarak 1,3 kat daha yüksek titreşim sönümleme özelliği,"
+      },
+      {
+        "text": "- Bakım gerektirmeyen,"
+      },
+      {
+        "text": "- Sıvı sızıntısı halinde tutma özelliğini kaybeden Hidrolik takımlara karşı Mekanik sıkmalı sıvı sızdırmayan sistem)"
+      },
+      {
+        "text": "- Her tutucu çapı için bir pens, Pens değişiminde salgı değişim olmama garantisi"
+      },
+      {
+        "text": "- Ara bağlantı olmadan kolay kullanım"
+      },
+      {
+        "text": "- Ara bağlantı olmadan daha iyi salgı"
+      },
+      {
+        "text": "- Kesici takım olmadan anahtar ile sıkılması halinde hasar olmaması"
+      },
+      {
+        "text": "- 150 °C'ye kadar sıcaklığa dayanıklı ( Hidrolik tutucularda Maks. 80 °C )"
+      }
+    ],
     "secondContentHeader": "SHRINK TUTUCULARA GÖRE",
-    "secondContentText": "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "secondParagraphs": [
+      {
+        "text": "- Yaklaşık 1,3 kat daha yüksek sıkma torku ( D=12 mm'de 200 Nm ila 150 Nm ),"
+      },
+      {
+        "text": "- Yüksek Rijitlik, Yüksek Titreşim Sönümleme özelliği sayesinde 1,6 kat misline varan daha fazla takım ömrü,"
+      },
+      {
+        "text": "- Isıtma soğutma olmaması nedeni ile Malzeme yorgunluğu yok,"
+      },
+      {
+        "text": "- Shrink takımların Büzülme aralığı %3 o olması nedeni ile Sıkma torkunun büyüklüğü kesici takım şaft toleransına bağlıdır"
+      },
+      {
+        "text": "- Pahalı (ısıtma/soğutma) cihaz gerekmez,"
+      },
+      {
+        "text": "- Düşük yatırım maliyetleri"
+      },
+      {
+        "text": "- Takım Isınma ve Soğuma bekleme süresi yok"
+      },
+      {
+        "text": "- Arıza durumunda cihazdan bağımsız çalışma"
+      },
+      {
+        "text": "- Tezgahta bağlıyken bile kesici takımların kolayca değiştirilmesi"
+      },
+      {
+        "text": "- Kolay pens değişimi ile değişik çapta kesici takım değiştirilebilmesi sayesinde Universal kullanım"
+      }
+    ],
     "detailBackground": "albrecht-detail-bg",
     "products": [
       {
@@ -22,12 +81,13 @@
         "routerLink": "apc",
         "title": "APC TUTUCU",
         "titleColor": "#397795",
-        "subTitle": "HIZ & GÜVENLİK\n5 EKSENLİ OPERASYON İÇİN",
+        "subTitle": "HIZ & GÜVENLİK",
         "description": "Albrecht APC, dünya çapında hız, takım ömrü ve güvenlik alanında en iyi performans gösteren tutucudur.",
         "image": "csm_APC_585952f5bc1.png",
         "details": [
           {
             "name": "HSK",
+            "subName": "DIN 69893",
             "routerLink": "hsk",
             "image": "csm_APC_585952f5bc 2.png",
             "images": [
@@ -61,6 +121,7 @@
           },
           {
             "name": "SK",
+            "subName": "DIN 69871",
             "routerLink": "sk",
             "image": "QC-3d-5-1-removebg-preview (1) 1.png",
             "images": [
@@ -82,6 +143,7 @@
           },
           {
             "name": "MAS-BT",
+            "subName": "JIS B 6339",
             "routerLink": "mas-bt",
             "image": "csm_MAS-BT_544e916803 2.png",
             "images": [
@@ -103,6 +165,7 @@
           },
           {
             "name": "Flange Contact",
+            "subName": "BT*",
             "routerLink": "flange-contact",
             "image": "csm_MAS-BT_544e916803 2.png",
             "images": [
@@ -124,6 +187,7 @@
           },
           {
             "name": "POLYGON",
+            "subName": "ISO 26623-1",
             "routerLink": "polygon",
             "image": "csm_Polygon_3ebfa729e4 1.png",
             "images": [
@@ -145,6 +209,7 @@
           },
           {
             "name": "SLIM5 HSK",
+            "subName": "DIN 69893",
             "routerLink": "slim5-hsk",
             "image": "csm_Slim5_HSK_a5cf40ae7b 1.png",
             "pdf": "APC HSKSLIM.pdf",
@@ -152,6 +217,7 @@
           },
           {
             "name": "SLIM5 SK",
+            "subName": "DIN 69871",
             "routerLink": "slim5-sk",
             "image": "csm_Slim5_SK_6a779485e7 1.png",
             "pdf": "APC SKSLIM.pdf",
@@ -159,6 +225,7 @@
           },
           {
             "name": "SLIM5 MAS-BT",
+            "subName": "JIS B 6339",
             "routerLink": "slim5-mas-bt",
             "image": "csm_Slim5_MAS-BT_d87f5a12df 1.png",
             "pdf": "APC MAS-BTSLIM.pdf",
@@ -166,6 +233,7 @@
           },
           {
             "name": "SLIM5 Polygon",
+            "subName": "ISO 26623-1",
             "routerLink": "slim5-polygon",
             "image": "csm_Slim5_Polygon_e8341c7b8f 1.png",
             "pdf": "APC POLYGONSLIM.pdf",
@@ -177,8 +245,28 @@
         "name": "ULTRA",
         "routerLink": "ultra",
         "title": "ULTRA TUTUCU",
-        "subTitle": "Ultra Metal Giderme Oranı",
-        "description": "Albrecht Ultra ile 12 litre/dk\nUltra Sıkıştırıcı, Ultra Nemlendirici, Ultra Güvenli. Her bir günlük zorluğa mükemmel bir şekilde uyum sağlayan çevresel soğutma.",
+        "subTitle": "ULTRA TALAŞ KALDIRMA ORANI",
+        "descriptions": [
+          {
+            "text": "Albrecht Ultra:",
+            "class": "fw-bold"
+          },
+          {
+            "text": "- 12 litre/dk. ve (daha fazla debi)"
+          },
+          {
+            "text": "- Ultra Sıkma Kuvveti, "
+          },
+          {
+            "text": "- Ultra Titreşim Sönümleme, "
+          },
+          {
+            "text": "- Ultra Güvenli."
+          },
+          {
+            "text": "Her bir uygulamaya mükemmel şekilde uyum sağlayan çevresel soğutma."
+          }
+        ],
         "image": "csm_Ultra_4351180962.png",
         "details": [
           {
@@ -193,34 +281,63 @@
       {
         "name": "MICRO",
         "routerLink": "micro",
-        "title": "MICRO TUTUCU",
-        "subTitle": "Sıkıştırma aralığı 1 - 6 mm",
-        "description": "Albrecht Mikro, mikro aletler için yüksek hassasiyetli tutucu fikri. \nÇevresel veya dahili soğutma Shrink Tutuculara kıyasla önemli ölçüde daha iyi nemlendirmeye ve özel kaplamalı penslere sahiptir.\nİnce şekil D1=13,5 mm\nMükemmel salgı ≤ 3 μm \n2,5xD40.000 1/dk'ya kadar ≤ 1 gmm",
+        "title": "ALBRECHT MICRO",
+        "descriptions": [
+          {
+            "text": "- Mikro takımlar için yüksek hassasiyetli tutucu fikri."
+          },
+          {
+            "text": "- Sıkıştırma aralığı Ø1 - Ø6 mm."
+          },
+          {
+            "text": "- Çevresel veya dahili soğutma"
+          },
+          {
+            "text": "- Shrink Tutuculara kıyasla önemli ölçüde daha iyi titreşim sönümleme özelliği"
+          },
+          {
+            "text": "- Özel kaplamalı penslere sahiptir."
+          },
+          {
+            "text": "- İnce tasarım D1=Ø13,5 mm."
+          },
+          {
+            "text": "- Kısıtlı ulaşılabilir bölgelerde mükemmel yüzey."
+          },
+          {
+            "text": "- Mükemmel salgı ≤ 3 μm. (2,5xD)"
+          },
+          {
+            "text": "- 40.000 1/dk'ya kadar ≤ 1 gmm."
+          }
+        ],
         "image": "csm_Micro_702be798b1.png",
         "details": [
           {
-            "name": "er",
+            "name": "ER-PENS",
             "routerLink": "er",
             "image": "csm_Micro-ER-Produktbild_aa54fedb31 1.png",
             "pdf": "micro er.pdf",
             "pdfSize": "915KB"
           },
           {
-            "name": "20mm",
+            "name": "UZATMA",
+            "subName": "Ø20mm.",
             "routerLink": "20mm",
             "image": "csm_extension-20mm-Produktbild_6f62ea904d 1.png",
             "pdf": "micro 20mm.pdf",
             "pdfSize": "532KB"
           },
           {
-            "name": "14mm",
-            "routerLink": "14mm",
+            "name": "UZATMA",
+            "subName": "Ø14mm.",
             "image": "csm_extension-14mm-Produktbild_5a7c31a0e4 1.png",
             "pdf": "micro 14mm.pdf",
             "pdfSize": "549KB"
           },
           {
             "name": "Polygon",
+            "subName": "ISO 26623-1",
             "routerLink": "polygon",
             "image": "csm_Micro-Polygon_1449508d13 1.png",
             "pdf": "micro polygon.pdf",
@@ -228,6 +345,7 @@
           },
           {
             "name": "MAS-BT",
+            "subName": "JIS B 6339",
             "routerLink": "mas-bt",
             "image": "csm_Micro-MAS-BT_82faf06c2d 1.png",
             "pdf": "micro mas-bt.pdf",
@@ -235,6 +353,7 @@
           },
           {
             "name": "SK",
+            "subName": "DIN 69871",
             "routerLink": "sk",
             "image": "csm_Micro-SK_acc4cb8e39 1.png",
             "pdf": "micro sk.pdf",
@@ -242,6 +361,7 @@
           },
           {
             "name": "HSK",
+            "subName": "DIN 69893",
             "routerLink": "hsk",
             "image": "csm_Micro-HSK-Produktbild-mitSchatten_0c239ab1cd 1.png",
             "pdf": "micro hsk.pdf",
@@ -253,12 +373,51 @@
         "name": "Çeneli Mandren",
         "routerLink": "ceneli-mandren",
         "title": "ÇENELİ MANDRENLER",
-        "subTitle": "1930’ dan beri sürekli gelişen",
-        "description": "1.Matkap tutucu, Teknik bir ürün icat eden ve ardından 80 yılı aşkın bir süredir onu geliştirmek için çalışan herkes, sonunda bugünün mümkün olan en iyi teknik standardına ulaşacaktır. Kendi kendini sıkma özelliği pratik deneyimlere dayanır . En iyi çelikten üretilmiştir ve tüm temel parçalar sertleştirilmiştir. Bu, dünya çapındaki diğer tüm üreticilerin uymak zorunda olduğu bir mandrenle sonuçlanır. İsteğinize göre sıkıştırma için elmas kaplı çeneler; saat yönünde çalışma için farklı aralıklarda 6 boyut, ISO 239 veya UNF.",
+        "subTitle": "Keşfedildiği 1930’dan beri sürekli gelişmekte olan",
+        "descriptions": [
+          {
+            "text": "1# Matkap Mandreni,",
+            "class": "fw-bolder"
+          },
+          {
+            "text": "- 80 yılı aşkın çalışma sonucu geliştirilerek bugünün mümkün olan en iyi teknik standardına ulaşan tutucular. "
+          },
+          {
+            "text": "- Kendi kendini sıkma özelliği pratik deneyimlere dayanır. "
+          },
+          {
+            "text": "- Tüm temel parçalar sertleştirilen, en iyi çelikten üretilmiştir. Matkap mandrenindeki bu özellikler, dünya çapındaki diğer tüm üreticilerin ulaşması gereken sonuçlardır."
+          },
+          {
+            "text": "- İsteğinize göre elmas kaplı sıkma çeneleri,"
+          },
+          {
+            "text": "- Saat yönünde çalışma "
+          },
+          {
+            "text": "- 6 farklı ölçü"
+          },
+          {
+            "text": "- ISO 239 veya UNF konik."
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": ""
+          }
+        ],
         "image": "csm_1---13-mm_73cbd5303f.png",
         "details": [
           {
-            "name": "Inner Taper",
+            "name": "İÇ KONİK",
+            "subName": "ISO 239",
             "routerLink": "inner-taper",
             "image": "csm_Innenkegel_c734ed3908.png",
             "images": [
@@ -295,7 +454,7 @@
             "pdfSize": "177KB"
           },
           {
-            "name": "Reverse Lock",
+            "name": "GERİ DÖNÜŞ \nKİLİTLEMELİ",
             "routerLink": "reverse-lock",
             "image": "csm_Spannsicherung_ef7c9cf715.png",
             "images": [
@@ -312,7 +471,7 @@
             "pdfSize": "179KB"
           },
           {
-            "name": "CYLINDRICAL SHANK",
+            "name": "SİLİNDİRİK\nŞAFTLI",
             "routerLink": "cylindrical-shank",
             "image": "csm_Zylinderschaft_d913976fc5.png",
             "pdf": "cylindrical shank.pdf",
@@ -336,7 +495,7 @@
             "pdfSize": "133KB"
           },
           {
-            "name": "Morse Taper",
+            "name": "MORS \nKONİK",
             "routerLink": "morse-taper",
             "image": "csm_1---13-mm_73cbd5303f.png",
             "images": [
@@ -357,7 +516,7 @@
             "pdfSize": "358KB"
           },
           {
-            "name": "Taper Shank",
+            "name": "KONİK\nŞAFTLI",
             "routerLink": "taper-shank",
             "image": "csm_SK_b9f7fd07e8.png",
             "images": [
@@ -378,7 +537,7 @@
             "pdfSize": "177KB"
           },
           {
-            "name": "SENSITIVE DRILL-FEED",
+            "name": "HASSAS\nDELME İLERLEMESİ",
             "routerLink": "sensitive-drill-feed",
             "image": "csm_Feinbohrhilfe_31ab11f331.png",
             "images": [
@@ -395,7 +554,7 @@
             "pdfSize": "313KB"
           },
           {
-            "name": "MEDICAL",
+            "name": "MEDİKAL\nMANDRENLER",
             "routerLink": "medical",
             "image": "csm_MED_8e46c9ea6e.png",
             "images": [
@@ -424,9 +583,22 @@
       {
         "name": "CNC HASSAS MANDREN",
         "routerLink": "cnc",
-        "title": "CNC MATKAP TUTUCU",
-        "subTitle": "Penssiz hızlı 1- 16mm",
-        "description": "Albrecht CNC ayna, tüm penslerin yerini alır, böylece size birçok iş gününden tasarruf sağlar",
+        "title": "CNC HASSAS MANDREN / ÇENELİ MATKAP TUTUCULAR",
+        "descriptions": [
+          {
+            "text": "Penssiz (Ø1 - Ø16mm.) ve Hızlı takım bağlama",
+            "class": "fw-bolder"
+          },
+          {
+            "text": "- Albrecht CNC mandren,"
+          },
+          {
+            "text": "- Daha iyi salgı hassasiyeti ve"
+          },
+          {
+            "text": "- Geniş takım bağlama aralığı (Ø1 - Ø16mm.) ile\ntüm pens tutucuların yerini alır, böylece size zaman ve takım tasarrufu sağlar."
+          }
+        ],
         "image": "csm_CNC_360b1b5f64.png",
         "details": [
           {
@@ -448,6 +620,7 @@
           },
           {
             "name": "SK",
+            "subName": "DIN 69871",
             "routerLink": "sk",
             "image": "csm_SK_6fd72a542b.png",
             "images": [
@@ -473,6 +646,7 @@
           },
           {
             "name": "HSK",
+            "subName": "DIN 69893",
             "routerLink": "hsk",
             "image": "csm_HSK-80_0456a27bf0.png",
             "images": [
@@ -502,6 +676,7 @@
           },
           {
             "name": "Polygon",
+            "subName": "ISO 26623-1",
             "routerLink": "polygon",
             "image": "csm_Polygon-C8-1-16-mm_919ad348bf.png",
             "images": [
@@ -523,6 +698,7 @@
           },
           {
             "name": "MAS-BT",
+            "subName": "JIS B 6339",
             "routerLink": "mas-bt",
             "image": "csm_MAS-BT40-1-16-mm_60742b3b09.png",
             "images": [
@@ -548,20 +724,24 @@
           },
           {
             "name": "Morse",
+            "subName": "MK3-DIN 228",
             "routerLink": "morse",
             "image": "csm_Morse_0b78fdfec1.png",
             "pdf": "CNC MORSE.pdf",
             "pdfSize": "952KB"
           },
           {
-            "name": "∅ 251-16 mm",
+            "name": "SİLİNDİRİK",
+            "subName": "Ø25 ŞAFTLI",
             "routerLink": "251-16-mm",
             "image": "csm_Cylindrical_8fe44d7db0-1.png",
             "pdf": "CNC 1-16MM.pdf",
             "pdfSize": "1.3MB"
           },
           {
-            "name": "CYLINDRICAL",
+            "name": "VDI",
+            "subName": "DIN 69880-30",
+            "subName2": "DIN 69880-40",
             "routerLink": "cylindrical",
             "image": "csm_Cylindrical_8fe44d7db0-1.png",
             "pdf": "CNC CCYLINDRICAL.pdf",
@@ -574,7 +754,7 @@
   {
     "name": "Heule",
     "img": "heule.png",
-    "hoverImg": "heule.png",
+    "hoverImg": "heule-hover.png",
     "routerLink": "heule",
     "headerImage": "assets/images/products/heule/heule.png",
     "headerBackground": "heule-bg",
@@ -605,12 +785,72 @@
             "name": "COFA",
             "routerLink": "cofa",
             "image": "39-COFA.png",
+            "description": [
+              {
+                "text": "Aynı eksendeki paralel veya paralel olmayan deliklerin ön ve arka yüzey çapaklarının alınması",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- İş parçasını döndürmeye veya iş milini durdurmaya gerek yok"
+              },
+              {
+                "text": "- Çapak alma sonrası oluşan Radyüs benzeri kenar profili,"
+              },
+              {
+                "text": "- Delik çapı 2,0 mm'den itibaren standart takım çözümleri,"
+              },
+              {
+                "text": "- Çap 10,0 mm çaptan büyük çaplar için kaset tipi takım çözümleri."
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Ürün yelpazesi, 2,0 mm ila 26,0 mm arasındaki delik çaplarına uygun çapak alma takımları Standart olarak sunulur. Kaset tipi çöüzmler kullanılarak her çapta delik çapakları alınabilir. "
+              },
+              {
+                "text": "Çapak alma uzunluğu, delik boyutuna ve bıçak seçimine bağlı olarak radyal olarak 0,1 mm ile maksimum 1,4 mm arasında değişmektedir. Bıçaklar hem ileri hem de geri işleme için ve ayrıca sadece geriye doğru işleme için mevcuttur."
+              },
+              {
+                "text": "COFA, hem CNC hem de manuel işlemlerde metal veya diğer malzemelerdeki deliklerin güvenilir çapaklarını bir şekilde almak için kullanılır."
+              }
+            ],
             "pdf": "COFA.pdf",
             "pdfSize": "3.4MB"
           },
           {
             "name": "DL2",
             "routerLink": "dl2",
+            "description": [
+              {
+                "text": "Delik çapı Ø1,0 mm.-Ø2,1 mm. aralığındaki, paralel veya hafif eğimli deliklerin ön ve arka yüzeylerinin çapaklarının alınması",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Tek bir geçişte paralel veya hafif eğimli deliklerin ön ve arka yüzeylerinin çapaklarının alınması",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Ø1,0 mm.-Ø2,1 mm. aralığındaki delik çaplarında çapak alma"
+              },
+              {
+                "text": "- Kesici kenarın soğutulma desteği ile maksimum bıçak ömrü"
+              },
+              {
+                "text": "- Çok kısa işleme zamanı"
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Medikal ve elektronik uygulamalarda, uçak endüstrisinde ve saatçilik endüstrisinde olduğu gibi, en küçük deliklerin çapak alma kalitesine yönelik talepler her zaman artmaktadır."
+              },
+              {
+                "text": "DL2, çalışma prensibi ile çelik, paslanmaz çelik, titanyum, alüminyum veya kompozit malzemeler gibi çok çeşitli iş parçası malzemeleriyle uygun çözümü sunar.\nÜrün yelpazesi, 1,0 mm'den 2,1 mm'ye kadar delik çaplarında kullanım için takımlar içerir. Efektif çalışma boyları 3,0 mm ila 10,0 mm arasındadır.\nÇapak alma uzunluğu ise radyal olarak yaklaşık 0,15 mm."
+              }
+            ],
             "image": "44-DL2.png",
             "pdf": "DL2.pdf",
             "pdfSize": "1.2MB"
@@ -618,6 +858,37 @@
           {
             "name": "X-BORES",
             "routerLink": "x-bores",
+            "description": [
+              {
+                "text": "Kesişen delikler veya çapraz delikler için özel mekanik çapak alma çözümleri."
+              },
+              {
+                "text": "COFA-X",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "1:1 delik oranındaki çapraz deliklerin mekanik çapak alınması"
+              },
+              {
+                "text": "- Operasyona özel uygulama"
+              },
+              {
+                "text": "- Ø5,0 mm iç çaptan başlayan çözümler"
+              },
+              {
+                "text": "- Tamamen çapaksız kenar."
+              },
+              {
+                "text": "- CNC’ler için güvenilir bir uygulama."
+              },
+              {
+                "text": "SNAP-X / KESİŞME YERLERİ",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Hepsi aynı ana deliğe giren birçok çapraz deliğin çapaklarının alınması.\nİşe özel bir tasarımdır."
+              }
+            ],
             "image": "226-News_Vorschau_Xbores-removebg-preview.png",
             "pdf": "X-BORES.pdf",
             "pdfSize": "646KB"
@@ -634,12 +905,48 @@
             "name": "SNAP",
             "routerLink": "snap",
             "image": "snap.png",
+            "description": [
+              {
+                "text": "Tek seferde ön ve arka yüzey pah kırarak çapak alma",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- İş parçasını döndürmeye veya iş milini durdurmaya gerek yok"
+              },
+              {
+                "text": "- Doğrudan tezgah üzerinde kolay değiştirilebilen karbür kesici uç,"
+              },
+              {
+                "text": "- Delik çapı Ø2,0 mm'den başlayan standart çözümler,"
+              },
+              {
+                "text": "- Ø 12,6 mm. çaptan başlayan kaset tutucu çözümleri"
+              }
+            ],
             "pdf": "SNAP.pdf",
             "pdfSize": "3,2MB"
           },
           {
             "name": "DEFA",
             "routerLink": "defa",
+            "description": [
+              {
+                "text": "Darbeli deliklerin ön ve arka yüzeylerinde tek seferde pah kırma",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Büyük çapak oluşumu olan işlenmesi zorlu malzemelerin ikincil çapak bırakmadan işlenmesi,"
+              },
+              {
+                "text": "- Yüksek kaliteli pah yüzeyi ve ölçüsel olarak değişmez pah formu,"
+              },
+              {
+                "text": "- Delik boyutuna bağlı olarak 0,1 ila 2,0 mm arasında ve sürekli olarak ayarlanabilir pah kırma kapasitesi,"
+              },
+              {
+                "text": "- Delik Çapları Ø 4,0 mm - Ø 23,9 mm arasında standart uygulamalar."
+              }
+            ],
             "image": "defa.png",
             "pdf": "DEFA.pdf",
             "pdfSize": "2MB"
@@ -655,6 +962,37 @@
           {
             "name": "BSF",
             "routerLink": "bsf",
+            "description": [
+              {
+                "text": "Delik çapının 2,3 katına kadar arka yüzey işleme kapasitesi",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- İş parçasını döndürmeden"
+              },
+              {
+                "text": "- Delik Çapları Ø6,5 mm - Ø 21,0 mm arası için standart çözüm,"
+              },
+              {
+                "text": "- Güvenilir arka yüzey İşleme veya havşa açma"
+              },
+              {
+                "text": "- Otomatik çalışma için tasarlanmıştır."
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Standart seri, 0,5 mm'lik artışlarla Ø 6,5 mm ila Ø 21 mm arasında değişen delik çaplarında uygulanabilen arka yüzey işleme takımlarından oluşur."
+              },
+              {
+                "text": "Mümkün olan maksimum arka yüzey işleme çapı, delik çapının 2,3 katıdır."
+              },
+              {
+                "text": "Takımlar hem içten su verme suyu basıncı (min. 20 bar, maks. 50 bar) ve hem de basınçlı hava (min. 6 bar) ile aktif hale getirilebilir."
+              }
+            ],
             "image": "52-BSF.png",
             "pdf": "BSF.pdf",
             "pdfSize": "4,8MB"
@@ -662,6 +1000,34 @@
           {
             "name": "SOLO",
             "routerLink": "solo",
+            "description": [
+              {
+                "text": "Tek bir geçişte ön ve/veya arka yüzey havşa açma ve arka yüzey işleme takımları.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Darbeli işlemeye uygun"
+              },
+              {
+                "text": "- İşlenmesi zor malzemeler için de son derece güçlü tasarım.,"
+              },
+              {
+                "text": "- Ø6,0 mm delik çapından itibaren uygulama alanı"
+              },
+              {
+                "text": "- Maksimum havşa çapı Ø49,0 mm."
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "SOLO havşa açma takımının iki çeşidi mevcuttur."
+              },
+              {
+                "text": "Bir yanda malzemeleri yüksek kesme hızlarında işlemek için tasarlanan SOLO ve diğer yanda düşük kesme hızlarında işlemek için tasarlanan SOLO2.\n"
+              }
+            ],
             "image": "senken.png",
             "pdf": "SOLO.pdf",
             "pdfSize": "1,8MB"
@@ -669,6 +1035,40 @@
           {
             "name": "GH-K",
             "routerLink": "gh-k",
+            "description": [
+              {
+                "text": "Ø3 mm'den Ø45 mm'ye kadar deliklerde ön yüzey havşa açma",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Ø3,0 – Ø25,0 mm veya Ø4,0 – Ø45,0 mm havşa aralığı olan iki ayrı tutucu tipi"
+              },
+              {
+                "text": "- Üç adet değiştirilebilir, tam uyumlu karbür bıçak"
+              },
+              {
+                "text": "- İçten soğutma mevcut"
+              },
+              {
+                "text": "- Çevresel/kontur frezelemeye uygun."
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Ürün çeşitliliği iki tiptir."
+              },
+              {
+                "text": "Üç kesici ağızlı havşa açma takımı ve yalnızca tek kesici ağızlı havşa açma takımı."
+              },
+              {
+                "text": "Her tasarım, havşa çapı 3,0 – 25,0 mm ve diğeri 4,0 – 45,0 mm olan iki versiyonda da mevcuttur."
+              },
+              {
+                "text": "HEULE havşa açma aletleri 60° ve 90° havşa açma açılarıyla temin edilebilir."
+              }
+            ],
             "image": "47-GHK.png",
             "pdf": "GHK.pdf",
             "pdfSize": "1,1MB"
@@ -676,7 +1076,8 @@
         ]
       },
       {
-        "name": "COMBI Takım (Delme+Çapak Alma)",
+        "name": "COMBI Takım",
+        "subName": "(Delme+Çapak Alma)",
         "title": "COMBI Takım (Delme+Çapak Alma)",
         "routerLink": "combi-takim",
         "image": "combi-takim.png",
@@ -685,6 +1086,46 @@
             "name": "VEX",
             "routerLink": "vex",
             "image": "3 62.png",
+            "description": [
+              {
+                "text": "Tek geçişte delme ve ön ve arka yüzeyde pah kırma yapabilen COMBI takım.",
+                "bold": "fw-bold"
+              },
+              {
+                "text": "- İşleme Aralığı Delik çapı 5,0 mm – 11,5 mm,"
+              },
+              {
+                "text": "- 2xd'ye kadar delme derinliği"
+              },
+              {
+                "text": "- Kolay değiştirilebilen karbür spiral matkap ucu"
+              },
+              {
+                "text": "- Basit kullanım ve uygulaması sayesinde kısa ayar süresi"
+              },
+              {
+                "text": "- Tek geçişte çok fonksiyonlu işleme özelliği sayesinde kısaltılmış işlem süreleri"
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bold"
+              },
+              {
+                "text": "- Standart ürün yelpazesi, 5,0 mm ila 11,5 mm arasındaki delik çapları için takımları içerir."
+              },
+              {
+                "text": "- 1xd veya 2xd delme derinliğine sahip iki ayrı versiyon mevcutturlar."
+              },
+              {
+                "text": "- Matkap ucu uçları 0,1 mm'lik çap artışlarıyla mevcuttur."
+              },
+              {
+                "text": "- Pah kırma bıçakları SNAP5 serisine uygundur. Bunlar, 0,5 mm'lik artışlarla 5,5 mm x 90° çapında ve ön ve arka çapak alma veya sadece arka çapak alma olarak seçilebilir."
+              },
+              {
+                "text": "- Pah boyutu ve açısı kesici uç üzerinde geometrik olarak tanımlanır ve yalnızca geometrisi değiştirilmiş bir kesici uç kullanılarak pah boyutu ve açısı değiştirilebilir."
+              }
+            ],
             "pdf": "VEX.pdf",
             "pdfSize": "2,2MB"
           },
@@ -718,7 +1159,7 @@
     "name": "Montronix",
     "headerImage": "assets/images/products/montronix.png",
     "img": "montronix.png",
-    "hoverImg": "montronix.png",
+    "hoverImg": "montronix-hover.png",
     "routerLink": "montronix"
   },
   {
@@ -1333,8 +1774,7 @@
     "headerText": "DİŞLİ KUTULU KAFALAR",
     "bodyHeader": "NEDEN MPA KULLANILMALI?",
     "contentBackground": "mpa-body",
-    "contentHeader": "MPA",
-    "contentText": "1975 yılında tasarım ve üretim sürecindeki profesyonel becerileri sayesinde kurulan MPA, faaliyetine özel ekipman üretimi sonrasında makine sektöründe otomasyonun artan önemini dikkate alarak, bu bakış açısına yönelik bir ürün yelpazesi geliştirmeye başlar.\nAlınan çok başarılı sonuçlar ile müşterilerin karmaşık, işe özel tasarım gerektiren ihtiyaçlarını karşılamak için çözüm odaklı, özel tasarım ürünlerle ticari sunumlarını genişleterek birkaç yıl içinde ticari taleplerini arttırmıştır.",
+    "contentText": "1975 yılında tasarım ve üretim sürecindeki profesyonel becerileri sayesinde kurulan MPA, faaliyetine özel ekipman üretimi sonrasında makine sektöründe otomasyonun artan önemini dikkate alarak, bu bakış açısına yönelik bir ürün yelpazesi geliştirmeye başlar.\nAlınan çok başarılı sonuçlar ile müşterilerin karmaşık, işe özel ihtiyaçlarını karşılamak için çözüm odaklı, özel tasarım ürünlerle ticari sunumlarını genişleterek birkaç yıl içinde ticari taleplerini arttırmıştır.",
     "paragraphs": [
       {
         "text": "MPA sunmuş olduğu ürünler ile hemen hemen bütün tezgahlardaki uygulanabilirliği ile delme, diş çekme, frezeleme uygulamalarında"
@@ -1353,18 +1793,18 @@
       }
     ],
     "img": "mpa.png",
-    "hoverImg": "mpa.png",
+    "hoverImg": "mpa-hover.png",
     "routerLink": "mpa",
     "detailBackground": "mpa-detail-bg",
     "products": [
       {
-        "name": "Açılı Kafalar",
-        "title": "Açılı Kafalar",
+        "name": "SABİT DİK AÇILI VE  AÇI AYARLI KAFALAR",
+        "title": "SABİT DİK AÇILI VE  AÇI AYARLI KAFALAR",
         "routerLink": "acili-kafalar",
         "image": "angle-heads.png",
         "details": [
           {
-            "name": "Açılı Kafalar",
+            "name": "SABİT DİK AÇILI VE  AÇI AYARLI KAFALAR",
             "routerLink": "acili-kafalar",
             "image": "angle-heads.png",
             "products": [
@@ -1409,12 +1849,12 @@
                 "pdf": "Heavy duty.pdf"
               },
               {
-                "name": "+/- 90° Açı Ayarlı",
+                "name": "± 90° Açı Ayarlı",
                 "image": "tilting.png",
                 "pdf": "adjustable.pdf"
               },
               {
-                "name": "+/- 90° Açı Ayarlı Flanş Montaj",
+                "name": "± 90° Açı Ayarlı Flanş Montaj",
                 "image": "angolari-registrabili 1.png",
                 "pdf": "adjustable flange.pdf"
               },
@@ -1439,12 +1879,12 @@
       },
       {
         "name": "EKSENLER ARASI AYARLI ÇOK MİLLİ KAFALAR VE ÖZEL KAFALAR",
-        "title": "Standart Çoklu Kafalar",
+        "title": "EKSENLER ARASI AYARLI ÇOK MİLLİ KAFALAR VE ÖZEL KAFALAR",
         "routerLink": "standart-coklu-kafalar",
         "image": "multispindle-heads.png",
         "details": [
           {
-            "name": "Standart Çoklu Kafalar",
+            "name": "EKSENLER ARASI AYARLI ÇOK MİLLİ KAFALAR VE ÖZEL KAFALAR",
             "routerLink": "standart-coklu-kafalar",
             "image": "multispindle-heads.png",
             "products": [
@@ -1499,12 +1939,12 @@
       },
       {
         "name": "Özel Tahrikli Kafalar",
-        "title": "Tahrikli Kafalar",
+        "title": "ÖZEL TAHRİKLİ KAFALAR",
         "routerLink": "tahrikli-kafalar",
         "image": "driven-tools.png",
         "details": [
           {
-            "name": "Tahrikli Kafalar",
+            "name": "Özel Tahrikli Kafalar",
             "routerLink": "tahrikli-kafalar",
             "image": "driven-tools.png",
             "products": [
@@ -1519,7 +1959,7 @@
                 "pdf": "90.pdf"
               },
               {
-                "name": "Açı Ayarlı",
+                "name": "± Açı Ayarlı",
                 "image": "motorizzati-adjustable.png",
                 "pdf": "ADJUSTABLE.pdf"
               },
@@ -1559,7 +1999,7 @@
       },
       {
         "name": "Hız Arttırıcılar",
-        "title": "Hız Arttırıcılar",
+        "title": "HIZ ARTTIRICILAR",
         "routerLink": "hiz-arttiricilar",
         "image": "speed-increasers.png",
         "details": [
@@ -1592,7 +2032,7 @@
     "secondContentHeader": "VIMAxX - R30 ÜRÜN ÖZELLİKLERİ",
     "secondContentText": "\n–İşletmenizde kullanılan havanın basınç seviyesine (en az 6Bar olmalıdır), Havanın temizlğine ve kuruluğuna bağlı olarak t:50° varan sıcaklık dönüşümü,\n- Yaklaşık 2800 Btu, soğutma verimliliği\n-300 bar'a dayanan hafif, portatif ve hareketsiz parçalardan meydana getirilmiş yapı\n-Elektrik, freon gazı, kimyasal kullanımı olmaksızın çalışma\n-Manyetik ortamdan etkilenmeme\n-Çok hızlı devreye girip, kolayca çıkabilme, temizlik ve bakım gerektirmeden çalışma.",
     "img": "h-bilz.png",
-    "hoverImg": "h-bilz.png",
+    "hoverImg": "h-bilz-hover.png",
     "routerLink": "h-bilz",
     "detailBackground": "h-bilz-detail-bg",
     "products": [
@@ -2324,7 +2764,7 @@
       }
     ],
     "img": "vimaxx.png",
-    "hoverImg": "vimaxx.png",
+    "hoverImg": "vimaxx-hover.png",
     "routerLink": "vimaxx",
     "detailBackground": "vimaxx-detail-bg",
     "products": [
@@ -2397,7 +2837,23 @@
     "bodyHeader": "NEDEN XEBEC TUTUCU KULLANILMALI?",
     "contentBackground": "xebec-body",
     "contentHeader": "XEBEC",
-    "contentText": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "paragraphs": [
+      {
+        "text": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.",
+        "class": "mb-3"
+      },
+      {
+        "text": "-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi",
+        "class": "mb-3"
+      },
+      {
+        "text": "-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması",
+        "class": "mb-3"
+      },
+      {
+        "text": "“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar."
+      }
+    ],
     "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
     "secondParagraphs": [
       {
@@ -2426,12 +2882,12 @@
       }
     ],
     "img": "xebec.png",
-    "hoverImg": "xebec.png",
+    "hoverImg": "xebec-hover.png",
     "routerLink": "xebec",
     "detailBackground": "xebec-detail-bg",
     "products": [
       {
-        "name": "Select by Problem",
+        "name": "PROBLEME GÖRE SEÇİM",
         "routerLink": "select-by-problem",
         "image": "bg_nayami.png",
         "description": "type",
@@ -2543,7 +2999,7 @@
         ]
       },
       {
-        "name": "Select by Product Type",
+        "name": "ÜRÜN ÇEŞİDİNE GÖRE SEÇİM",
         "routerLink": "select-by-product-type",
         "title": "YÜZEY TEMİZLEME VE KENAR ÇAPAK ALMA FIRÇALARI",
         "image": "bg_products_main 1.png",
@@ -2740,7 +3196,7 @@
         ]
       },
       {
-        "name": "SELECT BY APPLICATION",
+        "name": "UYGULAMAYA GÖRE SEÇİM",
         "routerLink": "select-by-application",
         "image": "bg_case.png",
         "details": [

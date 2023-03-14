@@ -8,7 +8,7 @@ import {fadeInOnEnterAnimation} from "angular-animations";
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss'],
   animations: [
-    fadeInOnEnterAnimation({anchor: 'enter', duration: 300, delay: 10}),
+    // fadeInOnEnterAnimation({anchor: 'enter', duration: 0, delay: 0}),
   ]
 })
 export class ProductComponent implements OnInit {

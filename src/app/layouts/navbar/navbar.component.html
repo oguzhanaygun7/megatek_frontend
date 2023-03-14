@@ -22,11 +22,11 @@
                         <a class="nav-link"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()" [routerLink]="'/contact'">İLETİŞİM</a>
                     </li>
                 </ul>
-                <form class="d-flex justify-content-center position-relative">
+                <form *ngIf="false" class="d-flex justify-content-center position-relative">
                     <i class="fa fa-search position-absolute" style="top: 10px; left: 10px; color: #fff"></i>
                     <input class="form-control search-box mb-2 mb-lg-0 me-0 me-lg-2" type="search" placeholder="**Search..**" aria-label="Search">
                 </form>
-                <div class="d-flex justify-content-center" style="gap: 0.5rem;margin-bottom: 13px;">
+                <div class="d-flex justify-content-center"s>
                     <div class="d-flex">
                         <img src="assets/images/flag/tr.png" alt="">
                     </div>

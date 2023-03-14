@@ -12,4 +12,7 @@ export class AboutUsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+    openPDF() {
+        window.open('assets/pdf/genel/MEGATEK-FIRMA-KATALOG-2021.pdf', '_blank')
+    }
 }

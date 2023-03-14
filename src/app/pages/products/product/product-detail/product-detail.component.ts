@@ -14,7 +14,7 @@ import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
     templateUrl: './product-detail.component.html',
     styleUrls: ['./product-detail.component.scss'],
     animations: [
-        fadeInOnEnterAnimation({anchor: 'enter', duration: 300, delay: 10}),
+        // fadeInOnEnterAnimation({anchor: 'enter', duration: 0, delay: 0}),
         bounceInRightOnEnterAnimation({anchor: 'product', duration: 800, delay: 150}),
     ]
 })

@@ -10,7 +10,7 @@
         </div>
         <div class="col-12 align-self-center" style="height: 25vh;">
             <div class="d-flex home-product w-100" style="justify-content: space-around; gap: 1rem; overflow: hidden;">
-                <div class="product-card" *ngFor="let product of products">
+                <div [@enter] class="product-card" *ngFor="let product of products">
                     <img [src]="'assets/images/products/'+product.img"
                          [routerLink]="'/product/'+product.routerLink"
                          class="product-img"

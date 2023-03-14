@@ -1,4 +1,4 @@
-<div [@enter]>
+<div [@enter] style="min-height: 100vh">
     <section class="{{brandProduct?.headerBackground}}"
              [ngClass]="productDetails?.marginTop?'margin-0-bg':''">
         <div class="container" style="height: 100%">
@@ -9,7 +9,7 @@
                          [src]="brandProduct?.headerImage" alt="">
                 </div>
                 <div *ngIf="productDetails?.title" class="col-6 d-lg-block d-none pt-4 text-end">
-                    <p class="mb-0 detail-title" [ngClass]="brandProduct?.headerTitleColor">
+                    <p class="mb-0 detail-title text-uppercase" [ngClass]="brandProduct?.headerTitleColor">
                         {{productDetails?.title}}
                     </p>
                     <p class="detail-subtitle">
@@ -17,6 +17,11 @@
                     </p>
                     <p class="detail-description">
                         {{productDetails?.description}}
+                    </p>
+                    <p class="{{p.class}} mb-0"
+                       style="font-size: .8rem"
+                       *ngFor="let p of productDetails?.descriptions">
+                        {{p.text}}
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 pt-4 text-center text-lg-end" *ngIf="productDetails?.description=='type'">
@@ -48,17 +53,26 @@
                 <div class="d-flex w-100 product-card"
                      [ngClass]="productDetails?.details.length==1?'justify-content-center':''">
                     <div class="product-images text-center"
+                         [ngClass]="brandProduct?.routerLink=='eltool'?'filter-bright':''"
                          *ngFor="let detail of productDetails?.details"
                          [@product]
                          (click)="changeSelectedProduct(detail.routerLink)">
                         <img [src]="'assets/images/products/'+brandProduct?.routerLink+'/'+productDetails?.routerLink+'/'+detail.image"
                              class="image cursor-pointer"
                              alt="">
-                        <p class="text-center mt-3 mb-2 text-uppercase fw-bolder"
+                        <div class="text-center mt-3 mb-2 text-uppercase fw-bolder"
                            style="cursor:pointer"
                            [ngClass]="brandProduct?.routerLink=='mpa'?'mpa-max-width':''">
-                            {{detail.name}}
-                        </p>
+                            <p class="mb-0">
+                                {{detail.name}}
+                            </p>
+                            <p class="mb-0" style="text-transform: none !important;">
+                                {{detail.subName}}
+                            </p>
+                            <p class="mb-0" style="text-transform: none !important;">
+                                {{detail.subName2}}
+                            </p>
+                        </div>
                         <p class="text-center" style="position: relative">
                             <img [ngClass]="selectedProduct?.routerLink==detail.routerLink?'display-initial':''"
                                  style="position: absolute" class="ellipse-hover" src="assets/images/svg/ellipse.png"
@@ -173,7 +187,7 @@
                                      alt="">
                             </div>
                             <div>
-                                <b>{{data.name}}</b>
+                                <b style="text-transform: uppercase">{{data.name}}</b>
                             </div>
                             <div>
                                 {{data.description}}
