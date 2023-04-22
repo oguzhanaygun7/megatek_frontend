@@ -5,6 +5,7 @@ import {RouterLink} from "@angular/router";
 import { ProductComponent } from './product/product.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import {AppModule} from "../../app.module";
 
 @NgModule({
     declarations: [

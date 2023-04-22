@@ -17,13 +17,13 @@
         "text": "- 2 ila 3 misliye varan daha yüksek sıkma torku (D=12 mm'de 200 Nm ila 80 Nm)."
       },
       {
-        "text": "- Yüksek rijitliğe bağlı olarak 1,3 kat daha yüksek titreşim sönümleme özelliği,"
+        "text": "- Yüksek rijitliğe bağlı olarak daha yüksek titreşim sönümleme özelliği,"
       },
       {
-        "text": "- Bakım gerektirmeyen,"
+        "text": "- Bakım gerektirmeyen yapı,"
       },
       {
-        "text": "- Sıvı sızıntısı halinde tutma özelliğini kaybeden Hidrolik takımlara karşı Mekanik sıkmalı sıvı sızdırmayan sistem)"
+        "text": "- Sıvı sızdırmayan Mekanik sıkmalı sistem (Yağ sızıntısı olması halinde sıkma özelliğini kaybeden Hidrolik takımlara karşı),"
       },
       {
         "text": "- Her tutucu çapı için bir pens, Pens değişiminde salgı değişim olmama garantisi"
@@ -38,7 +38,7 @@
         "text": "- Kesici takım olmadan anahtar ile sıkılması halinde hasar olmaması"
       },
       {
-        "text": "- 150 °C'ye kadar sıcaklığa dayanıklı ( Hidrolik tutucularda Maks. 80 °C )"
+        "text": "- 150 °C'ye kadar sıcaklığa dayanıklı (Hidrolik tutucularda Maks. 80 °C)"
       }
     ],
     "secondContentHeader": "SHRINK TUTUCULARA GÖRE",
@@ -47,22 +47,22 @@
         "text": "- Yaklaşık 1,3 kat daha yüksek sıkma torku ( D=12 mm'de 200 Nm ila 150 Nm ),"
       },
       {
-        "text": "- Yüksek Rijitlik, Yüksek Titreşim Sönümleme özelliği sayesinde 1,6 kat misline varan daha fazla takım ömrü,"
+        "text": "- Yüksek Rijitlik, Yüksek Titreşim Sönümleme özellik farkı ile daha fazla takım ömrü,"
       },
       {
         "text": "- Isıtma soğutma olmaması nedeni ile Malzeme yorgunluğu yok,"
       },
       {
-        "text": "- Shrink takımların Büzülme aralığı %3 o olması nedeni ile Sıkma torkunun büyüklüğü kesici takım şaft toleransına bağlıdır"
+        "text": "- Shrink takımların büzülme aralığı yaklaşık %3 olması nedeni ile Shrink takımlarda Sıkma torkunun büyüklüğü kesici takım şaft toleransı ile doğrudan ilişkilidir."
       },
       {
         "text": "- Pahalı (ısıtma/soğutma) cihaz gerekmez,"
       },
       {
-        "text": "- Düşük yatırım maliyetleri"
+        "text": "- Çok daha düşük yatırım maliyetleri"
       },
       {
-        "text": "- Takım Isınma ve Soğuma bekleme süresi yok"
+        "text": "- Takım bağlama ve sökme için (Isıtma ve Soğutma) bekleme süresi yok,"
       },
       {
         "text": "- Arıza durumunda cihazdan bağımsız çalışma"
@@ -71,7 +71,7 @@
         "text": "- Tezgahta bağlıyken bile kesici takımların kolayca değiştirilmesi"
       },
       {
-        "text": "- Kolay pens değişimi ile değişik çapta kesici takım değiştirilebilmesi sayesinde Universal kullanım"
+        "text": "- Değişik çapta kesici takımların değiştirilebilmesi için kolay pens değişimi özelliği ile her işe uygun kullanım."
       }
     ],
     "detailBackground": "albrecht-detail-bg",
@@ -117,7 +117,13 @@
               }
             ],
             "pdf": "APC HSK.pdf",
-            "pdfSize": "7.2MB"
+            "pdfSize": "7.2MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "SK",
@@ -139,7 +145,13 @@
               }
             ],
             "pdf": "APC SK.pdf",
-            "pdfSize": "2MB"
+            "pdfSize": "2MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "MAS-BT",
@@ -161,7 +173,13 @@
               }
             ],
             "pdf": "APC MAS-BT.pdf",
-            "pdfSize": "1.6MB"
+            "pdfSize": "1.6MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "Flange Contact",
@@ -183,7 +201,13 @@
               }
             ],
             "pdf": "APC FLANGE.pdf",
-            "pdfSize": "2MB"
+            "pdfSize": "2MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "POLYGON",
@@ -205,7 +229,13 @@
               }
             ],
             "pdf": "APC POLYGON.pdf",
-            "pdfSize": "1.9MB"
+            "pdfSize": "1.9MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "SLIM5 HSK",
@@ -213,7 +243,13 @@
             "routerLink": "slim5-hsk",
             "image": "csm_Slim5_HSK_a5cf40ae7b 1.png",
             "pdf": "APC HSKSLIM.pdf",
-            "pdfSize": "2.1MB"
+            "pdfSize": "2.1MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "SLIM5 SK",
@@ -221,7 +257,13 @@
             "routerLink": "slim5-sk",
             "image": "csm_Slim5_SK_6a779485e7 1.png",
             "pdf": "APC SKSLIM.pdf",
-            "pdfSize": "1.1MB"
+            "pdfSize": "1.1MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "SLIM5 MAS-BT",
@@ -229,7 +271,13 @@
             "routerLink": "slim5-mas-bt",
             "image": "csm_Slim5_MAS-BT_d87f5a12df 1.png",
             "pdf": "APC MAS-BTSLIM.pdf",
-            "pdfSize": "1.1MB"
+            "pdfSize": "1.1MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           },
           {
             "name": "SLIM5 Polygon",
@@ -237,7 +285,13 @@
             "routerLink": "slim5-polygon",
             "image": "csm_Slim5_Polygon_e8341c7b8f 1.png",
             "pdf": "APC POLYGONSLIM.pdf",
-            "pdfSize": "1.1MB"
+            "pdfSize": "1.1MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/MTI-rN_ePUg"
+              }
+            ]
           }
         ]
       },
@@ -274,7 +328,13 @@
             "routerLink": "ultra",
             "image": "csm_Ultra_4351180962.png",
             "pdf": "ULTRA.pdf",
-            "pdfSize": "680KB"
+            "pdfSize": "680KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/96h4NBBHTQM"
+              }
+            ]
           }
         ]
       },
@@ -318,7 +378,13 @@
             "routerLink": "er",
             "image": "csm_Micro-ER-Produktbild_aa54fedb31 1.png",
             "pdf": "micro er.pdf",
-            "pdfSize": "915KB"
+            "pdfSize": "915KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           },
           {
             "name": "UZATMA",
@@ -326,14 +392,26 @@
             "routerLink": "20mm",
             "image": "csm_extension-20mm-Produktbild_6f62ea904d 1.png",
             "pdf": "micro 20mm.pdf",
-            "pdfSize": "532KB"
+            "pdfSize": "532KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           },
           {
             "name": "UZATMA",
             "subName": "Ø14mm.",
             "image": "csm_extension-14mm-Produktbild_5a7c31a0e4 1.png",
             "pdf": "micro 14mm.pdf",
-            "pdfSize": "549KB"
+            "pdfSize": "549KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           },
           {
             "name": "Polygon",
@@ -341,7 +419,13 @@
             "routerLink": "polygon",
             "image": "csm_Micro-Polygon_1449508d13 1.png",
             "pdf": "micro polygon.pdf",
-            "pdfSize": "811KB"
+            "pdfSize": "811KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           },
           {
             "name": "MAS-BT",
@@ -349,7 +433,13 @@
             "routerLink": "mas-bt",
             "image": "csm_Micro-MAS-BT_82faf06c2d 1.png",
             "pdf": "micro mas-bt.pdf",
-            "pdfSize": "848KB"
+            "pdfSize": "848KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           },
           {
             "name": "SK",
@@ -357,7 +447,13 @@
             "routerLink": "sk",
             "image": "csm_Micro-SK_acc4cb8e39 1.png",
             "pdf": "micro sk.pdf",
-            "pdfSize": "917KB"
+            "pdfSize": "917KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           },
           {
             "name": "HSK",
@@ -365,7 +461,13 @@
             "routerLink": "hsk",
             "image": "csm_Micro-HSK-Produktbild-mitSchatten_0c239ab1cd 1.png",
             "pdf": "micro hsk.pdf",
-            "pdfSize": "1.1MB"
+            "pdfSize": "1.1MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/lb1FGf6CJaA"
+              }
+            ]
           }
         ]
       },
@@ -451,7 +553,13 @@
               }
             ],
             "pdf": "inner taper.pdf",
-            "pdfSize": "177KB"
+            "pdfSize": "177KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "GERİ DÖNÜŞ \nKİLİTLEMELİ",
@@ -468,14 +576,26 @@
               }
             ],
             "pdf": "reverse lock1.pdf",
-            "pdfSize": "179KB"
+            "pdfSize": "179KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "SİLİNDİRİK\nŞAFTLI",
             "routerLink": "cylindrical-shank",
             "image": "csm_Zylinderschaft_d913976fc5.png",
             "pdf": "cylindrical shank.pdf",
-            "pdfSize": "129KB"
+            "pdfSize": "129KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "BRIDGEPORT",
@@ -492,7 +612,13 @@
               }
             ],
             "pdf": "bridgeport.pdf",
-            "pdfSize": "133KB"
+            "pdfSize": "133KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "MORS \nKONİK",
@@ -513,7 +639,13 @@
               }
             ],
             "pdf": "morse.pdf",
-            "pdfSize": "358KB"
+            "pdfSize": "358KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "KONİK\nŞAFTLI",
@@ -534,7 +666,13 @@
               }
             ],
             "pdf": "taper shank1.pdf",
-            "pdfSize": "177KB"
+            "pdfSize": "177KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "HASSAS\nDELME İLERLEMESİ",
@@ -551,7 +689,13 @@
               }
             ],
             "pdf": "sensitive drill.pdf",
-            "pdfSize": "313KB"
+            "pdfSize": "313KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           },
           {
             "name": "MEDİKAL\nMANDRENLER",
@@ -576,7 +720,13 @@
               }
             ],
             "pdf": "med.pdf",
-            "pdfSize": "2.8MB"
+            "pdfSize": "2.8MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/9ESbO2DM6CQ"
+              }
+            ]
           }
         ]
       },
@@ -768,11 +918,61 @@
       }
     ],
     "bodyHeader": "NEDEN HEULE KULLANILMALI?",
+    "contentHeader": "ÜRÜN ÖZELLİKLERİ",
     "contentBackground": "heule-body",
-    "contentHeader": "HİDROLİK TUTUCULARA GÖRE",
-    "contentText": "Yaklaşık 3 misli daha fazla sıkma kuvveti (D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.3 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Akışkan olmadığında sızdırma ve bakım gerektirmeyen mekanik sistem Takım olmadan sıkma yapıldığında hasar riski yok Maksimum dayanma sıcaklığı 150° (Hidrolik tutucularda Max. 80°)",
-    "secondContentHeader": "SHRINK TUTUCULARA GÖRE",
-    "secondContentText": "Yaklaşık 1.3 misli daha fazla sıkma kuvveti D:12 mm. takım üzerinde APC takımın ulaştığı 200 Nm. değerine karşılık hidrolik tutucularda 80 Nm. Yaklaşık 1.6 misli daha fazla takım ömrü (titreşim sönümleme ve salgı özelliklerinin mukayesesi sonucu) Zaman içinde malzeme yorulma problemi yok, Shrink takımlarda soğutma sırasında yaklaşık 3% çekme olduğunda bağlanan takımın şaft toleransı takımın sıkı bağlanmasında etkili faktördür. Pahalı yardımcı cihaz ihtiyacı yok. Isıtma ve soğutma dolayısı ile zaman kaybı yok. Cihaz bozulması dolayısı ile üretimde durma yok. Tezgah üzerinde ile takım değişimi imkanı. Pens değişimi ile aynı takımı her yerde kullanabilme imkanı. (Shrink takım her ölçü için ayrı ayrı alınmalı.)",
+    "paragraphs": [
+      {
+        "text": "HEULE İLE ÇAPAK ALIRKEN AVANTAJLARINIZ",
+        "class": "fw-bolder text-center mb-3"
+      },
+      {
+        "text": "1961'den beri Çapaksız delikler Çapak alma uygulamaları günümüzde gittikçe önem kazanan ve son kullanıcıların titizlikle üzerinde durduğu uygulamalar haline gelmektedir.\nHEULE firması, 1961’den buyana tezgah üzerinde tek işlemede deliklerin önden ve arkadan işlenmesi için ihtiyaç duyulan takımların geliştirilmesi ve üretilmesi üzerine çalışmaktadır.",
+        "class": "mb-3"
+      },
+      {
+        "text": "Onlarca yıllık deneyim ve yenilikçi çözümler bulma arzusu ile Heule firması delik önü ve arkası kenarlarındaki çapakların tek işlemesinde istediğiniz sonuçlara son derece başarılı, verimli ve güvenilir olarak ulaşabilme kolaylığı sağlayan ürünleri sunmaktadır."
+      }
+    ],
+    "secondParagraphs": [
+      {
+        "text": "HEULE İLE ARKA YÜZEY İŞLEMESİ BACK SPOTFACE YAPARKEN ,AVANTAJLARINIZ",
+        "class": "fw-bolder text-center"
+      },
+      {
+        "text": "HEULE Arka yüzey işlemesi / Back spotface takımları ile son derece güvenilir olarak çok çeşitli uygulamalara çözüm yapıla bilinmektedir.",
+        "class": "mb-3"
+      },
+      {
+        "text": "Uygulama yerine bağlı olarak"
+      },
+      {
+        "text": "- Deliğin arkasında tek seferde işleme,"
+      },
+      {
+        "text": "- İş parçasını döndürmeye gerek olmadan,"
+      },
+      {
+        "text": "- Standart takım çözümleri"
+      },
+      {
+        "text": "- Ön ayar olmadan kullanıma hazır"
+      },
+      {
+        "text": "- Basit işlem adımları açıklaması ve programlama"
+      },
+      {
+        "text": "- Basit alet konsepti ve güvenli kullanım"
+      },
+      {
+        "text": "- Basit kesici uç değiştirme özellikleri"
+      },
+      {
+        "text": "- Geniş kullanım yelpazesi ile"
+      },
+      {
+        "text": "işlem sürelerinizin maksimum optimizasyonuna olanak sağlamaktadır."
+      }
+    ],
     "detailBackground": "heule-detail-bg",
     "products": [
       {
@@ -817,7 +1017,13 @@
               }
             ],
             "pdf": "COFA.pdf",
-            "pdfSize": "3.4MB"
+            "pdfSize": "3.4MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/r1O5f-FJ9eM"
+              }
+            ]
           },
           {
             "name": "DL2",
@@ -853,7 +1059,13 @@
             ],
             "image": "44-DL2.png",
             "pdf": "DL2.pdf",
-            "pdfSize": "1.2MB"
+            "pdfSize": "1.2MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/c6AdK8WDGu0"
+              }
+            ]
           },
           {
             "name": "X-BORES",
@@ -891,7 +1103,13 @@
             ],
             "image": "226-News_Vorschau_Xbores-removebg-preview.png",
             "pdf": "X-BORES.pdf",
-            "pdfSize": "646KB"
+            "pdfSize": "646KB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/Tf1ZpCmwh_w"
+              }
+            ]
           }
         ]
       },
@@ -924,7 +1142,13 @@
               }
             ],
             "pdf": "SNAP.pdf",
-            "pdfSize": "3,2MB"
+            "pdfSize": "3,2MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/taYmVSYvPSY"
+              }
+            ]
           },
           {
             "name": "DEFA",
@@ -995,7 +1219,13 @@
             ],
             "image": "52-BSF.png",
             "pdf": "BSF.pdf",
-            "pdfSize": "4,8MB"
+            "pdfSize": "4,8MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/o8U2sgrAPqI"
+              }
+            ]
           },
           {
             "name": "SOLO",
@@ -1030,7 +1260,13 @@
             ],
             "image": "senken.png",
             "pdf": "SOLO.pdf",
-            "pdfSize": "1,8MB"
+            "pdfSize": "1,8MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/atfww0kVsWA"
+              }
+            ]
           },
           {
             "name": "GH-K",
@@ -1071,7 +1307,13 @@
             ],
             "image": "47-GHK.png",
             "pdf": "GHK.pdf",
-            "pdfSize": "1,1MB"
+            "pdfSize": "1,1MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/rjpjRaDvSFk"
+              }
+            ]
           }
         ]
       },
@@ -1127,7 +1369,13 @@
               }
             ],
             "pdf": "VEX.pdf",
-            "pdfSize": "2,2MB"
+            "pdfSize": "2,2MB",
+            "videos": [
+              {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/2YPinxjnWJY"
+              }
+            ]
           },
           {
             "name": "İŞE ÖZEL COMBI (Delme+Çapak alma)",
@@ -1180,10 +1428,60 @@
     ],
     "bodyHeader": "NEDEN ELTOOL KULLANILMALI?",
     "contentBackground": "eltool-body",
-    "contentHeader": "XEBEC",
-    "contentText": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.\n\n-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi\n\n-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması\n\n“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar.",
+    "contentHeader": "ELTOOL NEDİR",
+    "paragraphs": [
+      {
+        "text": "Yüksek basınçlı soğutma sistemlerinin işletmelerde kullanımındaki artış, Eltool şirketinin Titespot® Soğutma Sıvısı Tahrikli Dik Açılı Kafaları, Hız arttırıcıların geliştirilmesi yönünde teşvik etti. İş Mili tahrikli kafalarla karşılaştırıldığında, Titespot® Dik açılı kafalarının iki önemli maliyet avantajı ortaya çıkmaktadır",
+        "class": "mb-2"
+      },
+      {
+        "text": "- İş mili tahrikli kafalar gibi tezgaha sabitleme pimi kullanmaları gerekmediğinden iş milinin M19 uygulaması ile aynı düzlemde 3600 içinde farklı pozisyonlarda konumlama yapabilirsiniz.",
+        "class": "mb-2"
+      },
+      {
+        "text": "Böylece aynı kafa ile ve tek kurulumla çok konumlu/pozisyonlu işlemeler rahatlıkla yapıla bilinir.",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Mekanik kafaların erişemeyeceği deliklerde ve boşluklarda karmaşık profilleri işlenebilirler.",
+        "class": "mb-2"
+      }
+    ],
     "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
-    "secondContentText": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n– Fırçanın şeklinin bozulmaması\n– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n– Kesici ağızların kendi kendini bileme özelliği\n– Nylon fırçaya göre 60 misline varan taşlama gücü\n– Üstün su geçirmez özelliği\n– Tezgahta ve robotik sistemlerde kullanma avantajı.",
+    "secondParagraphs": [
+      {
+        "text": "Eltool Açılı Kafalar,",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Çapı Ø16 mm'ye kadar olan delikler içinde işleme yapabilir.",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Taban seviyesine 6,35 mm kadar yaklaşımla delik delebilirler (Kesici takım çapı Ø3mm.)",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Gerekli su basıncı miktarı 14-138 Bar.",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Max devir 36.000 d/d.",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Tutucuda saat tersi yönde dönüş olmadığından Kılavuz çekilemez ancak yerine diş frezeleri kullanılabilir.",
+        "class": "mb-2"
+      },
+      {
+        "text": "- İçten su verme özelliği ile sürekli olarak çalışabilir. İş mili tahrikli kafalarda sürekli çalışma özelliği yüksek devirlerde genellikle 6 dk ile sınırlıdır.",
+        "class": "mb-2"
+      },
+      {
+        "text": "- Güç üretimi ≤ 1,86KW.",
+        "class": "mb-2"
+      }
+    ],
     "img": "eltool.png",
     "hoverImg": "eltool.png",
     "routerLink": "eltool",
@@ -1944,7 +2242,7 @@
         "image": "driven-tools.png",
         "details": [
           {
-            "name": "Özel Tahrikli Kafalar",
+            "name": "Özel Tahrikli Kafa Tipleri",
             "routerLink": "tahrikli-kafalar",
             "image": "driven-tools.png",
             "products": [
@@ -1954,7 +2252,7 @@
                 "pdf": "none"
               },
               {
-                "name": "90°",
+                "name": "90° AÇILI",
                 "image": "motorizzati-90.png",
                 "pdf": "90.pdf"
               },
@@ -2037,31 +2335,150 @@
     "detailBackground": "h-bilz-detail-bg",
     "products": [
       {
-        "name": "Delme",
-        "title": "Delme",
-        "routerLink": "delme",
+        "name": "Delme ve Delik İşleme Takımları",
+        "title": "Delme ve Delik İşleme Takımları",
+        "routerLink": "delme-ve-delik-isleme-takimlari",
         "image": "drilling.png",
-        "marginTop": 1,
         "details": [
+          {
+            "name": "TURBO DRILL",
+            "routerLink": "turbo-drill",
+            "image": "turbo.png",
+            "description": [
+              {
+                "text": "Hermann Bilz araştırma ve geliştirme departmanı, gelen talepler doğrultusunda çelik işleme operasyonları için Turbo-Drill takımlar geliştirildi.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "*** Turbo Drill Takımlar, Takımlar, tamamen operasyona ve ihtiyaçlarınıza uygun olarak tasarlanan bir üründür.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Turbo-Drill'leri diğerlerinden ayıran temel özellikler:",
+                "bold": "mb-0"
+              },
+              {
+                "text": "· Dört soğutma kanalı: Tüm kesici kenarın optimum şekilde soğutulmasını sağlar.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "· Pahlı kesici kenarlar: İstikrarı önemli ölçüde artırır.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "· Parlatılmış talaş kanalları: Sorunsuz ve hızlı talaş tahliyesi sağlar.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "· Dörtlü yönlendirme pahları: Elde edilen delikteki daireselliğini iyileştirir.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "· Kaplamalı matkap uçları: Daha fazla dayanıklılık ve takım ömrü sağlar."
+              }
+            ],
+            "pdf": "Hermann-Bilz - CARBIDE DRILLS.pdf",
+            "pdfSize": "545KB"
+          },
+          {
+            "name": "KSB-POWERBORE",
+            "routerLink": "powerbore",
+            "image": "KSBPowerbore 1.png",
+            "description": [
+              {
+                "text": "AVANTAJLARI",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "• Ø 39-160 mm arasındaki delikler için",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Merkezleme kesicisi ile deliğe kendiliğinden merkezleme",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Merkezde yüksek dayanım",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Kesici uçların maksimum uyumu nedeniyle yüksek ilerleme hızları\n",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Düşük makine gücü gereksinimi için yüksek pozitif talaş açısı\n",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Rijit dayanıklı ve eklentis olmayan tutucu sayesinde yüksek performans\n",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Hassas delme toleransları (H11)",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Dış kesici uçlardaki kılavuz pahlar nedeniyle elde edilen doğrusal delikler",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Delik çıkışları eğimli ve darbeli kesimli delikler için yataklama plakaları (KSB03)",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Karbür ve HSS kesici uçlarla üniversal olarak kullanılabilir\n",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Değişken koşullarda da kullanılabilir"
+              }
+            ],
+            "pdf": "Hermann-Bilz - POWERBORE-KSB.pdf",
+            "pdfSize": "547KB"
+          },
           {
             "name": "BILZ-RAPID",
             "routerLink": "bilz-rapid",
             "image": "ubersicht.png",
             "description": [
               {
-                "text": "- Ø5-25 mm çap"
+                "text": "AVANTAJLARI",
+                "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- 140° veya 180° matkap ucu"
+                "text": "• Ø 5-25 mm arasındaki delikler için\n\n",
+                "bold": "mb-0"
               },
               {
-                "text": "- Kademeli/kademesiz spiral oluklu matkap"
+                "text": "• Ön merkezlemesiz delme",
+                "bold": "mb-0"
               },
               {
-                "text": "- Alüminyum/ döküm/ çelik"
+                "text": "• Kolay yeniden bilenebilir kesme geometrisi",
+                "bold": "mb-0"
               },
               {
-                "text": "- Kaplamaya bağlı uzun ömür"
+                "text": "• 140° veya 180° açılı uçlar",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Kademeli veya kademesi helisel matkap",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Alüminyum/döküm/çelik işleme",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Kaplama sayesinde yüksek dayanıklılık",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• Silindirik veya Welson şaftlar",
+                "bold": "mb-0"
+              },
+              {
+                "text": "• 3 hafta içinde teslimat!"
               }
             ]
           },
@@ -2071,68 +2488,116 @@
             "image": "csm_flexi_db4476b44c.png",
             "description": [
               {
-                "text": "- Ø18-39 mm çap"
+                "text": "AVANTAJLARI",
+                "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- Merkez kesici ve simetrik olarak yerleştirilmiş değiştirilebilir kesici uçlar aracılığıyla kendi kendine merkezleme"
+                "text": "• Ø 18-39 mm arasındaki delikler için",
+                "bold": "mb-0"
               },
               {
-                "text": "- Merkezdeki HSSe kesici sayesinde yüksek mukavemet"
+                "text": "• Merkezleme kesici uçlu ve simetrik olarak konumlandırılmış değiştirilebilir kesici uçlar aracılığıyla kendinden merkezleme",
+                "bold": "mb-0"
               },
               {
-                "text": "- Çift uç sayesinde yüksek kesme hızı"
+                "text": "• Merkezdeki HSS-E kesici sayesinde yüksek dayanım",
+                "bold": "mb-0"
               },
               {
-                "text": "- Hassas toleranslar (H11)"
+                "text": "• İki ağızlı kesici uçlar ile yüksek ilerleme hızı",
+                "bold": "mb-0"
               },
               {
-                "text": "- Uçlardaki kılavuz pahlar sayesinde düz delikler"
+                "text": "• Hassas delme toleransları (H11)",
+                "bold": "mb-0"
               },
               {
-                "text": "- Üniversal Karbür ve HSS uçlarla kullanılabilme"
+                "text": "• Dış kesici uçlardaki kılavuz pahlar nedeniyle elde edilen doğrusal delikler",
+                "bold": "mb-0"
               },
               {
-                "text": "- Dengesiz koşullarda da kullanılabilme"
+                "text": "• Karbür ve HSS kesici uçlarla üniversal olarak kullanılabilir",
+                "bold": "mb-0"
+              },
+              {
+                "text": "•  Değişken koşullarda da kullanılabilir"
               }
             ],
-            "pdf": "var",
-            "pdfSize": "var"
+            "pdf": "Hermann-Bilz - FLEXISPEED.pdf",
+            "pdfSize": "411KB"
           },
           {
-            "name": "POWERBORE",
-            "routerLink": "powerbore",
-            "image": "KSBPowerbore 1.png",
+            "name": "UNICUT",
+            "routerLink": "unicut",
+            "image": "unicut.png",
             "description": [
               {
-                "text": "- Ø39-160 mm çap"
+                "text": "AVANTAJLARI",
+                "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- Düşük tork gücü gereksinimi için çok pozitif talaş açısı"
+                "text": "• ø 10 mm ve üzeri için Alın ve Delik işleme uygulamaları için.",
+                "bold": "mb-0"
               },
               {
-                "text": "- Uçların örtüşmesi nedeniyle yüksek ilerleme hızı"
+                "text": "• Yüksek talaş kaldırma oranları",
+                "bold": "mb-0"
               },
               {
-                "text": "- Sert ve bölünmemiş tutucu ile yüksek performans"
+                "text": "• Dar delik işleme toleransları (IT9-IT11)",
+                "bold": "mb-0"
               },
               {
-                "text": "- Hassas toleranslar (H11)"
+                "text": "• Pilot takım kullanmadan Rijit tezgahlarda uygulama olanağı",
+                "bold": "mb-0"
               },
               {
-                "text": "- Dış uçlardaki kılavuz pahlar sayesinde düz delik"
-              },
-              {
-                "text": "- Eğimli delik çıkışları ve kesme kesintileri oluşmaması için kılavuz plakaları (KSB03)"
-              },
-              {
-                "text": "- Üniversal Karbür ve HSS uçlarla kullanılabilme"
-              },
-              {
-                "text": "- Dengesiz koşullarda da kullanılabilme"
+                "text": "• Standart takımlar yanı sıra özel takımlar ile işe özel çözümler mümkündür.\n\n"
               }
             ],
-            "pdf": "var",
-            "pdfSize": "var"
+            "pdf": "Hermann-Bilz - UNICUT Delik işleme takımları.pdf",
+            "pdfSize": "666KB"
+          },
+          {
+            "name": "UNIMILL PRECICUT",
+            "routerLink": "unimill-precicut",
+            "image": "precicut.png",
+            "description": [
+              {
+                "text": "AVANTAJLARI",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "• Ayarlanabilir kesici uçlar",
+                "bold": "mb-0"
+              },
+              {
+                "text" : "• D=Ø 26'dan itibaren 3 ağızlı kesme kenarı ile yüksek talaş kaldırma oranları",
+                "bold": "mb-0"
+              },
+              {
+                "text" : "• Dar delik toleransları (IT7-8)\n",
+                "bold": "mb-0"
+              },
+              {
+                "text" : "• Kesme çapının hızlı ve hassas ayarı (eğim 2 μm/°)\n",
+                "bold": "mb-0"
+              },
+              {
+                "text" : "• 4 mm'ye kadar kesme genişliği\n",
+                "bold": "mb-0"
+              },
+              {
+                "text" : "• Rijit Tezgahlarda kullanılabilir\n",
+                "bold": "mb-0"
+              },
+              {
+                "text" : "• ø 200 mm'ye kadar uygulama olanakları\n",
+                "bold": "mb-0"
+              }
+            ],
+            "pdf": "Hermann-Bilz - PRECI CUT - Hassas Delik işleme takımları.pdf",
+            "pdfSize": "422KB"
           }
         ]
       },
@@ -2526,8 +2991,8 @@
                 "text": "- Yaklaşık 800 N/mm²'ye kadar sert çelik, alüminyum ve bakır alaşımlarındaki vida başlı havşaların punta kaplaması ve havşası için özellikle uygundur."
               }
             ],
-            "pdf": "var",
-            "pdfSize": "var"
+            "pdf": "Hermann-Bilz - HSS COUNTERBORE.pdf",
+            "pdfSize": "831KB"
           },
           {
             "name": "BILZ-Counterbore A-HM",
@@ -2731,36 +3196,60 @@
     "headerText": "SOĞUK HAVA APARATI",
     "contentBackground": "vimaxx-body",
     "contentHeader": "VIMAxX NEDİR?",
-    "contentText": "VimaxX başka hiçbir enerjiye ihtiyaç duymadan, sadece basınçlı hava kullanılarak, ani soğuk/sıcak hava elde etmeye yarayan bir aparattır. Ancak mevcut ürün soğutma ağırlıklı olarak geliştirildiğinden ısıtma olarak kullanımı verimli değildir.",
-    "contentHeader1": "ÇALIŞMA PRENSBİBİ",
-    "contentText1": "İşletmenizde(en az 6Bar olması tercih edilen) basınçlı hava Çap 10mm'lik bir hortumla VimaxX soğuk hava girişine bağlanarak havayı her iki yönden sıcak ve soğuk olarak ayrıştırır. Sıcaklık hava tarafındaki ayar vanasından debi ayarlamaları ile limit içindeki istenen sıcaklık değerlerine ulaşılır.",
     "paragraphs": [
       {
-        "text": "NOT: Ölçülmesi istenen taraftaki çıkış debisi azaltıldıkça ulaşılması istenen maksimum sıcaklık veya soğukluk değerlerine ulaşılır."
+        "text": "VimaxX hiçbir enerjiye ihtiyaç duymadan, sadece basınçlı hava kullanılarak, ani soğuk ve sıcak hava elde etmeye yarayan bir aparattır."
+      },
+      {
+        "text": "Ürün soğutma ağırlıklı olarak geliştirildiğinden ısıtma olarak kullanımı verimli değildir.",
+        "class": "mb-3"
+      },
+      {
+        "text": "ÇALIŞMA PRENSİBİ",
+        "class": "fw-bolder text-center mb-3"
+      },
+      {
+        "text": "İşletmenizdeki (tercihen en az 6 Bar) basınçlı hava."
+      },
+      {
+        "text": "Çap Ø10mm'lik bir hortumla VimaxX soğuk hava girişine bağlanarak havayı her iki yönden sıcak ve soğuk olarak ayrıştırır. "
+      },
+      {
+        "text": "Sıcaklık hava tarafındaki ayar vanasından debi ayarlamaları ile limit içindeki istenen sıcaklık değerlerine ulaşılır."
+      },
+      {
+        "text": "NOT: Çıkış debisi azaltıldıkça ulaşılması istenen maksimum soğukluk değerlerine ulaşılır."
       }
     ],
     "secondContentHeader": "VIMAXX - R30 ÜRÜN ÖZELLİKLERİ",
     "secondParagraphs": [
       {
-        "text": "–İşletmenizde kullanılan havanın basınç seviyesine (en az 6Bar olmalıdır)"
+        "text": "- İşletmenizde kullanılan havanın basınç seviyesine (en az 6 Bar olmalıdır),",
+        "class": "mb-2"
       },
       {
-        "text": "–Havanın temizlğine ve kuruluğuna bağlı olarak t:50° varan sıcaklık dönüşümü"
+        "text": "- Havanın temizliğine ve kuruluğuna bağlı olarak Δt:50° varan sıcaklık dönüşümü,",
+        "class": "mb-2"
       },
       {
-        "text": "–Yaklaşık 2800 Btu, soğutma verimliliği"
+        "text": "- Yaklaşık 2800 Btu, soğutma verimliliği",
+        "class": "mb-2"
       },
       {
-        "text": "–300 bar'a dayanan hafif, portatif ve hareketsiz parçalardan meydana getirilmiş yapı"
+        "text": "- 300 bar'a dayanan hafif, portatif ve hareketsiz parçalardan meydana getirilmiş yapı",
+        "class": "mb-2"
       },
       {
-        "text": "–Elektrik, freon gazı, kimyasal kullanımı olmaksızın çalışma"
+        "text": "- Elektrik, freon gazı, kimyasal kullanımı olmaksızın çalışma",
+        "class": "mb-2"
       },
       {
-        "text": "–Manyetik ortamdan etkilenmeme"
+        "text": "- Manyetik ortamdan etkilenmeme",
+        "class": "mb-2"
       },
       {
-        "text": "–Çok hızlı devreye girip, kolayca çıkabilme, temizlik ve bakım gerektirmeden çalışma."
+        "text": "- Çok hızlı devreye girme ve temizlik / bakım gerektirmeden çalışma.",
+        "class": "mb-2"
       }
     ],
     "img": "vimaxx.png",
@@ -2836,34 +3325,41 @@
     "headerText": "YÜZEY TEMİZLEME VE\n KENAR ÇAPAK ALMA FIRÇALARI",
     "bodyHeader": "NEDEN XEBEC TUTUCU KULLANILMALI?",
     "contentBackground": "xebec-body",
-    "contentHeader": "XEBEC",
+    "contentHeader": "UYGULAMA YERLERİ",
     "paragraphs": [
       {
-        "text": "Japon Firması olan XEBEC, alüminyum lifli fırça, seramik taş veya karbür uçlar ile freze tipi, elde veya CNC uç ile çapak alma pah kırma operasyonlarında uzmanlaşmış bir firmadır.",
+        "text": "XEBEC firması 15 yıllık kuruluşundan bu yana, çapak alma ve parlatma alanına teknolojik yenilik getirerek süreç dönüşümünü ve zihniyet değişikliğini desteklemektedir.",
         "class": "mb-3"
       },
       {
-        "text": "-Tezgahta Fırçalama Yöntemi ile Kenar Çapaklarının Alınması ve Yüzey Pürüzlülüğü Elde Edilmesi",
+        "text": "Firma ilk olarak Seramik Taşı geliştirmiş sonrasında ise Dünyada seramik taş lifleri yapmayı başaran ilk firma olarak otomotiv, havacılık ve medikal sektörleri gibi farklı alanlarda faaliyet gösteren global firmaların seri üretim hatlarına katkı sağlamaktadır.",
         "class": "mb-3"
       },
       {
-        "text": "-Alüminyum lifli fırçalar ile ulaşılan üstün taşlama özelliği ile Ra 0,1’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınması",
-        "class": "mb-3"
-      },
-      {
-        "text": "“XEBEC Cutting Fiber” Kesici fırçaları kesici / aşındırıcı seramik lifleri her fırça teli içinde 1000’e varan sayıda kullanılarak elde edilen 100.000’lere varan kesici / aşındırıcı ağız yapısı ile mükemmel kesme kalitesi sunar."
+        "text": "Ürün portföyü ile Parmak frezeleme, yüzey frezeleme, diş çekme, delme vd. gibi işlemler sonrası ihtiyaç duyulan çapak alma, kesici takım izi giderme ve yüzey parlatma için ideal ürünler sunmaktadır."
       }
     ],
     "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
     "secondParagraphs": [
       {
-        "text": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme"
+        "text": "XEBEC Seramik bazlı ürünlerin ürün özelliği ile her fırça teli içinde 1000'e varan sayıda seramik kullanarak toplamda oluşturduğu 100.000'lere varan kesici / aşındırıcı ağız özelliği ile mükemmel işleme kalitesi sunar."
       },
       {
-        "text": "– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemes"
+        "text": "Bu şekilde el ile veya tezgahta Ra 0,1µ’e varan yüzey pürüzlülüğüne ulaşılması ve kenar çapaklarının alınmasına olanak sağlamaktadır.",
+        "class": "mb-3"
       },
       {
-        "text": "– Fırçanın şeklinin bozulmaması"
+        "text": "TEMEL ÜRÜN ÖZELLİKLERİ",
+        "class": "fw-bolder text-center"
+      },
+      {
+        "text": "- Güçlü taşlama özelliği ile Ra.0,1'e varan yüzey kalitesi elde etme"
+      },
+      {
+        "text": "- Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi,"
+      },
+      {
+        "text": "- Fırçanın şeklinin bozulmaması."
       },
       {
         "text": "– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)"
@@ -2893,46 +3389,46 @@
         "description": "type",
         "details": [
           {
-            "name": "Brush™ Surface",
+            "name": "XEBEC Yüzey Fırçaları",
             "routerLink": "surface",
-            "image": "_XEBEC Brush™ Surface End Type.png",
+            "image": "_XEBEC Brush™ Surface.png",
             "baseImage": "XEBEC-Brush-Surface.png",
             "description": [
               {
-                "text": "Çapak alma, kesici izi giderme ve yüzey parlatma için ideal."
+                "text": "Tezgah üzerinde kenar çapaklarının alınması, kesici takım izlerinin giderilmesi ve yüzey parlatma işleriniz için ideal."
               }
             ],
             "pdf": "XEBEC-Brush-surface.pdf",
             "pdfSize": "430KB"
           },
           {
-            "name": "Brush™ Wheel Type",
+            "name": "XEBEC T-Tipi Fırçalar",
             "routerLink": "wheel-type",
             "image": "_XEBEC Brush™ Wheel Type.png",
             "baseImage": "XEBEC-Brush-Wheel-Type.png",
             "description": [
               {
-                "text": "İç çapların, yan duvarların ve dış diş çaplarının çapaklarının alınması ve parlatılması için ideal"
+                "text": "İç çapların, yan duvarların ve diş üstü çaplarındaki çapakların alınması ve parlatılması için ideal"
               }
             ],
             "pdf": "XEBEC-BRUSH-WHEELTYPE.pdf",
             "pdfSize": "345KB"
           },
           {
-            "name": "Brush™ Crosshole",
+            "name": "XEBEC Delik içi Fırçaları",
             "routerLink": "crosshole",
             "image": "_XEBEC Brush™ Crosshole.png",
             "baseImage": "XEBEC-Brush-Crosshole.png",
             "description": [
               {
-                "text": "φ20'ye kadar iç çaplarda ve havşalarda çapak alma, parlatma ve kesici izlerini gidermek için ideal"
+                "text": "Ø20mm'ye kadar iç çaplarda çapak alma, parlatma ve kesici izlerini gidermek için ideal"
               }
             ],
             "pdf": "XEBEC-BRUSH-CROSSHOLE.pdf",
             "pdfSize": "460KB"
           },
           {
-            "name": "Back Burr Cutter and Path™",
+            "name": "XEBEC Arka Yüzey Çapak Alma Takımları",
             "routerLink": "back-burr-cutter-and-path",
             "image": "_XEBEC Back Burr Cutter and Path™.png",
             "baseImage": "backburrcutterpath.png",
@@ -2945,52 +3441,55 @@
             "pdfSize": "1,4MB"
           },
           {
-            "name": "Brush™ Surface End Type",
+            "name": "XEBEC DİP YÜZEY TEMİZLEME FIRÇALARI",
             "routerLink": "surface-end-type",
-            "image": "_XEBEC Brush™ Surface.png",
+            "image": "_XEBEC Brush™ Surface End Type.png",
             "baseImage": "XEBEC-Brush-Surface-End-Type.png",
             "description": [
               {
-                "text": "İç çaplar ve sızdırmazlık yüzeyindeki kesici izlerinin parlatılması ve çıkarılması için ideal"
+                "text": "Tezgahta veya yüksek devirli havalı aletlerinde dar bölge, dip yüzeyler, kenar ve köşe temizlemeye uygun"
               }
             ],
             "pdf": "XEBEC-BRUSH-SURFACEENDTYPE.pdf",
             "pdfSize": "929KB"
           },
           {
-            "name": "Stone™ Flexible Shaft",
+            "name": "XEBEC ESNEK ŞAFTLI SERAMİK TAŞLAR",
             "routerLink": "flexible-shaft",
             "image": "_XEBEC Stone™ Flexible Shaft.png",
             "baseImage": "Flexible-Shaft-Lineup.png",
             "description": [
               {
-                "text": "Çapraz deliklerin, olukların ve iş parçasının derinlerindeki alanların ön ve arka kısımlarında çapak alma ve parlatma için idealdir. Yay çeliği esnek şaft, yüzeyle yumuşak teması mümkün kılan titreşimleri emer."
+                "text": "Çapraz deliklerin, kanalların ve iş parçasının derinlerindeki alanların ön ve arka kısımlarında çapak alma ve parlatma için idealdir."
+              },
+              {
+                "text": "Yay çeliği gövdesi dolaysı ile 2mm,’ye varan esnemesi ile yüzeyle yumuşak teması mümkün kılar, titreşimleri emer."
               }
             ],
             "pdf": "XEBEC-FLEXIBLESHAFT.pdf",
             "pdfSize": "538KB"
           },
           {
-            "name": "Stone™ Mounted Point",
+            "name": "XEBEC SERAMİK TAŞ UÇLU MALZEMELER",
             "routerLink": "mounted-point",
             "image": "_XEBEC Stone™ Mounted Point.png",
             "baseImage": "XEBEC-Stone-Mounted-Point.png",
             "description": [
               {
-                "text": "Yüksek devirde pnömatik aletlerle kullanıma uygun."
+                "text": "Yüksek devirde havalı aletlerle veya tezgahta kullanıma uygun."
               }
             ],
             "pdf": "XEBEC Stone™ Mounted Point.pdf",
             "pdfSize": "255KB"
           },
           {
-            "name": "Ceramic Stone™ Meister Finish",
+            "name": "XEBEC SERAMİK ÇUBUKLAR™ MEISTER FINISH",
             "routerLink": "meister-finish",
             "image": "_XEBEC Ceramic Stone™ Meister Finish.png",
             "baseImage": "XEBEC-Ceramic-Stone.png",
             "description": [
               {
-                "text": "Kalıpların ve haddelerin parlatılması ve çapaklarının alınması için idealdir."
+                "text": "Kalıpların ve Yüzeylerin parlatılması ve çapaklarının alınması el ile yapılan uygulamalarda idealdir."
               }
             ],
             "pdf": "XEBEC_Ceramic_Stone_EN.pdf",
@@ -3010,113 +3509,118 @@
             "image": "Brush.png",
             "description": [
               {
-                "text": "CNC makinenizde çapak alma ve cilalamayı otomatikleştirin"
+                "text": "Kenar çapaklarının alınması ve yüzey temizleme işlerinizi tezgah üzerinde bitirin",
+                "bold": "mb-0"
               },
               {
-                "text": "- XEBEC Brush, aşındırıcı tanecik yerine benzersiz aşındırıcı seramik fiber malzeme kullanır."
+                "text": "- XEBEC Fırçalar aşındırıcı tozlar yerine benzersiz aşındırıcı seramik lifli malzeme kullanır.",
+                "bold": "mb-0"
               },
               {
-                "text": "- Her kıl, kesici kenar görevi gören 1.000 seramik elyaftan oluşur."
+                "text": "- Her seramik fırça teli içinde kesici kenar görevi gören 1.000'e varan seramik elyaf lifler bulundurur.",
+                "bold": "mb-0"
               },
               {
-                "text": "- Ezici taşlama gücü, Tutarlı kesme performansı, Deformasyon yok."
+                "text": "- Fırçaların yapısal özellikleri sayesinde üstün taşlama gücü, tutarlı kesme performansı yaratır. Diğer malzemeler gibi fırça deformasyonu yok.",
+                "bold": "mb-0"
               },
               {
-                "text": "- Aynı takım tezgahında frezeleme ve işleme operasyonlarından hemen sonra CNC çapak gidermeye olanak sağlar."
+                "text": "- Tezgahta uygulanabilme özelliği ile CNC tezgahlarda yapılan işlemelerden hemen sonra çapakların giderilmesine olanak sağlar.",
+                "bold": "mb-0"
               }
             ],
             "carousel": [
               {
-                "name": "XEBEC Fırça™ Yüzey",
+                "name": "XEBEC™ Yüzey Fırçaları",
                 "image": "yuzey.jpg",
-                "description": "Çapak alma, kesici izi giderme ve yüzey parlatma için ideal",
+                "description": "Tezgah üzerinde kenar çapaklarının alınması, kesici takım izlerinin giderilmesi ve yüzey parlatma işleriniz için ideal",
                 "routerLink": "yuzey"
               },
               {
-                "name": "XEBEC Fırça™ Yüzey Sonu Tipi",
+                "name": "XEBEC™ Dip Yüzey Temizleme Fırçaları",
                 "image": "yuzey-sonu-tipi.jpg",
-                "description": "Yüksek devirde pnömatik aletlerle kullanıma uygun",
+                "description": "Tezgahta veya yüksek devirli havalı aletlerinde dar bölge, dip yüzeyler, kenar ve köşe temizlemeye uygun",
                 "routerLink": "yuzey-sonu-tipi"
               },
               {
-                "name": "XEBEC Brush™ Ekstra Geniş Yüzey",
+                "name": "XEBEC™ Fırça™ Ekstra Büyük",
                 "image": "ekstra-genis-yuzey.jpg",
-                "description": "100 mm veya daha fazla genişlikte çapak alma, kesici izi giderme ve yüzey parlatma için ideal",
+                "description": "100 mm veya daha büyük yüzeylere uygun fırçalarla çapak alma, kesici izi giderme ve yüzey parlatma uygulamaları",
                 "routerLink": "ekstra-genis-yuzey"
               },
               {
-                "name": "XEBEC Brush™ Tekerlek Tipi",
+                "name": "XEBEC™ T-Tipi Fırçalar",
                 "image": "tekerlek-tipi.jpg",
-                "description": "İç çapların, yan duvarların ve dış diş çaplarının çapaklarının alınması ve parlatılması için ideal",
+                "description": "İç çapların, yan duvarların ve diş üstü çaplarındaki çapakların alınma ve parlatma uygulamaları",
                 "routerLink": "tekerlek-tipi"
               },
               {
-                "name": "XEBEC Brush™ Çapraz Delik",
+                "name": "XEBEC™ Delik içi Fırçaları",
                 "image": "capraz-delik.jpg",
-                "description": "φ20'ye kadar iç çaplarda ve havşalarda çapak alma, parlatma ve kesici izlerini gidermek için ideal",
+                "description": "Ø20mm'ye kadar iç çaplarda çapak alma, parlatma ve kesici izlerini gidermek için ideal",
                 "routerLink": "capraz-delik"
               },
               {
-                "name": "XEBEC Brush™ Çapraz Delik Ekstra Büyük",
+                "name": "XEBEC™ Ekstra Büyük Delik İçi Fırçaları",
                 "image": "capraz-delik-ekstra-buyuk.jpg",
-                "description": "φ20 ve φ35 arasındaki iç çaplar ve havşalardaki çapak alma, parlatma ve kesici izlerini gidermek için ideal",
+                "description": "Ø20mm ve Ø35mm arasındaki iç çaplarda çapak alma, parlatma ve kesici izlerini gidermek için ideal",
                 "routerLink": "capraz-delik-ekstra-buyuk"
               },
               {
-                "name": "XEBEC Brush™ Çapraz Delik Ekstra Uzun",
+                "name": "XEBEC™ Ekstra Uzun Delik İçi Fırçaları",
                 "image": "capraz-delik-ekstra-uzun.jpg",
-                "description": "İç çaplarda ve derinliği 150 mm'yi geçen havşalarda çapak alma, parlatma ve kesici izlerini gidermek için ideal",
+                "description": "Ø3mm - Ø11mm arası fırçalar ile iç çaplarda ve derinliği 150 mm'yi geçen deliklerde çapak alma, parlatma ve kesici izlerini gidermek için ideal",
                 "routerLink": "capraz-delik-ekstra-uzun"
               },
               {
-                "name": "XEBEC Kendinden Ayarlı Kılıf™",
+                "name": "XEBEC™ Fırça Boyu Kendinden Ayarlamalı Aparat",
                 "image": "kendinden-ayarli-kilif.jpg",
-                "description": "İnsan hatalarını önlemeye ve tutarlı işleme performansı elde etmeye yardımcı olur.",
+                "description": "Fırça uzunluğunu yerleşik dişli mekanizması ile otomatik olarak ayarlayan tutucular. Fırça boy ayarı ile ilgili operatör hatalarını önleyerek fırçanın sürekli ve tutarlı işleme performansı elde etmesine yardımcı olur.",
                 "routerLink": "kendinden-ayarli-kilif"
               },
               {
-                "name": "XEBEC Yüzer Tutucu™ Düz Şaft Tipi",
-                "image": "yuzer-tutucu-duz-saft-tipi.jpg",
-                "description": "Yerleşik yay, Fırça projeksiyon uzunluğunu sık sık ayarlama ihtiyacını azaltırken tutarlı performans sağlayan sabit yükün korunmasına yardımcı olur.",
-                "routerLink": "yuzer-tutucu-duz-saft-tipi"
-              },
-              {
-                "name": "XEBEC Yüzer Tutucu™ BT Şaft Tipi",
+                "name": "XEBEC™ BT-30 / BT-40 Şaft Tipi Entegre Kayar Kafa\n",
                 "image": "yuzer-tutucu-bt-saft-tipi.jpg",
-                "description": "Yerleşik yay, Fırça projeksiyon uzunluğunu sık sık ayarlama ihtiyacını azaltırken tutarlı performans sağlayan sabit yükün korunmasına yardımcı olur.",
+                "description": "Tezgah seviye hattının altındaki uzunluğu (burç flanş kalınlığı 1,5 mm dahil) 23,5 mm olan kompakt takım tutucu. Takım bağlama çapı 16mm'dir. Kullanılabilir alanı sınırlı bölgeler için idealdir. İçindeki yay vasıtası ile fırça uzunluğunun sık sık ayarlanma ihtiyacını azaltarak tutarlı ve sürekli performans sağlamak için gerekli olan fırça üzerindeki sabit yükün korunmasına yardımcı olur.",
                 "routerLink": "yuzer-tutucu-bt-saft-tipi"
               },
               {
-                "name": "XEBEC Kısa BT Tutucu",
+                "name": "XEBEC™ Kayar Tutucu",
+                "image": "yuzer-tutucu-duz-saft-tipi.jpg",
+                "description": "Uzun süreli uygulamalarda azalan fırça uzunluğu sebebi ile firçanın baskı gücü azalmakta bu da belli aralıklarla fırça boyunun ayarlanma ihtiyacını doğurmaktadır.\nİçindeki değişebilir yay ile sürekli işlemelerde fırça üzerinde sabit yükü koruyarak tutarlı ve sürekli performans sağlanmasına yardımcı olur. Silindirik, BT30 ve BT40 şaftlı olarak mevcuttur.",
+                "routerLink": "yuzer-tutucu-duz-saft-tipi"
+              },
+              {
+                "name": "XEBEC™ Kısa Tip BT-30 Tutucu",
                 "image": "kisa-bt-tutucu.jpg",
-                "description": "Gösterge hattının altındaki uzunluğu kompakt alet tutucu.",
+                "description": "İş mili alın seviyesinden itibaren uzunluğu 23,5 mm olan kompakt takım tutucu (burç flanşı kalınlığı 1,5 mm dahil).Kullanılabilir alanın sınırlı olduğu uygulamalarda idealdir.",
                 "routerLink": "kisa-bt-tutucu"
               },
               {
                 "name": "XEBEC Fırça Uzunluğu Ayarlama Aracı™",
                 "image": "firca-uzunlugu-ayarlama-araci.jpg",
-                "description": "Fırça projeksiyon uzunluğunu kolayca ayarlamak için araç",
+                "description": "Xebec yüzey temizleme fırçalarının zamanla aşınmaları sonrasında fırça uzunluğunu hızlı ve kolayca ayarlamak için kullanılan aparat.",
                 "routerLink": "firca-uzunlugu-ayarlama-araci"
               }
             ]
           },
           {
-            "name": "XEBEC Geri Çapak Kesici ve Yol™",
+            "name": "XEBEC™ ARKA YÜZEY ÇAPAK ALMA VE TAKIM YOLU",
             "routerLink": "geri-capak-kesici-ve-yol",
             "image": "Back-Burr-Cutter and-Path.png",
             "description": [
               {
-                "text": "Küresel çapak alma bıçağı ve özel yapım takım yolu"
+                "text": "Küresel formdaki çapak alma takımı ve işe özel hazırlanan özel tasarım NC takım yolu ile birlikte takım ömrünü en üst düzeye çıkarırken, karmaşık 3D kavisli kenarların yüksek hızda, yüksek hassasiyette çapaklarının alınmasını sağlayan yenilikçi bir CNC çapraz delik çapak alma çözümü."
               },
               {
-                "text": "Küresel çapak alma kesicisi ve özel yapım Yol (NC takım yolu) ile birlikte, takım ömrünü en üst düzeye çıkarırken karmaşık 3D kavisli kenarların yüksek hızda, yüksek hassasiyette çapak almasını sağlayan yenilikçi bir CNC çapraz delik çapak alma çözümü. Yol, NC programına eklendikten hemen sonra kullanılabilir ve optimum takım yolunu oluşturmak zorunda kalmadan zamandan büyük ölçüde tasarruf sağlar."
+                "text": "Takım yolu, NC programına eklendikten hemen sonra kullanılabilir ve optimum takım yolunu oluşturmak zorunda kalmadan zamandan büyük ölçüde tasarruf sağlar."
               }
             ],
             "carousel": [
               {
-                "name": "XEBEC Geri Çapak Kesici ve Yol™",
+                "name": "XEBEC™ Arka Yüzey Çapak Alma ve Takım Yolu",
                 "image": "geri-capak-kesici-ve-yol.jpg",
-                "description": "3D kavisli çapraz deliklerin yüksek hassasiyetle çapak alma işlemi için optimum çözüm",
+                "description": "Küresel çapak alma kesicisi ve özel tasarım NC takım yolu ile 3D kavisli kenarların çapaklarının yüksek hızda, yüksek hassasiyette alınması",
                 "routerLink": "geri-capak-kesici-ve-yol"
               }
             ]
@@ -3138,15 +3642,15 @@
             ],
             "carousel": [
               {
-                "name": "XEBEC Geri Çapak Kesici ve Yol™",
+                "name": "XEBEC Esnek Şaftlı Taşlar",
                 "image": "geri-capak-kesici-ve-yol.jpg",
-                "description": "3D kavisli çapraz deliklerin yüksek hassasiyetle çapak alma işlemi için optimum çözüm",
+                "description": "Çapraz deliklerin, kanalların ve iş parçalarının derinliklerindeki alanların ön ve arka kısımlarında çapak alma ve parlatma için idealdir. Yay çeliği esnek şaftı ile taşın yüzeye yumuşak temasına olanak sağlar ve işleme sırasında oluşan titreşimleri emer.",
                 "routerLink": "geri-capak-kesici-ve-yol"
               },
               {
-                "name": "XEBEC Stone™ Montaj Noktası",
+                "name": "XEBEC™ Taş Uçlu Malzemeler",
                 "image": "montaj-noktasi.jpg",
-                "description": "Yüksek devirde pnömatik aletlerle kullanıma uygun",
+                "description": "Yüksek devirde havalı aletlerle veya tezgahta kullanıma uygun",
                 "routerLink": "montaj-noktasi"
               },
               {
@@ -3156,7 +3660,7 @@
                 "routerLink": "meister-finish"
               },
               {
-                "name": "XEBEC Ceramic Stone™ Isıya Dayanıklı",
+                "name": "XEBEC Seramik Taş™ Isıya Dayanıklı",
                 "image": "isiya-dayanikli.jpg",
                 "description": "200°C'ye kadar ısıya dayanıklı ve ultrasonik aletle sürekli kullanıma uygun",
                 "routerLink": "isiya-dayanikli"
@@ -3164,25 +3668,25 @@
               {
                 "name": "XEBEC Seramik Taş™ Elmas",
                 "image": "elmas.jpg",
-                "description": "Semente karbür ve sertleştirilmiş çelik (SKD, STAVAX, vb.) gibi HRC57'den daha sert malzemeler için uygundur.",
+                "description": "Semente karbür ve sertleştirilmiş çelik (SKD, STAVAX, vb.) gibi HRC-57'den daha sert malzemeler için uygundur.",
                 "routerLink": "elmas"
               },
               {
-                "name": "XEBEC Ceramic Stone™ Yumuşak",
+                "name": "XEBEC Seramik Taş™ Yumuşak Tip",
                 "image": "yumusak.jpg",
-                "description": "Kauçuk bağlayıcı, yumuşak temas sağlar ve bir iş parçasına sığar",
+                "description": "Kauçuk bağlayıcılar ile iş parçasına yumuşak temas ve yüzeye uyum sağlar.",
                 "routerLink": "yumusak"
               },
               {
-                "name": "XEBEC Ceramic Stone™ Kalem",
+                "name": "XEBEC Kalem tipi Seramik taşlar",
                 "image": "kalem.jpg",
-                "description": "Kalıbın oyulmuş ve dar detaylarının parlatılması ve çapaklarının alınması için ideal",
+                "description": "Kalıplarda veya iş parçalarındaki oyuklarda veya dar bölge yüzeylerde kenar ve köşe parlatmaları ve çapaklarının alınması için ideal",
                 "routerLink": "kalem"
               },
               {
-                "name": "XEBEC Ceramic Stone™ İçin Çubuk Tutucu™",
+                "name": "XEBEC El Uygulama Malzeme™ Tutucuları",
                 "image": "cubuk-tutucu.jpg",
-                "description": "",
+                "description": "XEBEC Seramik taşlar ™ ve Meister Finish Çubuk tipi ve Silindirik tipler için",
                 "routerLink": "cubuk-tutucu"
               },
               {

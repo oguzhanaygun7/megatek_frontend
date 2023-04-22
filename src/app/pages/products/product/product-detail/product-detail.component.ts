@@ -3,9 +3,7 @@ import {ActivatedRoute} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
 import {DomSanitizer} from "@angular/platform-browser";
 import {
-    bounceInRightOnEnterAnimation,
-    fadeInOnEnterAnimation,
-
+    bounceInRightOnEnterAnimation, fadeInOnEnterAnimation,
 } from "angular-animations";
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 
@@ -14,7 +12,7 @@ import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
     templateUrl: './product-detail.component.html',
     styleUrls: ['./product-detail.component.scss'],
     animations: [
-        // fadeInOnEnterAnimation({anchor: 'enter', duration: 0, delay: 0}),
+        fadeInOnEnterAnimation({anchor: 'enter', duration: 0, delay: 0}),
         bounceInRightOnEnterAnimation({anchor: 'product', duration: 800, delay: 150}),
     ]
 })
@@ -125,5 +123,9 @@ export class ProductDetailComponent implements OnInit {
 
     selected() {
         return 1;
+    }
+
+    setUrl(url :any) : any {
+        return this.sanitizer.bypassSecurityTrustResourceUrl(url);
     }
 }

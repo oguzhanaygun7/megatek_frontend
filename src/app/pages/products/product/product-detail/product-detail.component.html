@@ -1,4 +1,4 @@
-<div [@enter] style="min-height: 100vh">
+<div [@enter]  style="min-height: 100vh">
     <section class="{{brandProduct?.headerBackground}}"
              [ngClass]="productDetails?.marginTop?'margin-0-bg':''">
         <div class="container" style="height: 100%">
@@ -151,6 +151,14 @@
                             <img *ngIf="video.type == 'gif'"
                                  style="width: 100%;border-radius: 10px"
                                  [src]="'assets/videos/'+brandProduct?.routerLink+'/'+video.url">
+                            <div *ngIf="video.type == 'iframe'">
+                                <iframe style="width: 100% !important;" height="315"
+                                        [src]="setUrl(video.url)"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                     <div class="row" *ngIf="!selectedProduct?.videos">
@@ -163,7 +171,8 @@
                             <iframe style="width: 100% !important;" height="315" src="https://www.youtube.com/embed/1Xdxd9LuWyo"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>
@@ -219,7 +228,7 @@
                 <div class="row py-5"
                      style="background: #F7F7F7;border-radius: 10px;padding: 30px 0;">
                     <div class="col-12 text-center">
-                        <h4 class="h4-eltool">TİTESPOT® AÇILI KAFALAR NASIL ÇALIŞIR?</h4>
+                        <h4 class="h4-eltool">TITESPOT® AÇILI KAFALAR NASIL ÇALIŞIR?</h4>
                     </div>
                     <div class="col-12">
                         <p class="mb-0">
@@ -233,16 +242,22 @@
                             </b>
                         </p>
                         <p>
-                            Titespot® açılı başlıklar, sınırlı/dar alanlardaki uygulanan eski dik açılı kafalar ile işleme sorununa karşı kanıtlanmış bir çözümdür. Titespot® açılı başlıklar, bütünleşik pozitif yer değiştirme bilyeli pistonlu motorunu çalıştırmak için yüksek basınçlı soğutma sıvısı sisteminizi kullanırlar. Örnek çizimde gösterildiği gibi, motor bir tahrik miline güç verir ve ardından kafanın milini harekete geçirir. Kullanılan soğutma sıvısı kesici takım içinden geçecek şekilde yönlendirilir.
+                            Titespot® açılı başlıklar, sınırlı/dar alanlardaki uygulanan işmili tahrikli dik açılı kafalar ile işleme sorununa karşı kanıtlanmış bir çözümdür.
                         </p>
                         <p>
-                            Titespot açılı Kafanın güç kaynağı soğutma sıvısı olduğundan, makinenizin ana işmili sadece bir indeksleyici işlevi yapacak şekilde serbest kalır ve tek bir kafa ve kurulumla çok konumlu radyal işlemelere olanak sağlanır. Rijit (tapping) kılavuz çekme özelliğine sahip makinelerde M19 iş mili oryantasyonunuzun basit bir şekilde ayarlanması ile dik açılı kafamızın tam 360 derece indekslenmesi sağlanır. Titespot kafaları tezgah magazininden / ATC'nizden kolayca yüklenir ve mekanik tahrikli kafaların aksine C ekseni veya sbailtleme (Stop) bloğuna ihtiyaç duymaz.
+                            Titespot® açılı başlıklar, bütünleşik pozitif yer değiştirme bilyeli pistonlu motorunu çalıştırmak için yüksek basınçlı soğutma ihtiyaç duyarlar. Örnek çizimde gösterildiği gibi, motor bir tahrik miline güç verir ve ardından kafanın milini harekete geçirir. Kullanılan soğutma sıvısı kesici takım içinden geçecek şekilde yönlendirilir.
                         </p>
                         <p>
-                            Bir başka deyişle tutucu paketinize bir Titespot Açılı Kafa eklemek, işleme merkezinize veya CNC tornanıza ilave bir C ekseni eklemek gibidir.
+                            Titespot açılı Kafanın güç kaynağı soğutma sıvısı olduğundan, makinenizin ana işmili sadece  indeksleyici işlevi yapacak şekilde serbest kalır ve tek bir kafa ve kurulumla çok konumlu radyal işlemelere olanak sağlanır.
+                        </p>
+                        <p>
+                            Rijit (tapping) kılavuz çekme özelliğine sahip makinelerde M19 iş mili oryantasyonunuzun basit bir şekilde ayarlanması ile dik açılı kafamızın tam 360 derece indekslenmesi sağlanır. Titespot kafaları tezgah magazininden / ATC üzerinden kolayca yüklenir ve mekanik işmili tahrikli kafaların aksine C ekseni veya sabitleme (Stop) bloğuna ihtiyaç duymaz.
+                        </p>
+                        <p>
+                            Bir başka deyişle takım listenize bir Titespot Açılı Kafa eklemek, işleme merkezinize veya CNC tornanıza ilave bir C ekseni eklemek gibidir.
                         </p>
                         <p class="mb-0">
-                            Titespot Açılı Başlıklar, destek için rulmana ihtiyaç duymadığından, işmiline sıkı bir şekilde kenetlenir ve minimum sapma ile daha kompakt tasarımlı yapı oluşturur. Titespot Açılı Kafalar, çapı 16 mm'ye kadar olan deliklerde çalışabilecek dar yapıda ve 914mm uzunluğa kadar gövdelerde üretilebilmektedir.
+                            Titespot Açılı Başlıklar, destek için rulmana ihtiyaç duymadığından, işmiline sıkı bir şekilde kenetlenir ve minimum sapma ile daha kompakt tasarımlı yapı oluşturur. Titespot Açılı Kafalar, çapı 16 mm'ye kadar olan deliklerde çalışabilecek dar yapıda ve uzunluğu 914mm varan gövdelerde üretilebilmektedir.
                         </p>
                     </div>
                 </div>
@@ -399,16 +414,22 @@
                         <ng-template style="border-radius: 10px !important;" ngbSlide
                                      *ngFor="let data of selectedProduct.carousel">
                             <a>
-                                <div class="carousel-img-wrapper" style="overflow: hidden">
+                                <div class="carousel-img-wrapper" style="overflow: hidden; height: 250px">
                                     <img [src]="'assets/images/products/xebec/select-by-product-type/'+selectedProduct?.routerLink+'/'+data.image"
                                          width="100%"/>
                                 </div>
-                                <div class="carousel-caption pb-0" style="color: black; bottom: 0; right: 5%; left: 5%">
-                                    <h5 class="carousel-font-size">{{data.name}}</h5>
-                                    <p class="">{{data.description}}</p>
-                                </div>
+
                             </a>
+                            <div class="row p-2" style="background-color: rgb(247,247,247);">
+                                <div class="col-12">
+                                    <div class="">
+                                        <h5 class="carousel-font-size">{{data.name}}</h5>
+                                        <p class="">{{data.description}}</p>
+                                    </div>
+                                </div>
+                            </div>
                         </ng-template>
+
                     </ngb-carousel>
                 </div>
             </div>

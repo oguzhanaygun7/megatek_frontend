@@ -82,19 +82,12 @@
                 <div class="col-12">
                     <div class="content-body {{brandProduct?.contentBackground}}">
                         <p>
-                            Haziran 1908’de Josef Albrecht tarafından kurulan şirket küçük bir hassas mekanik atölyede
-                            delme ve frezeleme alanında metal işleme üzerine çalışmaya başladı.
-                            1917' yılında, daha yeni olmasına rağmen Esslingen, Stuttgart’taki ilk üretim tesisine
-                            taşındı.
+                            Haziran 1908’de Josef Albrecht tarafından kurulan şirket küçük bir hassas mekanik atölyede delme ve frezeleme alanında metal işleme üzerine çalışmaya başladı.<br>
+                            1917' yılında, daha yeni olmasına rağmen Esslingen, Stuttgart’taki ilk üretim tesisine taşındı.
                         </p>
                         <p>
-                            Sonraki birkaç yıl içinde de 1932'de Dünya’ nın ilk anahtarsız kendinden sıkmalı mandreni
-                            burada icat edildi. Bu tarihten itibaren imalatçılar fazladan bir sıkma anahtarına ihtiyaç
-                            duymadan çalışabilir hale geldi.
-                        </p>
-                        <p>
-                            Zaman içinde yapılan gelişmeler ile APC tutucular Frezeleme uygulamalarında zamanı önemli
-                            ölçüde hızlandırdı.
+                            Yapılan geliştirmeler APC Hassas tutucularımızı dünya çapında özel bir konuma getirmiştir.<br>
+                            Ürünlerimiz yüksek hız, yüksek sıkma kuvveti, ve yüksek titreşim sönümleme özelliklerinin birleşimi ile takım tezgahlarının performansını arttırmakta  ve özellikle frezeleme operasyonlarını önemli ölçüde hızlandırmaktadır.
                         </p>
                     </div>
                 </div>
@@ -130,7 +123,7 @@
                         <p>
                             {{brandProduct?.secondContentText}}
                         </p>
-                        <p class="mb-0" *ngFor="let paragraph of brandProduct?.secondParagraphs">
+                        <p class="mb-0 {{paragraph.class}}" *ngFor="let paragraph of brandProduct?.secondParagraphs">
                             {{paragraph.text}}
                         </p>
                     </div>
