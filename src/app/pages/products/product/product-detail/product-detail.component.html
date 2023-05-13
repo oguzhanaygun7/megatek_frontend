@@ -184,9 +184,12 @@
              class="{{brandProduct?.detailBackground}}">
         <div class="container py-5">
             <div class="row">
-                <div class="col-12 col-lg-7">
+                <div [ngClass]="isThereParagraphOrVideo(selectedProduct?.videos, selectedProduct?.secondDescription)?'col-12 col-lg-7':'col-12'"
+                >
                     <div class="row">
-                        <div class="col-3 mb-4 align-self-end cursor-pointer text-center"
+                        <div class="align-self-end cursor-pointer text-center"
+                             [ngClass]="isThereParagraphOrVideo(selectedProduct?.videos, selectedProduct?.secondDescription)?'col-6 col-lg-3 mb-4 ':'col-6 col-lg-2 mb-4'"
+                             (click)="openUrlNewTab(data.url)"
                              *ngFor="let data of selectedProduct?.products">
                             <div>
                                 <img [ngClass]="productDetails?.routerLink=='acili-kafalar'?'h-100':'w-100'"
@@ -210,11 +213,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mt-2 mt-lg-0  col-lg-5">
-                    <iframe style="width: 100% !important;" height="315" src="https://www.youtube.com/embed/1Xdxd9LuWyo"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                <div [ngClass]="isThereParagraphOrVideo(selectedProduct?.videos, selectedProduct?.secondDescription)?'col-12 mt-2 mt-lg-0 col-lg-5':'d-none'">
+                >
+                    <div class="row" *ngIf="selectedProduct?.videos">
+                        <div class="col-12" *ngFor="let video of selectedProduct?.videos">
+                            <video *ngIf="video.type == 'mp4'"
+                                   [src]="'assets/videos/'+brandProduct?.routerLink+'/'+video.url"
+                                   style="width: 100%; border-radius: 10px"
+                                   autoplay="autoplay"
+                                   loop="loop"
+                                   controls="controls">
+                            </video>
+                            <img *ngIf="video.type == 'gif'"
+                                 style="width: 100%;border-radius: 10px"
+                                 [src]="'assets/videos/'+brandProduct?.routerLink+'/'+video.url">
+                            <div *ngIf="video.type == 'iframe'">
+                                <iframe style="width: 100% !important;" height="315"
+                                        [src]="setUrl(video.url)"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" *ngIf="selectedProduct?.secondDescription">
+                        <div class="col-12">
+                            <p class="{{p.bold}} {{p.class}}" *ngFor="let p of selectedProduct?.secondDescription">
+                                {{p.text}}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -478,3 +507,6 @@
         </div>
     </section>
 </div>
+
+
+<a href="https://www.xebec-tech.com/en/example/">asdsadasdasd</a>

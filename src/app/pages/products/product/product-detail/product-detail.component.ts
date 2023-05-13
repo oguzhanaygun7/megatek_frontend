@@ -78,6 +78,9 @@ export class ProductDetailComponent implements OnInit {
     }
 
     openModal(staticDataModal: any, pdfName?: any) {
+        if(pdfName==undefined) {
+            return;
+        }
         if (pdfName == 'HERMAN-BILZ-EK-PDF.pdf') {
             // this.pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`assets/pdf/h-bilz/${pdfName}`);
             this.pdfUrl = `/assets/pdf/h-bilz/${pdfName}`;
@@ -127,5 +130,13 @@ export class ProductDetailComponent implements OnInit {
 
     setUrl(url :any) : any {
         return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+    }
+
+    isThereParagraphOrVideo(videos: any, secondDescription: any) {
+        return !!(videos || secondDescription);
+    }
+
+    openUrlNewTab(url: any) {
+        window.open(url, '_blank')
     }
 }

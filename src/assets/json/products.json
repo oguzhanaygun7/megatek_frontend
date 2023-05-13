@@ -2072,22 +2072,44 @@
     "headerText": "DİŞLİ KUTULU KAFALAR",
     "bodyHeader": "NEDEN MPA KULLANILMALI?",
     "contentBackground": "mpa-body",
-    "contentText": "1975 yılında tasarım ve üretim sürecindeki profesyonel becerileri sayesinde kurulan MPA, faaliyetine özel ekipman üretimi sonrasında makine sektöründe otomasyonun artan önemini dikkate alarak, bu bakış açısına yönelik bir ürün yelpazesi geliştirmeye başlar.\nAlınan çok başarılı sonuçlar ile müşterilerin karmaşık, işe özel ihtiyaçlarını karşılamak için çözüm odaklı, özel tasarım ürünlerle ticari sunumlarını genişleterek birkaç yıl içinde ticari taleplerini arttırmıştır.",
+    "contentText": "1975 yılında tasarım ve üretim sürecindeki belirli profesyonel becerilerin birleşimi sayesinde kurulan ve başlangıçta faaliyetine özel ekipman üretimi ile başlayan MPA, müşterilerin giderek daha karmaşık hale gelen ihtiyaçlarını karşılamak için çalışma alanını son derece özelleştirilmiş ürünlerle genişletir.",
     "paragraphs": [
       {
-        "text": "MPA sunmuş olduğu ürünler ile hemen hemen bütün tezgahlardaki uygulanabilirliği ile delme, diş çekme, frezeleme uygulamalarında"
+        "text": "Böylece MPA, özel uygulama tasarımları ve ürünleri ile büyüyerek katı emniyet anlayışı, güvenilirlik ve verimlilik kriterlerine göre aşağıda listelenen bir dizi ürün sunar hale gelmiştir.",
+        "class": "mb-2"
       },
       {
-        "text": "-Mevcut karmaşık ve pahalı üretim süreçlerini basitleştirmek"
+        "text" : "- Çok Milli Kafalar"
       },
       {
-        "text": "-İşlem sürelerini azaltmak"
+        "text" : "- Açılı Kafalar"
       },
       {
-        "text": "-Duruş süresini azaltmak"
+        "text": "- Özel Tahrikli takımlar"
       },
       {
-        "text": "-Erişilemeyen çalışma bölgelerinde uygun tasarımları ile çözümün parçası olmaya çalışmaktadır."
+        "text": "- Hız arttırıcılar"
+      },
+      {
+        "text" : "Bu şekilde sunduğu ürünler ile hemen hemen bütün tezgahlardaki uygulama yerlerinde;"
+      },
+      {
+        "text" : "- Ayrıntılı ve pahalı üretim süreçlerini basitleştirmek,"
+      },
+      {
+        "text" : "- İşlem sürelerini azaltmak,"
+      },
+      {
+        "text" : "- Duruş süresini azaltmak,"
+      },
+      {
+        "text" : "- Erişilemeyen çalışma bölgeleri için"
+      },
+      {
+        "text" : "Özel veya Standart çözümler üretmektedir."
+      },
+      {
+        "text" : "MPA işe özel talepleriniz için lütfen not bırakın."
       }
     ],
     "img": "mpa.png",
@@ -3704,6 +3726,73 @@
         "routerLink": "select-by-application",
         "image": "bg_case.png",
         "details": [
+          {
+            "name": "UYGULAMAYA GÖRE SEÇİM",
+            "routerLink": "select-by-application",
+            "image": "bg_case.png",
+            "products": [
+              {
+                "name": "VACUUM FORMING",
+                "image": "vacuum-forming.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "NAK MOLD",
+                "image" : "nak-mold.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "PINION GEAR",
+                "image" : "pinion-gear.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name": "AIRCRAFT BODY",
+                "image": "aircraft-body.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "TURBINE BLADE",
+                "image" : "turbine-blade.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "WING RIB",
+                "image" : "wing-rib.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name": "BLISK",
+                "image": "blisk.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "TRANSMISSION CASE (MATCHING SURFACE)",
+                "image" : "transmission-case.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "CYLINDER HEAD (MATCHING SURFACE)",
+                "image" : "cylinder-head.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name": "CYLINDER HEAD (OIL GALLERY)",
+                "image": "cylinder-head-oil-gallery.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "INPUT SHAFT (CROSS HOLE)",
+                "image" : "input-shaft.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              },
+              {
+                "name" : "STAINLESS STEEL MOLD",
+                "image" : "stainless-steel-mold.png",
+                "url" : "https://www.xebec-tech.com/en/example/"
+              }
+            ]
+          }
         ]
       }
     ]
