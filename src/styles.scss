@@ -147,6 +147,24 @@ body {
   background: rgba(220, 220, 220, 1);
 }
 
+.montronix-bg{
+  background-color: #DCDCDC;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 230px;
+  color: rgba(0, 29, 94, 1) !important;
+  max-height: 230px;
+}
+
+.montronix-body {
+  background: rgba(220, 220, 220, 1);
+}
+
+.montronix-detail-bg {
+  background: rgba(220, 220, 220, 1);
+}
+
 .default-bg{
   background-color: rgba(10, 179, 156, 0.51);
   background-size: cover;

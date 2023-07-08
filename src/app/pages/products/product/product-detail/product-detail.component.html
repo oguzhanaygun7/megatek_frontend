@@ -1,4 +1,4 @@
-<div [@enter]  style="min-height: 100vh">
+<div [@enter] style="min-height: 100vh">
     <section class="{{brandProduct?.headerBackground}}"
              [ngClass]="productDetails?.marginTop?'margin-0-bg':''">
         <div class="container" style="height: 100%">
@@ -61,8 +61,8 @@
                              class="image cursor-pointer"
                              alt="">
                         <div class="text-center mt-3 mb-2 text-uppercase fw-bolder"
-                           style="cursor:pointer"
-                           [ngClass]="brandProduct?.routerLink=='mpa'?'mpa-max-width':''">
+                             style="cursor:pointer"
+                             [ngClass]="brandProduct?.routerLink=='mpa'?'mpa-max-width':''">
                             <p class="mb-0">
                                 {{detail.name}}
                             </p>
@@ -100,9 +100,25 @@
                             >
                             <h1 class="text-uppercase"
                                 *ngIf="brandProduct?.routerLink!=='vimaxx'">{{selectedProduct?.name}}</h1>
-                            <p class="{{p.bold}}" *ngFor="let p of selectedProduct?.description">
-                                {{p.text}}
-                            </p>
+                            <ng-container *ngFor="let data of selectedProduct?.description">
+                                <p *ngIf="!data.table" class="{{data.bold}} {{data.class}}">
+                                    {{data.text}}
+                                </p>
+                                <table class="w-100" *ngIf="data.table">
+                                    <ng-container *ngFor="let tableData of data.table">
+                                        <tr *ngIf="tableData.thead">
+                                            <th *ngFor="let th of tableData?.thead">
+                                                {{th.text}}
+                                            </th>
+                                        </tr>
+                                        <tr *ngIf="tableData.tbody">
+                                            <td *ngFor="let td of tableData.tbody">
+                                                {{td.text}}
+                                            </td>
+                                        </tr>
+                                    </ng-container>
+                                </table>
+                            </ng-container>
                         </div>
                         <div class="col-12 mb-2" *ngIf="selectedProduct?.images">
                             <div class="row">
@@ -119,7 +135,7 @@
                                  [src]="'assets/images/products/'+brandProduct?.routerLink+'/images/'+selectedProduct?.baseImage"
                                  alt="">
                         </div>
-                        <div class="col-12">
+                        <div class="col-12" *ngIf="selectedProduct?.pdf">
                             <button class="btn btn-catalog w-100" (click)="openPdf(selectedProduct?.pdf)">
                                 <div class="d-flex p-3" style="justify-content: space-between">
                                     <div style="text-align: left">
@@ -163,18 +179,57 @@
                     </div>
                     <div class="row" *ngIf="!selectedProduct?.videos">
                         <div class="col-12">
-                            <p class="{{p.bold}} {{p.class}}" *ngFor="let p of selectedProduct?.secondDescription">
-                                {{p.text}}
-                            </p>
+                            <ng-container *ngFor="let data of selectedProduct?.secondDescription">
+                                <p *ngIf="!data.table" class="{{data.bold}} {{data.class}}">
+                                    {{data.text}}
+                                </p>
+                                <table class="w-100" *ngIf="data.table">
+                                    <ng-container *ngFor="let tableData of data.table">
+                                        <tr *ngIf="tableData.thead">
+                                            <th *ngFor="let th of tableData?.thead">
+                                                {{th.text}}
+                                            </th>
+                                        </tr>
+                                        <tr *ngIf="tableData.tbody">
+                                            <td *ngFor="let td of tableData.tbody">
+                                                {{td.text}}
+                                            </td>
+                                        </tr>
+                                    </ng-container>
+                                </table>
+                            </ng-container>
+
                         </div>
-                        <div class="col-12">
-                            <iframe style="width: 100% !important;" height="315" src="https://www.youtube.com/embed/1Xdxd9LuWyo"
+                        <div class="col-12" *ngIf="false">
+                            <iframe style="width: 100% !important;" height="315"
+                                    src="https://www.youtube.com/embed/1Xdxd9LuWyo"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen>
                             </iframe>
                         </div>
                     </div>
+                </div>
+                <div class="col-12" *ngIf="selectedProduct?.thirdDescription">
+                    <ng-container *ngFor="let data of selectedProduct?.thirdDescription">
+                        <p *ngIf="!data.table" class="{{data.bold}} {{data.class}}">
+                            {{data.text}}
+                        </p>
+                        <table class="w-100" *ngIf="data.table">
+                            <ng-container *ngFor="let tableData of data.table">
+                                <tr *ngIf="tableData.thead">
+                                    <th *ngFor="let th of tableData?.thead">
+                                        {{th.text}}
+                                    </th>
+                                </tr>
+                                <tr *ngIf="tableData.tbody">
+                                    <td *ngFor="let td of tableData?.tbody">
+                                        {{td.text}}
+                                    </td>
+                                </tr>
+                            </ng-container>
+                        </table>
+                    </ng-container>
                 </div>
             </div>
         </div>
@@ -188,8 +243,8 @@
                 >
                     <div class="row">
                         <div class="align-self-end cursor-pointer text-center"
-                             [ngClass]="isThereParagraphOrVideo(selectedProduct?.videos, selectedProduct?.secondDescription)?'col-6 col-lg-3 mb-4 ':'col-6 col-lg-2 mb-4'"
-                             (click)="openUrlNewTab(data.url)"
+                             [ngClass]="isThereParagraphOrVideo(selectedProduct?.videos, selectedProduct?.secondDescription)?'col-6 col-lg-3 mb-4 ':'col-6 col-lg-3 mb-4'"
+                             (click)="openUrlNewTab(data.url, OpenModal, data)"
                              *ngFor="let data of selectedProduct?.products">
                             <div>
                                 <img [ngClass]="productDetails?.routerLink=='acili-kafalar'?'h-100':'w-100'"
@@ -200,6 +255,9 @@
                             </div>
                             <div>
                                 <b style="text-transform: uppercase">{{data.name}}</b>
+                                <p class="mb-0" *ngFor="let data of data.paragraphs">
+                                    {{data?.text}}
+                                </p>
                             </div>
                             <div>
                                 {{data.description}}
@@ -214,7 +272,7 @@
                     </div>
                 </div>
                 <div [ngClass]="isThereParagraphOrVideo(selectedProduct?.videos, selectedProduct?.secondDescription)?'col-12 mt-2 mt-lg-0 col-lg-5':'d-none'">
-                >
+                    >
                     <div class="row" *ngIf="selectedProduct?.videos">
                         <div class="col-12" *ngFor="let video of selectedProduct?.videos">
                             <video *ngIf="video.type == 'mp4'"
@@ -267,26 +325,40 @@
                         </p>
                         <p>
                             <b>
-                                İkincil işlemleri ortadan kaldırın. Hassasiyeti geliştirin. Fazla takım ve ilave kurulum maliyetlerini azaltın.
+                                İkincil işlemleri ortadan kaldırın. Hassasiyeti geliştirin. Fazla takım ve ilave kurulum
+                                maliyetlerini azaltın.
                             </b>
                         </p>
                         <p>
-                            Titespot® açılı başlıklar, sınırlı/dar alanlardaki uygulanan işmili tahrikli dik açılı kafalar ile işleme sorununa karşı kanıtlanmış bir çözümdür.
+                            Titespot® açılı başlıklar, sınırlı/dar alanlardaki uygulanan işmili tahrikli dik açılı
+                            kafalar ile işleme sorununa karşı kanıtlanmış bir çözümdür.
                         </p>
                         <p>
-                            Titespot® açılı başlıklar, bütünleşik pozitif yer değiştirme bilyeli pistonlu motorunu çalıştırmak için yüksek basınçlı soğutma ihtiyaç duyarlar. Örnek çizimde gösterildiği gibi, motor bir tahrik miline güç verir ve ardından kafanın milini harekete geçirir. Kullanılan soğutma sıvısı kesici takım içinden geçecek şekilde yönlendirilir.
+                            Titespot® açılı başlıklar, bütünleşik pozitif yer değiştirme bilyeli pistonlu motorunu
+                            çalıştırmak için yüksek basınçlı soğutma ihtiyaç duyarlar. Örnek çizimde gösterildiği gibi,
+                            motor bir tahrik miline güç verir ve ardından kafanın milini harekete geçirir. Kullanılan
+                            soğutma sıvısı kesici takım içinden geçecek şekilde yönlendirilir.
                         </p>
                         <p>
-                            Titespot açılı Kafanın güç kaynağı soğutma sıvısı olduğundan, makinenizin ana işmili sadece  indeksleyici işlevi yapacak şekilde serbest kalır ve tek bir kafa ve kurulumla çok konumlu radyal işlemelere olanak sağlanır.
+                            Titespot açılı Kafanın güç kaynağı soğutma sıvısı olduğundan, makinenizin ana işmili sadece
+                            indeksleyici işlevi yapacak şekilde serbest kalır ve tek bir kafa ve kurulumla çok konumlu
+                            radyal işlemelere olanak sağlanır.
                         </p>
                         <p>
-                            Rijit (tapping) kılavuz çekme özelliğine sahip makinelerde M19 iş mili oryantasyonunuzun basit bir şekilde ayarlanması ile dik açılı kafamızın tam 360 derece indekslenmesi sağlanır. Titespot kafaları tezgah magazininden / ATC üzerinden kolayca yüklenir ve mekanik işmili tahrikli kafaların aksine C ekseni veya sabitleme (Stop) bloğuna ihtiyaç duymaz.
+                            Rijit (tapping) kılavuz çekme özelliğine sahip makinelerde M19 iş mili oryantasyonunuzun
+                            basit bir şekilde ayarlanması ile dik açılı kafamızın tam 360 derece indekslenmesi sağlanır.
+                            Titespot kafaları tezgah magazininden / ATC üzerinden kolayca yüklenir ve mekanik işmili
+                            tahrikli kafaların aksine C ekseni veya sabitleme (Stop) bloğuna ihtiyaç duymaz.
                         </p>
                         <p>
-                            Bir başka deyişle takım listenize bir Titespot Açılı Kafa eklemek, işleme merkezinize veya CNC tornanıza ilave bir C ekseni eklemek gibidir.
+                            Bir başka deyişle takım listenize bir Titespot Açılı Kafa eklemek, işleme merkezinize veya
+                            CNC tornanıza ilave bir C ekseni eklemek gibidir.
                         </p>
                         <p class="mb-0">
-                            Titespot Açılı Başlıklar, destek için rulmana ihtiyaç duymadığından, işmiline sıkı bir şekilde kenetlenir ve minimum sapma ile daha kompakt tasarımlı yapı oluşturur. Titespot Açılı Kafalar, çapı 16 mm'ye kadar olan deliklerde çalışabilecek dar yapıda ve uzunluğu 914mm varan gövdelerde üretilebilmektedir.
+                            Titespot Açılı Başlıklar, destek için rulmana ihtiyaç duymadığından, işmiline sıkı bir
+                            şekilde kenetlenir ve minimum sapma ile daha kompakt tasarımlı yapı oluşturur. Titespot
+                            Açılı Kafalar, çapı 16 mm'ye kadar olan deliklerde çalışabilecek dar yapıda ve uzunluğu
+                            914mm varan gövdelerde üretilebilmektedir.
                         </p>
                     </div>
                 </div>
@@ -300,28 +372,36 @@
                     </div>
                     <div class="col-12">
                         <p>
-                            Titespot® Soğutucu Tahrikli Açılı Kafalar, sınırlı/dar alanlarda ve/veya çoklu radyal konumlardaki uygulamalarda eski tip dik açılı mekanik kafalara karşı yeni bir teknolojik çözümdür.
+                            Titespot® Soğutucu Tahrikli Açılı Kafalar, sınırlı/dar alanlarda ve/veya çoklu radyal
+                            konumlardaki uygulamalarda eski tip dik açılı mekanik kafalara karşı yeni bir teknolojik
+                            çözümdür.
                         </p>
 
                         <p>
-                            Geleneksel mekanik tahrikli açılı kafalardan farklı olarak, Titespot® Soğutucu Tahrikli Açılı Kafalar:
+                            Geleneksel mekanik tahrikli açılı kafalardan farklı olarak, Titespot® Soğutucu Tahrikli
+                            Açılı Kafalar:
                         </p>
 
                         <ul>
                             <li>
-                                <b>Değiştirilebilir:</b> Bir kafa ve bir kurulumla birden fazla radyal pozisyonda işlemeler yapabilir.
+                                <b>Değiştirilebilir:</b> Bir kafa ve bir kurulumla birden fazla radyal pozisyonda
+                                işlemeler yapabilir.
                             </li>
                             <li>
-                                <b>Kompakt:</b> Çapı 16 mm'ye kadar olan deliklerde ve yan duvarlara, zemine yakın yerlerde işlemeler yapabilir.
+                                <b>Kompakt:</b> Çapı 16 mm'ye kadar olan deliklerde ve yan duvarlara, zemine yakın
+                                yerlerde işlemeler yapabilir.
                             </li>
                             <li>
-                                <b>Rijit:</b> Gövde desteği için rulmanlara fazlaca güvenilmemeli. Titespot® Soğutucu Tahrikli Açılı Kafalar da hassasiyet iyileştirilerek Rulmanın "rolü" azaltılır.
+                                <b>Rijit:</b> Gövde desteği için rulmanlara fazlaca güvenilmemeli. Titespot® Soğutucu
+                                Tahrikli Açılı Kafalar da hassasiyet iyileştirilerek Rulmanın "rolü" azaltılır.
                             </li>
                             <li>
-                                <b>Kurulumu basit:</b> Doğrudan magazinden yüklenebilme. Mekanik kafalarda kullanılması zaruri olan kullanışsız sabitleme bloklarına ihtiyaç duyulmaz.
+                                <b>Kurulumu basit:</b> Doğrudan magazinden yüklenebilme. Mekanik kafalarda kullanılması
+                                zaruri olan kullanışsız sabitleme bloklarına ihtiyaç duyulmaz.
                             </li>
                             <li>
-                                <b>Verimli:</b> Kafadan geçen sürekli soğutma sıvısı akışı sebebi ile, takımdaki ısı birikimini ortadan kaldırılır ve takımın %100 performanslı çevrimde çalışması sağlanır.
+                                <b>Verimli:</b> Kafadan geçen sürekli soğutma sıvısı akışı sebebi ile, takımdaki ısı
+                                birikimini ortadan kaldırılır ve takımın %100 performanslı çevrimde çalışması sağlanır.
                             </li>
                             <li>
                                 <b>Modüler:</b> Tüm açılı kafa tipleri, her tip koniklerde kolayca uygulanabilir.
@@ -339,7 +419,10 @@
                              style="background: #F7F7F7; display: block; height: 100%;border-radius: 10px">
                             <h4 class="h4-eltool">DAYANIKLI, ÇOK YÖNLÜ VE ÖZEL DİK AÇILI BAŞLIKLAR</h4>
                             <p>
-                                Titespot® açılı kafalar, titizlik ve sabır isteyen standartlarda üretilmiş ve verimli güç aktarımı ve dayanıklılık için sertleştirilmiş Helisel gönye dişlilere sahiptir. İsteğe göre uygulamalarınız için özel açılı kafalar, düz kafalar ve diğer özel ünite tasarımları için arayabilirsiniz.
+                                Titespot® açılı kafalar, titizlik ve sabır isteyen standartlarda üretilmiş ve verimli
+                                güç aktarımı ve dayanıklılık için sertleştirilmiş Helisel gönye dişlilere sahiptir.
+                                İsteğe göre uygulamalarınız için özel açılı kafalar, düz kafalar ve diğer özel ünite
+                                tasarımları için arayabilirsiniz.
                             </p>
                             <b>TITESPOT® AÇILI BAŞLIKLARIN AVANTAJLARI</b>
                             <ul>
@@ -375,14 +458,20 @@
                             </h4>
                             <p>
                                 Tork üretmek kullanılan Su Basıncı seviyesi ile ilgilidir.
-                                Titespot® Dik Açılı delme Kafasını çalıştırmak için gereken soğutma sıvısı basıncı, uygulamadaki "yüklenmeye" bağlı olarak 14 ila 140 bar arasında değişir. Test koşulları altında ELTOOL bilyalı pistonlu motor, soğutma sıvısı basıncının birim bar başına 0,03 Nm üretir. Ancak, soğutma sıvısının viskozitesi ve motorun kendisinin durumu dahil olmak üzere birçok şey gerçek performansı etkiler.
+                                Titespot® Dik Açılı delme Kafasını çalıştırmak için gereken soğutma sıvısı basıncı,
+                                uygulamadaki "yüklenmeye" bağlı olarak 14 ila 140 bar arasında değişir. Test koşulları
+                                altında ELTOOL bilyalı pistonlu motor, soğutma sıvısı basıncının birim bar başına 0,03
+                                Nm üretir. Ancak, soğutma sıvısının viskozitesi ve motorun kendisinin durumu dahil olmak
+                                üzere birçok şey gerçek performansı etkiler.
                             </p>
                             <p>
                                 Devir üretmek Tezgahtaki Debi/Akış seviyesi ile ilgilidir.
-                                Yaklaşık %70 hacimsel verimlilikte bilyalı pistonlu motor, dakikadaki litre (lpm) debi'si başına yaklaşık 238 devir/dk'da dönecektir.
+                                Yaklaşık %70 hacimsel verimlilikte bilyalı pistonlu motor, dakikadaki litre (lpm)
+                                debi'si başına yaklaşık 238 devir/dk'da dönecektir.
                             </p>
                             <p>
-                                Linkteki hesaplayıcı ile çeşitli soğutma sıvısı basınçlarında ve debilerdeki elde edilecek yaklaşık hız(rpm), tork ve güç değerleri görülebilir.
+                                Linkteki hesaplayıcı ile çeşitli soğutma sıvısı basınçlarında ve debilerdeki elde
+                                edilecek yaklaşık hız(rpm), tork ve güç değerleri görülebilir.
                             </p>
                         </div>
                     </div>
@@ -509,4 +598,20 @@
 </div>
 
 
-<a href="https://www.xebec-tech.com/en/example/">asdsadasdasd</a>
+<ng-template #OpenModal let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">
+            {{modalData?.name}}
+        </h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-12">
+                <p class="{{data.class}}" *ngFor="let data of modalData.modal">
+                    {{data?.text}}
+                </p>
+            </div>
+        </div>
+    </div>
+</ng-template>

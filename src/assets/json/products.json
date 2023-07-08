@@ -988,26 +988,29 @@
             "description": [
               {
                 "text": "Aynı eksendeki paralel veya paralel olmayan deliklerin ön ve arka yüzey çapaklarının alınması",
-                "bold": "fw-bolder"
+                "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- İş parçasını döndürmeye veya iş milini durdurmaya gerek yok"
+                "text": "- İş parçasını döndürmeye veya iş milini durdurmaya gerek yok",
+                "bold": "mb-0"
               },
               {
-                "text": "- Çapak alma sonrası oluşan Radyüs benzeri kenar profili,"
+                "text": "- Çapak alma sonrası oluşan Radyüs benzeri kenar profili,",
+                "bold": "mb-0"
               },
               {
-                "text": "- Delik çapı 2,0 mm'den itibaren standart takım çözümleri,"
+                "text": "- Delik çapı Ø2,0 mm ve Ø26mm arası standart çözümler,",
+                "bold": "mb-0"
               },
               {
-                "text": "- Çap 10,0 mm çaptan büyük çaplar için kaset tipi takım çözümleri."
+                "text": "- Çap Ø10,0 mm çaptan büyük çaplar için kaset tipi takım çözümleri."
               },
               {
                 "text": "ÇALIŞMA ARALIĞI",
-                "bold": "fw-bolder"
+                "bold": "fw-bolder mb-0"
               },
               {
-                "text": "Ürün yelpazesi, 2,0 mm ila 26,0 mm arasındaki delik çaplarına uygun çapak alma takımları Standart olarak sunulur. Kaset tipi çöüzmler kullanılarak her çapta delik çapakları alınabilir. "
+                "text": "Ürün yelpazesi, Ø2,0 mm ila Ø26mm arasındaki delik çaplarına uygun çapak alma takımları Standart olarak sunulur. Kaset tipi çözümler kullanılarak her çapta delik çapakları alınabilir."
               },
               {
                 "text": "Çapak alma uzunluğu, delik boyutuna ve bıçak seçimine bağlı olarak radyal olarak 0,1 mm ile maksimum 1,4 mm arasında değişmektedir. Bıçaklar hem ileri hem de geri işleme için ve ayrıca sadece geriye doğru işleme için mevcuttur."
@@ -1021,7 +1024,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/r1O5f-FJ9eM"
+                "url": "https://www.youtube.com/embed/ZCVKycNeorI"
               }
             ]
           },
@@ -1063,7 +1066,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/c6AdK8WDGu0"
+                "url": "https://www.youtube.com/embed/fXY3LCE-YGc"
               }
             ]
           },
@@ -1107,7 +1110,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/Tf1ZpCmwh_w"
+                "url": "https://www.youtube.com/embed/rUiFxxtoCEg"
               }
             ]
           }
@@ -1125,20 +1128,46 @@
             "image": "snap.png",
             "description": [
               {
-                "text": "Tek seferde ön ve arka yüzey pah kırarak çapak alma",
-                "bold": "fw-bolder"
+                "text": "Aynı eksendeki paralel yüzeylerin ön ve arka yüzey çapaklarının alınması",
+                "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- İş parçasını döndürmeye veya iş milini durdurmaya gerek yok"
+                "text": "- İş parçasını çevirmeye veya iş milini durdurmaya gerek olmadan işleme.",
+                "bold": "mb-0"
               },
               {
-                "text": "- Doğrudan tezgah üzerinde kolay değiştirilebilen karbür kesici uç,"
+                "text": "- Çapak alma sonrası delik çapının büyüklüğüne bağlı olarak 1.5mmx450 varan havşa ölçüleri",
+                "bold": "mb-0"
               },
               {
-                "text": "- Delik çapı Ø2,0 mm'den başlayan standart çözümler,"
+                "text": "- Delik çapı Ø2,0 mm.- Ø35mm arası ölçüler için standart takım çözümleri,",
+                "bold": "mb-0"
               },
               {
-                "text": "- Ø 12,6 mm. çaptan başlayan kaset tutucu çözümleri"
+                "text": "- Çap Ø12.6 mm.'den büyük çaplar için özel kaset tipi takım çözümleri."
+              },
+              {
+                "text": "ÇALIŞMA ARALIĞI",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "- Ürün yelpazesi, Ø2,0 mm.- Ø35mm arasındaki delik çaplarına uygun çapak alma takımları Standart olarak sunulur.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Kaset tipi çözümler kullanılarak her çapta delik çapakları alınabilir.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Çapak alma sonrası delik çapına ve kesici uç seçimine bağlı olarak 1.5mmx450 varan havşa ölçüleri.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Çapak alma sonrası delik çapına ve kesici uç seçimine bağlı olarak 1.5mmx450 varan havşa ölçüleri.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- SNAP Takımlar hem CNC hem de manuel işlemlerde ve metal veya metal dışı"
               }
             ],
             "pdf": "SNAP.pdf",
@@ -1146,7 +1175,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/taYmVSYvPSY"
+                "url": "https://www.youtube.com/embed/ibpatq8swfU"
               }
             ]
           },
@@ -1223,7 +1252,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/o8U2sgrAPqI"
+                "url": "https://www.youtube.com/embed/z0xgt1cMpSE"
               }
             ]
           },
@@ -1264,7 +1293,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/atfww0kVsWA"
+                "url": "https://www.youtube.com/embed/0cM-ZtIZD5I"
               }
             ]
           },
@@ -1311,7 +1340,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/rjpjRaDvSFk"
+                "url": "https://www.youtube.com/embed/8CAL3K-8oIg"
               }
             ]
           }
@@ -1373,7 +1402,7 @@
             "videos": [
               {
                 "type": "iframe",
-                "url": "https://www.youtube.com/embed/2YPinxjnWJY"
+                "url": "https://www.youtube.com/embed/cMixLQ3-Clw"
               }
             ]
           },
@@ -1593,52 +1622,39 @@
     "contentBackground": "frenco-body",
     "paragraphs": [
       {
-        "text": "Saf mükemmellik."
+        "text": "FRENCO KİMDİR?",
+        "class": "fw-bolder text-center mb-2"
       },
       {
-        "text": "1978'den beri."
+        "text": "FRENCO GmbH 1978'de kurulduğundan bu yana Dişli ve Spline Metroloji alanıyla özel olarak uğraşıyor.",
+        "class": "mb-2"
       },
       {
-        "text": "Dişli Metrolojisinde Deneyim, Yetkinlik ve Yenilik."
+        "text": "Günümüz dişlilerinin ve Splinelerin çoğu, üretimi için hem uzmanlık hem de çok sıkı toleranslara sahip özel takımlara ihtiyaç duyan çok hassas parçalardır.",
+        "class": "mb-2"
       },
       {
-        "text": "Frenco bilgisinden yararlanın!"
-      },
-      {
-        "text": "Teknik Danışmanlık,"
-      },
-      {
-        "text": "Dişli ve Spline Tasarımı,"
-      },
-      {
-        "text": "Literatür ve Seminerler konusunda size yardımcı oluyoruz."
+        "text": "Üretilecek iş parçalarını ölçmek için firmaların daha da hassas ölçüm ve kontrol ekipmanlarına ihtiyacı bulunmaktadır.",
+        "class": "mb-2"
       }
     ],
-    "secondContentHeader": "ÜRÜN ÖZELLİKLERİ",
     "secondParagraphs": [
       {
-        "text": "– Güçlü taşlama özelliği ile Ra.0,1’e varan yüzey kalitesi elde etme\n"
+        "text": " FRENCO 1978'den beri kendini adamış olduğu Dişli Metrolojisinde Deneyim, Yetkinlik ve Yenilikleri ile ulaştığı saf mükemmellik ile en özel saygıyı kazanmaktadır.",
+        "class": "mb-2"
       },
       {
-        "text": "– Ağız keskinliğinin fırçanın son kullanım anına kadar değişmemesi\n"
+        "text": "Frenco olarak uzmanlaştığı bu konudaki birikimi ile;"
       },
       {
-        "text": "– Fırçanın şeklinin bozulmaması\n"
+        "text": "- Teknik Danışmanlık,"
       },
       {
-        "text": "– Yüksek Termal sıcaklık dayanımı (yaklaşık 150°C)\n"
+        "text": "- Dişli ve Spline Tasarımı,"
       },
       {
-        "text": "– Kesici ağızların kendi kendini bileme özelliği\n"
-      },
-      {
-        "text": "– Nylon fırçaya göre 60 misline varan taşlama gücü\n"
-      },
-      {
-        "text": "– Üstün su geçirmez özelliği\n"
-      },
-      {
-        "text": "– Tezgahta ve robotik sistemlerde kullanma avantajı.\n"
+        "text": "- Literatür ve Seminerler konusularında sizlere de hizmet etmekten mutluluk duyacağız.",
+        "class": "mb-2"
       }
     ],
     "img": "frenco.png",
@@ -1647,64 +1663,125 @@
     "detailBackground": "frenco-detail-bg",
     "products": [
       {
-        "name": "Muayene Ekipmanları",
-        "routerLink": "muayene-ekipmanlari",
-        "title": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+        "name": "Kontrol Ekipmanları",
+        "routerLink": "kontrol-ekipmanlari",
+        "title": "Kontrol Ekipmanları",
         "image": "spline gauges.png",
         "details": [
           {
-            "name": "Yivli Göstergeler",
-            "routerLink": "yivli-gostergeler",
+            "name": "SPLINE MASTARLAR",
+            "routerLink": "spline-mastarlar",
             "image": "spline gauges.png",
             "secondDescription": [
               {
-                "text": "Mating Gauges",
-                "bold": "fw-bolder",
+                "text": "Spline mastarlar malzemeleri, Krom çeliği veya Toz metal çeliği SX’ten üretilirler. Kullanılan malzemeler, mastarların aşınma direncine önemli ölçüde etki eder.",
+                "bold": "fw-bolder"
+              },
+              {
+                "table": [
+                  {
+                    "thead": [
+                      {
+                        "text": "Materyal"
+                      },
+                      {
+                        "text": "HRc"
+                      },
+                      {
+                        "text": "HRc Ömrü"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "CS Krom Çeliği"
+                      },
+                      {
+                        "text": "60-62"
+                      },
+                      {
+                        "text": "%100"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "SX Toz Metal Çeliği"
+                      },
+                      {
+                        "text": "63-65"
+                      },
+                      {
+                        "text": "%225"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Eşleşme Mastarları",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Taç Dişliler için (Crown Gear)"
+              },
+              {
+                "text": "- Hirth dişli çentikleri (serration) için düz kenarlı dişli fikstürlerin kalitesini doğrulamak için kullanılır.",
                 "class": "mb-0"
               },
               {
-                "text": "Taç Dişliler için"
+                "text": "- Dişler, iş parçası geometrisine uygundur.",
+                "class": "mb-0"
               },
               {
-                "text": "- Hirth çentikleri için düz kenarlı dişli fikstürlerin kalitesini doğrulamak için kullanılır"
+                "text": "- Fikstür ile eşleştirilerek “etkili-istenen” yüksekliğin belirlenmesi,",
+                "class": "mb-0"
               },
               {
-                "text": "- Dişler, iş parçası geometrisine uygundur"
+                "text": "- Fikstürün eksenel ve radyal çalışmasının belirlenmesi,",
+                "class": "mb-0"
               },
               {
-                "text": "- Fikstür ile eşleştirilerek “etkili” yüksekliğin belirlenmesi"
-              },
-              {
-                "text": "- Fikstürün eksenel ve radyal çalışmasının belirlenmesi"
+                "text": "- Standardizasyon eksikliğine rağmen fikstürün (ve iş parçalarının sonunda) kalitesinin ispatlanması/teyidi."
               },
               {
                 "text": "YENİ: Sarkaç Destekli Frenco Gauger",
-                "bold": "fw-bolder",
+                "class": "mb-0",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Otomatik mastar testi için",
                 "class": "mb-0"
               },
               {
-                "text": "Otomatik mastar testi için"
+                "text": "- FRENCO Geçer Mastarlar için sarkaç desteği",
+                "class": "mb-0"
               },
               {
-                "text": "- FRENCO Geçer Mastarlar için sarkaç desteği"
+                "text": "- FRENCO Geçer Mastarlar için sarkaç desteği",
+                "class": "mb-0"
               },
               {
-                "text": "- İstenmeyen eğilmeyi önlemek için 4 derecelik serbestlik"
+                "text": "- Pozisyonun otomatik olarak bulunması ve taşıma sistemi aracılığıyla eklenmesi",
+                "class": "mb-0"
               },
               {
-                "text": "- Pozisyonun otomatik olarak bulunması ve taşıma sistemi aracılığıyla eklenmesi"
+                "text": "- Operatör etkisi olmadan %100 test için uygundur",
+                "class": "mb-0"
               },
               {
-                "text": "- Operatör etkisi olmadan %100 test için uygundur"
+                "text": "- Önerilen yerleştirme kuvveti: 150 N",
+                "class": "mb-0"
               },
               {
-                "text": "- Önerilen yerleştirme kuvveti: 150 N"
+                "text": "- Sökme kuvveti (şartname dışındaki iş parçaları için): 1000 N'ye kadar",
+                "class": "mb-0"
               },
               {
-                "text": "- Sökme kuvveti (şartname dışındaki iş parçaları için): 1000 N'ye kadar"
-              },
-              {
-                "text": "- Taşıma sistemleri ve robotlarla kombinasyon için ideal"
+                "text": "- Taşıma sistemleri ve robotlarla kombinasyon için ideal",
+                "class": "mb-0"
               }
             ],
             "description": [
@@ -1736,8 +1813,8 @@
             ]
           },
           {
-            "name": "Dişli Artefaktlar ve Mastarlar",
-            "routerLink": "dişli-artefaktlar-ve-mastarlar",
+            "name": "Artefaktlar",
+            "routerLink": "artefaktlar",
             "image": "toothed artefacts.png",
             "secondDescription": [
               {
@@ -1768,58 +1845,59 @@
                 "bold": "mb-0"
               },
               {
-                "text": "Dahili ve harici spline aletler/cihazlar için mevcuttur",
+                "text": "- Dahili ve harici spline aletler/cihazlar için mevcuttur.",
                 "bold": "mb-0"
               },
               {
-                "text": "Geometrileri numuneninkiyle aynıdır",
+                "text": "- Geometrileri numuneninkiyle aynıdır.",
                 "bold": "mb-0"
               },
               {
-                "text": "Ayar mastarları çoğunlukla dişli bir bölüme sahiptir.",
+                "text": "- Ayar mastarları çoğunlukla dişli bir bölüme sahiptir.",
                 "bold": "mb-0"
               },
               {
-                "text": "Bir elektronik cihaz kullanırken, yayılmayı izlemek için bir ayar mastarı ve bir kontrol mastarı kullanılabilir (İşletmede kullanımı tavsiye edilir.)"
+                "text": "- Bir elektronik cihaz kullanırken, yayılmayı izlemek için bir ayar mastarı ve bir kontrol mastarı kullanılabilir (İşletmede kullanımı tavsiye edilir."
               }
             ],
             "description": [
               {
-                "text": "Artefaktlar, dişli ve spline ölçümlerindeki belirsizlikleri kolayca ve hızlı bir şekilde belirlemek için kullanılır.",
+                "text": "Artefaktlar, dişli ve Spline ölçümlerindeki belirsizlikleri kolayca ve hızlı bir şekilde belirlemek için kullanılır.",
                 "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- Artefaktlar, bir dişli profilinin geometrik özelliklerini ideale yakın biçimde gösterir",
+                "text": "- Artefakt’lar, bir dişli profilinin geometrik özelliklerini ideale yakın biçimde gösterir.",
                 "bold": "mb-0"
               },
               {
-                "text": "- İç ve dış dişli ve spline geometrileri için mevcuttur",
+                "text": "- İç ve dış dişli ve Spline geometrileri için mevcuttur.",
                 "bold": "mb-0"
               },
               {
-                "text": "- Münferit boşluklar/açıklıklar için farklı modifikasyonlar mümkündür",
+                "text": "- İstenen boşluklar/açıklıklar için farklı modifikasyonlar mümkündür.",
                 "bold": "mb-0"
               },
               {
-                "text": "- Artefacts en iyi örnektir."
+                "text": "- Artefakt’lar olabilecek en iyi örneği sunar."
               }
             ]
           },
           {
-            "name": "Ana Dişliler",
-            "routerLink": "ana-disliler",
+            "name": "Mastar Dişliler",
+            "routerLink": "mastar-disliler",
             "image": "Master gears.png",
             "secondDescription": [
               {
-                "text": "Mastar (Ana) Dişlilerin Yeniden Bilenmesi"
+                "text": "Mastar (Ana) Dişlilerin Yeniden Bilenmesi",
+                "bold": "mb-0"
               },
               {
                 "text": "Ana dişliler kullanım sırasında aşınmaya maruz kalırlar. Aşınmış ana dişliler normalde yeniden bilenebilir.",
-                "bold": "fw-bolder mb-0"
+                "bold": "mb-0"
               },
               {
                 "text": "FRENCO bu konuda aşağıdakileri içeren hizmetler sunmaktadır:",
-                "bold": "fw-bolder mb-0"
+                "bold": "mb-0"
               },
               {
                 "text": "- Yeniden taşlamanın mümkün olup olmadığını kontrolü,",
@@ -1852,11 +1930,54 @@
                 "bold": "fw-bolder mb-0"
               },
               {
-                "text": "- CS Krom Çeliği 60-62 %100",
+                "text": "- 60-62 %100",
                 "bold": "mb-0"
               },
               {
-                "text": "- SX Toz metal çeliği 63-65 %225"
+                "text": "- 63-65 %225"
+              },
+              {
+                "table": [
+                  {
+                    "thead": [
+                      {
+                        "text": "Materyal"
+                      },
+                      {
+                        "text": "HRc"
+                      },
+                      {
+                        "text": "HRc Ömrü"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "CS Krom Çeliği"
+                      },
+                      {
+                        "text": "60-62"
+                      },
+                      {
+                        "text": "%100"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "SX Toz Metal Çeliği"
+                      },
+                      {
+                        "text": "63-65"
+                      },
+                      {
+                        "text": "%225"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "description": [
@@ -1888,177 +2009,664 @@
           {
             "name": "Ölçüm Uçları",
             "routerLink": "olcum-uclari",
-            "image": "measuring inserts.png"
+            "image": "measuring inserts.png",
+            "secondDescription": [
+              {
+                "text": "Ölçüm Pimleri",
+                "bold": "fw-bolder mb-0 mt-1"
+              },
+              {
+                "text": "Düz dişlilerin boyut kontrolü için.",
+                "bold": "mb-0"
+              },
+              {
+                "table": [
+                  {
+                    "thead": [
+                      {
+                        "text": "Tasarım"
+                      },
+                      {
+                        "text": "Hassasiyet"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "Karbür"
+                      },
+                      {
+                        "text": "±0,001 mm"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "Karbür"
+                      },
+                      {
+                        "text": "±0,0005 mm"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "Karbür"
+                      },
+                      {
+                        "text": "±0,0005 mm"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Bilye Çapı",
+                "bold": "fw-bolder mb-0 mt-3"
+              },
+              {
+                "text": "Bilye çapı 1 ila 7 mm arası için",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Bilye çapı 5 ila 12 mm arası için",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Bilye çapı 10 ila 25 mm olan"
+              },
+              {
+                "text": "Radyüs",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "0,75 mm'den küçük",
+                "bold": "mb-0"
+              },
+              {
+                "text": "0,75 mm'den küçük",
+                "bold": "mb-0"
+              },
+              {
+                "text": "0,75 mm'den küçük"
+              },
+              {
+                "text": "Uygulama",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "Hassas iş parçaları",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Mastar kontrolü",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Mastar'lar ve Artefaktlar"
+              }
+            ],
+            "description": [
+              {
+                "text": "Ölçüm Ek Parçaları, ölçü Kontrol Aletlerinde ve bilye üzerinde/arasında boyutu ölçmek için kullanılır."
+              },
+              {
+                "text": "FRENCO ölçüm uçları, aşınmayı en aza indirmek için her zaman karbürden (1500HV) üretilir."
+              },
+              {
+                "text": "Ölçme Bilyaları",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "Tasarım",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "Gövde üzerine lehimlenmiş ölçüm bilyaları, M2.5 diş dahil ve AF hariç",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Gövde üzerine lehimlenmiş ölçüm bilyaları, M4 diş ve AF dahil",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Gövde üzerine lehimlenmiş ölçüm bilyaları, M4 diş ve AF dahil"
+              },
+              {
+                "text": "Ölçüm İpuçları",
+                "bold": "fw-bolder mb-0"
+              },
+              {
+                "text": "1,5 mm'den küçük çaplar için.",
+                "bold": "mb-0"
+              },
+              {
+                "table": [
+                  {
+                    "thead": [
+                      {
+                        "text": "Tasarım"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "M2 diş dahil"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "M2.5 diş dahil (Standart)"
+                      }
+                    ]
+                  },
+                  {
+                    "tbody": [
+                      {
+                        "text": "M3 diş dahil"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
       {
-        "name": "Ölçüm Aletleri",
-        "routerLink": "olcum-aletleri",
-        "title": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+        "name": "Ölçüm Cihazları",
+        "routerLink": "olcum-cihazlari",
+        "title": "Ölçüm Cihazları",
         "image": "size inspection instruments.png",
         "details": [
           {
-            "name": "Boyut Muayene Aletleri",
-            "routerLink": "boyut-muayene-aletleri",
-            "image": "size inspection instruments.png"
-          },
-          {
-            "name": "Çevresel Boşluk Aleti",
-            "routerLink": "cevresel-boşluk-aleti",
-            "image": "circumferential blacklash.png",
-            "secondDescription": [
+            "name": "Ölçüm Cihazları",
+            "routerLink": "olcu-kontrol-cihazlari",
+            "image": "size inspection instruments.png",
+            "products": [
               {
-                "text": "Boyut Muayene Aleti ile Kombinasyon",
-                "bold": "fw-bolder"
+                "name": "ÖLÇÜ KONTROL CİHAZLARI",
+                "description": "Bilyeler/pimler üzerindeki çapsal boyutlar, dişliler ve spline’lar için önemli\nkarakteristik özelliktir.",
+                "image": "size inspection instruments.png"
               },
               {
-                "text": "- Bu aletle ölçüldüğü şekliyle etkili spline'ı boyut inceleme araçlarından gelen gerçek boyutlarla birleştirmek, daha hassas bir süreç izleme sağlar."
-              }
-            ],
-            "description": [
-              {
-                "text": "Bu araçlar, tüm form hatalarını (etkili spline) hesaba katarken spline'ların etkin boyutunu ölçer.",
-                "bold": "fw-bolder"
+                "name": "Çevresel Boşluk Cihazları",
+                "description": "Bu araçlar, tüm form hatalarını dikkate alarak spline'ların etkin boyutunu ölçer.",
+                "image": "circumferential blacklash.png"
               },
               {
-                "text": "- Dahili ve harici yivler için kullanılabilir"
+                "name": "Çİft Yüzey (Double Flank) DİŞLİ ölçüm Cİhazı",
+                "description": "Çift Yan yüzey dişli testi, dişliler için hızlı ve basit bir inceleme yöntemidir. ",
+                "image": "double flank gear.png"
               },
               {
-                "text": "- Bileşik spline, karşılıklı olarak dönebilen diskler"
+                "name": "Tek yüzey (One Flank)\nDİşlİ Ölçüm CİHAZI",
+                "description": "Tek Kanatlı Dişli Yuvarlanma Muayenesi, çalışan dişliler için hızlı bir denetim\nyöntemidir.",
+                "image": "button_einflankenwaelzpruefgeraete.png"
               },
               {
-                "text": "- ISO 4156 ve ANSI B92.1'e göre kompozit boşluk mastarları yerine kullanılabilecek özel ölçüm yöntemi"
+                "name": "Ünİversal Ölçüm MakİnElErı",
+                "description": "Üniversal ölçüm makineleri, dişlilerin ve Spline'ların tek eksene göre çeşitli özelliklerini kayıt yapar.",
+                "image": "button_universellemessgeraete.png"
               },
               {
-                "text": "- Bu enstrümanta için bir ayar yöneticisi gereklidir"
+                "name": "Kremayer (rack) DİşLİ KONTROL Makİnelerİ",
+                "description": "Bu makineler, kremayerler üzerinde bir ana dişli (pinyon) ile yuvarlanma testi\ngerçekleştirir.",
+                "image": "button_zahnstangenmessgeraete.png"
               },
               {
-                "text": "- İstek üzerine aşınma sınırını belirlemek için halka mastarlar için konik ana tapalar"
-              }
-            ]
-          },
-          {
-            "name": "Çift Yan Dişli Muayene Makinaları",
-            "routerLink": "cift-yan-disli-muayene-makinalari",
-            "image": "double flank gear.png"
-          },
-          {
-            "name": "Tek Taraflı Dişli Yuvarlanma Muayene Makineleri",
-            "routerLink": "tek-tarafli-disli-yuvarlama-muayene-makineleri",
-            "image": "button_einflankenwaelzpruefgeraete.png"
-          },
-          {
-            "name": "Üniversal Ölçüm Makinaları",
-            "routerLink": "universal-olcum-makinalari",
-            "image": "button_universellemessgeraete.png"
-          },
-          {
-            "name": "Raf Muayene Makineleri",
-            "routerLink": "raf-muayene-makineleri",
-            "image": "button_zahnstangenmessgeraete.png",
-            "description": [
-              {
-                "text": "Bu makineler, kremayerler üzerinde bir Ana Dişli (pinyon) ile yuvarlanma testi gerçekleştirir.",
-                "bold": "fw-bolder"
-              },
-              {
-                "text": "- Çift yan dişli yöntemine dayalı hızlı ve kolay ölçümler"
-              },
-              {
-                "text": "- Dişlinin kalite kontrolü"
-              },
-              {
-                "text": "- Nominal çizgiler ve tolerans aralığı ile \"Yükselme ve Düşme\" rulo tablosu"
-              },
-              {
-                "text": "- Maks. belirlemek için \"Rack-Gain\" özelliği."
-              },
-              {
-                "text": "- FRENCO-Software ZSM ile değerlendirme"
-              }
-            ]
-          },
-          {
-            "name": "Dişli Kenarı Analiz Cihazı",
-            "routerLink": "disli-kenari-analiz-cihazi",
-            "image": "button_waelzscangeraete.png",
-            "secondDescription": [
-              {
-                "text": "Master Gears'a dayalı yöntem",
-                "bold": "fw-bolder mb-0"
-              },
-              {
-                "text": "- Ana dişli, incelenecek iş parçasınınkiyle eşleşir",
-                "bold": "mb-0"
-              },
-              {
-                "text": "- Kısa reaksiyon süresi",
-                "bold": "mb-0"
-              },
-              {
-                "text": "- Değiştirme olmadan büyük partiler için yüksek ekonomik verimlilik"
-              },
-              {
-                "text": "Disc Roll Master'a dayalı yöntem",
-                "bold": "fw-bolder mb-0"
-              },
-              {
-                "text": "- Disk merdane anaları, bir parça ailesindeki geometriler için özel olarak üretilmişti",
-                "bold": "mb-0"
-              },
-              {
-                "text": "- Seçilebilir ölçüm düzlemi sayısı (ölçüm süresi üzerinde doğrudan etki)",
-                "bold": "mb-0"
-              },
-              {
-                "text": "- İki merkez arasında tutulan iş parçası"
-              }
-            ],
-            "description": [
-              {
-                "text": "Dişli Kenar Analizi, tüm diş yan yüzlerinin birkaç dakika içinde taranmasına olanak tanır ve büyük partiler için uygundur.",
-                "bold": "fw-bolder"
-              },
-              {
-                "text": "- Tek yan dişli inceleme yöntemini temel alan özel yöntem"
-              },
-              {
-                "text": "- Tam diş yan yüzeylerinin hesaplanması"
-              },
-              {
-                "text": "- Tüm dişlerin ve tüm diş genişliği boyunca profil, heliks, hatve ve salgı hakkında bilgiler"
-              },
-              {
-                "text": "- Günde yaklaşık 60 ila 100 ölçüm için tasarlanmıştır"
-              },
-              {
-                "text": "- FRENCO Yazılımı FGI RS tarafından değerlendirme"
+                "name": "Dİşlİ Yanyüz (Flank) Analİzİ",
+                "description": "Dişli yan yüz analiz yöntemi, bütün diş yanaklarının birkaç dakika içinde taranmasına\nolanak tanır ve büyük partiler için uygundur.",
+                "image": "button_waelzscangeraete.png"
               }
             ]
           }
         ]
       },
       {
-        "name": "Aksesuarlar",
-        "routerLink": "aksesuarlar",
-        "title": "DİŞLİ ÖLÇÜM TEKNOLOJİSİ UZMANI",
+        "name": "Yardımcı Donanımlar",
+        "routerLink": "yardimci-donanimlar",
+        "title": "Yardımcı Donanımlar",
         "image": "tools and clamping system.png",
         "details": [
           {
-            "name": "Aletler ve Kelepçe Sistemleri",
-            "routerLink": "aletler-ve-kelepce-sistemleri",
-            "image": "tools and clamping system.png"
+            "name": "PARÇA BAĞLAMA SİSTEMLERİ",
+            "routerLink": "parca-baglama-sistemleri",
+            "image": "tools and clamping system.png",
+            "secondDescription": [
+              {
+                "text": "Takımlar",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Şekillendirme prosesine uygun profilli zımbalar ve kalıplar",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Profilli elektrotlar",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Sırasıyla büzülme ve kıvılcım boşluklarını dikkate alarak boyutsal toleranslar",
+                "bold": "mb-0"
+              }
+            ],
+            "description": [
+              {
+                "text": "Konik montajlı mandrelleri, Hidrolik tutucular, yaylı manşon sistemleri ve\neşmerkezlilik halkaları.",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "- Diş yanaklarından tutulan iş parçaları",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Diş yanaklarından merkezlenmiş iş parçaları",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Diş yan yüzleri ile ilişkili olarak ölçme ve uygulama işlemlerine olanak sağlar.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Çeşitli şekillerde elde edilen tasarım ile işe özel çözümler mümkündür.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "- Uygun sıkma yöntemlerinin seçimi konusunda size tavsiyelerde bulunmaktan mutluluk duyarız."
+              }
+            ]
           },
           {
-            "name": "FRENCO Yazılım",
-            "routerLink": "frenco-yazılım",
-            "image": "software.png"
+            "name": "FRENCO Yazılımı",
+            "routerLink": "frenco-yazilim",
+            "image": "software.png",
+            "products": [
+              {
+                "name": "Frenco Yazılımı",
+                "image": "software.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "FRENCO Ölçüm Aletleri ve Hesaplama Araçları için Veri Değerlendirme Yazılımı."
+                  },
+                  {
+                    "text": "Şirket içinde geliştirilen Ölçüm Elektroniği ‘ne (MEG) ek olarak, ölçüm cihazlarımızın\nyazılımı FRENCO tarafından geliştirilmekte ve programlanmaktadır. Bu çalışmamız, programları doğrudan ve kolayca özelleştirmemize ve size en uygun desteği\nsunmamıza olanak sağlar."
+                  },
+                  {
+                    "text": "Ölçüm cihazlarımız için değerlendirme yazılımına ek olarak, çeşitli verileri dışa\naktarma seçeneklerine sahip hesaplama araçları da sunuyoruz."
+                  }
+                ]
+              },
+              {
+                "name": "SPLINE STANDARTLARI YAZILIMI",
+                "image": "frenco_splinestandards.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Standart Uyumlu Spline Profil Tasarımı"
+                  },
+                  {
+                    "text": "- Spline profiller bir standarda benzer şekilde veya ihtiyaca göre manuel olarak tasarlanabilir."
+                  },
+                  {
+                    "text": "- DIN 5480 (Almanya)"
+                  },
+                  {
+                    "text": "- ANSI B92.1 (ABD)"
+                  },
+                  {
+                    "text": "- ISO 4156 (Uluslararası)"
+                  },
+                  {
+                    "text": "Not: Bu yazılımı demo modunda kullanmak için lütfen kurulum sırasında “demo lisansı\noluştur”seçeneğini seçin."
+                  }
+                ]
+              },
+              {
+                "name": "SPLINE HESAPLAYICI YAZILIMI",
+                "image": "frenco_splinecalculator 1.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Dişli ve Spline Verilerini Hesaplayın"
+                  },
+                  {
+                    "text": "- Kıvrımlı (Involute) ve Tırtıklı (serration) yanaklı iç ve dış dişlilerin ve Spline&#39;ların hesaplanması,"
+                  },
+                  {
+                    "text": "- Dişli ve Spline verilerinin ve ölçüm boyutlarının karmaşık olmayacak şekilde hesaplanması,"
+                  },
+                  {
+                    "text": "- Dolgu yarıçaplarının ve tam dolguların hesaplanması,"
+                  },
+                  {
+                    "text": "- Dişli profilinin grafik gösterimi,"
+                  },
+                  {
+                    "text": "- CAD sistemleri için ilgili noktaların veri aktarımı,"
+                  },
+                  {
+                    "text": "Not: Bu yazılımı demo modunda kullanmak için lütfen kurulum sırasında “demo lisansı\noluştur” seçeneğini seçin."
+                  },
+                  {
+                    "text": "Ücretsiz Demo Yazılımı indirmesi (Sürüm 1.8.0 | yaklaşık 32 MB)."
+                  }
+                ]
+              },
+              {
+                "name": "REANY YAZILIMI",
+                "image": "Software REANY.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Tüm dişli ölçümlerinin Değerlendirilmesi"
+                  },
+                  {
+                    "text": "- Tümüyle ölçülen involute kenarlı iç veya dış dişlilerin değerlendirilmesi,"
+                  },
+                  {
+                    "text": "- Tüm diş yanaklarında (Flank) ölçülen profil ve helisel kesitlerin değerlendirilmesi"
+                  },
+                  {
+                    "text": "- Profil, Helisel, hatve ve salgının klasik yöntemle değerlendirilmesi"
+                  },
+                  {
+                    "text": "- Diş yanak (Flank) yüzeylerinin renkli sunumu;"
+                  },
+                  {
+                    "text": "- Fourier Analizi dahil, dönüş simülasyonu"
+                  },
+                  {
+                    "text": "- Diş yanaklarının (Flank) 3D boyutlu görünümü"
+                  },
+                  {
+                    "text": "- Tüm diş yanağının (Flank) yüzey bilgilerinin değerlendirilmesi"
+                  },
+                  {
+                    "text": "- Tüm diş yanağının (Flank) yüzey bilgilerinin değerlendirilmesi"
+                  },
+                  {
+                    "text": "- Bu yazılım, bütün dişli ölçümlerinden sonra kök neden analizi için de kullanılır."
+                  }
+                ]
+              },
+              {
+                "name": "RMPRO YAZILIMI",
+                "image": "software RMpro.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Çok noktalı kontrol tezgahları için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Ölçüm planlarının grafik destekli oluşturulması"
+                  },
+                  {
+                    "text": "- Tüm ölçüm sonuçlarının açık ve net sunumu"
+                  },
+                  {
+                    "text": "- Protokol verilerinin otomatik olarak saklanması"
+                  },
+                  {
+                    "text": "- Protokol verilerinin otomatik olarak saklanması"
+                  },
+                  {
+                    "text": "- Program dili ve çıkış dili serbestçe seçilebilir."
+                  },
+                  {
+                    "text": "- Basit kullanıcı yönetimi"
+                  }
+                ]
+              },
+              {
+                "name": "FGI RS YAZILIMI",
+                "image": "Software FGI RS.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Dişli Kenarı (Flank) Analizcisi için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Protokol verilerinin otomatik olarak saklanması"
+                  },
+                  {
+                    "text": "- Profil, helis, hatve ve salgı için geleneksel/klasik değerlendirme"
+                  },
+                  {
+                    "text": "- Diş yan yüzeylerinin renkli gösterimi/sunumu"
+                  },
+                  {
+                    "text": "- Fourier analizi dahil Yuvarlanma/dönüş simülasyonu"
+                  },
+                  {
+                    "text": "- Herhangi bir değer için kontrol çizelgeleri"
+                  },
+                  {
+                    "text": "- qs-STAT® ve Excel arayüzü"
+                  }
+                ]
+              },
+              {
+                "name": "LDYNpro YAZILIMI",
+                "image": "Software LDYNpro.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Ölçü kontrol cihazları için değerlendirme yazılımı"
+                  },
+                  {
+                    "text": "- Muayene planlarının kolayca oluşturulması"
+                  },
+                  {
+                    "text": "- Protokol verilerinin otomatik olarak saklanması"
+                  },
+                  {
+                    "text": "- Tüm değerler için çevrimiçi istatistikler"
+                  },
+                  {
+                    "text": "- qs-STAT® ve Excel arayüzü"
+                  },
+                  {
+                    "text": "- Program dili ve çıkış dili serbestçe seçilebilir."
+                  },
+                  {
+                    "text": "- Birden fazla alet kullanıldığında otomatik geçiş"
+                  }
+                ]
+              },
+              {
+                "name": "FGIpro YAZILIMI",
+                "image": "Software FGIpro.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Dişli Kenarı çift yanyüz (Double-Flank) ölçüm için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Çift Yan Dişli Kontrolü için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Test planlarının zahmetsizce oluşturulması"
+                  },
+                  {
+                    "text": "- Protokol dosyalarının otomatik saklanması"
+                  },
+                  {
+                    "text": "- Tüm parametreler için çevrimiçi istatistikler"
+                  },
+                  {
+                    "text": "- qs-STAT®, CASQ-it 9000 ve dahili Ethernet sistemleri için arayüzler"
+                  },
+                  {
+                    "text": "- Çeşitli işletim ve çıkış dilleri"
+                  },
+                  {
+                    "text": "- Kalibrasyon sırasında gerçek eksen mesafesinin, iki küre ölçümü, diş kalınlığı ve\ndiş genişliğinin hesaplanması mümkündür."
+                  }
+                ]
+              },
+              {
+                "name": "RKpro YAZILIMI",
+                "image": "Software RKpro.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Bilyalı Problu Manuel Makineler için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Denetim planlarının grafik destekli oluşturulması"
+                  },
+                  {
+                    "text": "- Grafik destekli ölçüm"
+                  },
+                  {
+                    "text": "- Tüm ölçüm sonuçlarının net sunumu"
+                  },
+                  {
+                    "text": "- Protokol verilerinin otomatik olarak depolanması"
+                  },
+                  {
+                    "text": "- qs-STAT® arayüzü"
+                  },
+                  {
+                    "text": "- Program dili ve çıkış dili serbestçe seçilebilir."
+                  },
+                  {
+                    "text": "- Basit kullanıcı yönetimi"
+                  }
+                ]
+              },
+              {
+                "name": "URM-K YAZILIMI",
+                "image": "Software URM-K.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Bilya Problu NC kontrollü Makineler için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Açıkça yapılandırılmış ekran sayesinde hızlı kalite değerlendirmesi"
+                  },
+                  {
+                    "text": "- Protokol verilerinin otomatik olarak saklanması"
+                  },
+                  {
+                    "text": "- qs-STAT® arayüzü"
+                  },
+                  {
+                    "text": "- Çeşitli dillerde kullanılabilen kullanıcı arabirim"
+                  }
+                ]
+              },
+              {
+                "name": "ZSM YAZILIMI",
+                "image": "Software ZSM.png",
+                "url": "modal",
+                "modal": [
+                  {
+                    "text": "Kremayer (Rack) Dişli ölçüm cihazı için Değerlendirme Yazılımı"
+                  },
+                  {
+                    "text": "- Başarılı/başarısız mesaj değerlerinin renkli çıktı alımı"
+                  },
+                  {
+                    "text": "- Nominal çizgiler ve tolerans aralıklı yuvarlanma/dönüş eğrisi çıktı alımı"
+                  },
+                  {
+                    "text": "- Kısa dalga bileşeninin ayrı gösterimi"
+                  },
+                  {
+                    "text": "- Maks. ve dk. iletim değerlerinin hesaplanması"
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "FRENCO Ölçüm Elektroniği",
             "routerLink": "frenco-olcum-elektronigi",
-            "image": "button_frenco_meg.png"
+            "image": "button_frenco_meg.png",
+            "secondDescription": [
+              {
+                "text": "Ölçüm Elektroniği MEG32",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "MEG32 Ölçüm Elektroniğinin 19&quot; Kremayer serisi modülerdir ve takılabilir kartlar üzerine\nkuruludur. Yapılacak işe bağlı olarak donanımı uygun şekilde yapılandırılmıştır. Çok basit\nölçüm görevlerinden eş zamanlı yüksek hızlı çözümlere kadar, bu ölçüm elektronikleri\ntüm gereksinimleri karşılar. MEG hem dijital hem de analog ölçüm sinyallerini\nişler/değerlendirir. Motorları kontrol eder ve sensörlerle iletişim kurar ve bağımsız bir\nPLC kontrolörü içerir (örn. taşıma sistemleri için). FCL (FRENCO Komut Dili) protokolü\naracılığıyla, veriler MEG&#39;e entegre edilmiş takılabilir PC veya bağımsız bir bilgisayar ile\nEthernet üzerinden değiştirilir."
+              },
+              {
+                "text": "Bir monitör eklenmesi sonrası, uygun değerlendirme yazılımı test numunelerinizin\nkalitesini anında gösterilir."
+              },
+              {
+                "text": "Modüler tasarım"
+              },
+              {
+                "text": "Bireysel olarak yapılandırılabilir."
+              },
+              {
+                "text": "Dijital ve analog ölçüm sinyallerini işler/değerlendirir."
+              },
+              {
+                "text": "Motorları kontrol eder, sensörlerle iletişim kurar, CAN (ISO 11898-1) ve diğer veri yolu\nsistemlerini destekler."
+              },
+              {
+                "text": "Autarc SPS kontrolü (örn. taşıma sistemleri için)"
+              }
+            ],
+            "description": [
+              {
+                "text": "Ölçüm Cihazları ve Yazılım arasındaki bağlantı."
+              },
+              {
+                "text": "Kendi yazılımımıza ek olarak, ölçüm cihazlarımızın ölçüm elektroniği de FRENCO tarafından şirketimiz içinde geliştirilmektedir. Bu da, özel taleplerinizi doğrudan ve sorunsuz bir şekilde uygulamamıza ve size mümkün olan en iyi desteği sunmamıza olanak tanımaktadır."
+              },
+              {
+                "text": "Ölçüm cihazlarımız için çok kapsamlı MEG32 ölçüm elektroniğimize ek olarak, Boyut Kontrol Cihazları\ngibi kompakt elektronik ölçüm kutusu FMB&#39;yi de sunuyoruz."
+              },
+              {
+                "text": "FMB – Endüktif/Tüme varım Probları için Analog Ölçüm Sistemi",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "FMB serisi, 8 adede kadar endüktif/ tüme varım probu barındırabilir ve örneğin boylamsal dinamik\ndeğerlendirme için LDYN yazılımımızla birlikte çalışır. Uygun maliyeti ve yerden tasarruf sağlayan\nölçüleri ile MEG32 ölçüm elektroniğine bir alternatiftir."
+              },
+              {
+                "text": "Yapılacak işe bağlı olarak, ölçüm sistemi uygun şekilde yapılandırılır."
+              },
+              {
+                "text": "Veri iletişimi standartlaştırılmış Ethernet, TCP/IP üzerinden gerçekleşir. Yerleşik DHCP sunucusu, kolay\ndevreye alma sağlar."
+              },
+              {
+                "text": "Boyut Muayene Aletleri için uygundur.",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Sekiz endüktif giriş, basamaklandırılabilir",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Kolay devreye alma için entegre isteğe bağlı DHCP sunucusu",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Standartlaştırılmış Ethernet, TCP/IP üzerinden veri iletişimi",
+                "bold": "mb-0"
+              },
+              {
+                "text": "Yerden tasarruf ve düzenli kurulum",
+                "bold": "mb-0"
+              },
+              {
+                "text": "MEG32&#39;ye uygun maliyetli alternatif"
+              }
+            ]
           }
         ]
       }
@@ -2079,10 +2687,10 @@
         "class": "mb-2"
       },
       {
-        "text" : "- Çok Milli Kafalar"
+        "text": "- Çok Milli Kafalar"
       },
       {
-        "text" : "- Açılı Kafalar"
+        "text": "- Açılı Kafalar"
       },
       {
         "text": "- Özel Tahrikli takımlar"
@@ -2091,25 +2699,25 @@
         "text": "- Hız arttırıcılar"
       },
       {
-        "text" : "Bu şekilde sunduğu ürünler ile hemen hemen bütün tezgahlardaki uygulama yerlerinde;"
+        "text": "Bu şekilde sunduğu ürünler ile hemen hemen bütün tezgahlardaki uygulama yerlerinde;"
       },
       {
-        "text" : "- Ayrıntılı ve pahalı üretim süreçlerini basitleştirmek,"
+        "text": "- Ayrıntılı ve pahalı üretim süreçlerini basitleştirmek,"
       },
       {
-        "text" : "- İşlem sürelerini azaltmak,"
+        "text": "- İşlem sürelerini azaltmak,"
       },
       {
-        "text" : "- Duruş süresini azaltmak,"
+        "text": "- Duruş süresini azaltmak,"
       },
       {
-        "text" : "- Erişilemeyen çalışma bölgeleri için"
+        "text": "- Erişilemeyen çalışma bölgeleri için"
       },
       {
-        "text" : "Özel veya Standart çözümler üretmektedir."
+        "text": "Özel veya Standart çözümler üretmektedir."
       },
       {
-        "text" : "MPA işe özel talepleriniz için lütfen not bırakın."
+        "text": "MPA işe özel talepleriniz için lütfen not bırakın."
       }
     ],
     "img": "mpa.png",
@@ -2594,27 +3202,27 @@
                 "bold": "mb-0"
               },
               {
-                "text" : "• D=Ø 26'dan itibaren 3 ağızlı kesme kenarı ile yüksek talaş kaldırma oranları",
+                "text": "• D=Ø 26'dan itibaren 3 ağızlı kesme kenarı ile yüksek talaş kaldırma oranları",
                 "bold": "mb-0"
               },
               {
-                "text" : "• Dar delik toleransları (IT7-8)\n",
+                "text": "• Dar delik toleransları (IT7-8)\n",
                 "bold": "mb-0"
               },
               {
-                "text" : "• Kesme çapının hızlı ve hassas ayarı (eğim 2 μm/°)\n",
+                "text": "• Kesme çapının hızlı ve hassas ayarı (eğim 2 μm/°)\n",
                 "bold": "mb-0"
               },
               {
-                "text" : "• 4 mm'ye kadar kesme genişliği\n",
+                "text": "• 4 mm'ye kadar kesme genişliği\n",
                 "bold": "mb-0"
               },
               {
-                "text" : "• Rijit Tezgahlarda kullanılabilir\n",
+                "text": "• Rijit Tezgahlarda kullanılabilir\n",
                 "bold": "mb-0"
               },
               {
-                "text" : "• ø 200 mm'ye kadar uygulama olanakları\n",
+                "text": "• ø 200 mm'ye kadar uygulama olanakları\n",
                 "bold": "mb-0"
               }
             ],
@@ -2996,66 +3604,78 @@
         "image": "counterboring.png",
         "details": [
           {
-            "name": "BILZ-Counterbore A-HSS",
+            "name": "Tip A-HSS Bilz-Havşalama Takımları",
             "routerLink": "a-hss",
             "image": "AW-senker.png",
             "description": [
               {
-                "text": "- Dönen pilotlu ve pilotsuz birçok takım tezgahında üniversal olarak kullanılabilir"
+                "text": "- Yaklaşık 800 N/mm²'ye kadar sert çelik, alüminyum ve bakır alaşımlarında vida başı havşalarının ön yüzey işlemesi ve havşası için özellikle uygundur."
               },
               {
-                "text": "- Çoklu yeniden taşlanabilirlik sayesinde uzun takım ömrü"
+                "text": "- Normalde üç kesici ağızlı, (D>=18) ölçüler için dört kesici ağızlı ve sırasıyla 25° ve 30° talaş açısına sahip, düşük kesme kuvvetlerinde ve yüksek talaş kaldırma oranları sunar."
               },
               {
-                "text": "- 25° sırasıyla 30° talaş açısına sahip üç sırasıyla dört kesme kenarı (D>=18), düşük kesme kuvvetlerinde yüksek talaş kaldırma oranları sunar."
+                "text": "- Çoklu yeniden bilenebilirlik özelliği sayesinde uzun takım ömrü"
               },
               {
-                "text": "- Yaklaşık 800 N/mm²'ye kadar sert çelik, alüminyum ve bakır alaşımlarındaki vida başlı havşaların punta kaplaması ve havşası için özellikle uygundur."
+                "text": "- Döner pilotlu veya döner pilotsuz olarak birçok takım tezgahında kullanılabilir."
+              }
+            ],
+            "secondDescription": [
+              {
+                "text": "Alternatif Bilz Havşa varyasyonu 3-HSS",
+                "bold": "fw-bolder"
+              },
+              {
+                "text": "Sertleştirilmiş sert ve kırılgan malzemeler için (Rm > 800 N/mm²)"
+              },
+              {
+                "text": "Talaş açısı γ= 18°"
               }
             ],
             "pdf": "Hermann-Bilz - HSS COUNTERBORE.pdf",
             "pdfSize": "831KB"
           },
           {
-            "name": "BILZ-Counterbore A-HM",
+            "name": "Tip A-HM Bilz-Havşalama Takımları",
             "routerLink": "a-hm",
             "image": "A-HSS3.png",
             "description": [
               {
-                "text": "- Gri dökme demir, pirinç ve alüminyum gibi sert ve tok, kırılgan ve kısa talaş oluşturan malzemeler için"
+                "text": "- Gri dökme demir, pirinç ve alüminyum gibi sert ve tok, kırılgan ve kısa talaş oluşturan malzemelerde kullanım için."
               },
               {
-                "text": "- 8° sırasıyla 12° talaş açısına sahip üç kesme kenarı (D>=9)"
+                "text": "- Üç kesici ağızlı ve sırasıyla 8° ve 12° (D>=9) talaş açısına sahip"
               },
               {
                 "text": "- Yüksek aşınma direncine sahip ince taneli karbür"
               },
               {
-                "text": "- Çoklu yeniden taşlanabilirlik sayesinde uzun takım ömrü"
+                "text": "- Çoklu yeniden bilenebilirlik özelliği sayesinde uzun takım ömrü"
               },
               {
-                "text": "- Dönen pilotlu ve pilotsuz birçok takım tezgahında üniversal olarak kullanılabilir"
+                "text": "- Döner pilotlu veya döner pilotsuz olarak birçok takım tezgahında kullanılabilir."
               }
             ],
             "pdf": "var",
             "pdfSize": "var"
           },
           {
-            "name": "BILZ-Counterbore AW",
+            "name": "Tip AW Bilz Havşalama Takımları",
             "routerLink": "aw",
             "image": "A-HM.png",
             "description": [
               {
-                "text": "- Her tür malzemede vida başlı havşaların punta kaplaması ve havşası için özellikle uygundur."
+                "text": "- Özellikle her türlü malzemede vida başı havşalarının ön yüzey işlemesi ve havşası için özellikle uygundur."
               },
               {
-                "text": "- Farklı geometrilere ve kaplamalara sahip karbür, sermet ve HSS-E-uçlar için üç kesici uç yuvası"
+                "text": "- Farklı geometrilere ve kaplamalara sahip karbür, Cermet ve HSS-E-uçlar için üç kesici uç yuvası"
               },
               {
-                "text": "- Kesici uçlardaki (...Z...) yuvarlak taşlanmış kılavuz pahlar, çatırtıyı önler, delik yüzeyini parlatır ve dar toleranslara izin verir (IT9-11)"
+                "text": "- (...Z...) tipi kesici uçlardaki yuvarlak taşlanmış yataklama pahları ile tınlamayı önler, delik yüzeyini parlatır ve dar toleranslarda çalışmaya izin verir. (IT9-11)"
               },
               {
-                "text": "- Dönen pilotlu ve pilotsuz birçok takım tezgahında üniversal olarak kullanılabilir"
+                "text": "- Döner pilotlu veya döner pilotsuz olarak birçok takım tezgahında kullanılabilir."
               }
             ],
             "pdf": "var",
@@ -3071,135 +3691,141 @@
         "marginTop": 1,
         "details": [
           {
-            "name": "REVERSE BORING BAR RBS-MICRO RBSM",
+            "name": "RBS-MICRO RBSM - Arka yüzey işleme takımı",
             "routerLink": "rbsm",
             "image": "rueckwarts_rbs-micro.png",
             "description": [
               {
-                "text": "- M3'ten M6'ya kadar havşa açmak için"
+                "text": "- M3'ten M6'ya kadar deliklerde arka yüzey işleme"
               },
               {
-                "text": "- 1,9×D'ye kadar havşa açma mümkün olacaktır"
+                "text": "- Arka yüzey işleme oranı parça ve malzme durumuna göre 1,9×D'ye kadar mümkün olmaktadır."
               }
             ],
             "pdf": "var",
             "pdfSize": "var"
           },
           {
-            "name": "REVERSE BORING BAR RBU",
+            "name": "RBU- Arka yüzey işleme Takımı",
             "routerLink": "rbu",
             "image": "rueckwarts_rbs_.png",
             "description": [
               {
-                "text": "- Zor erişilen alanlarda nokta düzeltme, pah kırma ve derin havşa açma için"
+                "text": "Yeni RBU takım aşağıdaki ilave özellikleri ile eski tip RBS'nin yerini alıyor."
               },
               {
-                "text": "- RBS+, yüzey işlemi ve FEM için optimize edilmiş geometri ile çok kararlı ve rijittir"
+                "text": "Zor erişilen bölgelerde arka yüzey işleme, pah kırma ve derin havşa açma için"
               },
               {
-                "text": "- d=18'den itibaren RFS ve RBS+ için içten soğutma sıvısı"
+                "text": "\"RBS+\" yüzey işlemi ve FEM için optimize edilmiş geometri ile çok kararlı ve rijit yapıdadır."
               },
               {
-                "text": "- Geniş farklı PCD-, karbür- ve HSS değiştirilebilir kesici uç seçenekleri"
+                "text": "Çap d=18'den itibaren RFS ve RBS+ için içten soğutma sıvısı verebilme olanağı"
               },
               {
-                "text": "- Yeni RBU, optimize edilmiş kesme kenarı konumu sayesinde çok daha yüksek bir stabilite sunar"
+                "text": "Geniş farklı PCD, Karbür ve HSS değiştirilebilir kesici uç seçenekleri"
               },
               {
-                "text": "- Özel istekler için"
+                "text": "Yeni \"RBU\" takımlar optimize edilmiş kesme kenarı pozisyonu sayesinde çok daha yüksek bir stabilite sunar."
+              },
+              {
+                "text": "Özel talepler için"
               }
             ],
             "pdf": "var",
             "pdfSize": "var"
           },
           {
-            "name": "REVERSE COUNTERBORE SYSTEM TU",
+            "name": "TU sistem- Arka yüzey işleme Takımı",
             "routerLink": "system-tu",
             "image": "rueckwarts_tu.png",
             "description": [
               {
-                "text": "- Manuel olarak çalıştırılan tersine işleme"
+                "text": "- Manuel olarak sökülüp takılan arka yüzey işleme takımı"
               },
               {
-                "text": "- Tüm makine tiplerinde evrensel olarak uygulanabilir"
+                "text": "- Genel olarak tüm makine tiplerinde uygulanabilir."
               },
               {
-                "text": "- Büyük kesme genişliği (2,5 D'ye kadar)"
+                "text": "- Hızlı ve güvenilir el ile kesici takım değişimi için basit ve güçlü kilitleme"
               },
               {
                 "text": "- Hızlı ve güvenilir manuel alet değişimi için düz süngü"
               },
               {
-                "text": "- Birden fazla yeniden öğütme mümkündür"
+                "text": "- Büyük işleme aralığı (2,5 D'ye kadar)"
               },
               {
-                "text": "- Havşa ve tutucuların çeşitli çap kombinasyonları"
+                "text": "- Birden fazla yeniden bileme mümkündür."
               },
               {
-                "text": "- Aynı temel tutucu (TUHW) artı ayarlanmış kılavuz kovanlar (TUB) birkaç kılavuz çapını kapsayabilir"
+                "text": "- Çok çeşitli çaplı havşa ve tutucu kombinasyonları"
+              },
+              {
+                "text": "- Aynı ana tutucu (TUHW) ile çapa özel burç yataklar (TUB) kullanılarak çoklu çap işleme"
               }
             ],
             "pdf": "var",
             "pdfSize": "var"
           },
           {
-            "name": "Autofacer AFA",
+            "name": "AFA Autofacer - Arka yüzey işleme Takımı",
             "routerLink": "afa",
             "image": "_PST5557.png",
             "description": [
               {
-                "text": "- İhtiyaçlarınıza göre size özel tasarım"
+                "text": "- İhtiyaçlarınıza uygun özel tasarım"
               },
               {
-                "text": "- Mil dönüşünü hızlı bir şekilde tersine çevirirken volanın ataletiyle kolay ve güvenli aktivasyon"
+                "text": "- Çalışma sırasında İş Mil dönüşünü hızlı bir şekilde tersine çevirirken volanın ataletiyle kesici ucu aktive eden kolay ve güvenli tasarım"
               },
               {
-                "text": "- Otomatik (ileri ve geri) punta düzeltme, havşa açma, pah kırma"
+                "text": "- Otomatik ileri ve geri arka yüzey işleme, havşa açma, pah kırma"
               },
               {
-                "text": "- Büyük kesme genişliği (2,2×D'ye kadar, D1 = 12,5'ten itibaren)"
+                "text": "- Büyük kesme genişliği (2,2× Çap D'ye kadar, Çap D1 = 12,5'ten itibaren)"
               },
               {
-                "text": "- Hızlı hızlanan milli tüm makinelerde uygulanabilir"
+                "text": "- Akselerasyonu hızlı milli tüm tezgahlarda uygulanabilir."
               }
             ],
             "pdf": "var",
             "pdfSize": "var"
           },
           {
-            "name": "REVERSE CHAMFERING BAR RFS",
+            "name": "RFS - Ters pah kırma Takımı",
             "routerLink": "rfs",
             "image": "rueckwarts_rfs.png",
             "description": [
               {
-                "text": "- Delik çıkışlarının tanımlanmış pah kırması için"
+                "text": "- Delik çıkışlarında tanımlanmış ölçülerde pah kırma"
               },
               {
-                "text": "- Yüksek malzeme mukavemeti ve gövdenin geniş enine kesiti, diğer üretim süreçlerine göre önemli ölçüde daha yüksek kesme değerleri sağlar"
+                "text": "- Yüksek malzeme mukavemeti ve gövdenin geniş enine kesitli tasarımı ile diğer üretim proseslerine göre önemli ölçüde daha yüksek kesme değerleri sağlar."
               }
             ],
             "pdf": "var",
             "pdfSize": "var"
           },
           {
-            "name": "UNIMILL FUN",
+            "name": "Unimill FUN- Pah kırma takımı",
             "routerLink": "unimill-fun",
             "image": "rueckwarts_unimill.png",
             "description": [
               {
-                "text": "- Ø 3,3 mm'den itibaren açık deliklerin çift taraflı çapaklarının alınması için üniversal pah kırma aleti"
+                "text": "- Ø3,3 mm'den itibaren açık deliklerin çift taraflı çapaklarının alınması için üniversal pah kırma takımı"
               },
               {
                 "text": "- X-CEED kaplama sayesinde yüksek aşınma direnci"
               },
               {
-                "text": "- Mikro tanecikli karbür sayesinde yüksek tokluk"
+                "text": "- Mikro tanecikli karbür sayesinde yüksek dayanıklılık"
               },
               {
-                "text": "- Kuru ve ıslak işleme için"
+                "text": "- Kuru ve sulu işlemelere uygun"
               },
               {
-                "text": "- 4 pah için işleme süresi %80 azaltılarak 5 saniyeye indirildi!"
+                "text": "- İşleme zamanı 4 pah için %80 azaltılarak 5 saniyeye indirildi!"
               }
             ],
             "pdf": "var",
@@ -3648,7 +4274,7 @@
             ]
           },
           {
-            "name": "XEBEC Seramik Taş™",
+            "name": "XEBEC™ Seramik Taşlar Ve Çubuklar",
             "routerLink": "seramik-tas",
             "image": "Stone.png",
             "description": [
@@ -3664,9 +4290,9 @@
             ],
             "carousel": [
               {
-                "name": "XEBEC Esnek Şaftlı Taşlar",
+                "name": "XEBEC™ Esnek Şaftlı Seramik Taşlar",
                 "image": "geri-capak-kesici-ve-yol.jpg",
-                "description": "Çapraz deliklerin, kanalların ve iş parçalarının derinliklerindeki alanların ön ve arka kısımlarında çapak alma ve parlatma için idealdir. Yay çeliği esnek şaftı ile taşın yüzeye yumuşak temasına olanak sağlar ve işleme sırasında oluşan titreşimleri emer.",
+                "description": "Çapraz deliklerin, kanalların ve iş parçalarının derinliklerindeki alanların ön ve arka kısımlarında çapak alma ve parlatma için idealdir. Yay çeliği esnek şaftı ile taşın yüzeye yumuşak temasına olanak sağlar ve işleme sırasında oluşan titreşimleri emer. El ile veya Tezgahta uygulamaya uygundur.",
                 "routerLink": "geri-capak-kesici-ve-yol"
               },
               {
@@ -3678,25 +4304,25 @@
               {
                 "name": "XEBEC Ceramic Stone™ Meister Finish",
                 "image": "meister-finish.jpg",
-                "description": "Kalıpların ve haddelerin parlatılması ve çapaklarının alınması için idealdir.",
+                "description": "Kalıpların ve haddelerin parlatılması ve çapaklarının alınmasında el ile uygulama için idealdir.",
                 "routerLink": "meister-finish"
               },
               {
-                "name": "XEBEC Seramik Taş™ Isıya Dayanıklı",
+                "name": "XEBEC™ Isıya Dayanıklı Seramik Çubuklar",
                 "image": "isiya-dayanikli.jpg",
-                "description": "200°C'ye kadar ısıya dayanıklı ve ultrasonik aletle sürekli kullanıma uygun",
+                "description": "200°C'ye kadar ısıya dayanıklılık özelliği ile Ultrasonik aletlerde veya el ile sürekli kullanıma uygun",
                 "routerLink": "isiya-dayanikli"
               },
               {
-                "name": "XEBEC Seramik Taş™ Elmas",
+                "name": "XEBEC Seramik Çubuklar™ Diamond",
                 "image": "elmas.jpg",
-                "description": "Semente karbür ve sertleştirilmiş çelik (SKD, STAVAX, vb.) gibi HRC-57'den daha sert malzemeler için uygundur.",
+                "description": "Semente karbür ve sertleştirilmiş çelik (SKD, STAVAX, vb.) gibi HRC-57'den daha sert malzemeler için El ile kullanıma uygundur.",
                 "routerLink": "elmas"
               },
               {
-                "name": "XEBEC Seramik Taş™ Yumuşak Tip",
+                "name": "XEBEC Seramik Çubuk™ Yumuşak Tip",
                 "image": "yumusak.jpg",
-                "description": "Kauçuk bağlayıcılar ile iş parçasına yumuşak temas ve yüzeye uyum sağlar.",
+                "description": "Kauçuk bağlayıcılar ile iş parçasına yumuşak temas ve yüzeye uyum sağlar. El ile uygulamaya uygun",
                 "routerLink": "yumusak"
               },
               {
@@ -3706,15 +4332,15 @@
                 "routerLink": "kalem"
               },
               {
-                "name": "XEBEC El Uygulama Malzeme™ Tutucuları",
+                "name": "XEBEC Seramik Çubuk Malzeme™ Tutucuları",
                 "image": "cubuk-tutucu.jpg",
-                "description": "XEBEC Seramik taşlar ™ ve Meister Finish Çubuk tipi ve Silindirik tipler için",
+                "description": "Güç kaynağının bulunmadığı iş istasyonlarında kullanışlı olan pille çalışan döner alet. El aleti ultra hafiftir, yorulmaya neden olmadan manuel kullanım için idealdir.",
                 "routerLink": "cubuk-tutucu"
               },
               {
-                "name": "Mobil Mikromotor Sistemi",
+                "name": "Mobil Micromotor Cihaz",
                 "image": "mobil-mikromotor-sistemi.jpg",
-                "description": "Güç kaynağının bulunmadığı iş istasyonlarında kullanışlı olan pille çalışan döner alet.\nEl aleti ultra hafiftir, yorulmaya neden olmadan manuel kullanım için idealdir.",
+                "description": "Güç kaynağının bulunmadığı iş istasyonlarında kullanışlı olan pille çalışan döner alet. El aleti ultra hafiftir, yorulmaya neden olmadan manuel kullanım için idealdir.",
                 "routerLink": "mobil-mikromotor-sistemi"
               }
             ]
@@ -3732,65 +4358,381 @@
             "image": "bg_case.png",
             "products": [
               {
-                "name": "VACUUM FORMING",
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Vakum Şekillendirme Kalıbı"
+                  },
+                  {
+                    "text": "Uygulama: Parlatma"
+                  }
+                ],
                 "image": "vacuum-forming.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "NAK MOLD",
-                "image" : "nak-mold.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: NAK Kalıbı"
+                  },
+                  {
+                    "text": "Uygulama: Takım İzi Yok Etme ve Parlatma"
+                  }
+                ],
+                "image": "nak-mold.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "PINION GEAR",
-                "image" : "pinion-gear.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Pinyon Dişli"
+                  },
+                  {
+                    "text": "Uygulama: Kenar Çapaklarının Temizlenmesi"
+                  }
+                ],
+                "image": "pinion-gear.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name": "AIRCRAFT BODY",
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Uçak Gövdesi"
+                  },
+                  {
+                    "text": "Uygulama: Takım İzi Yok Etme ve\nKenar Çapaklarının Temizlenmesi"
+                  }
+                ],
                 "image": "aircraft-body.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "TURBINE BLADE",
-                "image" : "turbine-blade.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Türbin Kanadı"
+                  },
+                  {
+                    "text": "Uygulama: Takım İzi Yok Etme ve\nKenar Çapaklarının Temizlenmesi"
+                  }
+                ],
+                "image": "turbine-blade.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "WING RIB",
-                "image" : "wing-rib.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Kanat İskeleti"
+                  },
+                  {
+                    "text": "Uygulama: Takım İzi Yok Etme ve\nKenar Çapaklarının Temizlenmesi"
+                  }
+                ],
+                "image": "wing-rib.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name": "BLISK",
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Blisk"
+                  },
+                  {
+                    "text": "Uygulama: Takım İzi Yok Etme ve\nKenar Çapaklarının Temizlenmesi"
+                  }
+                ],
                 "image": "blisk.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "TRANSMISSION CASE (MATCHING SURFACE)",
-                "image" : "transmission-case.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Dişli Kutusu \nBirleşme Yüzeyleri"
+                  },
+                  {
+                    "text": "Uygulama: Yüzey ve Kenar\nÇapaklarının Temizlenmesi"
+                  }
+                ],
+                "image": "transmission-case.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "CYLINDER HEAD (MATCHING SURFACE)",
-                "image" : "cylinder-head.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Silindir Bloğu\nBirleşme Yüzeyleri"
+                  },
+                  {
+                    "text": "Uygulama: Yüzey ve Kenar\nÇapaklarının Temizlenmesi"
+                  }
+                ],
+                "image": "cylinder-head.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name": "CYLINDER HEAD (OIL GALLERY)",
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Silindir Bloğu\nBirleşme Yüzeyleri"
+                  },
+                  {
+                    "text": "Uygulama: Yağ Kanallarının Çapaklarının\nTemizlenmesi ve Yüzey Pürüzlülüğünün İyileştirilmesi"
+                  }
+                ],
                 "image": "cylinder-head-oil-gallery.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "INPUT SHAFT (CROSS HOLE)",
-                "image" : "input-shaft.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Vites Kutusu Giriş Mili"
+                  },
+                  {
+                    "text": "Uygulama: Çapakların Temizlenmesi\nve Yüzey Pürüzlülüğünün İyileştirilmesi"
+                  }
+                ],
+                "image": "input-shaft.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               },
               {
-                "name" : "STAINLESS STEEL MOLD",
-                "image" : "stainless-steel-mold.png",
-                "url" : "https://www.xebec-tech.com/en/example/"
+                "paragraphs": [
+                  {
+                    "text": "Parça Adı: Vites Kutusu Giriş Mili"
+                  },
+                  {
+                    "text": "Uygulama: Çapakların Temizlenmesi\nve Yüzey Pürüzlülüğünün İyileştirilmesi"
+                  }
+                ],
+                "image": "stainless-steel-mold.png",
+                "url": "https://www.xebec-tech.com/en/example/"
               }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Montronix",
+    "headerImage": "assets/images/products/montronix/montronix.png",
+    "headerBackground": "montronix-bg",
+    "headerColor": "black",
+    "headerText": "",
+    "bodyHeader": "",
+    "contentBackground": "montronix-body",
+    "contentHeader": "Montronix",
+    "paragraphs": [],
+    "secondContentHeader": "Montronix",
+    "secondParagraphs": [],
+    "img": "montronix.png",
+    "hoverImg": "montronix-hover.png",
+    "routerLink": "montronix",
+    "detailBackground": "montronix-detail-bg",
+    "products": [
+      {
+        "name": "TEZGAH BİNDİRMESİ ALGILAMA SİSTEMİ PULSE-NG",
+        "routerLink": "tezgah-bindirmesi-algilama-sistemi-pulse-ng",
+        "image": "PULSE-NG.png",
+        "details": [
+          {
+            "name": "TEZGAH BİNDİRMESİ ALGILAMA SİSTEMİ PULSE-NG",
+            "routerLink": "tezgah-bindirmesi-algilama-sistemi-pulse-ng",
+            "image": "PULSE-NG.png",
+            "description": [
+              {
+                "text": "Tezgâh bindirmesi, yanlış parça bağlaması, program hatası, parça bağlama gevşekliği gibi nedenlerle tezgâhta oluşan vibrasyon değerlerini 3 eksende algılayarak oluşan vibrasyonların (ilgili programı üzerinden değerlendirip) oluşturulan limitlerin geçilmesini algılayıp tezgâha 1 mili saniyeden kısa süre içinde bağlı olduğu acil çıkış üzerinden sinyal göndererek tezgâhı durduran bir sistemdir."
+              },
+              {
+                "text": "Sistem limitlerini ayarlamak için, sistemin montajı sonrası tezgâh çalıştırılarak parça işlenmesi sırasında oluşan vibrasyon değerleri (sizlere verilen program üzerinden) görülmekte ve daha sonra oluşan maksimum titreşim değeri üzerine limit konularak sistem devreye almaktadır."
+              },
+              {
+                "text": "Montronix algılama sensörü koruması ile belki takım kırılması veya çok küçük bir ayar (tornalarda taret ayarı) gibi oluşacak maliyetleri en aza indirerek firmanın sloganı olan \"Hava yastığı gibi çalışan\" emniyet sistemine sahip olacağınızı bu vesile ile bilgilerinize sunmak isteriz.",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "*** Ürün (takım tutucu gibi) harici çalışan sistem olduğundan tezgâh garanti süresini etkileyen bir özellik taşımamaktadır."
+              },
+              {
+                "text": "NOT: Montronix Pulse-NG titreşim sensörü limit geçişlerini en kısa zamanda algılayıp (1.ms altında) reaksiyon verip acil stop bağlantısına sinyal gönderebilen piyasada bulunan en hassas ve en hızlı reaksiyon verebilen sensördür."
+              }
+            ],
+            "thirdDescription": [
+              {
+                "text": "KESME SIRASINDAKİ AŞIRI TİTREŞİMLERİN FARKLI SENARYOLAR İLE İZLENMESİ",
+                "class": "fw-bolder h4 text-center mt-5"
+              },
+              {
+                "text": "Sistem çalışma gereği tezgah üzerinde oluşan en yüksek titreşim seviyesi üzerine atamış olduğumuz limit değerlerini dikkate alarak (bu limitin altındaki titreşim değerlerini normal değerler olarak kabul ederek) çalışmakta ve limit geçişlerde devreye girmektedir."
+              },
+              {
+                "text": "Ancak, bazı durumlarda parça işlemleri sırasında çok aşırı titreşim oluşturan operasyonlar olması halinde sistemin daha verimli çalışabilmesi için tezgahtan kesme sinyali (G1 output) çıkışı alabilmemiz durumunda sistem kendi içindeki özeliği dolayısı ile tezgahta kesme işlemine farklı limitler atayarak izleme imkanı vermektedir.",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "Bu şekilde kesme sırasında oluşan aşırı titreşimler sebebi ile tezgahın bindirme dışı durması kontrol altına alınmış olacaktır.",
+                "class": "fw-bolder mb-0"
+              },
+              {
+                "text": "*** Bunun için tezgah firmasından kesme sinyali (G1 output) çıkışının istenmesi gerekmektedir.",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "SİSTEM UYGULAMASI VE TESLİMATI",
+                "class": "fw-bolder h4 text-center mt-4"
+              },
+              {
+                "text": "Ürün montajı ve ayarları yapıldıktan sonra tezgah çalışırken plastik çekiçle iş miline dokunarak sistemin tezgahı limit aşımı sonrası durdurduğu gösterilir ve limitler normal hale dönüştürülerek teslimat yapılır."
+              },
+              {
+                "text": "Sistem montajı her tezgâh için ½-1 iş günüdür.",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "KAZANÇLARINIZ",
+                "class": "fw-bolder h4 mt-4 text-center"
+              },
+              {
+                "text": "Bu şekilde, herhangi bir sebepten kaynaklanan yanlış programlama, yanlış parça bağlama vd. sebepler dolayısı ile oluşacak bindirme sonrası risklerinizi minimuma indirebileceksiniz."
+              },
+              {
+                "text": "Ayrıca kazançlarınız aşağıdaki şekilde daha detaylı belirtilmiştir."
+              },
+              {
+                "text": "- İş gücü maliyeti,",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Otomasyon maliyeti ( tezgâhın çalışmasında operatörün hata riskinin olabildiğince azaltılması),",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Tezgâhın bakım ve parça beklemesi dolayısı ile oluşan Üretim kaybı,",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Tezgâhta veya fikstürde oluşan hasarlı parça değişim maliyeti,",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Bağlama aparat maliyeti,",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Tezgâh verimliliğinin düşmesi ve kayıp zaman (durması ve beklemesi, onarım, hasarlı parça değişim maliyeti),",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Takımların titreşim seviyelerinin kontrolü ile takım çalışma analizi yapmak,",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Sensörün bağlandığı yer olan iş mili/spindle veya taretin titreşim analizi yapılarak titreşim seviyelerinin izlenmesi ve yükselen titreşim seviyelerine göre kestirimci bakım kapsamında ilgili kararların alınması,",
+                "class": "mb-0"
+              },
+              {
+                "text": "- Ve en önemlisi TEZGÂHTA BİNDİRME SONRASI BOZULAN TEZGÂH KALİBRASYONUNUN TEKRAR ESKİ HALİNE GELMEMESİ gibi kayıplar ortadan kalkmış olacaktır.",
+                "class": "mb-0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TAKIM VE İŞLEME TAKIM KIRILMASI VE AŞINMASI SÜRECİ İZLEME SİSTEMİ",
+        "routerLink": "takim-ve-isleme-takim-kirilmasi-ve-asinmasi-sureci-izleme-sistemi",
+        "image": "takim-ve-isleme-takim-kirilmasi-ve-asinmasi-sureci-izleme-sistemi.png",
+        "details": [
+          {
+            "name": "TAKIM VE İŞLEME TAKIM KIRILMASI VE AŞINMASI SÜRECİ İZLEME SİSTEMİ",
+            "routerLink": "takim-ve-isleme-takim-kirilmasi-ve-asinmasi-sureci-izleme-sistemi",
+            "image": "takim-ve-isleme-takim-kirilmasi-ve-asinmasi-sureci-izleme-sistemi.png",
+            "description": [
+              {
+                "text": "İlgili ürün Tezgâhta parça işlenirken motordan çekilen gücü hassas sensörlerle ölçerek uyguladığı limit değerleri ile gerçek zamanlı olarak -işleme anında- kontrol eden sistemlerdir."
+              },
+              {
+                "text": "Özelikle seri üretim ve tek operatörün birden fazla tezgaha baktığı durumlarda uygulanan takım kırılması, aşınma, kayıp takım gibi (boş takım, kırılmış takımın kesmeye girmesi veya işlenmiş parça üzerinde takımın çalışması) durumlarında devreye girip tezgahı hemen yada çevrim sonunda durdurabilen sistemdir."
+              }
+            ],
+            "thirdDescription": [
+              {
+                "text": "Sistemin mevcut diğer sistemlerden en temel farkı olarak;",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "- Sensörlerindeki algılama hassasiyeti",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "Bu sistemin hassasiyet derecesi yapılan denemelerde 20kw bir tezgâhta Alüminyum malzeme işlerken 1mm çaptaki takımın kırılmasını rahatlıkla algılayıp tezgahı durdurabilme özelliği olarak tanımlanabilmektedir.",
+                "class": "ps-3"
+              },
+              {
+                "text": "- Operasyona göre değişik Limit Program uygulama özelliği",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "İşlenecek parçaların ve operasyonların vermiş olduğu çekilen güç değerleri farklı olduğundan rakiplerin çoğunda veya yeni sürüm tezgâhların çoğunda olan tek tip doğrusal limit yerleştirme sistemi çoğu yerde verimsiz çalışmaktadır.",
+                "class": "ps-3"
+              },
+              {
+                "text": "Parçaların ve operasyonların vermiş olduğu çekilen güç değerleri dikkate alınarak işlenen her bölgesinin özelliğine göre (yatay, kademeli, merdiven tipi vd.) değişik limit koyma seçenek kapasitesi ile her bölge istendiği hassasiyette izlenebilmektedir.",
+                "class": "fw-bolder ps-3"
+              },
+              {
+                "text": "- Sistem çalışması ve uygulama",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "Sistem montajı sonrası 1 ya da 2 parça işleme öncesi öğretme (Teach) tutuşuna basılarak işleme yapılan parçanın her noktasının çekilen güç değerleri algılanır ve sistem bu değerler üzerine kendi istatistikleri ile otomatik limitler atar. Bu şekilde konulan limitler;",
+                "class": "ps-3"
+              },
+              {
+                "text": "Sistem montajı sonrası 1 ya da 2 parça işleme öncesi öğretme (Teach) tutuşuna basılarak işleme yapılan parçanın her noktasının çekilen güç değerleri algılanır ve sistem bu değerler üzerine kendi istatistikleri ile otomatik limitler atar. Bu şekilde konulan limitler;",
+                "class": "ps-3"
+              },
+              {
+                "text": "Kayıp takım limiti: Takım belli bir süre kesme yapmadığında (Örneğin takım boş olduğunda, kırık takım kullanıldığında veya aynı parça tekrar işlenmeye çalışıldığında) sistem tezgâhı belli süre sonunda durdurur.",
+                "class": "ps-3"
+              },
+              {
+                "text": "Takım Aşınması limiti: Bu limit aşıldığında tezgâh çevrim sonunda durdurulur.",
+                "class": "ps-3"
+              },
+              {
+                "text": "Takım kırılması limiti: Bu limit aşıldığında tezgâh derhal durdurulur.",
+                "class": "ps-3"
+              },
+              {
+                "text": "Tezgâhınızın kontrol ünite özelliğine göre dışarıdan ekran ihtiyacına karar verilmektedir. Örneğin Siemens (840‐D) olarak bilinen kontrol ünitelerinde sisteme program yüklenebilir özelliği olması halinde kendi ekranı kullanılabilmektedir. Aksi halde Montronix endüstriyel (bilgisayarlı) ekran kullanılacaktır.\nSistem montajı için tezgâhta PLC modifikasyonu yapılması gerekli olup bunun için ilgili tezgâh firmasından veya garanti dışı ise kontrol ünitesi üreticisinden yardım istenmesi gerekmektedir. Bu şekilde Montronix sisteminin tezgâha, tezgahtaki takımların da Montronix sistemine tanıtılması sağlanır.\nSistem montajı 1 tezgâh için (eğitim dâhil) yaklaşık 2‐2,5 iş günüdür."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "KABLOSUZ KESTİRİMCİ BAKIM KİTİ WiFi Box NG-Kit",
+        "routerLink": "kablosuz-kestirici-bakim-kiti-wifi-box-ng-kit",
+        "image": "wifi-box-ng-kit.png",
+        "details": [
+          {
+            "name": "KABLOSUZ KESTİRİMCİ BAKIM KİTİ WiFi Box NG-Kit",
+            "routerLink": "kablosuz-kestirici-bakim-kiti-wifi-box-ng-kit",
+            "image": "wifi-box-ng-kit.png",
+            "description": [
+              {
+                "text": "Tezgâhta iş mili, rulman, takım gibi döner aksamlarında, tezgâh kızaklarında, elektrik motorunda oluşan vibrasyon değerlerini analiz ederek tezgâh sağlığı hakkında tezgâhı sökmeden bilgi alabileceğiniz kablosuz bir settir."
+              },
+              {
+                "text": "Sensör 3 eksende ölçüm yapabilme özeliğine sahiptir."
+              },
+              {
+                "text": "Sensör manyetik ayakları ölçüm/kontrol yapılacak eksene paralel yerleştirilir. Sensöre bağlı bulunan kablosuz kit ise tezgâh içinde manyetik ayakları vasıtası ile herhangi bir yüzeye sabitlenir. Daha sonra tezgâh çalıştırılarak kablosuz iletişim ile tezgâhta algılanan vibrasyon değerleri USB bağlantısı aracılığı ile bilgisayara aktarılarak oluşan değerler analiz edilerek eksen durumu hakkında raporlama yapılır."
+              },
+              {
+                "text": "Bu şekilde alınan değerler resim olarak kaydedilir ve bir sonraki periyodik bakımda alınan değerler ile mukayese edilerek tezgâhın son surumu hakkında önceden ve tezgâh açılmadan bilgi sahibi olunur.",
+                "class": "fw-bolder"
+              },
+              {
+                "text": "Seyyar kit oluşu dolayısı ile işlem bitince manyetik ayaklar sökülerek başka tezgâha uygulaması yapılabilir.",
+                "class": "fw-bolder"
+              }
+
             ]
           }
         ]

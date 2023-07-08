@@ -29,7 +29,6 @@ export class HomePageComponent implements OnInit {
 
     getProducts() {
         this.http.get<any>('assets/json/products.json').subscribe(data => {
-            console.log(data, 'data')
             this.products = data;
         })
     }

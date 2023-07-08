@@ -27,6 +27,7 @@ export class ProductDetailComponent implements OnInit {
     showPage = false;
     dataName!: any;
     slide: number = 1;
+    modalData: any;
 
     constructor(private route: ActivatedRoute,
                 private sanitizer: DomSanitizer,
@@ -136,7 +137,15 @@ export class ProductDetailComponent implements OnInit {
         return !!(videos || secondDescription);
     }
 
-    openUrlNewTab(url: any) {
+    openUrlNewTab(url: any, modal?: any, data?: any) {
+        if(url==undefined) {
+            return;
+        }
+        if(url=='modal'){
+            this.modalService.open(modal, {centered: true, size: 'lg'})
+            this.modalData = data;
+            return
+        }
         window.open(url, '_blank')
     }
 }
